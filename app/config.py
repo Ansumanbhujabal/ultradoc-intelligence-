@@ -26,9 +26,18 @@ class Settings(BaseSettings):
     retrieval_top_k: int = 5
     final_top_k: int = 3
 
+    # Embedding provider
+    embedding_provider: str = "local"  # "local" | "azure"
+
+    # Langfuse
+    langfuse_enabled: bool = False
+    langfuse_public_key: str = ""
+    langfuse_secret_key: str = ""
+    langfuse_host: str = "https://us.cloud.langfuse.com"
+    langfuse_prompt_management: bool = False
+
     # Server
-    api_port: int = 8000
-    gradio_port: int = 7860
+    api_port: int = 7860
 
     # Logging
     log_level: str = "INFO"

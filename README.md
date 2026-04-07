@@ -19,12 +19,15 @@ User -> Gradio UI -> FastAPI API -> Pipeline Orchestrator
                                      |-- Parser (pdfplumber + fallback)
                                      |-- Classifier (LLM-based doc type detection)
                                      |-- Chunker (section-based, tables intact)
-                                     |-- Embedder (Azure OpenAI -> ChromaDB)
+                                     |-- Embedder (configurable: local or Azure OpenAI -> ChromaDB)
                                      |-- Retriever (hybrid: vector + BM25 + metadata + RRF)
-                                     |-- Generator (full-context LLM + hidden CoT)
+                                     |-- Generator (LangChain LLM + hidden CoT)
                                      |-- Extractor (Pydantic + function calling)
-                                     +-- Guardrails (3 deterministic layers)
+                                     |-- Guardrails (3 deterministic layers)
+                                     +-- Langfuse (tracing + prompt management)
 ```
+
+LLM calls go through **LangChain** as the abstraction layer — vendor-agnostic, swap providers (Azure OpenAI, OpenAI, etc.) via env var. **Langfuse** provides tracing for every pipeline stage and optional prompt management for production prompt iteration without redeploying.
 
 ### Chunking Strategy
 
@@ -68,7 +71,7 @@ Each response includes the full breakdown for debuggability.
 
 ### Improvement Ideas
 
-- Langfuse/Langsmith for production prompt management and tracing
+- Langfuse dashboard for production monitoring (integrated)
 - Reranker model (Cohere/cross-encoder) after hybrid retrieval
 - Multi-document queries and cross-doc comparison
 - Fine-tuned extraction model for logistics fields
@@ -82,34 +85,39 @@ Each response includes the full breakdown for debuggability.
 ```bash
 git clone <repo-url>
 cd ultradoc-intelligence
-cp .env.example .env  # Add your Azure OpenAI credentials
+cp .env.example .env  # Fill in your API keys (Azure OpenAI, Langfuse, etc.)
 
 docker-compose up --build
 
-# API: http://localhost:8000
-# UI:  http://localhost:7860
+# App (API + UI): http://localhost:7860
+# Swagger docs:   http://localhost:7860/docs
+# Gradio UI:      http://localhost:7860/ui
 ```
 
 ### Local (Python with uv)
 
 ```bash
+cp .env.example .env  # Fill in your API keys
 uv sync
 uv run python run.py
+# App runs on http://localhost:7860
 ```
 
 ### API Endpoints
 
+Full Swagger docs available at `/docs`. Gradio UI at `/ui`.
+
 ```bash
 # Upload a document
-curl -X POST http://localhost:8000/upload -F "file=@document.pdf"
+curl -X POST http://localhost:7860/upload -F "file=@document.pdf"
 
 # Ask a question
-curl -X POST http://localhost:8000/ask \
+curl -X POST http://localhost:7860/ask \
   -H "Content-Type: application/json" \
   -d '{"doc_id": "...", "question": "What is the carrier rate?"}'
 
 # Extract structured data
-curl -X POST http://localhost:8000/extract \
+curl -X POST http://localhost:7860/extract \
   -H "Content-Type: application/json" \
   -d '{"doc_id": "..."}'
 ```
@@ -124,14 +132,28 @@ uv run python -m eval.run_eval
 uv run python -m eval.run_eval --flags '{"enable_query_rewrite": true}'
 ```
 
+## Configuration
+
+Copy `.env.example` to `.env` and set the relevant keys. Key variables:
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `LLM_PROVIDER` | LLM backend to use | `azure_openai` |
+| `EMBEDDING_PROVIDER` | `local` (all-MiniLM-L6-v2) or `azure` | `local` |
+| `LANGFUSE_ENABLED` | Enable Langfuse tracing | `false` |
+| `LANGFUSE_PROMPT_MANAGEMENT` | Fetch prompts from Langfuse instead of local templates | `false` |
+
+See `.env.example` for the full list (Azure OpenAI credentials, Langfuse keys, etc.).
+
 ## Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
 | Backend | FastAPI, Python 3.11 |
-| LLM | Azure OpenAI (gpt-4o, gpt-4.1-mini) |
-| Embeddings | text-embedding-3-small |
+| LLM | LangChain (langchain-openai) — Azure OpenAI (gpt-4o, gpt-4.1-mini) |
+| Embeddings | Configurable: local (all-MiniLM-L6-v2) or Azure OpenAI (text-embedding-3-small) |
 | Vector Store | ChromaDB |
+| Observability | Langfuse (tracing, prompt management) |
 | PDF Parsing | pdfplumber |
 | BM25 Search | rank_bm25 |
 | Validation | Pydantic v2 |

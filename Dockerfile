@@ -6,13 +6,15 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir uv
+
+COPY pyproject.toml uv.lock ./
+RUN uv sync --no-dev --frozen
 
 COPY . .
 
-RUN mkdir -p data/chroma data/uploads
+RUN mkdir -p /tmp/chroma /tmp/uploads
 
-EXPOSE 8000 7860
+EXPOSE 7860
 
-CMD ["python", "run.py"]
+CMD ["uv", "run", "python", "run.py"]
