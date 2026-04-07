@@ -128,6 +128,19 @@ async def ask_question(request: AskRequest):
     if not record:
         raise HTTPException(404, f"Document {request.doc_id} not found. Upload it first.")
 
+    # Layer 0: Document-level guardrail — refuse non-logistics documents
+    if record.doc_type == DocType.NOT_LOGISTICS:
+        tracer.skip("guardrail_doc_type", "not_logistics")
+        tracer.finish()
+        return AskResponse(
+            answer="This document is not a logistics document. The system only supports logistics-related documents such as Bills of Lading, Rate Confirmations, and Invoices.",
+            source_text="",
+            confidence=compute_confidence(0.0, 0.0, "LOW"),
+            guardrail_status=GuardrailStatus.OUT_OF_SCOPE,
+            query_rewritten=False,
+            retrieval_mode=request.retrieval_mode,
+        )
+
     with tracer.span("guardrail_scope") as span:
         scope_status = check_scope(request.question)
         span.metadata = {"status": scope_status.value}
@@ -135,7 +148,7 @@ async def ask_question(request: AskRequest):
     if scope_status == GuardrailStatus.OUT_OF_SCOPE:
         tracer.finish()
         return AskResponse(
-            answer="This question does not appear to be related to the uploaded document.",
+            answer="This question does not appear to be related to logistics.",
             source_text="",
             confidence=compute_confidence(0.0, 0.0, "LOW"),
             guardrail_status=GuardrailStatus.OUT_OF_SCOPE,
@@ -226,6 +239,9 @@ async def extract_data(request: ExtractRequest):
     record = cache.get(request.doc_id)
     if not record:
         raise HTTPException(404, f"Document {request.doc_id} not found. Upload it first.")
+
+    if record.doc_type == DocType.NOT_LOGISTICS:
+        raise HTTPException(422, "This document is not a logistics document. Extraction is only supported for logistics documents.")
 
     # Return cached result if already extracted
     if record.extraction_result is not None:

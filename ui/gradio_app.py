@@ -120,6 +120,14 @@ def ask_question(doc_label, question, enable_rewrite, retrieval_mode, threshold)
         if not record:
             return "Document not found in cache."
 
+        # Layer 0: Document-level guardrail
+        from app.models.schemas import DocType
+        if record.doc_type == DocType.NOT_LOGISTICS:
+            tracer.skip("guardrail_doc_type", "not_logistics")
+            tracer.finish()
+            conf = compute_confidence(0.0, 0.0, "LOW")
+            return _format_answer("This document is not a logistics document. The system only supports logistics-related documents such as Bills of Lading, Rate Confirmations, and Invoices.", "", conf, GuardrailStatus.OUT_OF_SCOPE, False)
+
         with tracer.span("guardrail_scope") as span:
             scope_status = check_scope(question)
             span.metadata = {"status": scope_status.value}
@@ -127,7 +135,7 @@ def ask_question(doc_label, question, enable_rewrite, retrieval_mode, threshold)
         if scope_status == GuardrailStatus.OUT_OF_SCOPE:
             tracer.finish()
             conf = compute_confidence(0.0, 0.0, "LOW")
-            return _format_answer("This question does not appear to be related to the uploaded document.", "", conf, GuardrailStatus.OUT_OF_SCOPE, False)
+            return _format_answer("This question does not appear to be related to logistics.", "", conf, GuardrailStatus.OUT_OF_SCOPE, False)
 
         q = question
         query_rewritten = False

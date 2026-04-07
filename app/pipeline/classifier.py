@@ -31,6 +31,7 @@ def classify_document(text: str, tracer: Tracer) -> DocType:
         "bill_of_lading": DocType.BOL,
         "rate_confirmation": DocType.RATE_CONFIRMATION,
         "invoice": DocType.INVOICE,
+        "not_logistics": DocType.NOT_LOGISTICS,
         "unknown": DocType.UNKNOWN,
     }
     return type_map.get(result, DocType.UNKNOWN)

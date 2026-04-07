@@ -9,6 +9,7 @@ class DocType(str, Enum):
     BOL = "bill_of_lading"
     RATE_CONFIRMATION = "rate_confirmation"
     INVOICE = "invoice"
+    NOT_LOGISTICS = "not_logistics"
     UNKNOWN = "unknown"
 
 
