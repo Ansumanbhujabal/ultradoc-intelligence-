@@ -1,0 +1,18 @@
+[
+  {"doc_file": "BOL53657_billoflading.pdf", "type": "qa", "question": "What is the load ID?", "expected_answer": "LD53657", "expected_source_contains": "Load ID"},
+  {"doc_file": "BOL53657_billoflading.pdf", "type": "qa", "question": "Who is the shipper?", "expected_answer": "AAA", "expected_source_contains": "Shipper"},
+  {"doc_file": "BOL53657_billoflading.pdf", "type": "qa", "question": "Who is the consignee?", "expected_answer": "xyz", "expected_source_contains": "Consignee"},
+  {"doc_file": "BOL53657_billoflading.pdf", "type": "qa", "question": "What is the ship date?", "expected_answer": "02-08-2026", "expected_source_contains": "Ship Date"},
+  {"doc_file": "BOL53657_billoflading.pdf", "type": "qa", "question": "What is the weight of the commodity?", "expected_answer": "56000", "expected_source_contains": "Weight"},
+  {"doc_file": "BOL53657_billoflading.pdf", "type": "qa", "question": "What is the COD value?", "expected_answer": "64000", "expected_source_contains": "COD"},
+  {"doc_file": "LD53657-Carrier-RC.pdf", "type": "qa", "question": "Who is the carrier?", "expected_answer": "SWIFT SHIFT LOGISTICS LLC", "expected_source_contains": "Carrier"},
+  {"doc_file": "LD53657-Carrier-RC.pdf", "type": "qa", "question": "What is the carrier rate?", "expected_answer": "400", "expected_source_contains": "400"},
+  {"doc_file": "LD53657-Carrier-RC.pdf", "type": "qa", "question": "What equipment type is being used?", "expected_answer": "Flatbed", "expected_source_contains": "Flatbed"},
+  {"doc_file": "LD53657-Carrier-RC.pdf", "type": "qa", "question": "Who is the driver?", "expected_answer": "John Doe", "expected_source_contains": "Driver"},
+  {"doc_file": "LD53657-Shipper-RC.pdf", "type": "qa", "question": "Who is the customer?", "expected_answer": "Test ABC", "expected_source_contains": "Customer"},
+  {"doc_file": "LD53657-Shipper-RC.pdf", "type": "qa", "question": "What is the total shipper rate?", "expected_answer": "1000", "expected_source_contains": "1000"},
+  {"doc_file": "BOL53657_billoflading.pdf", "type": "qa", "question": "What is the weather today?", "expected_answer": "__OUT_OF_SCOPE__", "expected_source_contains": ""},
+  {"doc_file": "BOL53657_billoflading.pdf", "type": "qa", "question": "What is the insurance policy number?", "expected_answer": "__NOT_FOUND__", "expected_source_contains": ""},
+  {"doc_file": "LD53657-Carrier-RC.pdf", "type": "extraction", "expected_fields": {"shipment_id": "LD53657", "shipper": "AAA", "consignee": "xyz", "equipment_type": "Flatbed", "mode": "FTL", "rate": 400.0, "currency": "USD", "carrier_name": "SWIFT SHIFT LOGISTICS LLC"}},
+  {"doc_file": "BOL53657_billoflading.pdf", "type": "extraction", "expected_fields": {"shipment_id": "LD53657", "shipper": "AAA", "consignee": "xyz", "weight": "56000"}}
+]
