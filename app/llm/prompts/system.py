@@ -26,7 +26,11 @@ Document content:
 Respond with ONLY the document type (bill_of_lading, rate_confirmation, invoice, not_logistics, or unknown). No explanation."""
 
 QUERY_REWRITE_PROMPT = """Rewrite this user question to be more specific and retrieval-friendly for searching a logistics document.
-Keep the same intent, but use precise logistics terminology.
+
+Steps:
+1. First, fix any typos or misspellings (e.g., "caddress" → "address", "shipmnt" → "shipment", "rat" → "rate")
+2. Then, use precise logistics terminology where appropriate
+3. Keep the same intent as the original question
 
 Original question: {question}
 
