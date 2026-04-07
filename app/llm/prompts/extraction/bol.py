@@ -18,7 +18,7 @@ Fields:
 - delivery_datetime: Delivery date/time in ISO format. If only date is available, use T00:00:00
 - equipment_type: Equipment type (e.g., Flatbed, Dry Van, Reefer)
 - mode: Shipping mode (e.g., FTL, LTL)
-- rate: Numeric rate/charge amount (number only, no currency symbol)
+- rate: Freight rate or carrier charge amount (number only, no currency symbol). Do NOT use COD value, insurance value, or declared value as the rate. If freight charges say "Collect" or "Prepaid" without a number, use null
 - currency: Currency code (e.g., USD, CAD)
 - weight: Weight with unit (e.g., "56000 lbs")
 - carrier_name: Carrier or transportation company name
