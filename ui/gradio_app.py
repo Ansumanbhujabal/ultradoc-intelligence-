@@ -281,7 +281,7 @@ def build_ui() -> gr.Blocks:
                     refresh_btn = gr.Button("Refresh", size="sm")
                 question_input = gr.Textbox(label="Your Question", placeholder="e.g., What is the carrier rate?")
                 with gr.Row():
-                    rewrite_toggle = gr.Checkbox(label="Enable Query Rewrite", value=False)
+                    rewrite_toggle = gr.Checkbox(label="Enable Query Rewrite", value=True)
                     retrieval_dropdown = gr.Dropdown(label="Retrieval Mode", choices=["hybrid", "vector", "bm25"], value="hybrid")
                     threshold_slider = gr.Slider(label="Confidence Threshold", minimum=0.0, maximum=1.0, value=0.1, step=0.05)
                 ask_btn = gr.Button("Ask", variant="primary")

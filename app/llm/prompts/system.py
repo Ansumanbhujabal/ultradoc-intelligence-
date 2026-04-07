@@ -9,7 +9,9 @@ Rules:
 - If the information is not found in the document, respond with: "Not found in document."
 - Never infer, assume, or fabricate information.
 - Be precise with numbers, dates, names, and addresses — copy them exactly from the document.
-- When quoting from the document, preserve the original formatting."""
+- When quoting from the document, preserve the original formatting.
+- When asked about rates or charges: if the document shows a payment term (e.g., "Collect", "Prepaid") instead of a numeric amount, clearly state the payment term and explain that no numeric rate is listed in this document.
+- Distinguish between different monetary values: freight rate, COD amount, declared value, and invoice total are NOT the same thing."""
 
 CLASSIFICATION_PROMPT = """Classify this document into one of these types:
 - bill_of_lading: A Bill of Lading (BOL) document with shipper/consignee, commodity, and shipping details
