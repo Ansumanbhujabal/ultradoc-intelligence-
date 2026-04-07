@@ -1,21 +1,25 @@
 """Langfuse integration for LLM tracing and observability."""
 
-from typing import Optional
+import os
 from app.config import settings
 
 
-def get_langfuse_handler(trace_name: str = "", metadata: dict = None):
+def _ensure_langfuse_env():
+    """Set Langfuse env vars so the SDK auto-configures."""
+    if settings.langfuse_enabled:
+        os.environ.setdefault("LANGFUSE_PUBLIC_KEY", settings.langfuse_public_key)
+        os.environ.setdefault("LANGFUSE_SECRET_KEY", settings.langfuse_secret_key)
+        os.environ.setdefault("LANGFUSE_HOST", settings.langfuse_host)
+
+
+def get_langfuse_handler():
     """Returns Langfuse LangChain callback handler if enabled, else None."""
     if not settings.langfuse_enabled:
         return None
     try:
+        _ensure_langfuse_env()
         from langfuse.langchain import CallbackHandler
-        kwargs = {}
-        if trace_name:
-            kwargs["trace_name"] = trace_name
-        if metadata:
-            kwargs["metadata"] = metadata
-        return CallbackHandler(**kwargs)
+        return CallbackHandler()
     except Exception:
         return None
 
@@ -25,11 +29,8 @@ def get_langfuse_client():
     if not settings.langfuse_enabled:
         return None
     try:
+        _ensure_langfuse_env()
         from langfuse import Langfuse
-        return Langfuse(
-            public_key=settings.langfuse_public_key,
-            secret_key=settings.langfuse_secret_key,
-            host=settings.langfuse_host,
-        )
+        return Langfuse()
     except Exception:
         return None

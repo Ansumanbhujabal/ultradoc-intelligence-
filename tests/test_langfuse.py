@@ -27,21 +27,21 @@ class TestLangfuseIntegration:
     def test_handler_returns_none_on_import_error(self, mock_settings):
         """If CallbackHandler construction fails, handler should gracefully return None."""
         mock_settings.langfuse_enabled = True
+        mock_settings.langfuse_public_key = "pk-test"
+        mock_settings.langfuse_secret_key = "sk-test"
+        mock_settings.langfuse_host = "https://test.langfuse.com"
         import app.observability.langfuse_integration as mod
 
         with patch.dict("sys.modules", {"langfuse": MagicMock(), "langfuse.langchain": MagicMock()}):
-            # Simulate the lazy import succeeding but construction blowing up
-            with patch.object(mod, "__builtins__", mod.__builtins__):
-                # Directly patch the import path used inside the function
-                with patch(
-                    "langfuse.langchain.CallbackHandler",
-                    side_effect=Exception("connection failed"),
-                ):
-                    result = mod.get_langfuse_handler(trace_name="t")
-                    assert result is None
+            with patch(
+                "langfuse.langchain.CallbackHandler",
+                side_effect=Exception("connection failed"),
+            ):
+                result = mod.get_langfuse_handler()
+                assert result is None
 
     @patch("app.observability.langfuse_integration.settings")
-    def test_handler_with_trace_name(self, mock_settings):
+    def test_handler_returns_instance_when_enabled(self, mock_settings):
         mock_settings.langfuse_enabled = True
         mock_settings.langfuse_public_key = "pk-test"
         mock_settings.langfuse_secret_key = "sk-test"
@@ -54,11 +54,9 @@ class TestLangfuseIntegration:
         with patch.dict("sys.modules", {"langfuse": MagicMock(), "langfuse.langchain": mock_module}):
             from app.observability.langfuse_integration import get_langfuse_handler
 
-            handler = get_langfuse_handler(trace_name="test_trace", metadata={"key": "val"})
+            handler = get_langfuse_handler()
             assert handler is mock_cb
-            mock_module.CallbackHandler.assert_called_once_with(
-                trace_name="test_trace", metadata={"key": "val"}
-            )
+            mock_module.CallbackHandler.assert_called_once_with()
 
     @patch("app.observability.langfuse_integration.settings")
     def test_client_returns_none_on_error(self, mock_settings):
@@ -91,11 +89,7 @@ class TestLangfuseIntegration:
 
             result = get_langfuse_client()
             assert result is mock_client
-            mock_langfuse_mod.Langfuse.assert_called_once_with(
-                public_key="pk-test",
-                secret_key="sk-test",
-                host="https://test.langfuse.com",
-            )
+            mock_langfuse_mod.Langfuse.assert_called_once_with()
 
 
 class TestPromptRegistry:
