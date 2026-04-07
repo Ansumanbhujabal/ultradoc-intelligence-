@@ -17,6 +17,12 @@ Rate Confirmations typically contain:
 - Rate Breakdown section with charges and totals
 - Customer or shipper details
 
+IMPORTANT RULES:
+- If a field contains only a dash (-), "N/A", "None", "TBD", or is blank, use null
+- For rate: return the number only, no currency symbols or codes (e.g., 400.00 not "$400.00 USD")
+- For dates: if a time window is given (e.g., "09:00 - 17:00"), use the start time. If an appointment time exists, prefer it over the window
+- For dates: use ISO format YYYY-MM-DDTHH:MM:SS
+
 Fields:
 - shipment_id: The Reference ID, Load ID, or booking reference
 - shipper: Full shipper/pickup location name and address (from the Pickup stop)

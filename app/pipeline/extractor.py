@@ -48,9 +48,24 @@ def extract_shipment_data(full_text: str, doc_type: DocType, tracer: Tracer) -> 
     try:
         raw = json.loads(response.content)
         shipment = ShipmentData.model_validate(raw)
-    except (json.JSONDecodeError, Exception) as e:
-        logger.error(f"Extraction parse failed: {e}")
+    except json.JSONDecodeError as e:
+        logger.error(f"Extraction JSON parse failed: {e}")
         shipment = ShipmentData()
+    except Exception as e:
+        # Field-level fallback: try to salvage individual fields
+        logger.warning(f"Extraction validation failed, attempting field-level fallback: {e}")
+        try:
+            salvaged = {}
+            for field_name in ShipmentData.model_fields:
+                if field_name in raw:
+                    try:
+                        partial = ShipmentData.model_validate({field_name: raw[field_name]})
+                        salvaged[field_name] = getattr(partial, field_name)
+                    except Exception:
+                        salvaged[field_name] = None
+            shipment = ShipmentData(**salvaged)
+        except Exception:
+            shipment = ShipmentData()
 
     completeness = shipment.completeness_score()
 

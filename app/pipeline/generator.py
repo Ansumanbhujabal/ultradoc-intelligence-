@@ -96,7 +96,7 @@ def compute_confidence(retrieval_score: float, grounding_ratio: float, llm_asses
 def _parse_cot_response(response_text: str) -> dict:
     section = ""
     answer = response_text
-    confidence = "MEDIUM"
+    confidence = "LOW"  # Default LOW when CoT format isn't followed
 
     section_match = re.search(r"SECTION:\s*(.+?)(?:\n|$)", response_text)
     answer_match = re.search(r"ANSWER:\s*(.+?)(?:\nCONFIDENCE:|$)", response_text, re.DOTALL)

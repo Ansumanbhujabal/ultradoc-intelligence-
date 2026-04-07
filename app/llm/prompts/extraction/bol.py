@@ -10,6 +10,11 @@ BOL_EXTRACTION_PROMPT = """Extract structured shipment data from this Bill of La
 
 Extract the following fields into a JSON object. Use null for any field not found in the document.
 
+IMPORTANT RULES:
+- If a field contains only a dash (-), "N/A", "None", "TBD", or is blank, use null
+- For rate: return the number only, no currency symbols or codes (e.g., 1500.00 not "$1,500.00 USD")
+- For dates: use ISO format YYYY-MM-DDTHH:MM:SS. If only a date is available, append T00:00:00
+
 Fields:
 - shipment_id: The Load ID, reference number, or BOL number
 - shipper: Full shipper name and address
