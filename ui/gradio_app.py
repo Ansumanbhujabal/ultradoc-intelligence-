@@ -18,7 +18,7 @@ def get_doc_choices():
 
 def upload_file(file):
     if file is None:
-        return "No file selected.", gr.update(choices=[])
+        return "No file selected.", gr.update(choices=[]), gr.update(choices=[])
     try:
         with open(file.name, "rb") as f:
             resp = httpx.post(
@@ -27,7 +27,7 @@ def upload_file(file):
                 timeout=60,
             )
         if resp.status_code != 200:
-            return f"Upload failed: {resp.text}", gr.update()
+            return f"Upload failed: {resp.text}", gr.update(), gr.update()
         data = resp.json()
         result = (
             f"**Upload Successful**\n\n"
@@ -38,9 +38,10 @@ def upload_file(file):
         )
         choices = get_doc_choices()
         choice_list = list(choices.keys())
-        return result, gr.update(choices=choice_list, value=choice_list[-1] if choice_list else None)
+        dropdown_update = gr.update(choices=choice_list, value=choice_list[-1] if choice_list else None)
+        return result, dropdown_update, dropdown_update
     except Exception as e:
-        return f"Error: {str(e)}", gr.update()
+        return f"Error: {str(e)}", gr.update(), gr.update()
 
 
 def ask_question(doc_label, question, enable_rewrite, retrieval_mode, threshold):
@@ -149,7 +150,7 @@ def build_ui() -> gr.Blocks:
                 with gr.Row():
                     rewrite_toggle = gr.Checkbox(label="Enable Query Rewrite", value=False)
                     retrieval_dropdown = gr.Dropdown(label="Retrieval Mode", choices=["hybrid", "vector", "bm25"], value="hybrid")
-                    threshold_slider = gr.Slider(label="Confidence Threshold", minimum=0.0, maximum=1.0, value=0.3, step=0.05)
+                    threshold_slider = gr.Slider(label="Confidence Threshold", minimum=0.0, maximum=1.0, value=0.1, step=0.05)
                 ask_btn = gr.Button("Ask", variant="primary")
                 ask_output = gr.Markdown()
 
@@ -165,7 +166,7 @@ def build_ui() -> gr.Blocks:
                 traces_btn = gr.Button("Refresh Traces", variant="secondary")
                 traces_output = gr.Markdown()
 
-        upload_btn.click(fn=upload_file, inputs=[file_input], outputs=[upload_output, doc_dropdown])
+        upload_btn.click(fn=upload_file, inputs=[file_input], outputs=[upload_output, doc_dropdown, extract_doc_dropdown])
 
         def refresh_docs():
             choices = list(get_doc_choices().keys())
