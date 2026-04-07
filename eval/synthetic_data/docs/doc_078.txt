@@ -1,0 +1,181 @@
+FRESH HARVEST FOODS INC  
+1234 Grain Belt Blvd.  
+Minneapolis, MN 55401  
+Phone: (612) 555-0198  
+Fax: (612) 555-0199  
+
+INVOICE / SHIPPING DOCUMENT  
+Invoice Number: INV-LD64805-0526  
+Date: May 15, 2026  
+
+TO:  
+Fastenal Distribution Center  
+7890 Industrial Parkway  
+El Paso, TX 79901  
+Phone: (915) 555-3344  
+Fax: (915) 555-3345  
+
+Carrier: DESERT WIND TRUCKING LLC  
+MC Number: MC-4138756  
+Carrier Phone: (602) 555-7788  
+
+PO Number: PO-29199  
+
+---  
+
+SUMMARY OF SHIPMENT DETAILS:  
+
+This invoice pertains to shipment ID LD64805, which involves the transportation of goods from Fresh Harvest Foods Inc located in Minneapolis, MN 55401, to the consignee Fastenal Distribution Center in El Paso, TX 79901. The shipment is being carried by DESERT WIND TRUCKING LLC, a carrier operating under MC Number MC-4138756. The mode of transportation is Intermodal, utilizing Intermodal equipment. The total weight of the shipment is 34,686 kilograms. The agreed rate for this shipment is 1,442.87 EUR. The scheduled delivery date is May 21, 2026.  
+
+Please note that the pickup date and time are not specified in this document.  
+
+---  
+
+DETAILED SHIPMENT INFORMATION:  
+
+Shipment ID: LD64805  
+Shipper: Fresh Harvest Foods Inc  
+Address: 1234 Grain Belt Blvd., Minneapolis, MN 55401  
+Phone: (612) 555-0198  
+Consignee: Fastenal Distribution Center  
+Address: 7890 Industrial Parkway, El Paso, TX 79901  
+Phone: (915) 555-3344  
+
+Carrier Information:  
+Carrier Name: DESERT WIND TRUCKING LLC  
+MC Number: MC-4138756  
+Carrier Contact: (602) 555-7788  
+
+Mode of Transport: Intermodal  
+Equipment Type: Intermodal  
+Weight: 34,686 kg  
+Currency: EUR  
+Rate: 1,442.87 EUR  
+Purchase Order Number: PO-29199  
+
+Delivery Date: May 21, 2026  
+
+Note: The pickup date/time is missing from this document due to system limitations or data unavailability at the time of printing.  
+
+---  
+
+CONFIRMATION OF SHIPMENT DETAILS:  
+
+This section reconfirms the shipment details for your records. Shipment ID LD64805 is confirmed to be transported from Minneapolis, MN 55401 (Fresh Harvest Foods Inc) to El Paso, TX 79901 (Fastenal Distribution Center). The carrier responsible for this shipment is DESERT WIND TRUCKING LLC, operating under MC Number MC-4138756. The shipment is being moved via Intermodal mode using Intermodal equipment. The total shipment weight is 34,686 kilograms. The agreed freight rate is 1,442.87 EUR. The scheduled delivery date is May 21, 2026.  
+
+Purchase Order Number PO-29199 is associated with this shipment.  
+
+Please be advised that the pickup date and time remain unspecified in this document.  
+
+---  
+
+INVOICE DETAILS:  
+
+Bill To: Fastenal Distribution Center  
+7890 Industrial Parkway  
+El Paso, TX 79901  
+
+Invoice Number: INV-LD64805-0526  
+Date of Invoice: May 15, 2026  
+Shipment ID: LD64805  
+PO Number: PO-29199  
+
+Description of Services:  
+Transportation of goods from Minneapolis, MN 55401 to El Paso, TX 79901 via Intermodal mode using Intermodal equipment. Carrier: DESERT WIND TRUCKING LLC (MC-4138756).  
+
+Weight: 34,686 kg  
+Rate: 1,442.87 EUR  
+Total Amount Due: 1,442.87 EUR  
+
+Payment Terms: Net 30 days from invoice date.  
+
+Please remit payment to:  
+Fresh Harvest Foods Inc  
+1234 Grain Belt Blvd.  
+Minneapolis, MN 55401  
+Bank Account: 987654321  
+SWIFT: FHFIUS44  
+
+---  
+
+COMPANY HISTORY:  
+
+Fresh Harvest Foods Inc was founded in 1985 in Minneapolis, Minnesota. Over the past 40+ years, Fresh Harvest Foods Inc has grown from a small local grain supplier to a nationally recognized food distribution company specializing in fresh produce and grains. Our commitment to quality and timely delivery has made us a trusted partner in the food logistics industry.  
+
+Our headquarters remain in Minneapolis, MN 55401, where we operate a state-of-the-art distribution center and logistics management system. We pride ourselves on maintaining strong relationships with carriers such as DESERT WIND TRUCKING LLC, who have been our preferred carrier for intermodal shipments since 2010.  
+
+---  
+
+SERVICE LEVEL AGREEMENT (SLA):  
+
+This shipment is governed by the terms outlined in the Fresh Harvest Foods Inc Service Level Agreement with DESERT WIND TRUCKING LLC. The SLA stipulates the following:  
+
+- Timely delivery: Delivery must occur on or before the scheduled delivery date of May 21, 2026.  
+- Equipment standards: All intermodal equipment used must meet industry safety and cleanliness standards.  
+- Communication: Carrier must provide status updates at key milestones including pickup, transfer points, and delivery.  
+- Liability: Carrier assumes full liability for loss or damage to goods during transit.  
+- Payment terms: Payment to carrier will be processed within 30 days of invoice receipt.  
+
+Failure to comply with these terms may result in penalties or contract review.  
+
+---  
+
+ADDITIONAL NOTES:  
+
+- The shipment weight of 34,686 kg includes all packaging and palletization.  
+- The currency used for this invoice and all related transactions is Euro (EUR), as per contractual agreement.  
+- The mode of transport is Intermodal, which involves multiple modes of transportation including rail and truck.  
+- Equipment type specified is Intermodal, indicating the use of containers suitable for transfer between rail and truck without unloading cargo.  
+- The MC Number MC-4138756 identifies DESERT WIND TRUCKING LLC as a registered motor carrier authorized to operate interstate.  
+- The PO Number PO-29199 is the purchase order issued by Fastenal Distribution Center authorizing this shipment.  
+- Delivery is scheduled for May 21, 2026; however, pickup date/time is not recorded in this document.  
+
+---  
+
+REPEATED SHIPMENT SUMMARY (FOR CLARITY):  
+
+Shipment ID: LD64805  
+From: Fresh Harvest Foods Inc, Minneapolis, MN 55401  
+To: Fastenal Distribution Center, El Paso, TX 79901  
+Carrier: DESERT WIND TRUCKING LLC (MC-4138756)  
+Mode: Intermodal  
+Equipment: Intermodal  
+Weight: 34,686 kg  
+Rate: 1,442.87 EUR  
+PO Number: PO-29199  
+Delivery Date: May 21, 2026  
+
+Please note again that the pickup date/time is missing from this document.  
+
+---  
+
+CONTACT INFORMATION:  
+
+For billing inquiries:  
+Fresh Harvest Foods Inc Billing Department  
+Phone: (612) 555-0198  
+Email: billing@freshharvestfoods.com  
+
+For shipment status:  
+DESERT WIND TRUCKING LLC Dispatch  
+Phone: (602) 555-7788  
+Email: dispatch@desertwindtrucking.com  
+
+For consignee questions:  
+Fastenal Distribution Center Receiving  
+Phone: (915) 555-3344  
+Email: receiving@fastenal.com  
+
+---  
+
+DISCLAIMER:  
+
+This document is generated from the Fresh Harvest Foods Inc legacy Transportation Management System (TMS). Some fields, such as pickup date/time, may be missing due to system limitations or data entry errors. Please verify all shipment details with the carrier and consignee prior to shipment acceptance.  
+
+Thank you for your business.  
+
+Fresh Harvest Foods Inc  
+Logistics Department  
+May 15, 2026  
+
+--- End of Document ---

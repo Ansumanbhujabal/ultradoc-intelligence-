@@ -1,0 +1,147 @@
+[COMPANY LETTERHEAD]                                                                                      PAGE 1 of 3  
+SUMMIT FREIGHT GROUP                                                                                      RATE CONFIRMATION  
+MC# MC-4933597                                                                                             DO NOT DUPLICATE  
+[LOGO]                                                                                                     CONFIDENTIAL  
+
+---------------------------------------------------------------------------------------------------------  
+
+SHIPMENT ID: LD37235                                                                                       DATE: 23-Aug-2026  
+
+SHIPPER: Sunrise Pharmaceuticals  
+Address: 1423 Industrial Blvd, Laredo, TX 78040  
+Phone: (956) 555-0198  
+Contact: Maria Gonzalez  
+
+CONSIGNEE: Costco Wholesale Depot  
+Address: 1234 W Buckeye Rd, Phoenix, AZ 85001  
+Phone: (602) 555-3344  
+Contact: John Matthews  
+
+CARRIER: SUMMIT FREIGHT GROUP  
+MC Number: MC-4933597  
+Phone: (800) 555-7623  
+Fax: (800) 555-7624  
+
+---------------------------------------------------------------------------------------------------------  
+
+SHIPMENT DETAILS:  
+
+| Equipment Type | Mode | PO Number | Rate (CAD) | Pickup Date  | Origin City       | Destination City  |  
+|----------------|------|-----------|------------|--------------|-------------------|-------------------|  
+| Flatbed        | LTL  | PO-93662  | 785.51     | 23-Aug-2026  | Laredo, TX 78040  | Phoenix, AZ 85001 |  
+
+*Note: Weight information intentionally omitted from this document.*  
+
+---------------------------------------------------------------------------------------------------------  
+
+RATE CONFIRMATION TERMS & CONDITIONS:  
+
+1. THIS DOCUMENT IS CONFIDENTIAL AND PROPRIETARY. Any unauthorized review, use, disclosure, or distribution is prohibited.  
+2. Carrier agrees to transport the shipment described above in accordance with the terms of this rate confirmation and applicable tariffs.  
+3. SUMMIT FREIGHT GROUP is not responsible for delays caused by weather, acts of God, or other uncontrollable events.  
+4. Payment terms: Net 30 days from date of invoice. Late payments subject to 1.5% monthly interest.  
+5. Carrier must provide proof of delivery within 48 hours of delivery. Failure to do so may result in payment delays.  
+6. Liability limited to $0.50 per pound unless otherwise declared in writing prior to shipment.  
+7. Any claims must be submitted within 7 days of delivery.  
+8. This rate confirmation supersedes all prior agreements related to this shipment.  
+
+---------------------------------------------------------------------------------------------------------  
+
+ADDITIONAL NOTES:  
+
+- Pickup to be scheduled on 23-Aug-2026 between 8:00 AM and 5:00 PM local time.  
+- Delivery date TBD; consignee will confirm upon arrival.  
+- Carrier to ensure all equipment is compliant with DOT regulations.  
+- SUMMIT FREIGHT GROUP reserves the right to refuse shipment if hazardous materials are present without prior notification.  
+
+---------------------------------------------------------------------------------------------------------  
+
+[LOGO]                                                                                                     PAGE 2 of 3  
+SUMMIT FREIGHT GROUP                                                                                      RATE CONFIRMATION CONTINUED  
+MC# MC-4933597                                                                                             DO NOT DUPLICATE  
+[COMPANY LETTERHEAD]  
+
+SHIPPER: Sunrise Pharmaceuticals  
+Consignee: Costco Wholesale Depot  
+
+Pickup Location:  
+Sunrise Pharmaceuticals  
+1423 Industrial Blvd  
+Laredo, TX 78040  
+Phone: (956) 555-0198  
+
+Delivery Location:  
+Costco Wholesale Depot  
+1234 W Buckeye Rd  
+Phoenix, AZ 85001  
+Phone: (602) 555-3344  
+
+Carrier: SUMMIT FREIGHT GROUP  
+Contact: Dispatch Office  
+Phone: (800) 555-7623  
+
+---------------------------------------------------------------------------------------------------------  
+
+IMPORTANT LEGAL DISCLAIMER:  
+
+THIS DOCUMENT IS CONFIDENTIAL AND PROPRIETARY. IT IS INTENDED SOLELY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHOM IT IS ADDRESSED. ANY REVIEW, REPRODUCTION, DISSEMINATION, OR OTHER USE OF THIS DOCUMENT BY PERSONS OR ENTITIES OTHER THAN THE INTENDED RECIPIENT IS STRICTLY PROHIBITED. IF YOU HAVE RECEIVED THIS DOCUMENT IN ERROR, PLEASE CONTACT THE SENDER IMMEDIATELY AND DELETE ALL COPIES FROM YOUR SYSTEM.  
+
+---------------------------------------------------------------------------------------------------------  
+
+PAYMENT INSTRUCTIONS:  
+
+Please remit payment in Canadian Dollars (CAD) to the following account:  
+
+Bank: National Bank of Canada  
+Account Name: Summit Freight Group  
+Account Number: 123456789  
+Routing Number: 001234567  
+
+Invoices should reference Shipment ID: LD37235 and PO Number: PO-93662.  
+
+---------------------------------------------------------------------------------------------------------  
+
+[LOGO]                                                                                                     PAGE 3 of 3  
+SUMMIT FREIGHT GROUP                                                                                      RATE CONFIRMATION - FINAL PAGE  
+MC# MC-4933597                                                                                             DO NOT DUPLICATE  
+[COMPANY LETTERHEAD]  
+
+SUMMARY:  
+
+Shipment ID: LD37235  
+Shipper: Sunrise Pharmaceuticals  
+Consignee: Costco Wholesale Depot  
+Origin: Laredo, TX 78040  
+Destination: Phoenix, AZ 85001  
+Carrier: SUMMIT FREIGHT GROUP  
+Equipment: Flatbed  
+Mode: LTL  
+Rate: 785.51 CAD  
+Pickup Date: 23-Aug-2026  
+PO Number: PO-93662  
+MC Number: MC-4933597  
+
+---------------------------------------------------------------------------------------------------------  
+
+TERMS & CONDITIONS (CONTINUED):  
+
+9. Carrier shall maintain all necessary licenses, permits, and insurance required by law.  
+10. Any disputes arising from this rate confirmation shall be governed by the laws of the State of Texas.  
+11. Carrier agrees to indemnify and hold harmless Sunrise Pharmaceuticals and Costco Wholesale Depot from any claims arising from carrier’s negligence.  
+12. This document may be executed in counterparts and transmitted electronically, each of which shall be deemed an original.  
+
+---------------------------------------------------------------------------------------------------------  
+
+FOR QUESTIONS OR CONCERNS PLEASE CONTACT:  
+
+Summit Freight Group Dispatch  
+Phone: (800) 555-7623  
+Email: dispatch@summitfreight.ca  
+
+---------------------------------------------------------------------------------------------------------  
+
+[DO NOT DUPLICATE - CONFIDENTIAL]  
+
+[LOGO] [LOGO] [LOGO] [LOGO] [LOGO]  
+
+END OF DOCUMENT

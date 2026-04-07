@@ -1,0 +1,110 @@
+To: accounts@greenvalleyorganics.com  
+From: billing@blueridgecarriers.com  
+Subject: Invoice LD98150 - Shipment Billing Details  
+
+------------------------------------------------------------  
+BLUE RIDGE CARRIERS  
+MC Number: MC-8899030  
+Phone: (800) 555-0199  
+Fax: (800) 555-0100  
+Email: billing@blueridgecarriers.com  
+
+Invoice Date: 03/25/2026  
+Invoice Number: INV-LD98150-0326  
+Shipment ID: LD98150  
+PO Number: PO-42777  
+
+------------------------------------------------------------  
+SHIPPER:  
+Green Valley Organics  
+1234 Greenway Blvd  
+Monterrey, NL 64000  
+Phone: (867) 555-3344  
+Contact: Maria Lopez  
+
+CONSIGNEE:  
+FedEx Ground Hub - Memphis  
+4500 Airways Blvd  
+El Paso, TX 79901  
+Phone: (915) 555-7788  
+Contact: John Matthews  
+
+------------------------------------------------------------  
+CARRIER: BLUE RIDGE CARRIERS  
+Equipment Type: Tanker  
+Mode: LTL  
+Currency: CAD  
+
+------------------------------------------------------------  
+PICKUP INFORMATION:  
+Scheduled Pickup Date: 03.21.2026 08:00 AM  
+Actual Pickup Date: 03.22.2026 09:30 AM (see stops section)  
+
+DELIVERY INFORMATION:  
+Scheduled Delivery Date: March 24, 2026  
+Actual Delivery Date: March 24, 2026  
+
+------------------------------------------------------------  
+SHIPMENT DETAILS:  
+
+Origin City: Monterrey, NL 64000  
+Destination City: El Paso, TX 79901  
+
+Weight: 35.5 tons (per shipper)  
+Weight: 34.8 tons (per carrier scale)  
+
+Rate: 2346.2 CAD (contract rate)  
+Rate: 2450.0 CAD (adjusted rate per invoice)  
+
+------------------------------------------------------------  
+STOPS:  
+
+Stop 1:  
+Location: Green Valley Organics Warehouse  
+Address: 1234 Greenway Blvd, Monterrey, NL 64000  
+Scheduled Pickup: 03.22.2026 08:00 AM  
+Actual Pickup: 03.22.2026 09:15 AM  
+Weight Loaded: 34.8 tons  
+
+Stop 2:  
+Location: FedEx Ground Hub - Memphis  
+Address: 4500 Airways Blvd, El Paso, TX 79901  
+Scheduled Delivery: 03.24.2026 10:00 AM  
+Actual Delivery: 03.24.2026 09:45 AM  
+Weight Unloaded: 34.8 tons  
+
+------------------------------------------------------------  
+CHARGES:  
+
+Freight Charge (Rate 1):  
+Rate: 2346.2 CAD  
+Weight: 35.5 tons  
+Total: 2346.2 CAD  
+
+Freight Charge (Rate 2):  
+Rate: 2450.0 CAD  
+Weight: 34.8 tons  
+Total: 2450.0 CAD  
+
+Fuel Surcharge: 150.00 CAD  
+Accessorials: 75.00 CAD (detention fees)  
+
+------------------------------------------------------------  
+PAYMENT TERMS:  
+Net 30 days from invoice date. Please remit payment to:  
+Blue Ridge Carriers  
+PO Box 12345  
+Toronto, ON M5H 2N2  
+Canada  
+
+------------------------------------------------------------  
+NOTES:  
+- Pickup date discrepancy noted between header and stops section.  
+- Weight discrepancy between shipper and carrier scale.  
+- Two different rates applied; please confirm which rate to apply for payment.  
+- Contact billing@blueridgecarriers.com for clarifications.  
+
+------------------------------------------------------------  
+Thank you for choosing Blue Ridge Carriers for your logistics needs.  
+
+------------------------------------------------------------

@@ -1,0 +1,77 @@
+SHIPMENT INSTRUCTIONS  
+Shipment ID: LD23124  
+Date Issued: 02-Mar-2026  
+
+Shipper: Fresh Harvest Foods Inc  
+Address: 1234 Rainier Ave S, Seattle, WA 98101  
+Phone: (206) 555-0198  
+Contact: Linda M. Harper  
+
+Consignee: McLane Company Inc  
+Address: 789 Peachtree St NE, Atlanta, GA 30301  
+Phone: (404) 555-3347  
+Contact: James T. Reynolds  
+
+Carrier: BLUE RIDGE CARRIERS  
+MC Number: MC-573227  
+Phone: (800) 555-6723  
+Equipment Type: Tanker  
+Mode: Intermodal  
+
+Pickup Date: 06-Mar-2026  
+Delivery Date: 03.09.2026  
+
+PO Number: PO-93202  
+
+RATE AND CHARGES:  
+The agreed freight rate for this shipment is USD 7592.86. Please note, however, that the billing section below references a different rate which may cause confusion. Confirm with billing before invoicing.  
+
+SHIPMENT DETAILS:  
+Weight: 25252 kg (as per shipper's manifest)  
+Note: The weight recorded at the terminal was 25,000 kg, discrepancy to be resolved at delivery.  
+
+Pickup Location:  
+Fresh Harvest Foods Inc  
+1234 Rainier Ave S  
+Seattle, WA 98101  
+Pickup Contact: Linda Harper  
+Phone: (206) 555-0198  
+Scheduled Pickup Date: 07-Mar-2026 (see header for conflicting date)  
+Pickup Window: 08:00 AM - 12:00 PM  
+
+Delivery Location:  
+McLane Company Inc  
+789 Peachtree St NE  
+Atlanta, GA 30301  
+Delivery Contact: James Reynolds  
+Phone: (404) 555-3347  
+Delivery Window: 09:00 AM - 05:00 PM on 03.09.2026  
+
+SPECIAL INSTRUCTIONS:  
+- Equipment must be a tanker certified for food-grade liquids.  
+- Carrier to ensure temperature control maintained at 4°C ± 2°C throughout transit.  
+- Intermodal transfer to occur at Chicago, IL terminal; ensure all documentation accompanies shipment.  
+- Driver must call consignee 1 hour prior to arrival.  
+- Bill of Lading to reference PO-93202 and shipment ID LD23124.  
+
+BILLING INFORMATION:  
+Freight Rate: USD 7,850.00 (discrepancy with header rate of 7592.86)  
+Currency: USD  
+Payment Terms: Net 30 days from delivery date.  
+Invoice to be sent to: Fresh Harvest Foods Inc, Accounts Payable, 1234 Rainier Ave S, Seattle, WA 98101  
+
+NOTES:  
+- Carrier BLUE RIDGE CARRIERS must confirm pickup by 05-Mar-2026 to avoid delays.  
+- Any delays or damages must be reported within 24 hours of delivery.  
+- Weight discrepancy between shipper manifest and terminal scale to be reconciled; final billing weight subject to verification.  
+
+EMERGENCY CONTACTS:  
+Shipper Emergency: Linda Harper (206) 555-0198  
+Carrier Dispatch: BLUE RIDGE CARRIERS (800) 555-6723  
+Consignee Emergency: James Reynolds (404) 555-3347  
+
+DOCUMENT VERSION: 1.3  
+Prepared by: Logistics Operations Team  
+Date: 02-Mar-2026  
+
+--- End of Shipment Instructions ---

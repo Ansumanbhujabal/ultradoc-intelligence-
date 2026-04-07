@@ -1,0 +1,88 @@
+SHIPMENT INSTRUCTIONS  
+Shipment ID: LD53406  
+Carrier: BLUE RIDGE CARRIERS  
+MC Number: MC-4406005  
+PO Number: PO-15160  
+
+------------------------------------------------------------  
+SHIPPER INFORMATION  
+Heavy Metal Fabricators Inc  
+1234 Steelworks Blvd  
+Toronto, ON M5V 3A8  
+Phone: (416) 555-7890  
+Contact: John M. Reynolds  
+
+------------------------------------------------------------  
+CONSIGNEE INFORMATION  
+Amazon Fulfillment Center FTW1  
+4500 Logistics Parkway  
+Dallas, TX 75201  
+Phone: (972) 555-3344  
+Contact: Lisa Tran  
+
+------------------------------------------------------------  
+SHIPMENT DETAILS  
+Mode: Partial Load  
+Equipment Type: Intermodal  
+Currency: CAD  
+
+Declared Weight: 26.5 tons  
+Total Weight: 27.0 tons (see notes below)  
+
+Rate: CAD 7,712.02  
+Alternate Rate Mentioned: CAD 7,950.00 (refer to section 5)  
+
+Pickup Date (Header): 14-Jun-2026  
+Delivery Date: 16-Jun-2026  
+
+------------------------------------------------------------  
+PICKUP INSTRUCTIONS  
+Stop 1:  
+Location: Heavy Metal Fabricators Inc  
+Address: 1234 Steelworks Blvd, Toronto, ON M5V 3A8  
+Phone: (416) 555-7890  
+Contact: John M. Reynolds  
+Pickup Date: 15-Jun-2026 (Note: differs from header date)  
+Pickup Window: 08:00 - 16:00 EST  
+Weight at Pickup: 27.0 tons (scale ticket attached)  
+
+Special Instructions:  
+- Load must be secured with heavy-duty chains and tarps.  
+- Verify all metal sheets are stacked per safety guidelines.  
+- Driver to call 1 hour before arrival.  
+
+------------------------------------------------------------  
+DELIVERY INSTRUCTIONS  
+Stop 2:  
+Location: Amazon Fulfillment Center FTW1  
+Address: 4500 Logistics Parkway, Dallas, TX 75201  
+Phone: (972) 555-3344  
+Contact: Lisa Tran  
+Delivery Date: 16-Jun-2026  
+Delivery Window: 09:00 - 17:00 CST  
+
+Special Instructions:  
+- Dock 7 reserved for this shipment.  
+- Unload with forklift only.  
+- Driver must present PO-15160 and MC-4406005 at gate.  
+
+------------------------------------------------------------  
+RATE AND PAYMENT TERMS  
+- Agreed Rate: CAD 7,712.02 (per header and shipment details)  
+- However, invoice section lists rate as CAD 7,950.00 due to fuel surcharge adjustment.  
+- Payment terms: Net 30 days from delivery date.  
+- Currency: CAD  
+
+------------------------------------------------------------  
+NOTES AND REMARKS  
+- Weight discrepancy: Initial booking states 26.5 tons, but final scale ticket shows 27.0 tons. Carrier to confirm final billed weight.  
+- Pickup date inconsistency: Header shows 14-Jun-2026, but pickup stop confirms 15-Jun-2026. Please verify with shipper.  
+- Equipment type is Intermodal; ensure chassis availability at pickup.  
+- Mode is Partial load; expect possible additional stops if required.  
+- Contact BLUE RIDGE CARRIERS dispatch at (800) 555-1212 for any issues.  
+
+------------------------------------------------------------  
+DOCUMENT VERSION: 3.2.1 EXPORT FROM TMS LEGACY SYSTEM  
+GENERATED: 10-Jun-2026 14:37 EST  
+
+END OF DOCUMENT

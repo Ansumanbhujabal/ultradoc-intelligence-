@@ -1,0 +1,90 @@
+BILL OF LADING  
+Shipment ID: LD95904  
+Carrier: SUMMIT FREIGHT GROUP  
+MC Number: MC-8611330  
+
+------------------------------------------------------------  
+SHIPPER:  
+Midwest Grain Cooperative  
+1234 Harvest Rd.  
+Dallas, TX 75201  
+Phone: (214) 555-0198  
+Contact: ---  
+Email: N/A  
+
+CONSIGNEE:  
+Home Depot Supply Chain Hub  
+789 Industrial Way  
+Los Angeles, CA 90001  
+Phone: (310) 555-3344  
+Contact: TBD  
+
+------------------------------------------------------------  
+ORIGIN: Dallas, TX 75201  
+DESTINATION: Los Angeles, CA 90001  
+
+------------------------------------------------------------  
+MODE OF TRANSPORT: Drayage  
+EQUIPMENT TYPE: Lowboy  
+
+------------------------------------------------------------  
+PICKUP DATE/TIME: 12.23.2026  
+DELIVERY DATE/TIME: 27-Dec-2026  
+
+------------------------------------------------------------  
+PO NUMBER: PO-40347  
+BILL TO: ---  
+REFERENCE NUMBERS: ---  
+
+------------------------------------------------------------  
+CURRENCY: MXN  
+RATE: 4747.58  
+
+------------------------------------------------------------  
+WEIGHT: 49979 lbs  
+VOLUME: ---  
+DIMENSIONS: ---  
+
+------------------------------------------------------------  
+DESCRIPTION OF GOODS:  
+Bulk grain shipment - corn and wheat mix. Packaging details incomplete. Some bags may be damaged. Pallet count unknown.  
+
+------------------------------------------------------------  
+SPECIAL INSTRUCTIONS:  
+Handle with care. No stacking. Temperature control N/A.  
+
+------------------------------------------------------------  
+PAYMENT TERMS: ---  
+INSURANCE: ---  
+
+------------------------------------------------------------  
+SIGNATURES:  
+
+Shipper: ___________________________ Date: ___________  
+Carrier: ___________________________ Date: ___________  
+Consignee: _________________________ Date: ___________  
+
+------------------------------------------------------------  
+ADDITIONAL NOTES:  
+- Driver name and license number missing.  
+- Seal number: ---  
+- Freight charges prepaid / collect: TBD  
+- Hazardous material info: N/A  
+- Customs documentation: ---  
+
+------------------------------------------------------------  
+SUMMARY TABLE:  
+
+| Item No | Description           | Qty  | Weight (lbs) | Rate (MXN) | Total (MXN) |  
+|---------|-----------------------|------|--------------|------------|-------------|  
+| 1       | Bulk grain (corn/wheat) | ---  | 49979        | 4747.58    | ---         |  
+| 2       | ---                   | ---  | ---          | ---        | ---         |  
+
+------------------------------------------------------------  
+NOTES:  
+- This document is a draft and subject to revision.  
+- Some fields intentionally left blank or TBD.  
+- Contact Midwest Grain Cooperative for missing details.  
+
+------------------------------------------------------------  
+END OF BILL OF LADING LD95904

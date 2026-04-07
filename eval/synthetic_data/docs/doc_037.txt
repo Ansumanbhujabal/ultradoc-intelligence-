@@ -1,0 +1,102 @@
+BILL OF LADING / CONOCIMIENTO DE EMBARQUE  
+Shipment ID: LD30232  
+Date: 21-June-2026  
+
+--------------------------------------------------------------------------------  
+SHIPPER / REMITENTE:  
+XYZ Industrial Supplies  
+1234 Main St.  
+Kansas City, MO 64101  
+USA  
+Tel: +1 816 555 2398  
+Email: contact@xyzindustrial.com  
+
+--------------------------------------------------------------------------------  
+CONSIGNEE / CONSIGNATARIO:  
+Kroger Fresh Distribution  
+Av. Revolución 1234, Col. Centro  
+San Diego, CA 92101  
+México  
+Tel: +52 664 123 4567  
+Email: recepcion@krogerfresh.mx  
+
+--------------------------------------------------------------------------------  
+CARRIER / TRANSPORTISTA:  
+SUMMIT FREIGHT GROUP  
+MC Number: MC-1247909  
+Phone: +1 800 555 9987  
+Mode / Modo: Intermodal  
+Equipment Type / Tipo de Equipo: Intermodal  
+
+--------------------------------------------------------------------------------  
+PICKUP / RECOGIDA:  
+Date: June 21, 2026  
+Location: 1234 Main St., Kansas City, MO 64101, USA  
+Time: 08:30 AM CST  
+
+DELIVERY / ENTREGA:  
+Date: 06.22.2026  
+Location: Av. Revolución 1234, Col. Centro, San Diego, CA 92101, México  
+Time: 15:00 PM PST  
+
+--------------------------------------------------------------------------------  
+DESCRIPTION OF GOODS / DESCRIPCIÓN DE MERCANCÍAS:  
+- Industrial parts and supplies  
+- Weight / Peso: 16.8 tons  
+- Packaging: Pallets wrapped in plastic  
+- PO Number / Número de Orden: PO-31771  
+
+--------------------------------------------------------------------------------  
+CUSTOMS BROKER / AGENTE ADUANAL:  
+Nombre: Global Trade Brokers S.A. de C.V.  
+Contacto: Lic. Ana María Torres  
+Tel: +52 55 1234 5678  
+Email: amtorres@globaltrade.com.mx  
+RFC: GTB980512H12  
+Dirección: Calle 5 de Mayo 45, Piso 3, Col. Centro, CDMX, México  
+
+--------------------------------------------------------------------------------  
+BORDER CROSSING / CRUCE FRONTERIZO:  
+Crossing Point / Punto de Cruce: Otay Mesa, CA / Tijuana, B.C.  
+Customs Office / Oficina de Aduanas: Aduana Otay Mesa  
+Tariff / Arancel: HTSUS 8421.39.0000  
+Duty Rate / Tasa de Derecho: 5.2% ad valorem  
+Currency / Moneda: MXN  
+Rate / Tarifa: 6843.77 MXN  
+
+--------------------------------------------------------------------------------  
+FREIGHT CHARGES / CARGOS DE FLETE:  
+Currency: MXN  
+Rate: 6843.77  
+Terms / Términos: Prepaid / Pagado  
+
+--------------------------------------------------------------------------------  
+NOTES / NOTAS:  
+- Shipment subject to inspection at border.  
+- Documentation must accompany shipment at all times.  
+- Contact customs broker for any delays or issues.  
+- Please verify all quantities upon receipt.  
+
+--------------------------------------------------------------------------------  
+SIGNATURES / FIRMAS:  
+
+Shipper / Remitente: ___________________________ Date: _______________  
+
+Carrier / Transportista: _________________________ Date: _______________  
+
+Consignee / Consignatario: ______________________ Date: _______________  
+
+--------------------------------------------------------------------------------  
+ADDITIONAL INFO / INFORMACIÓN ADICIONAL:  
+
+- MC Number: MC-1247909 (USDOT)  
+- PO Number: PO-31771  
+- Pickup datetime: 21/06/2026 08:30 CST  
+- Delivery datetime: 22/06/2026 15:00 PST  
+- Weight: 16.8 tons (metric)  
+- Equipment: Intermodal container #SUM1234567  
+- Customs Broker Reference: GTB-OTAY-0626  
+- Contact for border issues: +1 619 555 3344 (Otay Mesa Customs)  
+
+--------------------------------------------------------------------------------  
+END OF DOCUMENT / FIN DEL DOCUMENTO

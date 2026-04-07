@@ -1,0 +1,135 @@
+------------------------------------------------------------
+INVOICE / FACTURE DE TRANSPORT - SHIPMENT LD85674
+------------------------------------------------------------
+
+SHIPPER / EXPÉDITEUR:
+Fresh Harvest Foods Inc
+Av. de la Industria 2345, Suite 12B
+Laredo, TX 78040, USA
+Tel: +1 956 555 3344
+Email: contact@freshharvestfoods.com
+
+CONSIGNEE / DESTINATAIRE:
+Cardinal Health DC
+1234 E Jefferson Ave
+Detroit, MI 48201, USA
+Tel: +1 313 555 7788
+Email: receiving@cardinalhealth.com
+
+------------------------------------------------------------
+CARRIER / TRANSPORTEUR:
+PACIFIC FREIGHT SOLUTIONS
+MC Number: MC-4579144
+Phone: +1 604 555 9988
+Email: dispatch@pacificfreight.ca
+
+------------------------------------------------------------
+SHIPMENT DETAILS / DÉTAILS D'EXPÉDITION
+
+Shipment ID: LD85674
+PO Number / Nº de Orden: PO-92988
+Mode / Mode: Expedited / Expédié
+Equipment Type / Type d'équipement: Dry Van
+Weight / Poids: 54,823 lbs
+Currency / Devise: CAD
+Rate / Tarif: 7,884.73 CAD
+
+Pickup Date / Date de ramassage: 15-May-2026
+Delivery Date / Date de livraison: 18-May-2026
+
+Origin / Origine:
+Fresh Harvest Foods Inc
+Laredo, TX 78040, USA
+
+Destination / Destination:
+Cardinal Health DC
+Detroit, MI 48201, USA
+
+------------------------------------------------------------
+CUSTOMS BROKER / COURTIER EN DOUANE
+
+Nombre / Name: Global Customs Solutions S.A. de C.V.
+Contacto / Contact: Sr. Miguel Hernández
+Tel: +52 867 555 1234
+Email: miguel.hernandez@globalcustoms.mx
+Dirección / Address: Calle 5 de Mayo 102, Zona Centro, Nuevo Laredo, Tamps, México
+
+------------------------------------------------------------
+BORDER CROSSING / PUNTO DE CRUCE FRONTERIZO
+
+Crossing Point / Punto de Cruce: Laredo - Nuevo Laredo Bridge 1
+Border Hours / Horario: 06:00 - 22:00 CST
+Customs Office / Oficina de Aduanas: Aduana Laredo, TX
+
+------------------------------------------------------------
+DUTY / TARIFAS / DROITS DE DOUANE
+
+HS Code / Código SH: 0709.60.00
+Tariff Rate / Tasa Arancelaria: 3.5%
+Duty Amount / Monto de Derechos: Calculated at delivery
+Notes / Notas: Importación temporal bajo NAFTA / USMCA
+
+------------------------------------------------------------
+INVOICE SUMMARY / RÉSUMÉ DE FACTURE
+
+| Description                  | Qty | Unit Price (CAD) | Total (CAD)  |
+|-----------------------------|-----|------------------|--------------|
+| Freight Charges / Flete      | 1   | 7,884.73         | 7,884.73     |
+| Customs Brokerage / Courtage | 1   | 450.00           | 450.00       |
+| Border Crossing Fees / Peajes| 1   | 120.00           | 120.00       |
+| Miscellaneous / Divers      |     |                  | 75.50        |
+|                             |     |                  |--------------|
+| TOTAL                       |     |                  | 8,530.23 CAD |
+
+------------------------------------------------------------
+PAYMENT TERMS / CONDITIONS DE PAIEMENT
+
+Payment due within 30 days of invoice date.
+Please remit payment to:
+Pacific Freight Solutions
+Bank: RBC Royal Bank
+Account #: 123456789
+SWIFT: ROYCCAT2
+
+------------------------------------------------------------
+NOTES / REMARQUES
+
+- Shipment delayed at border due to paperwork issues, resolved 16-May-2026.
+- Weight discrepancy noted: actual 54,823 lbs vs. declared 54,500 lbs.
+- Contact customs broker for any tariff disputes.
+- PO number must be referenced on all communications.
+- Carrier driver: Juan Carlos Ramirez, phone +1 956 555 7789
+
+------------------------------------------------------------
+ADDRESS DETAILS (mixed formats)
+
+SHIPPER:
+Fresh Harvest Foods Inc
+Av. de la Industria 2345, Suite 12B
+Laredo, TX 78040
+USA
+
+CONSIGNEE:
+Cardinal Health DC
+1234 E Jefferson Ave
+Detroit, MI 48201
+USA
+
+BROKER:
+Global Customs Solutions S.A. de C.V.
+Calle 5 de Mayo 102
+Zona Centro
+Nuevo Laredo, Tamps
+México
+
+------------------------------------------------------------
+CONTACTS / CONTACTOS
+
+Shipper: +1 956 555 3344 / contact@freshharvestfoods.com
+Consignee: +1 313 555 7788 / receiving@cardinalhealth.com
+Carrier: +1 604 555 9988 / dispatch@pacificfreight.ca
+Broker: +52 867 555 1234 / miguel.hernandez@globalcustoms.mx
+
+------------------------------------------------------------
+END OF INVOICE LD85674
+------------------------------------------------------------

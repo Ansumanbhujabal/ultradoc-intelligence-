@@ -1,0 +1,110 @@
+------------------------------------------------------------
+                    SWIFT SHIFT LOGISTICS LLC
+                    Freight Invoice - Shipment LD98470
+------------------------------------------------------------
+
+Carrier MC Number: MC-614340                 Invoice Date: 04/02/2026
+Carrier Phone: (915) 555-0198                 Invoice Number: INV-98470-03
+
+SHIPPER: Sunrise Pharmaceuticals
+Address: 1201 Industrial Blvd, Laredo, TX 78040
+Phone: (956) 555-3344                         PO Number: PO-13026
+
+CONSIGNEE: UPS Freight Terminal
+Address: 4500 Gateway Blvd W, El Paso, TX 79901
+Phone: (915) 555-7788
+
+MODE: FTL                                     EQUIPMENT TYPE: Tanker
+CURRENCY: CAD                               
+
+------------------------------------------------------------
+SHIPMENT DETAILS
+------------------------------------------------------------
+
+Shipment ID: LD98470
+Origin City: Laredo, TX 78040
+Destination City: El Paso, TX 79901
+
+Pickup Date (Header): March 28, 2026 09:00 AM
+Pickup Date (Stops): March 29, 2026 08:30 AM
+
+Weight (Header): 2400 kg
+Weight (Stops): 2350 kg
+
+Rate (Header): CAD 6146.79
+Rate (Charges Summary): CAD 5980.00
+
+------------------------------------------------------------
+PICKUP LOCATION
+------------------------------------------------------------
+
+Sunrise Pharmaceuticals
+1201 Industrial Blvd
+Laredo, TX 78040
+Contact: Maria Gonzalez
+Phone: (956) 555-3344
+Pickup Date/Time: March 29, 2026 08:30 AM
+Notes: Load to be secured in tanker, hazardous materials paperwork included.
+
+------------------------------------------------------------
+DELIVERY LOCATION
+------------------------------------------------------------
+
+UPS Freight Terminal
+4500 Gateway Blvd W
+El Paso, TX 79901
+Contact: John Matthews
+Phone: (915) 555-7788
+Delivery Date/Time: [Not Provided]
+Notes: Unload with forklift, verify seal number upon arrival.
+
+------------------------------------------------------------
+CHARGES SUMMARY
+------------------------------------------------------------
+
+Description                          Quantity      Unit Price (CAD)      Total (CAD)
+--------------------------------------------------------------------------------
+Freight Charge (FTL Tanker)            1           5980.00             5980.00
+Fuel Surcharge                        2400 kg          0.05                120.00
+Hazmat Fee                            1 shipment       46.79                46.79
+Additional Stop Fee                   1 stop           50.00                50.00
+------------------------------------------------------------
+Subtotal:                                                        CAD 6196.79
+Tax (5% GST):                                                    CAD 309.84
+------------------------------------------------------------
+Total Amount Due:                                               CAD 6506.63
+
+------------------------------------------------------------
+PAYMENT TERMS
+------------------------------------------------------------
+
+Payment Due: Net 30 days from invoice date.
+Please remit payment to:
+SWIFT SHIFT LOGISTICS LLC
+Bank: First National Bank
+Account Number: 123456789
+Routing Number: 987654321
+
+------------------------------------------------------------
+NOTES
+------------------------------------------------------------
+
+- Shipment weight discrepancy noted: 2400 kg (header) vs 2350 kg (stops).
+- Pickup date mismatch: Header states March 28, 2026; stops section states March 29, 2026.
+- Rate discrepancy: Header rate CAD 6146.79 vs charges summary rate CAD 5980.00.
+- Delivery date/time intentionally missing from documentation.
+- Contact carrier for any disputes or clarifications within 10 business days.
+
+------------------------------------------------------------
+SIGNATURES
+------------------------------------------------------------
+
+Carrier Representative: ______________________ Date: _______________
+
+Shipper Representative: ______________________ Date: _______________
+
+Consignee Representative: ____________________ Date: _______________
+
+------------------------------------------------------------
+END OF INVOICE LD98470
+------------------------------------------------------------

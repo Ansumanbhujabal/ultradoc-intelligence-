@@ -1,0 +1,48 @@
+BILL OF LADING - LD92756
+
+SHIPPER: Steel Dyn LLC  
+ADDR: 123 Iron St, Toronto, ON M5V 3A8  
+PH: (416) 555-0198  
+
+CONSIGNEE: Grainger Ind Supply  
+ADDR: 456 Warehouse Rd, Nashville, TN 37201  
+PH: (615) 555-3347  
+
+CARRIER: SUMMIT FRGT GRP  
+MC#: MC-7863013  
+PH: (800) 555-7890  
+
+PU DT: 05/03/26  
+DEL DT: 05/08/26  
+
+MODE: Partial  
+CURR: USD  
+RATE: 3724.93  
+
+PO#: PO-77064  
+
+EQ TYPE: Dry Van  
+EQ ID: DV-1123  
+
+ORIGIN: Toronto, ON M5V 3A8  
+DEST: Nashville, TN 37201  
+
+REFS: LD92756 / PO-77064 / MC-7863013  
+
+-----------------------------  
+| ITEM | DESC          | QTY |  
+|------|---------------|-----|  
+| 001  | Steel coils   | 12  |  
+| 002  | Metal sheets  | 8   |  
+-----------------------------  
+
+NOTES:  
+- PU @ 08:00, 05/03/26  
+- DEL est 14:00, 05/08/26  
+- NO WT info provided  
+- PARTIAL LOAD, CONFIRM EQ AVAIL  
+- CARRIER TO VERIFY ALL DOCS  
+
+SIGN: _______________ DATE: _______________  
+
+END OF DOC

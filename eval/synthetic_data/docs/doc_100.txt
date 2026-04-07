@@ -1,0 +1,105 @@
+BILL OF LADING - SHIPMENT ID: LD12125
+
+Carrier: Trans-Pacific Freight Corp  
+MC Number: MC-7831427  
+Mode of Transport: Partial Load  
+Equipment Type: Lowboy  
+Currency: CAD  
+
+SHIPPER:  
+Steel Dynamics LLC  
+1234 Industrial Way  
+Seattle, WA 98101  
+Phone: (206) 555-0198  
+PO Number: PO-23050  
+
+CONSIGNEE:  
+UPS Freight Terminal  
+4500 Commerce St  
+Dallas, TX 75201  
+Phone: (214) 555-3347  
+
+-------------------------------------------------------------
+
+PICKUP DATE (Header): 21-Sep-2026  
+DELIVERY DATE: September 25, 2026  
+
+PICKUP LOCATION:  
+Steel Dynamics LLC  
+1234 Industrial Way  
+Seattle, WA 98101  
+
+DELIVERY LOCATION:  
+UPS Freight Terminal  
+4500 Commerce St  
+Dallas, TX 75201  
+
+-------------------------------------------------------------
+
+SHIPMENT DETAILS:  
+Weight: 70,444 lbs  
+Rate: CAD 1994.15  
+
+Note: Rate confirmation received on 15-Sep-2026.  
+
+-------------------------------------------------------------
+
+STOPS & TIMING:  
+
+Stop 1: Seattle, WA 98101  
+Pickup Date: 22-Sep-2026 (discrepancy with header date)  
+Pickup Time Window: 08:00 - 12:00  
+Contact: John Miller (206) 555-0198  
+
+Stop 2: Dallas, TX 75201  
+Delivery Date: 25-Sep-2026  
+Delivery Time Window: 14:00 - 18:00  
+Contact: Sarah Lopez (214) 555-3347  
+
+-------------------------------------------------------------
+
+CARGO DESCRIPTION:  
+Steel coils, assorted sizes, secured with chains and tarps.  
+Total Weight (per manifest): 70,000 lbs (note discrepancy with header weight)  
+
+-------------------------------------------------------------
+
+CHARGES & PAYMENT TERMS:  
+
+Freight Charge: CAD 2,050.00 (conflicts with earlier rate of 1994.15)  
+Fuel Surcharge: CAD 150.00  
+Accessorial Fees: CAD 75.00 (loading assistance)  
+Total Estimated Charges: CAD 2,275.00  
+
+Payment Terms: Net 30 days from invoice date.  
+
+-------------------------------------------------------------
+
+SPECIAL INSTRUCTIONS:  
+- Equipment must be lowboy as specified.  
+- Driver to call consignee 1 hour prior to arrival.  
+- All paperwork to be faxed to (214) 555-3348 upon delivery.  
+
+-------------------------------------------------------------
+
+NOTES:  
+- Shipment ID LD12125 must be referenced on all communications.  
+- PO Number PO-23050 included on all documents.  
+- Weight discrepancy noted between manifest and header; verify at pickup.  
+- Pickup date discrepancy: header states 21-Sep-2026, stops section states 22-Sep-2026. Confirm with shipper.  
+
+-------------------------------------------------------------
+
+SIGNATURES:  
+
+Carrier Representative: ___________________________ Date: _______________  
+
+Shipper Representative: __________________________ Date: _______________  
+
+Consignee Representative: ________________________ Date: _______________  
+
+-------------------------------------------------------------
+
+This Bill of Lading serves as a contract of carriage and receipt of goods. All information is subject to verification and correction upon physical inspection. Any discrepancies must be reported within 24 hours of delivery.  
+
+END OF DOCUMENT

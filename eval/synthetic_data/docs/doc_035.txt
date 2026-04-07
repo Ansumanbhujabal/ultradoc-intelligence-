@@ -1,0 +1,108 @@
+To: accounts@greenvalleyorganics.com  
+From: billing@summitfreightgroup.com  
+Subject: Invoice LD27892 - Shipment from Laredo, TX to Vancouver, BC  
+
+------------------------------------------------------------  
+INVOICE # LD27892  
+Date Issued: 11/17/26  
+------------------------------------------------------------  
+
+SHIPPER DETAILS:  
+Green Valley Organics  
+1234 Harvest Lane  
+Laredo, TX 78040  
+Phone: (956) 555-0198  
+Email: contact@greenvalleyorganics.com  
+
+CONSIGNEE:  
+Amazon Fulfillment Center FTW1  
+4500 East Lancaster Ave  
+Fort Worth, TX 76103  
+Phone: (817) 555-3344  
+Delivery Location: Vancouver, BC V6B 1A1, Canada  
+
+------------------------------------------------------------  
+SHIPMENT INFORMATION:  
+
+Shipment ID: LD27892  
+PO Number: PO-72228  
+MC Number: MC-9359637  
+Carrier: SUMMIT FREIGHT GROUP  
+Mode of Transport: Partial  
+Equipment: Lowboy  
+Weight: 24.2 tons (approx)  
+Currency: EUR  
+Rate: 2406.14 EUR  
+
+Pickup Date/Time: November 16, 2026  
+Delivery Date: 19-Nov-2026  
+
+------------------------------------------------------------  
+BILL TO:  
+Green Valley Organics  
+Attn: Accounts Payable  
+1234 Harvest Lane  
+Laredo, TX 78040  
+Phone: (956) 555-0198  
+
+------------------------------------------------------------  
+CHARGES SUMMARY:  
+
+| Description           | Quantity | Unit Price (EUR) | Total (EUR) |  
+|-----------------------|----------|------------------|-------------|  
+| Freight Charge        | 1        | 2406.14          | 2406.14     |  
+| Fuel Surcharge        | -        | -                | Included    |  
+| Accessorial Fees      | N/A      | N/A              | 0.00        |  
+| Taxes                 | -        | -                | 0.00        |  
+| Total Amount Due      |          |                  | 2406.14     |  
+
+------------------------------------------------------------  
+NOTES:  
+- Shipment originated from Laredo, TX 78040 and was delivered to Vancouver, BC V6B 1A1.  
+- Equipment used: Lowboy trailer, suitable for partial load.  
+- Carrier SUMMIT FREIGHT GROUP (MC# MC-9359637) handled the shipment.  
+- Weight recorded at 24.2 tons, consistent with shipper's manifest.  
+- Pickup occurred on 16th November 2026, delivery confirmed on 19-Nov-2026.  
+- PO Number PO-72228 referenced on all shipping documents.  
+
+------------------------------------------------------------  
+PAYMENT TERMS:  
+Payment due within 30 days of invoice date. Please remit payment in EUR to:  
+
+Bank: First National Bank  
+Account Name: Summit Freight Group  
+IBAN: DE89370400440532013000  
+SWIFT: FNBBUS33  
+
+------------------------------------------------------------  
+Additional info:  
+The shipment was partially loaded as per mode indicated. The consignee address is listed as Amazon Fulfillment Center FTW1, but final delivery was to Vancouver, BC V6B 1A1, Canada. Please verify if further documentation is required.  
+
+Contact your Summit Freight Group rep for any discrepancies:  
+John M. Reynolds  
+Phone: +1 (800) 555-7890  
+Email: jreynolds@summitfreightgroup.com  
+
+------------------------------------------------------------  
+Summary:  
+Invoice LD27892 for shipment LD27892 from Green Valley Organics (Laredo, TX 78040) to Amazon Fulfillment Center FTW1 / Vancouver, BC V6B 1A1. Total due: EUR 2406.14. Pickup on 11/16/26, delivery on 19-Nov-2026. Equipment: Lowboy, weight 24.2 tons. PO# PO-72228, MC# MC-9359637.  
+
+Thank you for your business!  
+
+------------------------------------------------------------  
+Green Valley Organics - Invoice Copy  
+Shipment ID: LD27892  
+Date: 16-November-2026  
+From: Laredo, TX 78040  
+To: Vancouver, BC V6B 1A1  
+Carrier: Summit Freight Group  
+Rate: EUR 2406.14  
+Weight: 24.2 tons  
+Mode: Partial  
+Equipment: Lowboy  
+PO#: PO-72228  
+MC#: MC-9359637  
+
+------------------------------------------------------------  
+End of Invoice LD27892  
+------------------------------------------------------------

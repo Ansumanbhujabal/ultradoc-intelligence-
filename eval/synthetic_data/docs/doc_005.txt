@@ -1,0 +1,78 @@
+To: logistics@costco.com  
+From: dispatch@midwestgraincoop.com  
+Subject: Delivery Receipt - Shipment LD46509  
+
+------------------------------------------------------------  
+DELIVERY RECEIPT  
+Shipment ID: LD46509  
+Carrier: PACIFIC FREIGHT SOLUTIONS  
+MC Number: MC-2862152  
+Mode of Transport: Intermodal  
+Equipment Type: Conestoga  
+
+------------------------------------------------------------  
+SHIPPER DETAILS:  
+Midwest Grain Cooperative  
+1234 Harvest Lane  
+Kansas City, MO 64101  
+Phone: (816) 555-0198  
+Contact: John M. Reynolds  
+
+Consignee:  
+Costco Wholesale Depot  
+4500 Distribution Way  
+Atlanta, GA 30301  
+Phone: (404) 555-3347  
+Contact: Lisa Tran  
+
+------------------------------------------------------------  
+PICKUP INFORMATION:  
+Pickup Date: April 06, 2026  
+Pickup Location:  
+Midwest Grain Cooperative  
+1234 Harvest Lane  
+Kansas City, MO 64101  
+
+------------------------------------------------------------  
+DELIVERY INFORMATION:  
+Delivery Date: 04/10/2026  
+Delivery Location:  
+Costco Wholesale Depot  
+4500 Distribution Way  
+Atlanta, GA 30301  
+
+------------------------------------------------------------  
+SHIPMENT DETAILS:  
+PO Number: PO-50672  
+Weight: 17224 lbs  
+Currency: USD  
+
+------------------------------------------------------------  
+NOTES:  
+- Shipment was loaded on Conestoga trailer at origin.  
+- Carrier PACIFIC FREIGHT SOLUTIONS confirmed pickup and delivery dates.  
+- No damages reported upon delivery.  
+- Delivery was completed within scheduled timeframe.  
+
+------------------------------------------------------------  
+SIGNATURES:  
+
+Shipper Representative: ___________________________  
+Name: John M. Reynolds  
+Date: 06-Apr-2026  
+
+Carrier Driver: _________________________________  
+Name: Marcus Lee  
+Date: 10/04/2026  
+
+Consignee Representative: _______________________  
+Name: Lisa Tran  
+Date: 10/04/2026  
+
+------------------------------------------------------------  
+For questions or discrepancies, please contact Midwest Grain Cooperative dispatch at (816) 555-0198 or email dispatch@midwestgraincoop.com  
+
+Thank you for your business.  
+
+------------------------------------------------------------  
+End of Delivery Receipt for Shipment LD46509

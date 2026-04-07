@@ -1,0 +1,20 @@
+BILL OF LADING | SHPMT ID: LD50730 | MC#: MC-4189126
+
+SHIPPER|Santos Agricola SA de CV|Nogales, AZ 85621|PH: 520-555-0198  
+CONSIGNEE|Walmart Dist Ctr #4521|Atlanta, GA 30301|PH: 404-555-3342  
+
+ORGN CITY|Nogales, AZ 85621|DEST CITY|Atlanta, GA 30301  
+PU DT|23-Aug-26|DEL DT|27-Aug-26  
+
+CARRIER|Rio Grande Logistics|MODE|FTL|CURR|CAD  
+RATE|7320.85|PO#|PO-60871  
+
+EQ TYPE|Lowboy|WT|25181 lbs  
+
+REFS|BOL# LD50730|INV# N/A|  
+
+NOTES|N/C|FRGHT TERMS|Prepaid|  
+
+SIGN|____________________|DATE|____________  
+
+---END OF DOC---

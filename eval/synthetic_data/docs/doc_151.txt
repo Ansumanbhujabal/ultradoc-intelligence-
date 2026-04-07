@@ -1,0 +1,49 @@
+SHIP INSTR - LD68856  
+SHIPPER: Global Tech Ind.  
+ADDR: 1234 Elm St, Dallas TX 75201  
+PH: 214-555-0198  
+CONSIGNEE: Target Reg DC - SE  
+ADDR: 4500 S 7th Ave, Phoenix AZ 85001  
+PH: 602-555-3344  
+
+CARRIER: NORTHERN STAR LOG  
+MC#: MC-9434242  
+MODE: LTL  
+EQ: Step Deck  
+WT: 8.0 TONS  
+RATE: USD 7,908.58  
+PO#: PO-53082  
+
+PU DT: 10/09/26 0800-1200  
+PU LOC: Dock 3, 1234 Elm St, Dallas TX  
+CONT: J. Smith 214-555-0198 ext 12  
+LOAD: Pallets 16, Shrinkwrap, Fragile - Handle w/care  
+DOCS: BOL, INV, PO-53082 attached  
+INS: Std ins coverage incl.  
+
+DEL LOC: Dock 7, 4500 S 7th Ave, Phoenix AZ  
+CONT: M. Lopez 602-555-3344 ext 5  
+NOTE: Call 1hr prior DEL  
+SPEC REQ: No drop, no live unload  
+TEMP: Ambient only  
+
+REM: Check seals on pickup, verify wt on scale  
+PAY TERMS: Net 30 days from inv date  
+FUEL SURCHG: incl in rate  
+HAZMAT: None declared  
+REMARKS: Load tight, no stacking on top pallets marked Fragile  
+EQ REQ: Step Deck only, no flatbed alt  
+
+SHIP REF: LD68856 / PO-53082  
+CUST REF: GTI-2026-09-10  
+BILL TO: Global Tech Ind, acct 00456  
+PH: 214-555-0198 Acct Mgr: R. Daniels  
+
+LOAD INSTR: PU b4 1200, no delays, driver to check in at gate  
+DEL INSTR: DEL b4 1700, no weekends, no holidays  
+DOCS TO CARRIER: BOL + PO + INV mandatory  
+CONTACTS:  
+- NORTHERN STAR DISP: 800-555-6789  
+- GTI LOGISTICS: 214-555-0198 ext 15  
+
+END OF INSTR - LD68856

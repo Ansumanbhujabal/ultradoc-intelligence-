@@ -1,0 +1,88 @@
+------------------------------------------------------------
+                      RATE CONFIRMATION
+------------------------------------------------------------
+
+Shipment ID: LD93086  
+PO Number: PO-54483  
+MC Number: MC-8697330  
+Mode of Transport: Partial  
+Currency: USD  
+
+------------------------------------------------------------
+SHIPPER INFORMATION
+------------------------------------------------------------
+
+Global Tech Industries  
+1234 Innovation Dr.  
+Dallas, TX 75201  
+Phone: (214) 555-0198   
+Contact: John M. Reynolds  
+
+------------------------------------------------------------
+CONSGINEE INFORMATION
+------------------------------------------------------------
+
+Cardinal Health DC  
+789 Distribution Way  
+Kansas City, MO 64101  
+Phone: 816-555-3344   
+Contact: Sarah L. O’Connor  
+
+------------------------------------------------------------
+PICKUP DETAILS
+------------------------------------------------------------
+
+Pickup Date: 2026-05-04  
+Pickup Location: 1234 Innovation Dr., Dallas, TX 75201  
+Pickup Contact: John M. Reynolds  
+Pickup Phone: 214.555.0198  
+
+------------------------------------------------------------
+DELVERY DETAILS
+------------------------------------------------------------
+
+Delivery Date: 05.09.2026  
+Delivery Location: 789 Distribution Way, Kansas City, MO 64101  
+Delivery Contact: Sarah L. O’Connor  
+Delivery Phone: (816)555-3344  
+
+------------------------------------------------------------
+CARRIER INFORMATION
+------------------------------------------------------------
+
+Carrier Name: CROSSROADS FREIGHT CO  
+MC Number: MC-8697330  
+Carrier Contact: Mike D. Thompson  
+Carrier Phone: 972-555-7788  
+
+------------------------------------------------------------
+SHIPMENT DETAILS
+------------------------------------------------------------
+
+Equipment Type: Intermodal  
+Weight: 25587 kg  
+Mode: Partial  
+
+------------------------------------------------------------
+ADDITIONAL NOTES
+------------------------------------------------------------
+
+- All shipments must comply with DOT regulations.  
+- Carrier to provide proof of delivery within 24 hours of delivery.  
+- Any delays must be reported immediately to shipper and consignee.  
+- Payment terms: Net 30 days from invoice date.  
+- Please confirm pickup and delivery times 24 hours in advance.  
+
+------------------------------------------------------------
+SIGNATURES
+------------------------------------------------------------
+
+Shipper: ___________________________ Date: ___________  
+
+Carrier: ___________________________ Date: ___________  
+
+Consignee: _________________________ Date: ___________  
+
+------------------------------------------------------------
+END OF RAT CONFIRMATION DOCUMENT
+------------------------------------------------------------

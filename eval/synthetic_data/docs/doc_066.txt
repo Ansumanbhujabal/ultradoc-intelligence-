@@ -1,0 +1,105 @@
+To: dispatch@atlanticcargo.com  
+From: logistics@freshharvestfoods.com  
+Subject: Rate Confirmation - Shipment LD85372  
+
+------------------------------------------------------------  
+RATE CONFIRMATION DOCUMENT  
+------------------------------------------------------------  
+
+Shipment ID: LD85372  
+Shipper: Fresh Harvest Foods Inc  
+Consignee: Cardinal Health DC  
+Origin: El Paso, TX 79901  
+Destination: Vancouver, BC V6B 1A1  
+Carrier: ATLANTIC CARGO SERVICES  
+MC Number: MC-9397127  
+PO Number: PO-3665  
+
+Date Issued: 2026/09/10  
+Delivery Date: 09.17.2026 (Sept 17, 2026)  
+Mode of Transport: Drayage  
+Equipment Type: Tanker  
+Weight: 27.6 tons (approximate)  
+Currency: USD  
+Rate: $2,076.40  
+
+------------------------------------------------------------  
+CONTACT INFORMATION  
+------------------------------------------------------------  
+
+Fresh Harvest Foods Inc  
+1234 Green Valley Rd  
+El Paso, TX 79901  
+Phone: (915) 555-0198  
+Email: logistics@freshharvestfoods.com  
+
+Cardinal Health DC  
+789 Industrial Way  
+Vancouver, BC V6B 1A1  
+Phone: (604) 555-3344  
+Email: receiving@cardinalhealth.com  
+
+Atlantic Cargo Services  
+PO Box 4521  
+Houston, TX 77002  
+Phone: (713) 555-7788  
+Email: dispatch@atlanticcargo.com  
+
+------------------------------------------------------------  
+RATE DETAILS  
+------------------------------------------------------------  
+
+| Description          | Details               | Notes                  |  
+|----------------------|-----------------------|------------------------|  
+| Shipment ID          | LD85372               | Confirmed               |  
+| Carrier Name         | ATLANTIC CARGO SERVICES| All caps in system      |  
+| Equipment Type       | Tanker                | Specialized equipment   |  
+| Mode                 | Drayage               | Local transport         |  
+| Weight               | 27.6 tons             | Weight confirmed        |  
+| Rate                 | 2076.4 USD            | Rate in USD             |  
+| PO Number            | PO-3665               | Purchase order reference|  
+| MC Number            | MC-9397127            | Motor carrier number    |  
+| Delivery Date        | 17-Sept-2026          | Same as 09.17.2026      |  
+
+------------------------------------------------------------  
+TERMS AND CONDITIONS:  
+------------------------------------------------------------  
+
+This rate confirmation is subject to the terms and conditions outlined in the carrier agreement. The carrier, ATLANTIC CARGO SERVICES, agrees to transport the shipment identified as LD85372 from Fresh Harvest Foods Inc located in El Paso, TX 79901 to Cardinal Health DC in Vancouver, BC V6B 1A1. The agreed rate of $2,076.40 USD covers the transportation of approximately 27.6 tons of goods using a tanker equipment type under drayage mode.  
+
+Carrier must ensure delivery by September 17th, 2026 (09.17.2026). Any delays or deviations must be reported immediately to Fresh Harvest Foods logistics department. Payment terms are net 30 days from delivery confirmation.  
+
+Note: Pickup datetime is not specified in this document and must be coordinated separately.  
+
+------------------------------------------------------------  
+ADDITIONAL NOTES:  
+
+- Shipment LD85372 is critical and requires careful handling due to the nature of the cargo.  
+- Carrier ATLANTIC CARGO SERVICES (MC-9397127) must confirm receipt of this rate confirmation by return email.  
+- Please reference PO-3665 in all communications.  
+- Weight of 27.6 tons is approximate; final weight to be confirmed at pickup.  
+- Delivery datetime confirmed as 09.17.2026; any changes must be communicated ASAP.  
+
+------------------------------------------------------------  
+SUMMARY:  
+
+Shipper: Fresh Harvest Foods Inc  
+Consignee: Cardinal Health DC  
+Origin: El Paso, TX 79901  
+Destination: Vancouver, BC V6B 1A1  
+Carrier: ATLANTIC CARGO SERVICES  
+Equipment: Tanker  
+Mode: Drayage  
+Weight: 27.6 tons  
+Rate: $2076.40 USD  
+Delivery Date: 09/17/26  
+
+------------------------------------------------------------  
+Please confirm receipt and acceptance of this rate confirmation by replying to logistics@freshharvestfoods.com or dispatch@atlanticcargo.com.  
+
+Thank you,  
+Fresh Harvest Foods Logistics Team  
+
+------------------------------------------------------------  
+End of Document  
+------------------------------------------------------------

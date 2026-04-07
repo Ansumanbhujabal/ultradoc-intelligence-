@@ -1,0 +1,111 @@
+To: dispatch@desertwindtrucking.com  
+From: logistics@acmechem.com  
+Subject: Shipment Instructions - LD32650  
+
+------------------------------------------------------------  
+SHIPMENT INSTRUCTIONS  
+------------------------------------------------------------  
+
+Shipment ID: LD32650  
+PO Number: PO-51202  
+MC Number: MC-4793862  
+
+Shipper:  
+Acme Chemical Solutions  
+1234 Industrial Pkwy  
+San Diego, CA 92101  
+Phone: (619) 555-7832  
+Contact: Maria L. Sanchez  
+
+Consignee:  
+Costco Wholesale Depot  
+---  
+Kansas City, MO 64101  
+Phone: TBD  
+Contact: ---  
+
+Carrier: DESERT WIND TRUCKING LLC  
+MC Number: MC-4793862  
+Phone: (602) 555-1199  
+
+Mode of Transport: Partial  
+Equipment Type: Tanker  
+
+------------------------------------------------------------  
+PICKUP DETAILS  
+------------------------------------------------------------  
+Pickup Location:  
+Acme Chemical Solutions  
+1234 Industrial Pkwy  
+San Diego, CA 92101  
+Phone: (619) 555-7832  
+
+Pickup Date/Time: August 14, 2026  
+Pickup Contact: Maria Sanchez  
+
+------------------------------------------------------------  
+DELIVERY DETAILS  
+------------------------------------------------------------  
+Delivery Location:  
+Costco Wholesale Depot  
+---  
+Kansas City, MO 64101  
+
+Delivery Contact: TBD  
+Phone: ---  
+
+------------------------------------------------------------  
+SHIPMENT DETAILS  
+------------------------------------------------------------  
+Weight: 43680 lbs  
+Commodity: Chemicals - Hazardous  
+Hazmat: Yes  
+UN Number: ---  
+Packaging: Tanker  
+
+Rate: 470.27 MXN  
+Currency: MXN  
+
+Special Instructions:  
+- Ensure all hazmat paperwork accompanies shipment  
+- Driver must have hazmat endorsement  
+- Temperature control: N/A  
+- Seal number: ---  
+- Load securement: TBD  
+
+------------------------------------------------------------  
+BILLING INFORMATION  
+------------------------------------------------------------  
+Bill To: Acme Chemical Solutions  
+Address: 1234 Industrial Pkwy, San Diego, CA 92101  
+Account Number: ---  
+Payment Terms: Net 30  
+
+------------------------------------------------------------  
+NOTES  
+------------------------------------------------------------  
+- Shipment to be tracked via GPS but system currently down  
+- No delivery appointment scheduled yet  
+- Driver to call consignee 1 hour before arrival  
+- Documentation to be faxed to (619) 555-7833 upon pickup  
+- Backup contact at consignee: ---  
+
+------------------------------------------------------------  
+DOCUMENTS ATTACHED  
+------------------------------------------------------------  
+- Bill of Lading (draft)  
+- Safety Data Sheet (SDS) for chemicals  
+- ---  
+
+------------------------------------------------------------  
+END OF INSTRUCTIONS  
+------------------------------------------------------------  
+
+Please confirm receipt and advise if any additional info needed.  
+
+Regards,  
+Maria Sanchez  
+Logistics Coordinator  
+Acme Chemical Solutions  
+Phone: (619) 555-7832  
+Email: logistics@acmechem.com

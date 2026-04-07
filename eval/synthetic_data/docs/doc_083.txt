@@ -1,0 +1,93 @@
+To: logistics@targetregionaldc.com  
+From: dispatch@pacificrimelectronics.com  
+Subject: Bill of Lading - Shipment LD51116  
+
+------------------------------------------------------------  
+BILL OF LADING  
+Shipment ID: LD51116  
+Date Issued: 16-Mar-2026  
+
+------------------------------------------------------------  
+SHIPPER:  
+Pacific Rim Electronics  
+1234 W Sunset Blvd  
+Los Angeles, CA 90001  
+Phone: (213) 555-0198  
+Contact: Maria Gonzales  
+
+------------------------------------------------------------  
+CONSIGNEE:  
+Target Regional DC - Southeast  
+789 Industrial Pkwy  
+Toronto, ON M5V 3A8  
+Phone: (416) 555-3344  
+Contact: TBD  
+
+------------------------------------------------------------  
+CARRIER:  
+IRON HORSE LOGISTICS  
+MC Number: MC-6422070  
+Phone: (800) 555-IRON (4766)  
+Driver: ---  
+Trailer Number: TBD  
+
+------------------------------------------------------------  
+EQUIPMENT TYPE: Step Deck  
+MODE OF TRANSPORT: Drayage  
+
+------------------------------------------------------------  
+ORIGIN:  
+Los Angeles, CA 90001  
+Pickup Date/Time: 17-Mar-2026 08:00 AM  
+
+DESTINATION:  
+Toronto, ON M5V 3A8  
+Delivery Date/Time: 03.21.2026 ---  
+
+------------------------------------------------------------  
+DESCRIPTION OF GOODS:  
+Electronics components - assorted  
+Qty: 150 pallets  
+Weight: ---  
+Dimensions: N/A  
+
+------------------------------------------------------------  
+RATE & PAYMENT:  
+Currency: MXN  
+Rate: 5939.53  
+Payment Terms: TBD  
+
+------------------------------------------------------------  
+REFERENCE NUMBERS:  
+PO Number: PO-42124  
+BOL Number: ---  
+Invoice Number: TBD  
+
+------------------------------------------------------------  
+SPECIAL INSTRUCTIONS:  
+- Handle with care  
+- No hazardous materials  
+- Customs paperwork to be provided by consignee  
+
+------------------------------------------------------------  
+RECEIVED BY CARRIER:  
+Name: ---  
+Signature: ---  
+Date: ---  
+
+------------------------------------------------------------  
+RECEIVED BY CONSIGNEE:  
+Name: ---  
+Signature: ---  
+Date: ---  
+
+------------------------------------------------------------  
+NOTES:  
+- Shipment details incomplete, awaiting final weight and trailer number  
+- Delivery time tentative, subject to customs clearance delays  
+- Contact dispatch for updates  
+
+------------------------------------------------------------  
+END OF DOCUMENT  
+
+------------------------------------------------------------

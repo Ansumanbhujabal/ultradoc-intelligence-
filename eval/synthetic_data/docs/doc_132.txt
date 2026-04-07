@@ -1,0 +1,86 @@
+To: logistics@targetregionaldc.com  
+From: dispatch@atlasconstruction.com  
+Subject: Bill of Lading - Shipment LD60197  
+
+------------------------------------------------------------  
+BILL OF LADING  
+Shipment ID: LD60197  
+------------------------------------------------------------  
+
+SHIPPER:  
+Atlas Construction Materials  
+1234 King St W, Suite 400  
+Toronto, ON M5V 3A8  
+Phone: +1 (416) 555-0198  
+
+CONSIGNEE:  
+Target Regional DC - Southeast  
+4500 E Grand Blvd  
+Detroit, MI 48201  
+Phone: +1 (313) 555-7842  
+
+CARRIER INFORMATION:  
+Carrier Name: DESERT WIND TRUCKING LLC  
+MC Number: MC-3844423  
+Phone: +1 (602) 555-3321  
+
+MODE OF TRANSPORT: Intermodal  
+Equipment Type: Dry Van  
+
+------------------------------------------------------------  
+PICKUP DETAILS:  
+Pickup Date/Time: 02.19.2026 08:30 AM  
+Origin City: Toronto, ON M5V 3A8  
+
+DELIVERY DETAILS:  
+Delivery Date: 20-Feb-2026  
+Destination City: Detroit, MI 48201  
+
+------------------------------------------------------------  
+SHIPMENT DETAILS:  
+PO Number: PO-68603  
+Weight: 19777 kg  
+Rate: MXN 2136.45  
+
+DESCRIPTION OF GOODS:  
+Construction materials - assorted cement bags, steel rods, and aggregates.  
+Total quantity: 150 pallets  
+
+------------------------------------------------------------  
+SPECIAL INSTRUCTIONS:  
+- Handle with care, avoid moisture exposure.  
+- Delivery appointment required, call consignee 24 hours prior.  
+
+------------------------------------------------------------  
+BILLING INFORMATION:  
+Currency: MXN  
+Rate: 2136.45 MXN per shipment  
+Payment Terms: Net 30 days  
+
+------------------------------------------------------------  
+SIGNATURES:  
+
+Shipper Signature: ___________________________  
+Date: 19-Feb-2026  
+
+Carrier Signature: ___________________________  
+Date: 02/20/2026  
+
+Consignee Signature: _________________________  
+Date: 20-Feb-2026  
+
+------------------------------------------------------------  
+NOTES:  
+- This document serves as a contract of carriage and receipt of goods.  
+- Any claims for loss or damage must be reported within 7 days of delivery.  
+
+------------------------------------------------------------  
+REFERENCE NUMBERS:  
+Shipment ID: LD60197  
+PO Number: PO-68603  
+MC Number: MC-3844423  
+
+------------------------------------------------------------  
+Thank you for your business. Please contact dispatch@atlasconstruction.com for any questions.  
+
+------------------------------------------------------------

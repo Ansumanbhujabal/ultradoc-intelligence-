@@ -1,0 +1,95 @@
+[COMPANY LETTERHEAD]                                                                                  PAGE 1 of 3  
+ATLANTIC CARGO SERVICES                                                                                 RATE CONFIRMATION  
+MC# MC-9006224                                                                                          DO NOT DUPLICATE  
+_________________________________________________________________________________________________________  
+THIS DOCUMENT IS CONFIDENTIAL AND PROPRIETARY - FOR AUTHORIZED USE ONLY  
+
+SHIPMENT ID | SHIPPER NAME           | CONSIGNEE NAME        | ORIGIN CITY          | DEST CITY           | PICKUP DATE  | DELIVERY DATE | MODE       | EQUIPMENT TYPE | WEIGHT (Tons) | RATE (USD) | CURRENCY | PO NUMBER  
+LD98835     | QuickParts Automotive  | Cardinal Health DC    | Laredo, TX 78040     | Miami, FL 33101     | 2026-05-11   | 16-May-2026   | Expedited  | Flatbed       | 7.4           | 3638.42    | USD      | PO-66771  
+
+[LOGO] ATLANTIC CARGO SERVICES                                                                                                 TEL: (800) 555-1234  
+MC# MC-9006224                                                                                                                FAX: (800) 555-5678  
+_________________________________________________________________________________________________________  
+
+SHIPPER DETAILS:  
+QuickParts Automotive  
+1234 Industrial Blvd  
+Laredo, TX 78040  
+Phone: (956) 555-7890  
+Contact: Maria Gonzalez  
+
+CONSIGNEE DETAILS:  
+Cardinal Health DC  
+789 Distribution Way  
+Miami, FL 33101  
+Phone: (305) 555-4321  
+Contact: James O’Neil  
+
+CARRIER DETAILS:  
+ATLANTIC CARGO SERVICES  
+MC# MC-9006224  
+PO Box 4567  
+Jacksonville, FL 32201  
+Phone: (904) 555-9988  
+Contact: Dispatch - dispatch@atlanticcargo.com  
+
+_________________________________________________________________________________________________________  
+RATE CONFIRMATION TERMS & CONDITIONS (PLEASE READ CAREFULLY)  
+
+1. Carrier agrees to transport the shipment described above in accordance with the terms of this rate confirmation and applicable tariffs.  
+2. Carrier shall be responsible for all loss or damage to freight while in its possession.  
+3. Payment terms: Net 30 days from date of invoice. Late payments subject to 1.5% monthly interest.  
+4. Carrier must notify shipper immediately of any delays or issues affecting pickup or delivery.  
+5. Liability limits apply as per FMC regulations unless otherwise agreed in writing.  
+6. This document and the information contained herein is confidential and proprietary. Unauthorized duplication or distribution is strictly prohibited.  
+7. Carrier certifies it holds all necessary licenses, permits, and insurance to perform the services described.  
+8. Any claims for loss or damage must be submitted in writing within 7 days of delivery.  
+9. Carrier shall comply with all applicable federal, state, and local laws and regulations.  
+10. This rate confirmation supersedes all prior agreements or understandings related to this shipment.  
+
+[LOGO] ATLANTIC CARGO SERVICES                                                                                 PAGE 2 of 3  
+MC# MC-9006224                                                                                                  DO NOT DUPLICATE  
+_________________________________________________________________________________________________________  
+
+SHIPMENT DETAILS:  
+
+| Field              | Description / Value                         | Notes / Comments                      |  
+|--------------------|--------------------------------------------|-------------------------------------|  
+| Shipment ID        | LD98835                                    | Reference number for this shipment  |  
+| Shipper            | QuickParts Automotive                       | Originator of shipment              |  
+| Consignee          | Cardinal Health DC                         | Destination party                   |  
+| Origin City        | Laredo, TX 78040                           | Pickup location                    |  
+| Destination City   | Miami, FL 33101                            | Delivery location                  |  
+| Pickup Date/Time   | 2026-05-11 08:00 AM                        | Scheduled pickup                   |  
+| Delivery Date      | 16-May-2026                               | Expected delivery date             |  
+| Mode               | Expedited                                 | Service level                     |  
+| Equipment Type     | Flatbed                                   | Trailer type                     |  
+| Weight             | 7.4 tons                                  | Estimated shipment weight          |  
+| Rate               | 3638.42 USD                              | Total agreed rate                  |  
+| Currency           | USD                                       | Currency for payment               |  
+| PO Number          | PO-66771                                  | Purchase order reference           |  
+| Carrier Name       | ATLANTIC CARGO SERVICES                    | Contracted carrier                 |  
+| MC Number          | MC-9006224                                | Motor carrier registration number |  
+
+_________________________________________________________________________________________________________  
+
+ADDITIONAL NOTES:  
+- Please confirm pickup 24 hours in advance.  
+- Carrier to provide proof of delivery (POD) within 24 hours of delivery.  
+- Any detention or layover charges must be pre-approved in writing.  
+- Fuel surcharge included in rate.  
+- Contact dispatch for any routing changes or emergencies.  
+
+[LOGO] ATLANTIC CARGO SERVICES                                                                                 PAGE 3 of 3  
+MC# MC-9006224                                                                                                  DO NOT DUPLICATE  
+_________________________________________________________________________________________________________  
+
+LEGAL DISCLAIMER:  
+THIS DOCUMENT IS CONFIDENTIAL AND PROPRIETARY. ANY UNAUTHORIZED USE, COPYING, OR DISTRIBUTION IS STRICTLY PROHIBITED AND MAY RESULT IN LEGAL ACTION. ATLANTIC CARGO SERVICES DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. ALL SERVICES ARE SUBJECT TO APPLICABLE TARIFFS AND REGULATIONS.  
+
+FOR QUESTIONS OR DISCREPANCIES, CONTACT ATLANTIC CARGO SERVICES DISPATCH IMMEDIATELY AT (904) 555-9988 OR EMAIL dispatch@atlanticcargo.com  
+
+[DO NOT DUPLICATE WATERMARK]  
+
+END OF DOCUMENT  
+_________________________________________________________________________________________________________

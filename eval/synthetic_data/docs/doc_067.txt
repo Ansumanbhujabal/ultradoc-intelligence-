@@ -1,0 +1,73 @@
+RATE CONFIRMATION DOCUMENT  
+------------------------------------------------------------  
+Shipment ID  | LD43246  
+Carrier Name | GOLDEN STATE TRANSPORT  
+MC Number    | MC-8128420  
+Mode         | Partial  
+Equipment   | Flatbed  
+Currency     | CAD  
+Rate         | 5100.4  
+Weight       | 30.9 tons  
+PO Number    | PO-83802  
+
+------------------------------------------------------------  
+SHIPPER INFORMATION  
+Heavy Metal Fabricators Inc  
+Contact: ---  
+Phone: (612) 555-0198  
+Address: 1234 Ironworks Blvd, Minneapolis, MN 55401  
+Email: N/A  
+
+------------------------------------------------------------  
+CONSIGNEE INFORMATION  
+Walmart Distribution Center #4521  
+Contact: TBD  
+Phone: (313) 555-4821  
+Address: 7890 Logistics Pkwy, Detroit, MI 48201  
+Email: ---  
+
+------------------------------------------------------------  
+PICKUP DETAILS  
+Pickup Date: 02-Mar-2026  
+Pickup Time: ---  
+Pickup Location: 1234 Ironworks Blvd, Minneapolis, MN 55401  
+Special Instructions: ---  
+
+------------------------------------------------------------  
+DELIVERY DETAILS  
+Delivery Date: March 04, 2026  
+Delivery Time: ---  
+Delivery Location: 7890 Logistics Pkwy, Detroit, MI 48201  
+Notes: ---  
+
+------------------------------------------------------------  
+BILLING INFORMATION  
+Bill To: ---  
+Terms: TBD  
+Invoice Number: ---  
+Payment Method: ---  
+
+------------------------------------------------------------  
+LOAD DETAILS  
+Load Type: ---  
+Pieces: ---  
+Dimensions: ---  
+Hazmat: N/A  
+
+------------------------------------------------------------  
+ADDITIONAL NOTES  
+- Rate confirmation pending final approval  
+- Carrier to confirm equipment availability  
+- Contact dispatch for updates  
+- ---  
+
+------------------------------------------------------------  
+SIGNATURES  
+Shipper: _______________________ Date: ___________  
+Carrier: _______________________ Date: ___________  
+Consignee: _____________________ Date: ___________  
+
+------------------------------------------------------------  
+SYSTEM GENERATED ON 01-Feb-2026 14:32:17  
+Document Version: 0.9-draft  
+------------------------------------------------------------

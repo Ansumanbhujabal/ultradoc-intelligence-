@@ -1,0 +1,95 @@
+RATE CONFIRMATION DOCUMENT  
+==========================
+
+Shipment ID: LD25825  
+Carrier: NORTHERN STAR LOGISTICS  
+MC Number: MC-5599465  
+PO Number: PO-20441  
+Mode of Transport: Partial  
+Currency: MXN  
+
+-------------------------------------------------------------
+
+SHIPPER INFORMATION  
+-------------------  
+Santos Agricola SA de CV  
+Av. Insurgentes Sur 1234, Col. Del Valle,  
+Portland, OR 97201  
+Phone: (503) 555-1234  
+
+-------------------------------------------------------------
+
+CONSGINEE DETAILS  
+-----------------  
+FedEx Ground Hub - Memphis  
+4500 Airways Blvd  
+Nashville, TN 37201  
+Phone: 901-555-7890  
+
+-------------------------------------------------------------
+
+PICKUP & DELVERY DETAILS  
+------------------------  
+Pickup Date: 11.10.2026  
+Pickup Location: Portland, OR 97201  
+Delivery Date: [Not Provided]  
+Delivery Location: Nashville, TN 37201  
+
+-------------------------------------------------------------
+
+RATE CONFIRMATION  
+-----------------  
+Equipment Type: Conestoga   
+Rate: 1135.33 MXN  
+
+-------------------------------------------------------------
+
+ADDITIONAL INFO  
+---------------  
+- Shipment Mode: Partial  
+- PO Number: PO-20441  
+- Carrier Contact: NORTHERN STAR LOGISTICS  
+- Carrier Phone: 503.555.6789  
+
+-------------------------------------------------------------
+
+NOTES:  
+Please ensure all paperwork is completed prior to pickup. Any delays or changes must be reported immediately to NORTHERN STAR LOGISTICS dispatch.  
+
+-------------------------------------------------------------
+
+EQUIPMNT TYPE & DETAILS  
+-----------------------  
+| Equipment Type | Quantity | Description          |  
+|----------------|----------|----------------------|  
+| Conestoga      | 1        | Partial load trailer |  
+
+-------------------------------------------------------------
+
+CONTACTS  
+--------  
+Shipper Contact: Maria Lopez  
+Phone: 503-555-1234  
+Email: m.lopez@santosagricola.mx  
+
+Consignee Contact: John Smith  
+Phone: 901.555.7890  
+Email: j.smith@fedex.com  
+
+Carrier Dispatch: NORTHERN STAR LOGISTICS  
+Phone: (503) 555-6789  
+
+-------------------------------------------------------------
+
+TERMS & CONDITIONS  
+------------------  
+All shipments are subject to NORTHERN STAR LOGISTICS standard terms and conditions. Liability limits apply as per contract MC-5599465. Payment due within 30 days of invoice. Currency MXN applies to all charges.  
+
+-------------------------------------------------------------
+
+END OF RATE CONFIRMATION  
+
+Thank you for choosing NORTHERN STAR LOGISTICS.  
+For questions, contact dispatch at 503.555.6789 or email dispatch@nstarlogistics.com  
+
+-------------------------------------------------------------

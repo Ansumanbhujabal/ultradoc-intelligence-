@@ -1,0 +1,375 @@
+{
+  "timestamp": "2026-04-07T20:26:32.824176",
+  "api_base": "http://localhost:7860",
+  "retrieval_mode": "hybrid",
+  "total_documents": 16,
+  "total_test_cases": 118,
+  "results": {
+    "qa": {
+      "total": 79,
+      "passed": 62,
+      "failed": 17,
+      "accuracy": 0.7848,
+      "normal_accuracy": 0.9804,
+      "avg_latency_ms": 2034,
+      "avg_confidence": 0.6808,
+      "correct_refusals": 12,
+      "total_refusal_cases": 28,
+      "false_acceptances": 16,
+      "by_confidence_level": {
+        "HIGH": 42,
+        "MEDIUM": 25,
+        "LOW": 12
+      }
+    },
+    "extraction": {
+      "total": 15,
+      "fields_checked": 175,
+      "fields_matched": 126,
+      "field_accuracy": 0.72,
+      "avg_completeness": 0.934,
+      "avg_latency_ms": 2439
+    }
+  },
+  "latency": {
+    "upload_avg_ms": 2444,
+    "upload_p50_ms": 2484,
+    "upload_p95_ms": 4593,
+    "qa_avg_ms": 2034,
+    "qa_p50_ms": 1839,
+    "qa_p95_ms": 3685,
+    "extract_avg_ms": 2439,
+    "extract_p50_ms": 2259,
+    "extract_p95_ms": 3599
+  },
+  "errors": [
+    {
+      "doc_file": "doc_008.pdf",
+      "error": "File not found"
+    },
+    {
+      "doc_file": "doc_010.pdf",
+      "error": "File not found"
+    },
+    {
+      "doc_file": "doc_013.pdf",
+      "error": "File not found"
+    },
+    {
+      "doc_file": "doc_015.pdf",
+      "error": "File not found"
+    },
+    {
+      "doc_file": "doc_008.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_008.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_008.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_008.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_008.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_008.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_010.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_010.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_010.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_010.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_010.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_010.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_013.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_013.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_013.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_013.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_013.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_013.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_015.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_015.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_015.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_015.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_015.pdf",
+      "error": "No doc_id — upload failed"
+    },
+    {
+      "doc_file": "doc_015.pdf",
+      "error": "No doc_id — upload failed"
+    }
+  ],
+  "failed_cases": [
+    {
+      "doc_file": "doc_001.txt",
+      "question": "What is the weather forecast for Vancouver on October 11, 2026?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.53
+    },
+    {
+      "doc_file": "doc_001.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD76542\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"10/11/2026\", \"delivery_datetime\": \"2026-10-14\", \"equipment_type\": \"Power Only\", \"mode\": \"Intermodal\", \"rate\": 6147.58, \"currency\": \"CAD\", \"weight\": \"36.9 tons\", \"carrier_name\": \"COASTAL DRAYAGE INC\", \"mc_number\": \"MC-1071823\", \"po_number\": \"PO-32571\"}",
+      "actual": "{\"shipment_id\": \"LD76542\", \"shipper\": \"Atlas Construction Materials, 1234 Industrial Way, Vancouver, BC V6B 1A1, Canada\", \"consignee\": \"Amazon Fulfillment Center FTW1, 789 Logistics Parkway, Atlanta, "
+    },
+    {
+      "doc_file": "doc_002.txt",
+      "question": "What is the latest news on the political situation in Canada?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.3
+    },
+    {
+      "doc_file": "doc_002.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD79822\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"Target Regional DC - Southeast\", \"pickup_datetime\": \"23-Dec-2026 08:30 AM\", \"delivery_datetime\": \"December 26, 2026 04:00 PM\", \"equipment_type\": \"Conestoga\", \"mode\": \"Intermodal\", \"rate\": 7004.98, \"currency\": \"CAD\", \"weight\": \"75686 lbs\", \"carrier_name\": \"ATLANTIC CARGO SERVICES\", \"mc_number\": \"MC-8783481\", \"po_number\": \"PO-60177\"}",
+      "actual": "{\"shipment_id\": \"LD79822\", \"shipper\": \"QuickParts Automotive, 1234 Industrial Rd, Toronto, ON M5V 3A8\", \"consignee\": \"Target Regional DC - Southeast, 4500 Distribution Way, Houston, TX 77001\", \"pickup"
+    },
+    {
+      "doc_file": "doc_003.docx",
+      "question": "What was the final score of the last World Cup match?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.32
+    },
+    {
+      "doc_file": "doc_003.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD87110\", \"shipper\": \"Santos Agricola SA de CV\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"01.28.2026\", \"delivery_datetime\": \"2026-02-01\", \"equipment_type\": \"Step Deck\", \"mode\": \"FTL\", \"rate\": 659.22, \"currency\": \"USD\", \"carrier_name\": \"Trans-Pacific Freight Corp\"}",
+      "actual": "{\"shipment_id\": \"LD87110\", \"shipper\": \"Santos Agricola SA de CV, 4523 NE Columbia Blvd, Portland, OR 97201\", \"consignee\": \"Costco Wholesale Depot, 1234 S Alameda St, Los Angeles, CA 90001\", \"pickup_da"
+    },
+    {
+      "doc_file": "doc_004.txt",
+      "question": "What was the final score of the last football game?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.43
+    },
+    {
+      "doc_file": "doc_004.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD63354\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"origin_city\": \"Seattle, WA 98101\", \"dest_city\": \"Vancouver, BC V6B 1A1\", \"carrier_name\": \"MIDWEST HAULERS CO\", \"equipment_type\": \"Lowboy\", \"mode\": \"Partial\", \"currency\": \"MXN\", \"rate\": 6937.93, \"delivery_datetime\": \"11/24/2026\", \"mc_number\": \"MC-4271761\", \"po_number\": \"PO-26112\"}",
+      "actual": "{\"shipment_id\": \"LD63354\", \"shipper\": \"Fresh Harvest Foods Inc, 1234 Rainier Ave S, Seattle, WA 98101\", \"consignee\": \"Amazon Fulfillment Center FTW1, 4500 N. Gateway Blvd, Vancouver, BC V6B 1A1\", \"pic"
+    },
+    {
+      "doc_file": "doc_005.txt",
+      "question": "What was the score of the last basketball game?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.31
+    },
+    {
+      "doc_file": "doc_005.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD46509\", \"shipper\": \"Midwest Grain Cooperative\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"April 06, 2026\", \"delivery_datetime\": \"04/10/2026\", \"equipment_type\": \"Conestoga\", \"mode\": \"Intermodal\", \"currency\": \"USD\", \"weight\": \"17224 lbs\", \"carrier_name\": \"PACIFIC FREIGHT SOLUTIONS\", \"mc_number\": \"MC-2862152\", \"po_number\": \"PO-50672\"}",
+      "actual": "{\"shipment_id\": \"LD46509\", \"shipper\": \"Midwest Grain Cooperative, 1234 Harvest Lane, Kansas City, MO 64101\", \"consignee\": \"Costco Wholesale Depot, 4500 Distribution Way, Atlanta, GA 30301\", \"pickup_da"
+    },
+    {
+      "doc_file": "doc_006.txt",
+      "question": "What is the latest news on the stock market today?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.53
+    },
+    {
+      "doc_file": "doc_006.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD65444\", \"shipper\": \"Heavy Metal Fabricators Inc\", \"consignee\": \"Cardinal Health DC\", \"delivery_datetime\": \"2026-06-07\", \"equipment_type\": \"Conestoga\", \"mode\": \"LTL\", \"rate\": 7755.93, \"currency\": \"CAD\", \"weight\": \"4.8 tons\", \"carrier_name\": \"Rio Grande Logistics\", \"mc_number\": \"MC-1054280\", \"po_number\": \"PO-67562\"}",
+      "actual": "{\"shipment_id\": \"LD65444\", \"shipper\": null, \"consignee\": null, \"pickup_datetime\": null, \"delivery_datetime\": \"2026-06-07T00:00:00\", \"equipment_type\": \"Conestoga\", \"mode\": \"LTL\", \"rate\": 7755.93, \"curr"
+    },
+    {
+      "doc_file": "doc_007.txt",
+      "question": "When was the shipment picked up?",
+      "expected": "07-May-2026 08:30 AM CST",
+      "actual": "07-May-2026  08:30 AM CST",
+      "guardrail": "passed",
+      "confidence": 0.88
+    },
+    {
+      "doc_file": "doc_007.txt",
+      "question": "What were the results of the latest football match?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.31
+    },
+    {
+      "doc_file": "doc_007.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD40828\", \"shipper\": \"Pacific Rim Electronics\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"07-May-2026 08:30 AM CST\", \"delivery_datetime\": \"2026-05-11 03:45 PM MST\", \"equipment_type\": \"Step Deck\", \"mode\": \"Intermodal\", \"rate\": 3469.95, \"currency\": \"USD\", \"weight\": \"14.4 tons\", \"carrier_name\": \"Trans-Pacific Freight Corp\", \"po_number\": \"PO-60929\", \"mc_number\": \"MC-5133115\"}",
+      "actual": "{\"shipment_id\": \"LD40828\", \"shipper\": \"Pacific Rim Electronics\\u2122, 1420 W. Loop N. Fwy, Suite 300, Houston, TX 77001\", \"consignee\": \"Amazon Fulfillment Center FTW1, 1500 E. Mariposa Rd., Nogales, A"
+    },
+    {
+      "doc_file": "doc_009.txt",
+      "question": "What was the score of the last football game?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "This question does not appear to be related to logistics.",
+      "guardrail": "out_of_scope",
+      "confidence": 0.05
+    },
+    {
+      "doc_file": "doc_009.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD25129\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"09/16/2026\", \"equipment_type\": \"Reefer\", \"mode\": \"Partial\", \"rate\": 5797.38, \"currency\": \"EUR\", \"weight\": \"34.5 tons\", \"carrier_name\": \"Rio Grande Logistics\", \"mc_number\": \"MC-7206422\", \"po_number\": \"PO-37265\"}",
+      "actual": "{\"shipment_id\": \"LD25129\", \"shipper\": \"Atlas Construction Materials\\n1234 Industrial Blvd\\nDallas, TX 75201\", \"consignee\": \"Amazon Fulfillment Center FTW1\\n4500 Airways Blvd\\nMemphis, TN 38101\", \"pick"
+    },
+    {
+      "doc_file": "doc_011.txt",
+      "question": "What was the final score of the last World Cup match?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.3
+    },
+    {
+      "doc_file": "doc_011.txt",
+      "question": "Is there an insurance policy number provided in the document?",
+      "expected": "__NOT_FOUND__",
+      "actual": "No, an insurance policy number is not provided in the document.",
+      "guardrail": "passed",
+      "confidence": 0.55
+    },
+    {
+      "doc_file": "doc_011.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD42706\", \"shipper\": \"Sunrise Pharmaceuticals\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"delivery_datetime\": \"March 17, 2026\", \"equipment_type\": \"Power Only\", \"mode\": \"Drayage\", \"rate\": 2046.55, \"currency\": \"CAD\", \"carrier_name\": \"GOLDEN STATE TRANSPORT\", \"mc_number\": \"MC-4263555\", \"po_number\": \"PO-35970\"}",
+      "actual": "{\"shipment_id\": \"LD42706\", \"shipper\": \"Sunrise Pharmaceuticals, 1234 Elm Street, Denver, CO 80201\", \"consignee\": \"Amazon Fulfillment Center FTW1, 4500 E. Loop 820 N, Fort Worth, TX 76118\", \"pickup_dat"
+    },
+    {
+      "doc_file": "doc_012.docx",
+      "question": "What is the weather forecast for Vancouver tomorrow?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "passed",
+      "confidence": 0.59
+    },
+    {
+      "doc_file": "doc_012.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD39154\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Fastenal Distribution Center\", \"pickup_datetime\": \"May 12, 2026 08:30 AM\", \"delivery_datetime\": \"17-May-2026\", \"equipment_type\": \"Intermodal\", \"mode\": \"Partial\", \"rate\": 5348.26, \"currency\": \"CAD\", \"weight\": \"6549 kg\", \"carrier_name\": \"SILVER LINE CARRIERS\"}",
+      "actual": "{\"shipment_id\": \"LD39154\", \"shipper\": \"Fresh Harvest Foods Inc, 1234 W. Randolph St., Chicago, IL 60601\", \"consignee\": \"Fastenal Distribution Center, 4500 Boundary Rd., Vancouver, BC V6B 1A1\", \"pickup"
+    },
+    {
+      "doc_file": "doc_014.docx",
+      "question": "What is the latest news about the upcoming football season?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.37
+    },
+    {
+      "doc_file": "doc_014.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD97410\", \"shipper\": \"Pacific Rim Electronics\", \"consignee\": \"FedEx Ground Hub - Memphis\", \"pickup_datetime\": \"10.19.2026\", \"delivery_datetime\": \"22-Oct-2026\", \"equipment_type\": \"Tanker\", \"mode\": \"Intermodal\", \"rate\": 5386.45, \"currency\": \"CAD\", \"weight\": \"36.4 tons\", \"carrier_name\": \"CROSSROADS FREIGHT CO\", \"po_number\": \"PO-57346\", \"mc_number\": \"MC-3626280\"}",
+      "actual": "{\"shipment_id\": \"LD97410\", \"shipper\": \"Pacific Rim Electronics, 1234 West Hastings St, Vancouver, BC V6B 1A1\", \"consignee\": \"FedEx Ground Hub - Memphis, 5555 Airways Blvd, Memphis, TN 38101\", \"pickup_"
+    },
+    {
+      "doc_file": "doc_016.docx",
+      "question": "What is the latest score of the NBA finals?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.43
+    },
+    {
+      "doc_file": "doc_016.docx",
+      "question": "What is the hazardous materials classification for this shipment?",
+      "expected": "__NOT_FOUND__",
+      "actual": "No hazardous materials declared",
+      "guardrail": "passed",
+      "confidence": 0.88
+    },
+    {
+      "doc_file": "doc_016.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD64321\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"McLane Company Inc\", \"origin_city\": \"Houston, TX 77001\", \"dest_city\": \"Toronto, ON M5V 3A8\", \"carrier_name\": \"Trans-Pacific Freight Corp\", \"equipment_type\": \"Step Deck\", \"mode\": \"Expedited\", \"currency\": \"MXN\", \"rate\": 2103.08, \"weight\": \"18970 lbs\", \"pickup_datetime\": \"07.08.2026\", \"delivery_datetime\": \"2026-07-13\", \"mc_number\": \"MC-2136059\", \"po_number\": \"PO-60829\"}",
+      "actual": "{\"shipment_id\": \"LD64321\", \"shipper\": \"Atlas Construction Materials, 1234 Industrial Blvd, Houston, TX 77001\", \"consignee\": \"McLane Company Inc, 789 Queen St W, Toronto, ON M5V 3A8\", \"pickup_datetime\""
+    },
+    {
+      "doc_file": "doc_017.txt",
+      "question": "What was the final score of the last World Cup match?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.32
+    },
+    {
+      "doc_file": "doc_017.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD51588\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"ALDI Regional Warehouse\", \"origin_city\": \"Montreal, QC H3B 1A2\", \"dest_city\": \"El Paso, TX 79901\", \"carrier_name\": \"SILVER LINE CARRIERS\", \"equipment_type\": \"Power Only\", \"mode\": \"Drayage\", \"currency\": \"MXN\", \"rate\": 6000.51, \"weight\": \"18203 kg\", \"pickup_datetime\": \"11.09.2026\", \"delivery_datetime\": \"11-Nov-2026\", \"mc_number\": \"MC-7479837\", \"po_number\": \"PO-11155\"}",
+      "actual": "{\"shipment_id\": \"LD51588\", \"shipper\": \"QuickParts Automotive, 1234 Rue St-Antoine Ouest, Montreal, QC H3B 1A2\", \"consignee\": \"ALDI Regional Warehouse, 4501 N Zaragoza Rd, El Paso, TX 79901\", \"pickup_d"
+    },
+    {
+      "doc_file": "BOL53657_billoflading.pdf",
+      "question": "What is the weather today?",
+      "expected": "__OUT_OF_SCOPE__",
+      "actual": "Not found in document",
+      "guardrail": "low_grounding",
+      "confidence": 0.53
+    }
+  ]
+}

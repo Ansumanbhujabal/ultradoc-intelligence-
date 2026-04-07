@@ -1,0 +1,86 @@
+RATE CONFIRMATION DOCUMENT  
+Shipment ID: LD81737                      Date Issued: 02/25/2026  
+Carrier: Trans-Pacific Freight Corp      MC Number: MC-7277281  
+Mode: Partial                            Equipment: Conestoga  
+Currency: USD  
+
+| Field                 | Details                                  | Notes/Comments                      |  
+|-----------------------|------------------------------------------|-----------------------------------|  
+| Shipper               | Northern Timber Co Ltd                    | 1234 Forest Lane, Memphis, TN 38101 |  
+|                       | Phone: (901) 555-0198                     |                                   |  
+| Consignee             | Target Regional DC - Southeast            | 7890 Distribution Way, Detroit, MI 48201 |  
+|                       | Phone: (313) 555-4422                     |                                   |  
+| PO Number             | PO-27518                                 |                                   |  
+| Pickup Date (Header)  | 02/28/2026                               | Scheduled pickup date              |  
+| Pickup Date (Stops)   | 03/01/2026                               | Conflicting pickup date at origin |  
+| Delivery Date         | [Not Provided]                           | Missing delivery date              |  
+| Origin City           | Memphis, TN 38101                        |                                   |  
+| Destination City      | Detroit, MI 48201                        |                                   |  
+| Weight (Header)       | 3067 kg                                 | As per shipper declaration         |  
+| Weight (Stops)        | 3100 kg                                 | Discrepancy in weight recorded     |  
+| Equipment Type        | Conestoga                               |                                   |  
+| Rate Section 1        | $1,250.00 USD                           | Rate quoted in header section      |  
+| Rate Section 2        | $1,375.50 USD                           | Rate mentioned in terms & conditions |  
+| Payment Terms         | Net 30 days                             |                                   |  
+| Special Instructions  | Handle with care; partial load          |                                   |  
+
+---  
+
+PICKUP LOCATION DETAILS:  
+Northern Timber Co Ltd  
+1234 Forest Lane  
+Memphis, TN 38101  
+Contact: John Matthews  
+Phone: (901) 555-0198  
+Pickup Date: 03/01/2026 (Conflicts with header date)  
+Weight: 3100 kg (Conflicts with header weight)  
+
+DELIVERY LOCATION DETAILS:  
+Target Regional DC - Southeast  
+7890 Distribution Way  
+Detroit, MI 48201  
+Contact: Lisa Raymond  
+Phone: (313) 555-4422  
+
+---  
+
+RATE & CHARGES SUMMARY:  
+
+| Description           | Amount (USD)       | Notes                          |  
+|-----------------------|--------------------|-------------------------------|  
+| Base Freight Rate     | $1,250.00          | As per initial quote           |  
+| Fuel Surcharge        | $125.00            | 10% of base rate              |  
+| Accessorial Charges   | $0.00              | None reported                 |  
+| Total Rate            | $1,375.50          | Conflicting total in T&C      |  
+
+---  
+
+TERMS & CONDITIONS:  
+- Carrier: Trans-Pacific Freight Corp (MC-7277281)  
+- Equipment: Conestoga, Partial load mode  
+- Pickup Date: February 28, 2026 (Conflicts with stops section)  
+- Weight: 3067 kg (Conflicts with stops section)  
+- Rate: $1,375.50 USD (Conflicts with header rate)  
+- Payment: Net 30 days from invoice date  
+- PO Number: PO-27518  
+- Shipment ID: LD81737  
+
+---  
+
+NOTES:  
+- Please confirm pickup date with shipper; system shows both 02/28/2026 and 03/01/2026.  
+- Weight discrepancy noted: 3067 kg vs 3100 kg. Verify actual shipment weight before billing.  
+- Rate discrepancy: $1,250.00 vs $1,375.50 USD. Clarify applicable rate prior to dispatch.  
+- Delivery date missing; consignee to confirm expected delivery window.  
+
+---  
+
+AUTHORIZED SIGNATURES:  
+
+Carrier Rep: _______________________ Date: _______________  
+Shipper Rep: _______________________ Date: _______________  
+Consignee Rep: _____________________ Date: _______________  
+
+---  
+
+END OF RATE CONFIRMATION DOCUMENT - LD81737

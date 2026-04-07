@@ -1,0 +1,86 @@
+BILL OF LADING / CONOCIMIENTO DE EMBARQUE  
+Shipment ID: LD61498  
+Date: 21-Nov-2026  
+
+SHIPPER / REMITENTE:  
+Northern Timber Co Ltd  
+1234 W Roosevelt St,  
+Phoenix, AZ 85001, USA  
+Tel: +1 602 555 0198  
+Email: info@northerntimber.com  
+
+CONSIGNEE / CONSIGNATARIO:  
+UPS Freight Terminal  
+450 W Harrison St,  
+Chicago, IL 60601, USA  
+Tel: +1 312 555 3344  
+
+CARRIER / TRANSPORTISTA:  
+Jose Garcia Transportes SA  
+Av. Insurgentes Sur 1234,  
+Col. Del Valle, CDMX 03100, México  
+Tel: +52 55 1234 5678  
+Email: contacto@jgt.com.mx  
+MC Number: MC-3572094  
+
+MODE / MODO: FTL (Full Truck Load)  
+Equipment Type / Tipo de Equipo: Reefer  
+
+ORIGIN / ORIGEN:  
+Phoenix, AZ 85001, USA  
+
+DESTINATION / DESTINO:  
+Chicago, IL 60601, USA  
+
+PICKUP DATE / FECHA DE RECOGIDA: 21-Nov-2026  
+DELIVERY DATE / FECHA DE ENTREGA: [Not Provided / No Proporcionado]  
+
+PO Number / Número de Orden: PO-23391  
+
+CUSTOMS BROKER / AGENTE ADUANAL:  
+Global Customs Solutions Inc.  
+Rue de la Gare 45,  
+Montréal, QC H2Y 2B6, Canada  
+Tel: +1 514 555 7788  
+Email: customs@globalcustoms.ca  
+
+BORDER CROSSING / CRUCE FRONTERIZO:  
+Laredo, TX - Nuevo Laredo, Tamaulipas  
+Punto de cruce: Puente Juárez-Lincoln  
+Tel frontera / Border phone: +52 867 712 3456 / +1 956 723 4567  
+
+DUTY / ARANCEL:  
+Tarifa aplicable según el código HS 4407.10.00  
+Referencia: NAFTA / USMCA - Preferential Tariff Treatment  
+Currency / Moneda: EUR (Euro)  
+
+NOTES / NOTAS:  
+- Shipment subject to inspection at border crossing.  
+- Documentation must accompany shipment at all times.  
+- El equipo refrigerado debe mantener temperatura constante durante todo el trayecto.  
+- Contact carrier for any delays or issues: +52 55 1234 5678 (Jose Garcia Transportes SA)  
+- Customs broker to handle all import/export paperwork.  
+
+FREIGHT CHARGES / CARGOS DE FLETE:  
+[Rate not provided / Tarifa no proporcionada]  
+
+WEIGHT / PESO:  
+[Not specified / No especificado]  
+
+SPECIAL INSTRUCTIONS / INSTRUCCIONES ESPECIALES:  
+- Keep reefer unit running at -5°C minimum.  
+- Notify consignee 24h before arrival.  
+- Documentos de exportación y aduana deben estar completos y firmados.  
+
+SIGNATURES / FIRMAS:  
+
+Shipper / Remitente: ___________________________  
+Date / Fecha: _________________________________  
+
+Carrier / Transportista: _________________________  
+Date / Fecha: _________________________________  
+
+Consignee / Consignatario: ______________________  
+Date / Fecha: _________________________________  
+
+--- End of Bill of Lading / Fin del Conocimiento de Embarque ---

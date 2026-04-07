@@ -1,0 +1,51 @@
+DELVERY RECEIPT - SHIPMENT ID: LD33788
+
+Shipper Information:
+Northern Timber Co Ltd  
+1234 Woodward Ave, Suite 200  
+Nashville, TN 37201  
+Phone: 615-555-1234  
+
+Consginee Details:  
+Dollar General DC #12  
+4500 NW 36th St  
+Miami, FL 33101  
+Phone: (305) 555-9876  
+
+Carrier & Transport Info:  
+Carrier Name: Jose Garcia Transportes SA  
+MC Number: MC-715675  
+Mode of Transport: Drayage  
+Equipmnt Type: Flatbed  
+
+Pickup & Delvery Dates:  
+Pickup Date: March 11, 2026  
+Delvery Date: 03.15.2026  
+
+Rate Confirmation:  
+Currency: EUR  
+Rate: 2704.25   
+
+Reference Numbers:  
+PO Number: PO-60614  
+
+Origin & Destination:  
+Origin City: Nashville, TN 37201  
+Destination City: Miami, FL 33101  
+
+Additional Notes:  
+Shipment was picked up on the scheduled date without delay. Carrier contact number during transit was 615.555.4321. Delivery was confirmed on 03.15.2026 at 14:30 hrs. Consignee contact at delivery was (305)555-6789. Minor delay due to traffic congestion near Miami port but no impact on delivery window.  
+
+Signed by:  
+Jose Garcia  
+Jose Garcia Transportes SA  
+Phone: 305-555-1122  
+
+Received by:  
+Dollar General DC #12  
+Name: Maria Lopez  
+Phone: 305-555-3344  
+
+This document confirms the successful delivery of shipment LD33788 under the terms agreed upon in the rate confirmation. All equipment and cargo were inspected and accepted by the consignee with no visible damages or discrepancies.  
+
+End of Delivery Receipt.

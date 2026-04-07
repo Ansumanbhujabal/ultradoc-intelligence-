@@ -1,0 +1,86 @@
+RATE CONFIRMATION DOCUMENT  
+--------------------------------------------
+
+SHIPMENT ID: LD82264  
+Carrier Name: DESERT WIND TRUCKING LLC  
+MC NUMBER: MC-6970390  
+PO Number: PO-68276  
+
+SHIPPER INFORMATION  
+Acme Chemical Solutions  
+1234 Industrial Parkway  
+Toronto, ON M5V 3A8  
+Phone: (416) 555-0198  
+Contact: John M. Reynolds  
+
+Consignee: FedEx Ground Hub - Memphis  
+Address: 4555 Airways Blvd  
+Laredo, TX 78040  
+Phone: (956) 555-3344  
+Contact: Maria Gonzalez  
+
+--------------------------------------------------  
+
+SHIPMENT DETAILS  
+
+| Description          | Details                  |  
+|----------------------|--------------------------|  
+| Mode                 | Expedited                |  
+| Equipment Type       | Tanker                   |  
+| Currency             | USD                      |  
+| Rate                 | 3215.21                  |  
+| Pickup Date/Time     | 10/25/2026 08:00 AM      |  
+| Delivery Date/Time   | 27-Oct-2026 05:00 PM     |  
+
+Note: Weight information is not provided for this shipment.  
+
+--------------------------------------------------  
+
+BILLING INFORMATION  
+
+Bill To: Acme Chemical Solutions  
+Billing Address: 1234 Industrial Parkway, Toronto, ON M5V 3A8  
+Phone: (416) 555-0198  
+Email: billing@acmechem.com  
+
+Payment Terms: Net 30 days from invoice date  
+Invoice Reference: INV-LD82264-2026  
+
+--------------------------------------------------  
+
+SPECIAL INSTRUCTIONS:  
+- Ensure tanker is clean and certified for chemical transport.  
+- Pickup window is strict; driver must arrive between 7:30 AM and 9:00 AM on 10/25/2026.  
+- Delivery appointment confirmed for 27-Oct-2026, no delays allowed.  
+- Carrier to provide proof of delivery with signature and seal.  
+
+--------------------------------------------------  
+
+CARRIER CONTACT:  
+DESERT WIND TRUCKING LLC  
+Dispatch: (602) 555-7789  
+Driver: Mike Thompson  
+Cell: (602) 555-1122  
+
+--------------------------------------------------  
+
+NOTES:  
+- All rates are in USD and include fuel surcharge.  
+- Carrier must comply with all DOT regulations and provide MC number upon request.  
+- Any detention over 2 hours at pickup or delivery will be billed separately.  
+- This confirmation is subject to terms and conditions outlined in the master service agreement.  
+
+--------------------------------------------------  
+
+CONFIRMED BY:  
+Acme Chemical Solutions Logistics Dept.  
+Date: 10/20/2026  
+
+Carrier Acceptance:  
+Signature: ___________________________  
+Date: 21-Oct-2026  
+
+--------------------------------------------------  
+
+END OF RATE CONFIRMATION  
+--------------------------------------------

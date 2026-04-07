@@ -1,0 +1,97 @@
+------------------------------------------------------------
+                    BILL OF LADING
+------------------------------------------------------------
+
+Shipment ID: LD42706
+Date: 03/15/2026
+
+------------------------------------------------------------
+SHIPPER:
+Sunrise Pharmaceuticals
+1234 Elm Street
+Denver, CO 80201
+Phone: (303) 555-0198
+Contact: Lisa M. Harper
+
+------------------------------------------------------------
+CONSIGNEE:
+Amazon Fulfillment Center FTW1
+4500 E. Loop 820 N
+Fort Worth, TX 76118
+Phone: (817) 555-3344
+Contact: TBD
+
+------------------------------------------------------------
+ORIGIN:
+Denver, CO 80201
+
+DESTINATION:
+Nogales, AZ 85621
+
+------------------------------------------------------------
+CARRIER INFORMATION:
+
+Carrier Name: GOLDEN STATE TRANSPORT
+MC Number: MC-4263555
+Phone: (415) 555-7788
+Equipment Type: Power Only
+Mode of Transport: Drayage
+
+------------------------------------------------------------
+BILLING & RATES:
+
+Currency: CAD
+Rate: 2046.55
+
+PO Number: PO-35970
+
+------------------------------------------------------------
+SHIPMENT DETAILS:
+
+Description of Goods: Pharmaceutical products - assorted
+Number of Packages: ---
+Gross Weight: N/A
+Dimensions: TBD
+
+Special Instructions: Handle with care. Temperature controlled required? ---
+
+------------------------------------------------------------
+PICKUP INFORMATION:
+
+Pickup Location: Sunrise Pharmaceuticals, Denver, CO 80201
+Pickup Date/Time: ---
+
+------------------------------------------------------------
+DELIVERY INFORMATION:
+
+Delivery Location: Amazon Fulfillment Center FTW1, Nogales, AZ 85621
+Delivery Date/Time: March 17, 2026
+
+------------------------------------------------------------
+REFERENCES:
+
+Reference #1: ---
+Reference #2: N/A
+
+------------------------------------------------------------
+SIGNATURES:
+
+Shipper Signature: ______________________ Date: ___________
+
+Carrier Signature: ______________________ Date: ___________
+
+Consignee Signature: ____________________ Date: ___________
+
+------------------------------------------------------------
+NOTES:
+
+- Weight and pickup datetime to be confirmed.
+- Equipment type confirmed as Power Only, but trailer details missing.
+- No hazardous material declaration on file.
+- Insurance coverage: TBD
+- Freight terms: FOB Origin (assumed)
+- Payment terms: Net 30 days (subject to confirmation)
+
+------------------------------------------------------------
+END OF DOCUMENT
+------------------------------------------------------------

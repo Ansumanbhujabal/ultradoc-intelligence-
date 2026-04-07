@@ -1,0 +1,36 @@
+RATE CONFIRMATION #LD44116  
+CARRIER: NORTHERN STAR LOGISTICS MC# MC-1189496  
+SHIPPER: Heavy Metal Fabricators Inc  
+ADDR: 4521 W Buckeye Rd, Phoenix, AZ 85001  
+PH: (602) 555-0198  
+CONSIGNEE: Kroger Fresh Distribution  
+ADDR: 1200 Airways Blvd, Memphis, TN 38101  
+PH: (901) 555-3344  
+
+PU DT: 03/23/2026  
+DEL DT: 26-Mar-2026  
+MODE: Expedited  
+EQ: Tanker  
+PO#: PO-73089  
+CUR: MXN  
+RATE: 1258.68  
+
+NOTES:  
+- CONFIRM ASAP  
+- NO WT INFO PROVIDED  
+- CARRIER TO CONFIRM EQ AVAIL  
+- ALL CHGS PREPAID UNLESS NOTED  
+- CONTACT NORTHERN STAR FOR Q'S  
+
+SHIP ID: LD44116  
+REF: PO-73089 / MC-1189496  
+
+PKG: Bulk liquid, secure load req’d  
+INS: Carrier resp for dmg/loss per contract terms  
+PAY TERMS: NET 30 DAYS FROM INV DATE  
+
+DISPATCH: call (800) 555-7788 for status  
+DOCS: BOL & POD req’d on del  
+LOAD #: 44116-NSL  
+
+END OF CONFIRMATION

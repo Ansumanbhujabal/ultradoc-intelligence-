@@ -1,0 +1,181 @@
+BILL OF LADING - SHIPMENT LD22675
+
+--------------------------------------------------------------------------------
+XYZ INDUSTRIAL SUPPLIES
+1234 Industrial Parkway
+Nogales, AZ 85621
+Phone: (520) 555-0198
+Fax: (520) 555-0199
+Email: shipping@xyzindustrial.com
+
+--------------------------------------------------------------------------------
+GOLDEN STATE TRANSPORT
+Carrier MC Number: MC-9683480
+Power Only Equipment
+Phone: (619) 555-3344
+Fax: (619) 555-3345
+Email: dispatch@goldenstatetransport.com
+
+--------------------------------------------------------------------------------
+SHIPMENT SUMMARY
+
+Shipment ID: LD22675  
+Shipper: XYZ Industrial Supplies  
+Consignee: McLane Company Inc  
+Origin: Nogales, AZ 85621  
+Destination: San Diego, CA 92101  
+Carrier: GOLDEN STATE TRANSPORT  
+Mode: Drayage  
+Equipment Type: Power Only  
+Weight: 33118 kg  
+Pickup Date/Time: 10/08/2026  
+Delivery Date/Time: 10.09.2026  
+Rate: 6758.22 CAD  
+PO Number: PO-68740  
+
+--------------------------------------------------------------------------------
+SHIPMENT DETAILS
+
+This shipment, identified by shipment ID LD22675, is being transported by GOLDEN STATE TRANSPORT under MC number MC-9683480. The cargo originates from XYZ Industrial Supplies located at 1234 Industrial Parkway, Nogales, AZ 85621, and is destined for McLane Company Inc at 4567 Commerce Blvd, San Diego, CA 92101. The mode of transport is drayage, utilizing power only equipment. The total weight of the shipment is 33118 kilograms. The agreed rate for this shipment is 6758.22 Canadian Dollars (CAD). The pickup is scheduled for October 8th, 2026, with delivery expected on October 9th, 2026. The purchase order number associated with this shipment is PO-68740.
+
+--------------------------------------------------------------------------------
+SHIPMENT DETAILS (REPEATED FOR CLARITY)
+
+Shipment ID: LD22675  
+Shipper: XYZ Industrial Supplies  
+Consignee: McLane Company Inc  
+Origin City: Nogales, AZ 85621  
+Destination City: San Diego, CA 92101  
+Carrier Name: GOLDEN STATE TRANSPORT  
+Equipment Type: Power Only  
+Mode: Drayage  
+Weight: 33118 kg  
+Pickup Date/Time: 10/08/2026  
+Delivery Date/Time: 10.09.2026  
+Rate: 6758.22 CAD  
+MC Number: MC-9683480  
+PO Number: PO-68740  
+
+--------------------------------------------------------------------------------
+BILL OF LADING DETAILS
+
+| Field               | Description                          |
+|---------------------|------------------------------------|
+| Shipment ID         | LD22675                            |
+| Shipper             | XYZ Industrial Supplies            |
+| Shipper Address     | 1234 Industrial Parkway, Nogales, AZ 85621 |
+| Consignee           | McLane Company Inc                 |
+| Consignee Address   | 4567 Commerce Blvd, San Diego, CA 92101 |
+| Carrier             | GOLDEN STATE TRANSPORT             |
+| Carrier MC Number   | MC-9683480                        |
+| Equipment Type      | Power Only                        |
+| Mode                | Drayage                          |
+| Weight              | 33118 kg                        |
+| Rate                | 6758.22 CAD                     |
+| Pickup Date/Time    | 10/08/2026                      |
+| Delivery Date/Time  | 10.09.2026                     |
+| PO Number           | PO-68740                       |
+
+--------------------------------------------------------------------------------
+CONFIRMATION OF SHIPMENT DETAILS
+
+To confirm, the shipment with ID LD22675 is being handled by GOLDEN STATE TRANSPORT (MC-9683480) using power only equipment. The cargo is being picked up from XYZ Industrial Supplies at 1234 Industrial Parkway, Nogales, AZ 85621 on October 8th, 2026, and is scheduled for delivery to McLane Company Inc at 4567 Commerce Blvd, San Diego, CA 92101 on October 9th, 2026. The shipment weighs 33118 kilograms and the agreed rate is 6758.22 CAD. The mode of transport is drayage. The purchase order number is PO-68740.
+
+--------------------------------------------------------------------------------
+ADDITIONAL NOTES
+
+- Please ensure all paperwork accompanies the shipment at pickup and delivery.
+- Any discrepancies in weight or condition must be reported immediately.
+- Contact GOLDEN STATE TRANSPORT dispatch at (619) 555-3344 for any issues.
+- XYZ Industrial Supplies contact: (520) 555-0198, ask for Logistics Dept.
+- McLane Company Inc receiving hours: 8:00 AM - 5:00 PM, (858) 555-7788.
+
+--------------------------------------------------------------------------------
+SERVICE LEVEL AGREEMENT (SLA)
+
+This shipment is subject to the following service level agreement terms between XYZ Industrial Supplies and GOLDEN STATE TRANSPORT:
+
+1. Pickup and delivery windows must be adhered to strictly. Pickup on 10/08/2026 and delivery on 10.09.2026 are mandatory.
+2. Equipment used must be Power Only as specified.
+3. Weight tolerance is +/- 5%. Any deviation beyond this must be reported.
+4. Rate of 6758.22 CAD is fixed and non-negotiable for this shipment.
+5. Carrier must maintain communication with both shipper and consignee during transit.
+6. Any delays must be reported within 2 hours of occurrence.
+7. Liability for cargo damage or loss is limited to the value declared in the purchase order PO-68740.
+8. All documentation must be completed and signed upon delivery.
+
+Failure to comply with these terms may result in penalties or contract termination.
+
+--------------------------------------------------------------------------------
+COMPANY HISTORY - XYZ INDUSTRIAL SUPPLIES
+
+Founded in 1985, XYZ Industrial Supplies has been a leading provider of industrial equipment and supplies in the Southwestern United States. With over 40 years of experience, XYZ Industrial Supplies prides itself on quality products and reliable logistics solutions. The company operates multiple warehouses and distribution centers, including the primary shipping facility located at 1234 Industrial Parkway, Nogales, AZ 85621. XYZ Industrial Supplies has a long-standing partnership with GOLDEN STATE TRANSPORT, utilizing their drayage services for regional shipments.
+
+--------------------------------------------------------------------------------
+COMPANY HISTORY - GOLDEN STATE TRANSPORT
+
+Golden State Transport was established in 1992 and has grown to become one of California's premier carriers specializing in drayage and power only services. Operating a fleet of over 200 trucks, Golden State Transport services routes throughout the Western United States, including Arizona and California. The company holds MC number MC-9683480 and is known for its commitment to timely deliveries and customer satisfaction. Their dispatch center, located in San Diego, CA, operates 24/7 to ensure smooth operations.
+
+--------------------------------------------------------------------------------
+TERMS AND CONDITIONS
+
+- The carrier is responsible for the safe and timely transport of the shipment.
+- Liability for loss or damage is limited to the declared value on the purchase order PO-68740.
+- Any claims must be filed within 7 days of delivery.
+- Payment terms: Net 30 days from invoice date.
+- Currency for this shipment is Canadian Dollars (CAD).
+- Rate of 6758.22 CAD includes all applicable fees and surcharges.
+- Equipment type Power Only means the carrier provides only the tractor unit; the shipper is responsible for the trailer.
+- The shipper certifies that the cargo is properly packed and labeled.
+- The consignee agrees to inspect the shipment upon delivery and report any issues immediately.
+
+--------------------------------------------------------------------------------
+SHIPMENT REFERENCE NUMBERS
+
+Shipment ID: LD22675  
+PO Number: PO-68740  
+MC Number: MC-9683480  
+Carrier: GOLDEN STATE TRANSPORT  
+Shipper: XYZ Industrial Supplies  
+Consignee: McLane Company Inc  
+
+--------------------------------------------------------------------------------
+CONTACT INFORMATION
+
+XYZ Industrial Supplies  
+Logistics Department  
+Phone: (520) 555-0198  
+Fax: (520) 555-0199  
+Email: shipping@xyzindustrial.com  
+
+Golden State Transport  
+Dispatch Office  
+Phone: (619) 555-3344  
+Fax: (619) 555-3345  
+Email: dispatch@goldenstatetransport.com  
+
+McLane Company Inc  
+Receiving Department  
+Phone: (858) 555-7788  
+Fax: (858) 555-7789  
+Email: receiving@mclane.com  
+
+--------------------------------------------------------------------------------
+PICKUP INSTRUCTIONS
+
+Pickup is scheduled for October 8th, 2026 at XYZ Industrial Supplies, 1234 Industrial Parkway, Nogales, AZ 85621. The driver must check in at the main gate and present this Bill of Lading along with proper identification. The shipment consists of industrial supplies weighing 33118 kg. The equipment type is Power Only; the trailer will be provided by the shipper. Ensure all cargo is secured and paperwork is signed before departure.
+
+--------------------------------------------------------------------------------
+DELIVERY INSTRUCTIONS
+
+Delivery is scheduled for October 9th, 2026 at McLane Company Inc, 4567 Commerce Blvd, San Diego, CA 92101. The consignee's receiving hours are 8:00 AM to 5:00 PM. The driver must present this Bill of Lading and obtain a signed delivery receipt. Any discrepancies in shipment condition or quantity must be noted on the delivery receipt. Contact receiving at (858) 555-7788 for assistance.
+
+--------------------------------------------------------------------------------
+REPEATED SHIPMENT SUMMARY (FOR RECORDS)
+
+Shipment ID: LD22675  
+Shipper: XYZ Industrial Supplies  
+Consignee: McLane Company Inc  
+Origin City: Nogales, AZ 85621  
+Destination City: San Diego, CA 92101  
+Carrier
