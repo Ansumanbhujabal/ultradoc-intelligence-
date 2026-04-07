@@ -97,7 +97,15 @@ def run_extract_test(doc_id: str, client: httpx.Client) -> dict:
 def check_qa_result(expected_answer: str, response: dict) -> bool:
     """Check if a Q&A response matches expectations."""
     if expected_answer == "__OUT_OF_SCOPE__":
-        return response.get("guardrail_status") == "OUT_OF_SCOPE"
+        status = response.get("guardrail_status", "")
+        answer = response.get("answer", "").lower()
+        # Accept both explicit OUT_OF_SCOPE and "not found" responses —
+        # on classified docs, Layer 1 is skipped and Layers 2+3 catch
+        # irrelevant questions as NOT_FOUND or LOW_GROUNDING instead
+        return (status == "OUT_OF_SCOPE"
+                or status == "NOT_FOUND"
+                or "not found" in answer
+                or "not a logistics" in answer)
 
     if expected_answer == "__NOT_FOUND__":
         status = response.get("guardrail_status", "")

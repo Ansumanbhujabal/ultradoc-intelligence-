@@ -216,19 +216,23 @@ def save_as_txt(text: str, path: str):
         f.write(text)
 
 
-def save_as_docx(text: str, path: str):
+def save_as_docx(text: str, path: str) -> str:
+    """Save as DOCX. Returns actual saved path (may fallback to .txt)."""
     try:
         from docx import Document
         doc = Document()
         for para in text.split("\n"):
             doc.add_paragraph(para)
         doc.save(path)
+        return path
     except ImportError:
-        # Fallback to txt if python-docx fails
-        save_as_txt(text, path.replace(".docx", ".txt"))
+        fallback = path.replace(".docx", ".txt")
+        save_as_txt(text, fallback)
+        return fallback
 
 
-def save_as_pdf(text: str, path: str):
+def save_as_pdf(text: str, path: str) -> str:
+    """Save as PDF. Returns actual saved path (may fallback to .txt)."""
     try:
         from reportlab.lib.pagesizes import letter
         from reportlab.pdfgen import canvas
@@ -239,14 +243,15 @@ def save_as_pdf(text: str, path: str):
             if y < 40:
                 c.showPage()
                 y = height - 40
-            # Handle encoding issues
             safe_line = line.encode("ascii", errors="replace").decode("ascii")
-            c.drawString(40, y, safe_line[:100])  # truncate long lines
+            c.drawString(40, y, safe_line[:100])
             y -= 14
         c.save()
+        return path
     except ImportError:
-        # Fallback to txt if reportlab not installed
-        save_as_txt(text, path.replace(".pdf", ".txt"))
+        fallback = path.replace(".pdf", ".txt")
+        save_as_txt(text, fallback)
+        return fallback
 
 
 def generate_document(provider, doc_index: int, doc_type: str, rng: random.Random) -> dict:
@@ -308,19 +313,23 @@ def generate_document(provider, doc_index: int, doc_type: str, rng: random.Rando
 
     if output_format == "txt":
         save_as_txt(doc_text, filepath)
+        actual_path = filepath
     elif output_format == "docx":
-        save_as_docx(doc_text, filepath)
+        actual_path = save_as_docx(doc_text, filepath)
     elif output_format == "pdf":
-        save_as_pdf(doc_text, filepath)
+        actual_path = save_as_pdf(doc_text, filepath)
 
-    # Tag test cases with filename
+    # Use actual saved filename (may differ from intended if fallback occurred)
+    actual_filename = os.path.basename(actual_path)
+
+    # Tag test cases with actual filename
     for tc in test_cases:
-        tc["doc_file"] = filename
+        tc["doc_file"] = actual_filename
 
     return {
-        "filename": filename,
+        "filename": actual_filename,
         "doc_type": doc_type,
-        "format": output_format,
+        "format": os.path.splitext(actual_filename)[1].lstrip("."),
         "messiness": messiness[:50] + "...",
         "seed_fields": seed_fields,
         "test_cases": test_cases,
