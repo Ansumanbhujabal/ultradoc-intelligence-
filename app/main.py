@@ -141,20 +141,25 @@ async def ask_question(request: AskRequest):
             retrieval_mode=request.retrieval_mode,
         )
 
-    with tracer.span("guardrail_scope") as span:
-        scope_status = check_scope(request.question)
-        span.metadata = {"status": scope_status.value}
+    # Layer 1: Question scope check — only for UNKNOWN doc types
+    # If the doc is already classified as a known logistics type, any question is fair game
+    if record.doc_type == DocType.UNKNOWN:
+        with tracer.span("guardrail_scope") as span:
+            scope_status = check_scope(request.question)
+            span.metadata = {"status": scope_status.value}
 
-    if scope_status == GuardrailStatus.OUT_OF_SCOPE:
-        tracer.finish()
-        return AskResponse(
-            answer="This question does not appear to be related to logistics.",
-            source_text="",
-            confidence=compute_confidence(0.0, 0.0, "LOW"),
-            guardrail_status=GuardrailStatus.OUT_OF_SCOPE,
-            query_rewritten=False,
-            retrieval_mode=request.retrieval_mode,
-        )
+        if scope_status == GuardrailStatus.OUT_OF_SCOPE:
+            tracer.finish()
+            return AskResponse(
+                answer="This question does not appear to be related to logistics.",
+                source_text="",
+                confidence=compute_confidence(0.0, 0.0, "LOW"),
+                guardrail_status=GuardrailStatus.OUT_OF_SCOPE,
+                query_rewritten=False,
+                retrieval_mode=request.retrieval_mode,
+            )
+    else:
+        tracer.skip("guardrail_scope", f"doc_type={record.doc_type.value} — trusted")
 
     question = request.question
     query_rewritten = False

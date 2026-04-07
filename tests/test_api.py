@@ -212,7 +212,9 @@ class TestAskEndpoint:
     @patch("app.main.retrieve")
     @patch("app.main.check_scope")
     def test_ask_out_of_scope(self, mock_scope, mock_retrieve, mock_gen, client):
-        _seed_document("scoped-doc")
+        # Scope check only runs for UNKNOWN doc type
+        record = _seed_document("scoped-doc")
+        record.doc_type = DocType.UNKNOWN
         mock_scope.return_value = GuardrailStatus.OUT_OF_SCOPE
 
         resp = client.post("/ask", json={
