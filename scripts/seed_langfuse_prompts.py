@@ -40,6 +40,7 @@ def main():
                 name=name,
                 prompt=template,
                 type="text",
+                labels=["production", "latest"],
             )
             print(f"  Seeded: {name}")
         except Exception as e:

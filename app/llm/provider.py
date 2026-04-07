@@ -52,15 +52,9 @@ class LangChainProvider(LLMProvider):
         self.default_model = settings.azure_openai_model
         self.fast_model = settings.azure_openai_fast_model
 
-        # Configurable embeddings
-        if settings.embedding_provider == "azure":
-            self.embeddings = AzureOpenAIEmbeddings(
-                model=settings.azure_openai_embedding_model,
-                **common_kwargs,
-            )
-        else:
-            from langchain_community.embeddings import HuggingFaceEmbeddings
-            self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+        # Configurable embeddings (lazy-initialized on first use)
+        self._embeddings = None
+        self._common_kwargs = common_kwargs
 
     def _select_llm(self, model: Optional[str] = None):
         if model and model == self.fast_model:
@@ -131,6 +125,20 @@ class LangChainProvider(LLMProvider):
             latency_ms=latency,
             model_name=model or self.default_model,
         )
+
+    @property
+    def embeddings(self):
+        """Lazy-init embeddings on first use."""
+        if self._embeddings is None:
+            if settings.embedding_provider == "azure":
+                self._embeddings = AzureOpenAIEmbeddings(
+                    model=settings.azure_openai_embedding_model,
+                    **self._common_kwargs,
+                )
+            else:
+                from langchain_community.embeddings import HuggingFaceEmbeddings
+                self._embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+        return self._embeddings
 
     def embed(self, texts: list[str]) -> list[list[float]]:
         return self.embeddings.embed_documents(texts)
