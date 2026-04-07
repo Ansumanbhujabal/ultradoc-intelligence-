@@ -11,6 +11,8 @@ class DocumentRecord:
         self.doc_type = doc_type
         self.chunks = chunks
         self.page_count = page_count
+        self.content_hash: Optional[str] = None  # SHA256 hash for dedup
+        self.extraction_result: Optional[dict] = None  # cached extraction
 
 
 class DocumentCache:

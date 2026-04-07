@@ -1,5 +1,6 @@
 """FastAPI application with /upload, /ask, and /extract endpoints."""
 
+import hashlib
 import os
 import uuid
 import shutil
@@ -48,17 +49,34 @@ def health():
 
 @app.post("/upload", response_model=UploadResponse)
 async def upload_document(file: UploadFile = File(...)):
-    doc_id = str(uuid.uuid4())
-    tracer = Tracer("/upload", doc_id)
-
     ext = os.path.splitext(file.filename or "")[1].lower()
     if ext not in {".pdf", ".docx", ".txt"}:
         raise HTTPException(400, f"Unsupported file type: {ext}. Use PDF, DOCX, or TXT.")
 
+    # Read file content and compute hash for dedup
+    file_content = await file.read()
+    content_hash = hashlib.sha256(file_content).hexdigest()
+
+    # Check if same content already uploaded
+    cache = DocumentCache.get_instance()
+    for doc in cache.list_documents():
+        existing = cache.get(doc["doc_id"])
+        if existing and getattr(existing, "content_hash", None) == content_hash:
+            return UploadResponse(
+                doc_id=existing.doc_id,
+                doc_type=existing.doc_type,
+                page_count=existing.page_count,
+                chunk_count=len(existing.chunks),
+                status="already_uploaded",
+            )
+
+    doc_id = str(uuid.uuid4())
+    tracer = Tracer("/upload", doc_id)
+
     os.makedirs(settings.upload_dir, exist_ok=True)
     file_path = os.path.join(settings.upload_dir, f"{doc_id}{ext}")
     with open(file_path, "wb") as f:
-        shutil.copyfileobj(file.file, f)
+        f.write(file_content)
 
     with tracer.span("parsing") as span:
         parse_result = parse_document(file_path)
@@ -74,15 +92,16 @@ async def upload_document(file: UploadFile = File(...)):
 
     embed_and_store(doc_id, chunks, tracer)
 
-    cache = DocumentCache.get_instance()
-    cache.store(DocumentRecord(
+    record = DocumentRecord(
         doc_id=doc_id,
         file_name=file.filename or "unknown",
         full_text=parse_result["text"],
         doc_type=doc_type,
         chunks=chunks,
         page_count=parse_result["page_count"],
-    ))
+    )
+    record.content_hash = content_hash
+    cache.store(record)
 
     tracer.finish()
 
@@ -197,12 +216,19 @@ async def ask_question(request: AskRequest):
 
 @app.post("/extract", response_model=ExtractResponse)
 async def extract_data(request: ExtractRequest):
-    tracer = Tracer("/extract", request.doc_id)
-
     cache = DocumentCache.get_instance()
     record = cache.get(request.doc_id)
     if not record:
         raise HTTPException(404, f"Document {request.doc_id} not found. Upload it first.")
+
+    # Return cached result if already extracted
+    if record.extraction_result is not None:
+        tracer = Tracer("/extract", request.doc_id)
+        tracer.skip("extraction", "cached — same document content")
+        tracer.finish()
+        return ExtractResponse(**record.extraction_result)
+
+    tracer = Tracer("/extract", request.doc_id)
 
     result = extract_shipment_data(
         full_text=record.full_text,
@@ -212,11 +238,16 @@ async def extract_data(request: ExtractRequest):
 
     tracer.finish()
 
-    return ExtractResponse(
-        extracted_data=result["shipment_data"].model_dump(),
-        completeness_score=result["completeness_score"],
-        doc_type=record.doc_type,
-    )
+    response_data = {
+        "extracted_data": result["shipment_data"].model_dump(),
+        "completeness_score": result["completeness_score"],
+        "doc_type": record.doc_type,
+    }
+
+    # Cache the result
+    record.extraction_result = response_data
+
+    return ExtractResponse(**response_data)
 
 
 @app.get("/documents")
