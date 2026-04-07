@@ -3,7 +3,6 @@
 from collections import defaultdict
 from rank_bm25 import BM25Okapi
 from app.config import settings
-from app.llm.provider import get_provider
 from app.storage.vector_store import VectorStore
 from app.storage.cache import DocumentCache
 from app.observability.tracer import Tracer
@@ -54,10 +53,8 @@ def retrieve(question: str, doc_id: str, tracer: Tracer, mode: str = "hybrid", t
 
 
 def _vector_search(question: str, doc_id: str, top_k: int) -> list[dict]:
-    provider = get_provider()
     store = VectorStore.get_instance()
-    query_embedding = provider.embed([question])[0]
-    return store.query(query_embedding, doc_id, top_k)
+    return store.query(question, doc_id, top_k)
 
 
 def bm25_search(question: str, chunks: list[dict], top_k: int = 5) -> list[dict]:

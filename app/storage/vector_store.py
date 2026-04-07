@@ -26,19 +26,21 @@ class VectorStore:
             cls._instance = VectorStore()
         return cls._instance
 
-    def add_chunks(self, doc_id: str, chunks: list[dict], embeddings: list[list[float]]):
+    def add_chunks(self, doc_id: str, chunks: list[dict]):
+        """Store chunks — ChromaDB handles embedding via its default model."""
         ids = [f"{doc_id}_chunk_{c['index']}" for c in chunks]
         documents = [c["text"] for c in chunks]
         metadatas = [
             {"doc_id": doc_id, "section": c["section"], "index": c["index"]}
             for c in chunks
         ]
-        self.collection.add(ids=ids, documents=documents, embeddings=embeddings, metadatas=metadatas)
+        self.collection.add(ids=ids, documents=documents, metadatas=metadatas)
         logger.info(f"Stored {len(chunks)} chunks for doc {doc_id}")
 
-    def query(self, query_embedding: list[float], doc_id: str, top_k: int = 5) -> list[dict]:
+    def query(self, query_text: str, doc_id: str, top_k: int = 5) -> list[dict]:
+        """Query chunks by text — ChromaDB embeds the query internally."""
         results = self.collection.query(
-            query_embeddings=[query_embedding],
+            query_texts=[query_text],
             where={"doc_id": doc_id},
             n_results=top_k,
             include=["documents", "metadatas", "distances"],
