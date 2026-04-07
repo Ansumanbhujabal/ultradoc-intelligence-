@@ -251,7 +251,12 @@ def get_traces():
 
 def build_ui() -> gr.Blocks:
     with gr.Blocks(title="Ultra Doc-Intelligence", theme=gr.themes.Soft()) as demo:
-        gr.Markdown("# Ultra Doc-Intelligence\n*AI-powered logistics document Q&A system*")
+        gr.Markdown(
+            "# Ultra Doc-Intelligence\n"
+            "*AI-powered logistics document Q&A system*\n\n"
+            "API docs: [Swagger](/docs) | "
+            "Observability: [Langfuse Dashboard](https://us.cloud.langfuse.com)"
+        )
         with gr.Tabs():
             with gr.Tab("Upload"):
                 file_input = gr.File(label="Upload Document (PDF, DOCX, TXT)")

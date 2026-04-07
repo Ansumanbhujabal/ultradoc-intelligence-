@@ -7,7 +7,7 @@ import argparse
 import httpx
 from eval.report import EvalReport
 
-API_BASE = "http://localhost:8000"
+API_BASE = os.environ.get("API_BASE", "http://localhost:7860")
 SAMPLE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "ultradoc_sample_test_data")
 
 

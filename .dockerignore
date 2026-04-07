@@ -1,0 +1,10 @@
+.venv/
+.env
+data/
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+.claude/
+docs/superpowers/
+ultradoc_sample_test_data/
