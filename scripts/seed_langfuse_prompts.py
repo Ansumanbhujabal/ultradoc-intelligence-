@@ -15,6 +15,7 @@ from app.llm.prompts.qa import QA_PROMPT
 from app.llm.prompts.extraction.bol import BOL_EXTRACTION_PROMPT
 from app.llm.prompts.extraction.rate_confirm import RC_EXTRACTION_PROMPT
 from app.llm.prompts.extraction.generic import GENERIC_EXTRACTION_PROMPT
+from app.llm.prompts.synthetic import SYNTH_DOCUMENT_PROMPT, SYNTH_QA_PAIRS_PROMPT
 
 PROMPTS = {
     "system": SYSTEM_PROMPT,
@@ -24,6 +25,8 @@ PROMPTS = {
     "extraction_bol": BOL_EXTRACTION_PROMPT,
     "extraction_rc": RC_EXTRACTION_PROMPT,
     "extraction_generic": GENERIC_EXTRACTION_PROMPT,
+    "synth_document": SYNTH_DOCUMENT_PROMPT,
+    "synth_qa_pairs": SYNTH_QA_PAIRS_PROMPT,
 }
 
 
