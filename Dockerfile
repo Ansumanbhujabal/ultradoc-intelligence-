@@ -13,7 +13,7 @@ RUN uv sync --no-dev --frozen
 
 COPY . .
 
-RUN mkdir -p /tmp/chroma /tmp/uploads
+RUN mkdir -p data/chroma data/uploads logs
 
 EXPOSE 7860
 

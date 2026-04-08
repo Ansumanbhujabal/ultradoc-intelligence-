@@ -1,5 +1,8 @@
 """Section-based document chunker that keeps tables intact."""
 import re
+from app.observability.logger import get_logger
+
+logger = get_logger("chunker")
 
 SECTION_PATTERNS = [
     r"^(Bill of Lading|BOL)\s*$",
@@ -36,6 +39,10 @@ def chunk_document(text: str, max_chunk_size: int = 1000) -> list[dict]:
             for sub in sub_chunks:
                 if sub.strip():
                     chunks.append({"text": sub.strip(), "section": section_name, "index": len(chunks)})
+    avg_size = round(sum(len(c["text"]) for c in chunks) / len(chunks)) if chunks else 0
+    logger.info("chunking_complete", extra={"extra_data": {
+        "chunk_count": len(chunks), "avg_chunk_size": avg_size,
+    }})
     return chunks
 
 

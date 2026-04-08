@@ -17,8 +17,8 @@ IMPORTANT RULES:
 
 Fields:
 - shipment_id: The Load ID, reference number, or BOL number
-- shipper: Full shipper name and address
-- consignee: Full consignee/receiver name and address
+- shipper: Shipper company or entity name only (no address)
+- consignee: Consignee/receiver company or entity name only (no address)
 - pickup_datetime: Pickup or ship date/time in ISO format (YYYY-MM-DDTHH:MM:SS). If only date is available, use T00:00:00
 - delivery_datetime: Delivery date/time in ISO format. If only date is available, use T00:00:00
 - equipment_type: Equipment type (e.g., Flatbed, Dry Van, Reefer)
@@ -29,7 +29,7 @@ Fields:
 - carrier_name: Carrier or transportation company name
 
 Example output:
-{{"shipment_id": "LD12345", "shipper": "ABC Corp, 123 Main St, City, ST 12345", "consignee": "XYZ Inc, 456 Oak Ave, Town, ST 67890", "pickup_datetime": "2026-01-15T09:00:00", "delivery_datetime": "2026-01-16T14:00:00", "equipment_type": "Dry Van", "mode": "FTL", "rate": 1500.00, "currency": "USD", "weight": "42000 lbs", "carrier_name": "Fast Freight LLC"}}
+{{"shipment_id": "LD12345", "shipper": "ABC Corp", "consignee": "XYZ Inc", "pickup_datetime": "2026-01-15T09:00:00", "delivery_datetime": "2026-01-16T14:00:00", "equipment_type": "Dry Van", "mode": "FTL", "rate": 1500.00, "currency": "USD", "weight": "42000 lbs", "carrier_name": "Fast Freight LLC"}}
 
 Respond with ONLY the JSON object. No explanation or markdown formatting."""
 

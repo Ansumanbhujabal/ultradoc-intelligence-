@@ -77,6 +77,10 @@ def extract_shipment_data(full_text: str, doc_type: DocType, tracer: Tracer) -> 
             "non_null_count": len(shipment.model_fields) - len(null_fields),
         }
 
+    non_null = len(shipment.model_fields) - len([f for f in shipment.model_fields if getattr(shipment, f) is None])
+    logger.info("extraction_complete", extra={"extra_data": {
+        "fields_extracted": non_null, "completeness_score": completeness,
+    }})
     return {
         "shipment_data": shipment,
         "completeness_score": completeness,
