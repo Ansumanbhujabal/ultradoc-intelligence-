@@ -47,7 +47,7 @@ An AI-powered logistics document Q&A system that lets users upload shipping docu
 **Prerequisites:** Python 3.11+, [uv](https://docs.astral.sh/uv/), Azure OpenAI API access
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Ansumanbhujabal/ultradoc-intelligence-.git
 cd ultradoc-intelligence
 
 # Install dependencies
