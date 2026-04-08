@@ -1,3 +1,13 @@
+---
+title: Ultra Doc-Intelligence
+emoji: 📄
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Ultra Doc-Intelligence
 
 An AI-powered logistics document Q&A system that lets users upload shipping documents (BOL, Rate Confirmations, Invoices) and interact with them using natural language. Built as a proof-of-concept AI assistant for a Transportation Management System (TMS). The system retrieves relevant content, answers grounded questions with source citations, applies multi-layer guardrails against hallucination, returns calibrated confidence scores, and extracts structured shipment data -- all through a clean API and lightweight UI.
