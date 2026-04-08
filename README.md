@@ -12,6 +12,14 @@ pinned: false
 
 An AI-powered logistics document Q&A system that lets users upload shipping documents (BOL, Rate Confirmations, Invoices) and interact with them using natural language. Built as a proof-of-concept AI assistant for a Transportation Management System (TMS). The system retrieves relevant content, answers grounded questions with source citations, applies multi-layer guardrails against hallucination, returns calibrated confidence scores, and extracts structured shipment data -- all through a clean API and lightweight UI.
 
+| | Link |
+|---|---|
+| **Live Demo** | [ansumanbhujabal-ultradoc-intelligence.hf.space](https://ansumanbhujabal-ultradoc-intelligence.hf.space) |
+| **HuggingFace Space** | [huggingface.co/spaces/AnsumanBhujabal/ultradoc-intelligence](https://huggingface.co/spaces/AnsumanBhujabal/ultradoc-intelligence) |
+| **GitHub Repository** | [github.com/Ansumanbhujabal/ultradoc-intelligence-](https://github.com/Ansumanbhujabal/ultradoc-intelligence-) |
+| **Architecture Doc** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
+| **Eval Results** | [eval/EVAL_RESULTS.md](eval/EVAL_RESULTS.md) |
+
 ---
 
 ## Table of Contents
