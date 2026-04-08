@@ -234,6 +234,14 @@ The full breakdown is returned with every response for transparency and debuggab
 
 ---
 
+## Cost Per Query
+
+All LLM calls are traced via Langfuse. Cost per query averages **~$0.003 USD** using GPT-4o for generation and GPT-4.1-mini for classification/rewrite.
+
+![Langfuse Dashboard](docs/langfuse-dashboard.png)
+
+---
+
 ## Evaluation Results
 
 ### Sample Documents (Company Test Data -- 3 PDFs, 16 test cases)
