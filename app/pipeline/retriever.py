@@ -6,6 +6,9 @@ from app.config import settings
 from app.storage.vector_store import VectorStore
 from app.storage.cache import DocumentCache
 from app.observability.tracer import Tracer
+from app.observability.logger import get_logger
+
+logger = get_logger("retriever")
 
 SECTION_KEYWORDS = {
     "rate": ["rate", "charge", "cost", "price", "pay", "total", "amount"],
@@ -49,6 +52,10 @@ def retrieve(question: str, doc_id: str, tracer: Tracer, mode: str = "hybrid", t
         if results:
             span.metadata["best_similarity"] = results[0].get("similarity", 0)
 
+    top_score = results[0].get("similarity", 0) if results else 0
+    logger.info("retrieval_complete", extra={"extra_data": {
+        "mode": mode, "chunks_retrieved": len(results), "top_score": top_score,
+    }})
     return results
 
 

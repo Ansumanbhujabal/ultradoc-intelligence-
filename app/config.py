@@ -20,9 +20,10 @@ class Settings(BaseSettings):
     upload_dir: str = "./data/uploads"
 
     # Pipeline defaults
-    default_confidence_threshold: float = 0.3
+    default_confidence_threshold: float = 0.35
     default_retrieval_mode: str = "hybrid"
     grounding_overlap_threshold: float = 0.4
+    low_confidence_refusal_threshold: float = 0.3
     retrieval_top_k: int = 5
     final_top_k: int = 3
 
@@ -41,6 +42,7 @@ class Settings(BaseSettings):
 
     # Logging
     log_level: str = "INFO"
+    log_file: str = "./logs/ultradoc.log"
 
     model_config = {"env_file": ".env", "env_file_encoding": "utf-8", "extra": "ignore"}
 

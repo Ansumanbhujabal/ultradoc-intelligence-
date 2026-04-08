@@ -274,35 +274,35 @@
     "question": "What is the total amount charged for this shipment?",
     "expected_answer": "CAD 7755.93",
     "expected_source_contains": "TOTAL AMOUNT",
-    "doc_file": "doc_006.txt"
+    "doc_file": "doc_006.pdf"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this invoice?",
     "expected_answer": "Heavy Metal Fabricators Inc",
     "expected_source_contains": "Heavy Metal Fabricators",
-    "doc_file": "doc_006.txt"
+    "doc_file": "doc_006.pdf"
   },
   {
     "type": "qa",
     "question": "When is the delivery date scheduled?",
     "expected_answer": "2026-06-07",
     "expected_source_contains": "Delvery Date",
-    "doc_file": "doc_006.txt"
+    "doc_file": "doc_006.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest news on the stock market today?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_006.txt"
+    "doc_file": "doc_006.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance policy number for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_006.txt"
+    "doc_file": "doc_006.pdf"
   },
   {
     "type": "extraction",
@@ -321,42 +321,42 @@
       "mc_number": "MC-1054280",
       "po_number": "PO-67562"
     },
-    "doc_file": "doc_006.txt"
+    "doc_file": "doc_006.pdf"
   },
   {
     "type": "qa",
     "question": "What is the total cost charged for this shipment?",
     "expected_answer": "$3,469.95 USD",
     "expected_source_contains": "Rate: $3,469.95 USD",
-    "doc_file": "doc_007.txt"
+    "doc_file": "doc_007.pdf"
   },
   {
     "type": "qa",
     "question": "Who handled the delivery on behalf of the consignee?",
     "expected_answer": "François Leblanc",
     "expected_source_contains": "Received by:  François Leblanc",
-    "doc_file": "doc_007.txt"
+    "doc_file": "doc_007.pdf"
   },
   {
     "type": "qa",
     "question": "When was the shipment picked up?",
     "expected_answer": "07-May-2026 08:30 AM CST",
     "expected_source_contains": "Pickup Date/Time: 07-May-2026  08:30 AM CST",
-    "doc_file": "doc_007.txt"
+    "doc_file": "doc_007.pdf"
   },
   {
     "type": "qa",
     "question": "What were the results of the latest football match?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_007.txt"
+    "doc_file": "doc_007.pdf"
   },
   {
     "type": "qa",
     "question": "What is the declared insurance value for the shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_007.txt"
+    "doc_file": "doc_007.pdf"
   },
   {
     "type": "extraction",
@@ -375,42 +375,42 @@
       "po_number": "PO-60929",
       "mc_number": "MC-5133115"
     },
-    "doc_file": "doc_007.txt"
+    "doc_file": "doc_007.pdf"
   },
   {
     "type": "qa",
     "question": "What is the total rate charged for this shipment?",
     "expected_answer": "7,070.74 CAD",
     "expected_source_contains": "7,070.74 CAD",
-    "doc_file": "doc_008.pdf"
+    "doc_file": "doc_008.txt"
   },
   {
     "type": "qa",
     "question": "Who is responsible for transporting the shipment?",
     "expected_answer": "NORTHERN STAR LOGISTICS",
     "expected_source_contains": "NORTHERN STAR LOGISTICS",
-    "doc_file": "doc_008.pdf"
+    "doc_file": "doc_008.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date for this shipment?",
     "expected_answer": "03/20/2026",
     "expected_source_contains": "03/20/2026",
-    "doc_file": "doc_008.pdf"
+    "doc_file": "doc_008.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest news about the upcoming presidential election?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_008.pdf"
+    "doc_file": "doc_008.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_008.pdf"
+    "doc_file": "doc_008.txt"
   },
   {
     "type": "extraction",
@@ -429,7 +429,7 @@
       "mc_number": "MC-9404682",
       "po_number": "PO-40240"
     },
-    "doc_file": "doc_008.pdf"
+    "doc_file": "doc_008.txt"
   },
   {
     "type": "qa",
@@ -490,35 +490,35 @@
     "question": "What is the agreed rate for this shipment?",
     "expected_answer": "1,072.62 MXN",
     "expected_source_contains": "Rate: 1,072.62 MXN",
-    "doc_file": "doc_010.pdf"
+    "doc_file": "doc_010.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this rate confirmation?",
     "expected_answer": "Global Tech Industries",
     "expected_source_contains": "Global Tech Industries",
-    "doc_file": "doc_010.pdf"
+    "doc_file": "doc_010.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date for the shipment?",
     "expected_answer": "September 6th, 2026",
     "expected_source_contains": "Delivery Date: 2026-09-06",
-    "doc_file": "doc_010.pdf"
+    "doc_file": "doc_010.txt"
   },
   {
     "type": "qa",
     "question": "What is the weather forecast for Dallas next week?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_010.pdf"
+    "doc_file": "doc_010.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_010.pdf"
+    "doc_file": "doc_010.txt"
   },
   {
     "type": "extraction",
@@ -537,7 +537,7 @@
       "po_number": "PO-41404",
       "mc_number": "MC-801771"
     },
-    "doc_file": "doc_010.pdf"
+    "doc_file": "doc_010.txt"
   },
   {
     "type": "qa",
@@ -650,35 +650,35 @@
     "question": "How much does the carrier charge for this shipment?",
     "expected_answer": "4697.39 USD",
     "expected_source_contains": "4697.39 USD",
-    "doc_file": "doc_013.pdf"
+    "doc_file": "doc_013.txt"
   },
   {
     "type": "qa",
     "question": "Who should be contacted at the consignee's location?",
     "expected_answer": "Lisa K. Monroe",
     "expected_source_contains": "Lisa K. Monroe",
-    "doc_file": "doc_013.pdf"
+    "doc_file": "doc_013.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for the shipment?",
     "expected_answer": "2026-09-26",
     "expected_source_contains": "2026-09-26",
-    "doc_file": "doc_013.pdf"
+    "doc_file": "doc_013.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest news on the presidential election?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_013.pdf"
+    "doc_file": "doc_013.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_013.pdf"
+    "doc_file": "doc_013.txt"
   },
   {
     "type": "extraction",
@@ -697,7 +697,7 @@
       "mc_number": "MC-5366630",
       "po_number": "PO-87951"
     },
-    "doc_file": "doc_013.pdf"
+    "doc_file": "doc_013.txt"
   },
   {
     "type": "qa",
@@ -758,35 +758,35 @@
     "question": "What is the total rate charged for this shipment?",
     "expected_answer": "2413.53 CAD",
     "expected_source_contains": "2413.53 CAD",
-    "doc_file": "doc_015.pdf"
+    "doc_file": "doc_015.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this invoice?",
     "expected_answer": "Sunrise Pharmaceuticals",
     "expected_source_contains": "Sunr1se Pharmaceut1cals",
-    "doc_file": "doc_015.pdf"
+    "doc_file": "doc_015.txt"
   },
   {
     "type": "qa",
     "question": "When was the pickup scheduled for this shipment?",
     "expected_answer": "2026-04-22 08:30 AM",
     "expected_source_contains": "2026-04-22 08:30 AM",
-    "doc_file": "doc_015.pdf"
+    "doc_file": "doc_015.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest news on the global political situation?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_015.pdf"
+    "doc_file": "doc_015.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance policy number for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_015.pdf"
+    "doc_file": "doc_015.txt"
   },
   {
     "type": "extraction",
@@ -807,7 +807,7 @@
       "origin_city": "Nashville, TN 37201",
       "dest_city": "Toronto, ON M5V 3A8"
     },
-    "doc_file": "doc_015.pdf"
+    "doc_file": "doc_015.txt"
   },
   {
     "type": "qa",
@@ -870,35 +870,35 @@
     "question": "Who is responsible for transporting the shipment?",
     "expected_answer": "SILVER LINE CARRIERS",
     "expected_source_contains": "SILVER LINE CARRIERS",
-    "doc_file": "doc_017.txt"
+    "doc_file": "doc_017.pdf"
   },
   {
     "type": "qa",
     "question": "What is the scheduled delivery date for this shipment?",
     "expected_answer": "11-Nov-2026",
     "expected_source_contains": "11-Nov-2026",
-    "doc_file": "doc_017.txt"
+    "doc_file": "doc_017.pdf"
   },
   {
     "type": "qa",
     "question": "Can you tell me the equipment type used for this shipment?",
     "expected_answer": "Power Only",
     "expected_source_contains": "Power Only",
-    "doc_file": "doc_017.txt"
+    "doc_file": "doc_017.pdf"
   },
   {
     "type": "qa",
     "question": "What was the final score of the last World Cup match?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_017.txt"
+    "doc_file": "doc_017.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_017.txt"
+    "doc_file": "doc_017.pdf"
   },
   {
     "type": "extraction",
@@ -919,42 +919,42 @@
       "mc_number": "MC-7479837",
       "po_number": "PO-11155"
     },
-    "doc_file": "doc_017.txt"
+    "doc_file": "doc_017.pdf"
   },
   {
     "type": "qa",
     "question": "What is the total weight of the shipment?",
     "expected_answer": "20.0 tons",
     "expected_source_contains": "WEIGHT: 20.0 TONS",
-    "doc_file": "doc_018.pdf"
+    "doc_file": "doc_018.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this bill of lading?",
     "expected_answer": "XYZ Industrial Supplies",
     "expected_source_contains": "SHIPPER: XYZ lndustrialSupplles",
-    "doc_file": "doc_018.pdf"
+    "doc_file": "doc_018.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date and time?",
     "expected_answer": "01/12/2026  04:00PM",
     "expected_source_contains": "DELIVERY DATE/TlME: 01/12/2026  04:00PM",
-    "doc_file": "doc_018.pdf"
+    "doc_file": "doc_018.txt"
   },
   {
     "type": "qa",
     "question": "Who won the last World Cup?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_018.pdf"
+    "doc_file": "doc_018.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_018.pdf"
+    "doc_file": "doc_018.txt"
   },
   {
     "type": "extraction",
@@ -973,7 +973,7 @@
       "mc_number": "MC-9758481",
       "po_number": "PO-50857"
     },
-    "doc_file": "doc_018.pdf"
+    "doc_file": "doc_018.txt"
   },
   {
     "type": "qa",
@@ -1524,35 +1524,35 @@
     "question": "What is the agreed rate for transporting the shipment?",
     "expected_answer": "785.51 CAD",
     "expected_source_contains": "Rate (CAD) | 785.51",
-    "doc_file": "doc_029.pdf"
+    "doc_file": "doc_029.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper for this shipment?",
     "expected_answer": "Sunrise Pharmaceuticals",
     "expected_source_contains": "SHIPPER: Sunrise Pharmaceuticals",
-    "doc_file": "doc_029.pdf"
+    "doc_file": "doc_029.txt"
   },
   {
     "type": "qa",
     "question": "When is the pickup scheduled for this shipment?",
     "expected_answer": "23-Aug-2026",
     "expected_source_contains": "Pickup Date  | 23-Aug-2026",
-    "doc_file": "doc_029.pdf"
+    "doc_file": "doc_029.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest news on the upcoming presidential election?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_029.pdf"
+    "doc_file": "doc_029.txt"
   },
   {
     "type": "qa",
     "question": "What is the declared weight of the shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_029.pdf"
+    "doc_file": "doc_029.txt"
   },
   {
     "type": "extraction",
@@ -1571,7 +1571,7 @@
       "mc_number": "MC-4933597",
       "po_number": "PO-93662"
     },
-    "doc_file": "doc_029.pdf"
+    "doc_file": "doc_029.txt"
   },
   {
     "type": "qa",
@@ -1686,35 +1686,35 @@
     "question": "What is the total rate charged for this shipment?",
     "expected_answer": "2704.25 EUR",
     "expected_source_contains": "Rate: 2704.25",
-    "doc_file": "doc_032.txt"
+    "doc_file": "doc_032.pdf"
   },
   {
     "type": "qa",
     "question": "Who handled the transportation for this delivery?",
     "expected_answer": "Jose Garcia Transportes SA",
     "expected_source_contains": "Carrier Name: Jose Garcia Transportes SA",
-    "doc_file": "doc_032.txt"
+    "doc_file": "doc_032.pdf"
   },
   {
     "type": "qa",
     "question": "When was the shipment picked up?",
     "expected_answer": "March 11, 2026",
     "expected_source_contains": "Pickup Date: March 11, 2026",
-    "doc_file": "doc_032.txt"
+    "doc_file": "doc_032.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest news on the presidential election?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_032.txt"
+    "doc_file": "doc_032.pdf"
   },
   {
     "type": "qa",
     "question": "What is the declared weight of the shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_032.txt"
+    "doc_file": "doc_032.pdf"
   },
   {
     "type": "extraction",
@@ -1735,7 +1735,7 @@
       "origin_city": "Nashville, TN 37201",
       "dest_city": "Miami, FL 33101"
     },
-    "doc_file": "doc_032.txt"
+    "doc_file": "doc_032.pdf"
   },
   {
     "type": "qa",
@@ -1852,35 +1852,35 @@
     "question": "Who handled the shipment from Laredo to Vancouver?",
     "expected_answer": "SUMMIT FREIGHT GROUP",
     "expected_source_contains": "Carrier: SUMMIT FREIGHT GROUP",
-    "doc_file": "doc_035.pdf"
+    "doc_file": "doc_035.txt"
   },
   {
     "type": "qa",
     "question": "What is the total amount due on the invoice?",
     "expected_answer": "2406.14 EUR",
     "expected_source_contains": "Total Amount Due",
-    "doc_file": "doc_035.pdf"
+    "doc_file": "doc_035.txt"
   },
   {
     "type": "qa",
     "question": "When was the shipment picked up?",
     "expected_answer": "November 16, 2026",
     "expected_source_contains": "Pickup Date/Time: November 16, 2026",
-    "doc_file": "doc_035.pdf"
+    "doc_file": "doc_035.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest news on the stock market today?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_035.pdf"
+    "doc_file": "doc_035.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_035.pdf"
+    "doc_file": "doc_035.txt"
   },
   {
     "type": "extraction",
@@ -1901,7 +1901,7 @@
       "mc_number": "MC-9359637",
       "po_number": "PO-72228"
     },
-    "doc_file": "doc_035.pdf"
+    "doc_file": "doc_035.txt"
   },
   {
     "type": "qa",
@@ -1962,35 +1962,35 @@
     "question": "Who is responsible for carrying the shipment?",
     "expected_answer": "SUMMIT FREIGHT GROUP",
     "expected_source_contains": "SUMMIT FREIGHT GROUP",
-    "doc_file": "doc_037.pdf"
+    "doc_file": "doc_037.txt"
   },
   {
     "type": "qa",
     "question": "What is the total weight of the goods being shipped?",
     "expected_answer": "16.8 tons",
     "expected_source_contains": "16.8 tons",
-    "doc_file": "doc_037.pdf"
+    "doc_file": "doc_037.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date for this shipment?",
     "expected_answer": "06.22.2026",
     "expected_source_contains": "06.22.2026",
-    "doc_file": "doc_037.pdf"
+    "doc_file": "doc_037.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest news about the presidential election?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_037.pdf"
+    "doc_file": "doc_037.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_037.pdf"
+    "doc_file": "doc_037.txt"
   },
   {
     "type": "extraction",
@@ -2007,7 +2007,7 @@
       "weight": "16.8 tons",
       "carrier_name": "SUMMIT FREIGHT GROUP"
     },
-    "doc_file": "doc_037.pdf"
+    "doc_file": "doc_037.txt"
   },
   {
     "type": "qa",
@@ -2068,35 +2068,35 @@
     "question": "What is the total weight of the shipment?",
     "expected_answer": "12353 kg",
     "expected_source_contains": "WEIGHT: 12353 kg",
-    "doc_file": "doc_039.pdf"
+    "doc_file": "doc_039.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this bill of lading?",
     "expected_answer": "Global Tech Industries",
     "expected_source_contains": "SHIPPER NAME: Global Tech Industries",
-    "doc_file": "doc_039.pdf"
+    "doc_file": "doc_039.txt"
   },
   {
     "type": "qa",
     "question": "When is the delivery date scheduled for this shipment?",
     "expected_answer": "19-Feb-2026",
     "expected_source_contains": "DELIVERY DATE: 19-Feb-2026",
-    "doc_file": "doc_039.pdf"
+    "doc_file": "doc_039.txt"
   },
   {
     "type": "qa",
     "question": "What was the score of the last football game?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_039.pdf"
+    "doc_file": "doc_039.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_039.pdf"
+    "doc_file": "doc_039.txt"
   },
   {
     "type": "extraction",
@@ -2115,7 +2115,7 @@
       "mc_number": "MC-7764433",
       "po_number": "PO-40599"
     },
-    "doc_file": "doc_039.pdf"
+    "doc_file": "doc_039.txt"
   },
   {
     "type": "qa",
@@ -2504,35 +2504,35 @@
     "question": "What is the total weight of the shipment?",
     "expected_answer": "31.9 tons",
     "expected_source_contains": "31.9 tons",
-    "doc_file": "doc_047.txt"
+    "doc_file": "doc_047.pdf"
   },
   {
     "type": "qa",
     "question": "Who arranged the shipment according to the invoice?",
     "expected_answer": "Midwest Grain Cooperative",
     "expected_source_contains": "Midwest Grain Cooperative",
-    "doc_file": "doc_047.txt"
+    "doc_file": "doc_047.pdf"
   },
   {
     "type": "qa",
     "question": "When was the shipment picked up?",
     "expected_answer": "11/17/2026",
     "expected_source_contains": "Pickup Date: 11/17/2026",
-    "doc_file": "doc_047.txt"
+    "doc_file": "doc_047.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_047.txt"
+    "doc_file": "doc_047.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_047.txt"
+    "doc_file": "doc_047.pdf"
   },
   {
     "type": "extraction",
@@ -2549,7 +2549,7 @@
       "weight": "31.9 tons",
       "carrier_name": "GOLDEN STATE TRANSPORT"
     },
-    "doc_file": "doc_047.txt"
+    "doc_file": "doc_047.pdf"
   },
   {
     "type": "qa",
@@ -2720,35 +2720,35 @@
     "question": "What is the total amount due on this freight invoice?",
     "expected_answer": "CAD 6506.63",
     "expected_source_contains": "Total Amount Due",
-    "doc_file": "doc_051.txt"
+    "doc_file": "doc_051.pdf"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper for this shipment?",
     "expected_answer": "Sunrise Pharmaceuticals",
     "expected_source_contains": "Sunrise Pharmaceuticals",
-    "doc_file": "doc_051.txt"
+    "doc_file": "doc_051.pdf"
   },
   {
     "type": "qa",
     "question": "When is the pickup date according to the header information?",
     "expected_answer": "March 28, 2026",
     "expected_source_contains": "Pickup Date (Header)",
-    "doc_file": "doc_051.txt"
+    "doc_file": "doc_051.pdf"
   },
   {
     "type": "qa",
     "question": "What was the final score of the last World Cup match?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_051.txt"
+    "doc_file": "doc_051.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance policy number for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_051.txt"
+    "doc_file": "doc_051.pdf"
   },
   {
     "type": "extraction",
@@ -2767,42 +2767,42 @@
       "mc_number": "MC-614340",
       "po_number": "PO-13026"
     },
-    "doc_file": "doc_051.txt"
+    "doc_file": "doc_051.pdf"
   },
   {
     "type": "qa",
     "question": "What is the agreed rate for this shipment?",
     "expected_answer": "1413.52 USD",
     "expected_source_contains": "RATE: USD 1413.52",
-    "doc_file": "doc_052.txt"
+    "doc_file": "doc_052.pdf"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this rate confirmation?",
     "expected_answer": "Global Tech Inds",
     "expected_source_contains": "SHIPPER: Global Tech Inds",
-    "doc_file": "doc_052.txt"
+    "doc_file": "doc_052.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date for this shipment?",
     "expected_answer": "May 19, 2026",
     "expected_source_contains": "DEL DATE: 05/19/26",
-    "doc_file": "doc_052.txt"
+    "doc_file": "doc_052.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_052.txt"
+    "doc_file": "doc_052.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_052.txt"
+    "doc_file": "doc_052.pdf"
   },
   {
     "type": "extraction",
@@ -2823,7 +2823,7 @@
       "mc_number": "MC-3716647",
       "po_number": "PO-99951"
     },
-    "doc_file": "doc_052.txt"
+    "doc_file": "doc_052.pdf"
   },
   {
     "type": "qa",
@@ -2886,35 +2886,35 @@
     "question": "Who is responsible for shipping this load?",
     "expected_answer": "Heavy Metal Fabricators Inc",
     "expected_source_contains": "Heavy Metal Fabricators Inc",
-    "doc_file": "doc_054.txt"
+    "doc_file": "doc_054.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date for the shipment?",
     "expected_answer": "January 20, 2026",
     "expected_source_contains": "January 20, 2026",
-    "doc_file": "doc_054.txt"
+    "doc_file": "doc_054.pdf"
   },
   {
     "type": "qa",
     "question": "What mode of transport is being used for this shipment?",
     "expected_answer": "Expedited",
     "expected_source_contains": "Mode of Transport: Expedited",
-    "doc_file": "doc_054.txt"
+    "doc_file": "doc_054.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_054.txt"
+    "doc_file": "doc_054.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_054.txt"
+    "doc_file": "doc_054.pdf"
   },
   {
     "type": "extraction",
@@ -2931,42 +2931,42 @@
       "weight": "62176 lbs",
       "carrier_name": "MAPLE LEAF SHIPPING LTD"
     },
-    "doc_file": "doc_054.txt"
+    "doc_file": "doc_054.pdf"
   },
   {
     "type": "qa",
     "question": "What is the agreed rate for transporting the shipment?",
     "expected_answer": "4793.2",
     "expected_source_contains": "RATE|4793.2",
-    "doc_file": "doc_055.pdf"
+    "doc_file": "doc_055.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this rate confirmation?",
     "expected_answer": "Midwest Grain Cooperative",
     "expected_source_contains": "Midwest Grain Coop",
-    "doc_file": "doc_055.pdf"
+    "doc_file": "doc_055.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for the shipment?",
     "expected_answer": "2026-12-11",
     "expected_source_contains": "PU DT|2026-12-11",
-    "doc_file": "doc_055.pdf"
+    "doc_file": "doc_055.txt"
   },
   {
     "type": "qa",
     "question": "What is the weather forecast for Portland next week?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_055.pdf"
+    "doc_file": "doc_055.txt"
   },
   {
     "type": "qa",
     "question": "What is the delivery date for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_055.pdf"
+    "doc_file": "doc_055.txt"
   },
   {
     "type": "extraction",
@@ -2987,7 +2987,7 @@
       "mc_number": "MC-2013049",
       "po_number": "PO-70547"
     },
-    "doc_file": "doc_055.pdf"
+    "doc_file": "doc_055.txt"
   },
   {
     "type": "qa",
@@ -3046,35 +3046,35 @@
     "question": "Who is listed as the shipper on this bill of lading?",
     "expected_answer": "Steel Dynamics LLC",
     "expected_source_contains": "Steel Dyn LLC",
-    "doc_file": "doc_057.pdf"
+    "doc_file": "doc_057.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date for this shipment?",
     "expected_answer": "May 08, 2026",
     "expected_source_contains": "05/08/26",
-    "doc_file": "doc_057.pdf"
+    "doc_file": "doc_057.txt"
   },
   {
     "type": "qa",
     "question": "What type of equipment is being used for this shipment?",
     "expected_answer": "Dry Van",
     "expected_source_contains": "Dry Van",
-    "doc_file": "doc_057.pdf"
+    "doc_file": "doc_057.txt"
   },
   {
     "type": "qa",
     "question": "What was the final score of the last NBA game?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_057.pdf"
+    "doc_file": "doc_057.txt"
   },
   {
     "type": "qa",
     "question": "Is there any insurance coverage mentioned for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_057.pdf"
+    "doc_file": "doc_057.txt"
   },
   {
     "type": "extraction",
@@ -3095,42 +3095,42 @@
       "mc_number": "MC-7863013",
       "po_number": "PO-77064"
     },
-    "doc_file": "doc_057.pdf"
+    "doc_file": "doc_057.txt"
   },
   {
     "type": "qa",
     "question": "What is the total weight of the shipment?",
     "expected_answer": "7526 kg",
     "expected_source_contains": "Weight: 7526 kg",
-    "doc_file": "doc_058.txt"
+    "doc_file": "doc_058.pdf"
   },
   {
     "type": "qa",
     "question": "Who is responsible for carrying the shipment?",
     "expected_answer": "GREAT PLAINS HAULING LLC",
     "expected_source_contains": "Carrier: GREAT PLAINS HAULING LLC",
-    "doc_file": "doc_058.txt"
+    "doc_file": "doc_058.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for this shipment?",
     "expected_answer": "2026-09-21",
     "expected_source_contains": "Pickup Date/Time: 2026-09-21",
-    "doc_file": "doc_058.txt"
+    "doc_file": "doc_058.pdf"
   },
   {
     "type": "qa",
     "question": "What was the final score of the last NBA game?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_058.txt"
+    "doc_file": "doc_058.pdf"
   },
   {
     "type": "qa",
     "question": "What is the driver’s license number for the assigned driver?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_058.txt"
+    "doc_file": "doc_058.pdf"
   },
   {
     "type": "extraction",
@@ -3156,7 +3156,7 @@
       "pallet_count": null,
       "dimensions": null
     },
-    "doc_file": "doc_058.txt"
+    "doc_file": "doc_058.pdf"
   },
   {
     "type": "qa",
@@ -3823,35 +3823,35 @@
     "question": "What is the total rate quoted for this shipment?",
     "expected_answer": "3101.7 MXN",
     "expected_source_contains": "RATE: 3101.7 MXN",
-    "doc_file": "doc_071.pdf"
+    "doc_file": "doc_071.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper in this freight quote?",
     "expected_answer": "Pacific Rim Electronics",
     "expected_source_contains": "SHIPPER: Pac Rim Elec",
-    "doc_file": "doc_071.pdf"
+    "doc_file": "doc_071.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for the shipment?",
     "expected_answer": "13-Jun-2026",
     "expected_source_contains": "PU DT: 13-Jun-26",
-    "doc_file": "doc_071.pdf"
+    "doc_file": "doc_071.txt"
   },
   {
     "type": "qa",
     "question": "What was the final score of the last basketball game?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_071.pdf"
+    "doc_file": "doc_071.txt"
   },
   {
     "type": "qa",
     "question": "Can you provide the insurance policy number for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_071.pdf"
+    "doc_file": "doc_071.txt"
   },
   {
     "type": "extraction",
@@ -3873,42 +3873,42 @@
       "po_number": "PO-66410",
       "insurance_policy_number": null
     },
-    "doc_file": "doc_071.pdf"
+    "doc_file": "doc_071.txt"
   },
   {
     "type": "qa",
     "question": "What is the agreed rate for this shipment?",
     "expected_answer": "1258.68",
     "expected_source_contains": "RATE: 1258.68",
-    "doc_file": "doc_072.pdf"
+    "doc_file": "doc_072.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this rate confirmation?",
     "expected_answer": "Heavy Metal Fabricators Inc",
     "expected_source_contains": "SHIPPER: Heavy Metal Fabricators Inc",
-    "doc_file": "doc_072.pdf"
+    "doc_file": "doc_072.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date?",
     "expected_answer": "26-Mar-2026",
     "expected_source_contains": "DEL DT: 26-Mar-2026",
-    "doc_file": "doc_072.pdf"
+    "doc_file": "doc_072.txt"
   },
   {
     "type": "qa",
     "question": "What was the final score of the last World Cup match?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_072.pdf"
+    "doc_file": "doc_072.txt"
   },
   {
     "type": "qa",
     "question": "What is the declared shipment weight?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_072.pdf"
+    "doc_file": "doc_072.txt"
   },
   {
     "type": "extraction",
@@ -3929,42 +3929,42 @@
       "mc_number": "MC-1189496",
       "po_number": "PO-73089"
     },
-    "doc_file": "doc_072.pdf"
+    "doc_file": "doc_072.txt"
   },
   {
     "type": "qa",
     "question": "What is the total freight charge for the shipment?",
     "expected_answer": "USD 6,378.11",
     "expected_source_contains": "USD 6,378.11",
-    "doc_file": "doc_073.pdf"
+    "doc_file": "doc_073.txt"
   },
   {
     "type": "qa",
     "question": "Who is responsible for transporting the shipment?",
     "expected_answer": "GOLDEN STATE TRANSPORT",
     "expected_source_contains": "GOLDEN STATE TRANSPORT",
-    "doc_file": "doc_073.pdf"
+    "doc_file": "doc_073.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for the shipment?",
     "expected_answer": "June 18, 2026",
     "expected_source_contains": "June 18, 2026",
-    "doc_file": "doc_073.pdf"
+    "doc_file": "doc_073.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest news about the upcoming presidential election?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_073.pdf"
+    "doc_file": "doc_073.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_073.pdf"
+    "doc_file": "doc_073.txt"
   },
   {
     "type": "extraction",
@@ -3983,7 +3983,7 @@
       "mc_number": "MC-1546455",
       "po_number": "PO-9617"
     },
-    "doc_file": "doc_073.pdf"
+    "doc_file": "doc_073.txt"
   },
   {
     "type": "qa",
@@ -4320,35 +4320,35 @@
     "question": "What is the agreed rate for the shipment?",
     "expected_answer": "$6400.20 USD",
     "expected_source_contains": "Rate: $6400.20 USD",
-    "doc_file": "doc_080.pdf"
+    "doc_file": "doc_080.txt"
   },
   {
     "type": "qa",
     "question": "Who is the shipper for this shipment?",
     "expected_answer": "QuickParts Automotive",
     "expected_source_contains": "QuickParts Automotive",
-    "doc_file": "doc_080.pdf"
+    "doc_file": "doc_080.txt"
   },
   {
     "type": "qa",
     "question": "What type of equipment is required for this shipment?",
     "expected_answer": "Flatbed",
     "expected_source_contains": "Equipment: Flatbed",
-    "doc_file": "doc_080.pdf"
+    "doc_file": "doc_080.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_080.pdf"
+    "doc_file": "doc_080.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_080.pdf"
+    "doc_file": "doc_080.txt"
   },
   {
     "type": "extraction",
@@ -4367,42 +4367,42 @@
       "mc_number": "MC-752868",
       "po_number": "PO-18961"
     },
-    "doc_file": "doc_080.pdf"
+    "doc_file": "doc_080.txt"
   },
   {
     "type": "qa",
     "question": "What is the total weight of the shipment?",
     "expected_answer": "24,044 kg",
     "expected_source_contains": "24,044 kg",
-    "doc_file": "doc_081.txt"
+    "doc_file": "doc_081.pdf"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this bill of lading?",
     "expected_answer": "Northern Timber Co Ltd",
     "expected_source_contains": "Northern Timber Co Ltd",
-    "doc_file": "doc_081.txt"
+    "doc_file": "doc_081.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date and time?",
     "expected_answer": "September 30, 2026 — 03:00 PM CST",
     "expected_source_contains": "September 30, 2026",
-    "doc_file": "doc_081.txt"
+    "doc_file": "doc_081.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest news on the global stock market?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_081.txt"
+    "doc_file": "doc_081.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_081.txt"
+    "doc_file": "doc_081.pdf"
   },
   {
     "type": "extraction",
@@ -4424,42 +4424,42 @@
       "po_number": "PO-49281",
       "insurance_policy_number": null
     },
-    "doc_file": "doc_081.txt"
+    "doc_file": "doc_081.pdf"
   },
   {
     "type": "qa",
     "question": "Who is responsible for transporting the shipment from Kansas City to Laredo?",
     "expected_answer": "SWIFT SHIFT LOGISTICS LLC",
     "expected_source_contains": "SWIFT SHIFT LOGISTICS LLC",
-    "doc_file": "doc_082.txt"
+    "doc_file": "doc_082.pdf"
   },
   {
     "type": "qa",
     "question": "What is the agreed payment currency and rate for this shipment?",
     "expected_answer": "4751.48 Canadian Dollars (CAD)",
     "expected_source_contains": "4751.48 Canadian Dollars",
-    "doc_file": "doc_082.txt"
+    "doc_file": "doc_082.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for this shipment?",
     "expected_answer": "November 24, 2026",
     "expected_source_contains": "November 24, 2026",
-    "doc_file": "doc_082.txt"
+    "doc_file": "doc_082.pdf"
   },
   {
     "type": "qa",
     "question": "What is the weather forecast for Kansas City on the pickup date?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_082.txt"
+    "doc_file": "doc_082.pdf"
   },
   {
     "type": "qa",
     "question": "What is the declared weight of the shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_082.txt"
+    "doc_file": "doc_082.pdf"
   },
   {
     "type": "extraction",
@@ -4476,42 +4476,42 @@
       "weight": null,
       "carrier_name": "SWIFT SHIFT LOGISTICS LLC"
     },
-    "doc_file": "doc_082.txt"
+    "doc_file": "doc_082.pdf"
   },
   {
     "type": "qa",
     "question": "What is the shipment ID for this bill of lading?",
     "expected_answer": "LD51116",
     "expected_source_contains": "Shipment ID: LD51116",
-    "doc_file": "doc_083.pdf"
+    "doc_file": "doc_083.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this shipment?",
     "expected_answer": "Pacific Rim Electronics",
     "expected_source_contains": "Pacific Rim Electronics",
-    "doc_file": "doc_083.pdf"
+    "doc_file": "doc_083.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for the shipment?",
     "expected_answer": "17-Mar-2026",
     "expected_source_contains": "Pickup Date/Time: 17-Mar-2026",
-    "doc_file": "doc_083.pdf"
+    "doc_file": "doc_083.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_083.pdf"
+    "doc_file": "doc_083.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_083.pdf"
+    "doc_file": "doc_083.txt"
   },
   {
     "type": "extraction",
@@ -4532,7 +4532,7 @@
       "mc_number": "MC-6422070",
       "po_number": "PO-42124"
     },
-    "doc_file": "doc_083.pdf"
+    "doc_file": "doc_083.txt"
   },
   {
     "type": "qa",
@@ -5083,35 +5083,35 @@
     "question": "Who is responsible for shipping this load?",
     "expected_answer": "Santos Agricola SA de CV",
     "expected_source_contains": "Santos Agricola SA de CV",
-    "doc_file": "doc_094.pdf"
+    "doc_file": "doc_094.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date and time for the shipment?",
     "expected_answer": "2026-09-13 08:00 AM",
     "expected_source_contains": "Pickup Date & Time",
-    "doc_file": "doc_094.pdf"
+    "doc_file": "doc_094.txt"
   },
   {
     "type": "qa",
     "question": "What type of equipment is required for this shipment?",
     "expected_answer": "Reefer",
     "expected_source_contains": "Equipment Type: Reefer",
-    "doc_file": "doc_094.pdf"
+    "doc_file": "doc_094.txt"
   },
   {
     "type": "qa",
     "question": "What was the final score of the last World Cup match?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_094.pdf"
+    "doc_file": "doc_094.txt"
   },
   {
     "type": "qa",
     "question": "Is there a specified insurance policy number for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_094.pdf"
+    "doc_file": "doc_094.txt"
   },
   {
     "type": "extraction",
@@ -5130,7 +5130,7 @@
       "po_number": "PO-96030",
       "mc_number": "MC-3262177"
     },
-    "doc_file": "doc_094.pdf"
+    "doc_file": "doc_094.txt"
   },
   {
     "type": "qa",
@@ -5245,35 +5245,35 @@
     "question": "What is the agreed rate for this shipment?",
     "expected_answer": "1325.94 EUR",
     "expected_source_contains": "1325.94 EUR",
-    "doc_file": "doc_097.pdf"
+    "doc_file": "doc_097.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper in the shipment instructions?",
     "expected_answer": "QuickParts Automotive",
     "expected_source_contains": "QuickParts Automotive",
-    "doc_file": "doc_097.pdf"
+    "doc_file": "doc_097.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date and time?",
     "expected_answer": "2026-07-14 08:00 AM",
     "expected_source_contains": "2026-07-14 08:00 AM",
-    "doc_file": "doc_097.pdf"
+    "doc_file": "doc_097.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the World Cup final?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_097.pdf"
+    "doc_file": "doc_097.txt"
   },
   {
     "type": "qa",
     "question": "What is the shipment's insurance coverage amount?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_097.pdf"
+    "doc_file": "doc_097.txt"
   },
   {
     "type": "extraction",
@@ -5290,42 +5290,42 @@
       "weight": "78713 lbs",
       "carrier_name": "Jose Garcia Transportes SA"
     },
-    "doc_file": "doc_097.pdf"
+    "doc_file": "doc_097.txt"
   },
   {
     "type": "qa",
     "question": "What is the total weight of the shipment?",
     "expected_answer": "67835 lbs",
     "expected_source_contains": "Weight: 67835 lbs",
-    "doc_file": "doc_098.pdf"
+    "doc_file": "doc_098.txt"
   },
   {
     "type": "qa",
     "question": "Who is the contact person for the shipper?",
     "expected_answer": "John M. Reynolds",
     "expected_source_contains": "Contact: John M. Reynolds",
-    "doc_file": "doc_098.pdf"
+    "doc_file": "doc_098.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date and time?",
     "expected_answer": "28-Apr-2026 08:00 AM",
     "expected_source_contains": "Pickup Date & Time: 28-Apr-2026 08:00 AM",
-    "doc_file": "doc_098.pdf"
+    "doc_file": "doc_098.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_098.pdf"
+    "doc_file": "doc_098.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_098.pdf"
+    "doc_file": "doc_098.txt"
   },
   {
     "type": "extraction",
@@ -5344,42 +5344,42 @@
       "mc_number": "MC-3288068",
       "po_number": "PO-98186"
     },
-    "doc_file": "doc_098.pdf"
+    "doc_file": "doc_098.txt"
   },
   {
     "type": "qa",
     "question": "What is the total amount due on this invoice?",
     "expected_answer": "4,036.37 EUR",
     "expected_source_contains": "TOTAL AMOUNT DUE",
-    "doc_file": "doc_099.txt"
+    "doc_file": "doc_099.pdf"
   },
   {
     "type": "qa",
     "question": "Who is the contact person for the shipper?",
     "expected_answer": "José García",
     "expected_source_contains": "Contact: José García",
-    "doc_file": "doc_099.txt"
+    "doc_file": "doc_099.pdf"
   },
   {
     "type": "qa",
     "question": "When was the shipment picked up?",
     "expected_answer": "May 12, 2026 — 08:30 AM",
     "expected_source_contains": "Pickup Date/Time",
-    "doc_file": "doc_099.txt"
+    "doc_file": "doc_099.pdf"
   },
   {
     "type": "qa",
     "question": "What is the weather forecast for Seattle next week?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_099.txt"
+    "doc_file": "doc_099.pdf"
   },
   {
     "type": "qa",
     "question": "What is the container number for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_099.txt"
+    "doc_file": "doc_099.pdf"
   },
   {
     "type": "extraction",
@@ -5398,7 +5398,7 @@
       "po_number": "PO-49589",
       "mc_number": "MC-3507913"
     },
-    "doc_file": "doc_099.txt"
+    "doc_file": "doc_099.pdf"
   },
   {
     "type": "qa",
@@ -5677,35 +5677,35 @@
     "question": "What is the total rate charged for this shipment?",
     "expected_answer": "4620.23",
     "expected_source_contains": "Rate: 4620.23",
-    "doc_file": "doc_105.txt"
+    "doc_file": "doc_105.pdf"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this bill of lading?",
     "expected_answer": "Northern Timber Co Ltd",
     "expected_source_contains": "Northern Timber Co Ltd",
-    "doc_file": "doc_105.txt"
+    "doc_file": "doc_105.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for the shipment?",
     "expected_answer": "2026-06-13",
     "expected_source_contains": "PICKUP DATETIME: 2026-06-13",
-    "doc_file": "doc_105.txt"
+    "doc_file": "doc_105.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_105.txt"
+    "doc_file": "doc_105.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_105.txt"
+    "doc_file": "doc_105.pdf"
   },
   {
     "type": "extraction",
@@ -5726,7 +5726,7 @@
       "rate": 4620.23,
       "weight": "36.1 tons"
     },
-    "doc_file": "doc_105.txt"
+    "doc_file": "doc_105.pdf"
   },
   {
     "type": "qa",
@@ -5787,35 +5787,35 @@
     "question": "Who is listed as the carrier for this shipment?",
     "expected_answer": "CROSSROADS FREIGHT CO",
     "expected_source_contains": "CROSSROADS FREIGHT CO",
-    "doc_file": "doc_107.txt"
+    "doc_file": "doc_107.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date?",
     "expected_answer": "2026-05-04",
     "expected_source_contains": "Pickup Date: 2026-05-04",
-    "doc_file": "doc_107.txt"
+    "doc_file": "doc_107.pdf"
   },
   {
     "type": "qa",
     "question": "What is the weight of the shipment?",
     "expected_answer": "25587 kg",
     "expected_source_contains": "Weight: 25587 kg",
-    "doc_file": "doc_107.txt"
+    "doc_file": "doc_107.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_107.txt"
+    "doc_file": "doc_107.pdf"
   },
   {
     "type": "qa",
     "question": "What is the agreed freight rate for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_107.txt"
+    "doc_file": "doc_107.pdf"
   },
   {
     "type": "extraction",
@@ -5834,7 +5834,7 @@
       "po_number": "PO-54483",
       "mc_number": "MC-8697330"
     },
-    "doc_file": "doc_107.txt"
+    "doc_file": "doc_107.pdf"
   },
   {
     "type": "qa",
@@ -5897,35 +5897,35 @@
     "question": "What is the total amount due for the shipment?",
     "expected_answer": "4067.26 CAD",
     "expected_source_contains": "TOTAL AMOUNT DUE: 4067.26 CAD",
-    "doc_file": "doc_109.pdf"
+    "doc_file": "doc_109.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this invoice?",
     "expected_answer": "Midwest Grain Cooperative",
     "expected_source_contains": "Shipper: Midwest Grain Cooperative",
-    "doc_file": "doc_109.pdf"
+    "doc_file": "doc_109.txt"
   },
   {
     "type": "qa",
     "question": "When was the delivery date for this shipment?",
     "expected_answer": "March 15, 2026",
     "expected_source_contains": "Delivery Date: March 15, 2026",
-    "doc_file": "doc_109.pdf"
+    "doc_file": "doc_109.txt"
   },
   {
     "type": "qa",
     "question": "What is the weather forecast for Miami next week?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_109.pdf"
+    "doc_file": "doc_109.txt"
   },
   {
     "type": "qa",
     "question": "What is the pickup date and time for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_109.pdf"
+    "doc_file": "doc_109.txt"
   },
   {
     "type": "extraction",
@@ -5946,42 +5946,42 @@
       "mc_number": "MC-5628792",
       "po_number": "PO-58700"
     },
-    "doc_file": "doc_109.pdf"
+    "doc_file": "doc_109.txt"
   },
   {
     "type": "qa",
     "question": "What is the total rate charged for this shipment?",
     "expected_answer": "3306.27 EUR",
     "expected_source_contains": "RATE      |3306.27",
-    "doc_file": "doc_110.pdf"
+    "doc_file": "doc_110.txt"
   },
   {
     "type": "qa",
     "question": "Who is responsible for hauling the shipment?",
     "expected_answer": "GREAT PLAINS HAULING LLC",
     "expected_source_contains": "CARRIER_NM|GREAT PLAINS HAULING LLC",
-    "doc_file": "doc_110.pdf"
+    "doc_file": "doc_110.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date for this shipment?",
     "expected_answer": "23-Aug-2026",
     "expected_source_contains": "DELIV_DT  |23-Aug-2026",
-    "doc_file": "doc_110.pdf"
+    "doc_file": "doc_110.txt"
   },
   {
     "type": "qa",
     "question": "What was the final score of the last World Cup match?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_110.pdf"
+    "doc_file": "doc_110.txt"
   },
   {
     "type": "qa",
     "question": "What is the shipment's hazardous material classification?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_110.pdf"
+    "doc_file": "doc_110.txt"
   },
   {
     "type": "extraction",
@@ -6002,7 +6002,7 @@
       "mc_number": "MC-2010720",
       "po_number": "PO-74905"
     },
-    "doc_file": "doc_110.pdf"
+    "doc_file": "doc_110.txt"
   },
   {
     "type": "qa",
@@ -6063,35 +6063,35 @@
     "question": "Who is listed as the shipper on this freight quote?",
     "expected_answer": "Santos Agricola SA de CV",
     "expected_source_contains": "Santos Agricola SA de CV",
-    "doc_file": "doc_112.txt"
+    "doc_file": "doc_112.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date for the shipment?",
     "expected_answer": "24-Nov-2026",
     "expected_source_contains": "SCHEDULED DELIVERY DATE: 24-Nov-2026",
-    "doc_file": "doc_112.txt"
+    "doc_file": "doc_112.pdf"
   },
   {
     "type": "qa",
     "question": "What type of equipment is specified for this shipment?",
     "expected_answer": "Power Only",
     "expected_source_contains": "Equipment Type: Power Only",
-    "doc_file": "doc_112.txt"
+    "doc_file": "doc_112.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_112.txt"
+    "doc_file": "doc_112.pdf"
   },
   {
     "type": "qa",
     "question": "What is the pickup datetime for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_112.txt"
+    "doc_file": "doc_112.pdf"
   },
   {
     "type": "extraction",
@@ -6110,7 +6110,7 @@
       "mc_number": "MC-7321845",
       "po_number": "PO-14886"
     },
-    "doc_file": "doc_112.txt"
+    "doc_file": "doc_112.pdf"
   },
   {
     "type": "qa",
@@ -6227,35 +6227,35 @@
     "question": "What is the total weight of the shipment?",
     "expected_answer": "27482 kg",
     "expected_source_contains": "Weight: 27482 kg",
-    "doc_file": "doc_115.txt"
+    "doc_file": "doc_115.pdf"
   },
   {
     "type": "qa",
     "question": "Who is responsible for carrying the shipment?",
     "expected_answer": "DESERT WIND TRUCKING LLC",
     "expected_source_contains": "CARRIER:\nDESERT WIND TRUCKING LLC",
-    "doc_file": "doc_115.txt"
+    "doc_file": "doc_115.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date?",
     "expected_answer": "01.24.2026",
     "expected_source_contains": "Delivery Date: 01.24.2026",
-    "doc_file": "doc_115.txt"
+    "doc_file": "doc_115.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest news on the presidential election?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_115.txt"
+    "doc_file": "doc_115.pdf"
   },
   {
     "type": "qa",
     "question": "What is the declared value of the shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_115.txt"
+    "doc_file": "doc_115.pdf"
   },
   {
     "type": "extraction",
@@ -6274,7 +6274,7 @@
       "mc_number": "MC-1807116",
       "po_number": "PO-71371"
     },
-    "doc_file": "doc_115.txt"
+    "doc_file": "doc_115.pdf"
   },
   {
     "type": "qa",
@@ -6335,35 +6335,35 @@
     "question": "What is the agreed rate for transporting the shipment?",
     "expected_answer": "3996.03 MXN",
     "expected_source_contains": "3996.03 MXN",
-    "doc_file": "doc_117.pdf"
+    "doc_file": "doc_117.txt"
   },
   {
     "type": "qa",
     "question": "Who is the shipper for this shipment?",
     "expected_answer": "Santos Agricola SA de CV",
     "expected_source_contains": "Santos Agricola SA de CV",
-    "doc_file": "doc_117.pdf"
+    "doc_file": "doc_117.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for the shipment?",
     "expected_answer": "18-Mar-2026",
     "expected_source_contains": "18-Mar-2026",
-    "doc_file": "doc_117.pdf"
+    "doc_file": "doc_117.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest news about the upcoming presidential election?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_117.pdf"
+    "doc_file": "doc_117.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_117.pdf"
+    "doc_file": "doc_117.txt"
   },
   {
     "type": "extraction",
@@ -6380,7 +6380,7 @@
       "weight": "37.4 tons",
       "carrier_name": "IRON HORSE LOGISTICS"
     },
-    "doc_file": "doc_117.pdf"
+    "doc_file": "doc_117.txt"
   },
   {
     "type": "qa",
@@ -6441,35 +6441,35 @@
     "question": "What is the total rate charged for this shipment?",
     "expected_answer": "6102.93 EUR",
     "expected_source_contains": "Rate: 6102.93 EUR",
-    "doc_file": "doc_119.pdf"
+    "doc_file": "doc_119.txt"
   },
   {
     "type": "qa",
     "question": "Can you tell me who the carrier is for this shipment?",
     "expected_answer": "MIDWEST HAULERS CO",
     "expected_source_contains": "Carrier Name: MIDWEST HAULERS CO",
-    "doc_file": "doc_119.pdf"
+    "doc_file": "doc_119.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date and time?",
     "expected_answer": "2026-07-04 08:00 AM",
     "expected_source_contains": "Pickup Date/Time: 2026-07-04 08:00 AM",
-    "doc_file": "doc_119.pdf"
+    "doc_file": "doc_119.txt"
   },
   {
     "type": "qa",
     "question": "Who won the last World Cup?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_119.pdf"
+    "doc_file": "doc_119.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_119.pdf"
+    "doc_file": "doc_119.txt"
   },
   {
     "type": "extraction",
@@ -6488,7 +6488,7 @@
       "mc_number": "MC-4509307",
       "po_number": "PO-46688"
     },
-    "doc_file": "doc_119.pdf"
+    "doc_file": "doc_119.txt"
   },
   {
     "type": "qa",
@@ -6825,35 +6825,35 @@
     "question": "Who is responsible for carrying the shipment?",
     "expected_answer": "SILVER LINE CARRIERS",
     "expected_source_contains": "SILVER LINE CARRIERS",
-    "doc_file": "doc_126.txt"
+    "doc_file": "doc_126.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date and time?",
     "expected_answer": "April 08, 2026  05:45 PM",
     "expected_source_contains": "April 08, 2026",
-    "doc_file": "doc_126.txt"
+    "doc_file": "doc_126.pdf"
   },
   {
     "type": "qa",
     "question": "What is the total weight of the shipment?",
     "expected_answer": "19.1 tons",
     "expected_source_contains": "19.1 tons",
-    "doc_file": "doc_126.txt"
+    "doc_file": "doc_126.pdf"
   },
   {
     "type": "qa",
     "question": "What is the weather forecast for Los Angeles tomorrow?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_126.txt"
+    "doc_file": "doc_126.pdf"
   },
   {
     "type": "qa",
     "question": "What is the customs clearance number for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_126.txt"
+    "doc_file": "doc_126.pdf"
   },
   {
     "type": "extraction",
@@ -6872,7 +6872,7 @@
       "mc_number": "MC-5997789",
       "po_number": "PO-57280"
     },
-    "doc_file": "doc_126.txt"
+    "doc_file": "doc_126.pdf"
   },
   {
     "type": "qa",
@@ -7423,35 +7423,35 @@
     "question": "What is the total rate charged for this shipment?",
     "expected_answer": "6865.89",
     "expected_source_contains": "6865.89",
-    "doc_file": "doc_137.pdf"
+    "doc_file": "doc_137.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this bill of lading?",
     "expected_answer": "ABC Manufacturing Corp",
     "expected_source_contains": "ABC Manufacturing Corp",
-    "doc_file": "doc_137.pdf"
+    "doc_file": "doc_137.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date and time?",
     "expected_answer": "2026-08-04 08:30",
     "expected_source_contains": "2026-08-04 08:30",
-    "doc_file": "doc_137.pdf"
+    "doc_file": "doc_137.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_137.pdf"
+    "doc_file": "doc_137.txt"
   },
   {
     "type": "qa",
     "question": "What is the driver’s license number for the carrier?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_137.pdf"
+    "doc_file": "doc_137.txt"
   },
   {
     "type": "extraction",
@@ -7470,42 +7470,42 @@
       "po_number": "PO-30135",
       "mc_number": "MC-1134637"
     },
-    "doc_file": "doc_137.pdf"
+    "doc_file": "doc_137.txt"
   },
   {
     "type": "qa",
     "question": "What is the agreed freight rate for shipment LD92614?",
     "expected_answer": "1742.45 USD",
     "expected_source_contains": "agreed freight rate is USD 1,742.45",
-    "doc_file": "doc_138.txt"
+    "doc_file": "doc_138.pdf"
   },
   {
     "type": "qa",
     "question": "Who is the shipper for this shipment?",
     "expected_answer": "Sunrise Pharmaceuticals",
     "expected_source_contains": "Shipper: Sunrise Pharmaceuticals",
-    "doc_file": "doc_138.txt"
+    "doc_file": "doc_138.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date for this shipment?",
     "expected_answer": "06.06.2026",
     "expected_source_contains": "Delivery Date   | Scheduled delivery              | 06.06.2026",
-    "doc_file": "doc_138.txt"
+    "doc_file": "doc_138.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_138.txt"
+    "doc_file": "doc_138.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_138.txt"
+    "doc_file": "doc_138.pdf"
   },
   {
     "type": "extraction",
@@ -7522,7 +7522,7 @@
       "weight": "17055 lbs",
       "carrier_name": "Trans-Pacific Freight Corp"
     },
-    "doc_file": "doc_138.txt"
+    "doc_file": "doc_138.pdf"
   },
   {
     "type": "qa",
@@ -7747,35 +7747,35 @@
     "question": "What is the total rate charged for this shipment?",
     "expected_answer": "5364.69 EUR",
     "expected_source_contains": "RATE: 5364.69 EUR",
-    "doc_file": "doc_143.pdf"
+    "doc_file": "doc_143.txt"
   },
   {
     "type": "qa",
     "question": "Who is listed as the carrier for this shipment?",
     "expected_answer": "MAPLE LEAF SHIPPING LTD",
     "expected_source_contains": "CARRIER: MAPLE LEAF SHIPPING LTD",
-    "doc_file": "doc_143.pdf"
+    "doc_file": "doc_143.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for the shipment?",
     "expected_answer": "June 05, 2026",
     "expected_source_contains": "PU DT: 06/05/26",
-    "doc_file": "doc_143.pdf"
+    "doc_file": "doc_143.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_143.pdf"
+    "doc_file": "doc_143.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_143.pdf"
+    "doc_file": "doc_143.txt"
   },
   {
     "type": "extraction",
@@ -7796,7 +7796,7 @@
       "mc_number": "MC-3022635",
       "po_number": "PO-93691"
     },
-    "doc_file": "doc_143.pdf"
+    "doc_file": "doc_143.txt"
   },
   {
     "type": "qa",
@@ -7911,35 +7911,35 @@
     "question": "Who is responsible for transporting the shipment?",
     "expected_answer": "Jose Garcia Transportes SA",
     "expected_source_contains": "Jose Garcia Transportes SA",
-    "doc_file": "doc_146.txt"
+    "doc_file": "doc_146.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for the shipment?",
     "expected_answer": "11/08/2026",
     "expected_source_contains": "Pickup Date/Time: 11/08/2026",
-    "doc_file": "doc_146.txt"
+    "doc_file": "doc_146.pdf"
   },
   {
     "type": "qa",
     "question": "What type of equipment is being used for this shipment?",
     "expected_answer": "Lowboy",
     "expected_source_contains": "Equipment Type: Lowboy",
-    "doc_file": "doc_146.txt"
+    "doc_file": "doc_146.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the NBA finals?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_146.txt"
+    "doc_file": "doc_146.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance policy number for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_146.txt"
+    "doc_file": "doc_146.pdf"
   },
   {
     "type": "extraction",
@@ -7958,42 +7958,42 @@
       "po_number": "PO-42774",
       "mc_number": "MC-436852"
     },
-    "doc_file": "doc_146.txt"
+    "doc_file": "doc_146.pdf"
   },
   {
     "type": "qa",
     "question": "What is the agreed rate for transporting the shipment?",
     "expected_answer": "3,564.32 MXN",
     "expected_source_contains": "3,564.32 MXN",
-    "doc_file": "doc_147.txt"
+    "doc_file": "doc_147.pdf"
   },
   {
     "type": "qa",
     "question": "Who is listed as the carrier for this shipment?",
     "expected_answer": "Rio Grande Logistics",
     "expected_source_contains": "Rio Grande Logistics",
-    "doc_file": "doc_147.txt"
+    "doc_file": "doc_147.pdf"
   },
   {
     "type": "qa",
     "question": "When and where is the pickup scheduled?",
     "expected_answer": "March 2, 2026 at 08:00 AM EST, 1234 Industrial Way, Atlanta, GA 30301, USA",
     "expected_source_contains": "2026-03-02 08:00 AM EST",
-    "doc_file": "doc_147.txt"
+    "doc_file": "doc_147.pdf"
   },
   {
     "type": "qa",
     "question": "What is the latest news about the upcoming presidential election?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_147.txt"
+    "doc_file": "doc_147.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_147.txt"
+    "doc_file": "doc_147.pdf"
   },
   {
     "type": "extraction",
@@ -8014,42 +8014,42 @@
       "mc_number": "MC-9161801",
       "po_number": "PO-35768"
     },
-    "doc_file": "doc_147.txt"
+    "doc_file": "doc_147.pdf"
   },
   {
     "type": "qa",
     "question": "Who is responsible for transporting the shipment?",
     "expected_answer": "Jose Garcia Transportes SA",
     "expected_source_contains": "Jose Garcia Transportes SA",
-    "doc_file": "doc_148.pdf"
+    "doc_file": "doc_148.txt"
   },
   {
     "type": "qa",
     "question": "Where is the shipment being picked up from?",
     "expected_answer": "Phoenix, AZ 85001, USA",
     "expected_source_contains": "Phoenix, AZ 85001",
-    "doc_file": "doc_148.pdf"
+    "doc_file": "doc_148.txt"
   },
   {
     "type": "qa",
     "question": "What type of equipment is used for this shipment?",
     "expected_answer": "Reefer",
     "expected_source_contains": "Reefer",
-    "doc_file": "doc_148.pdf"
+    "doc_file": "doc_148.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest score of the World Cup final?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_148.pdf"
+    "doc_file": "doc_148.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_148.pdf"
+    "doc_file": "doc_148.txt"
   },
   {
     "type": "extraction",
@@ -8068,7 +8068,7 @@
       "mc_number": "MC-3572094",
       "po_number": "PO-23391"
     },
-    "doc_file": "doc_148.pdf"
+    "doc_file": "doc_148.txt"
   },
   {
     "type": "qa",
@@ -8127,35 +8127,35 @@
     "question": "What is the agreed rate for the shipment LD22675?",
     "expected_answer": "6758.22 CAD",
     "expected_source_contains": "6758.22 CAD",
-    "doc_file": "doc_150.pdf"
+    "doc_file": "doc_150.txt"
   },
   {
     "type": "qa",
     "question": "Who is responsible for transporting the shipment?",
     "expected_answer": "GOLDEN STATE TRANSPORT",
     "expected_source_contains": "GOLDEN STATE TRANSPORT",
-    "doc_file": "doc_150.pdf"
+    "doc_file": "doc_150.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date for this shipment?",
     "expected_answer": "10.09.2026",
     "expected_source_contains": "10.09.2026",
-    "doc_file": "doc_150.pdf"
+    "doc_file": "doc_150.txt"
   },
   {
     "type": "qa",
     "question": "What is the weather forecast for San Diego on the delivery date?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_150.pdf"
+    "doc_file": "doc_150.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance policy number for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_150.pdf"
+    "doc_file": "doc_150.txt"
   },
   {
     "type": "extraction",
@@ -8172,7 +8172,7 @@
       "weight": "33118 kg",
       "carrier_name": "GOLDEN STATE TRANSPORT"
     },
-    "doc_file": "doc_150.pdf"
+    "doc_file": "doc_150.txt"
   },
   {
     "type": "qa",
@@ -8343,35 +8343,35 @@
     "question": "What is the pickup date for this shipment?",
     "expected_answer": "09/28/2026",
     "expected_source_contains": "PU DT: 09/28/26",
-    "doc_file": "doc_154.txt"
+    "doc_file": "doc_154.pdf"
   },
   {
     "type": "qa",
     "question": "Who is the carrier handling this delivery?",
     "expected_answer": "HEARTLAND EXPRESS LLC",
     "expected_source_contains": "Heartland Expr LLC",
-    "doc_file": "doc_154.txt"
+    "doc_file": "doc_154.pdf"
   },
   {
     "type": "qa",
     "question": "How much does the shipment weigh?",
     "expected_answer": "33749 kg",
     "expected_source_contains": "WT: 33749 kg",
-    "doc_file": "doc_154.txt"
+    "doc_file": "doc_154.pdf"
   },
   {
     "type": "qa",
     "question": "What was the final score of the basketball game last night?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_154.txt"
+    "doc_file": "doc_154.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_154.txt"
+    "doc_file": "doc_154.pdf"
   },
   {
     "type": "extraction",
@@ -8392,42 +8392,42 @@
       "mc_number": "MC-5319779",
       "po_number": "PO-94004"
     },
-    "doc_file": "doc_154.txt"
+    "doc_file": "doc_154.pdf"
   },
   {
     "type": "qa",
     "question": "What is the total rate charged for this shipment?",
     "expected_answer": "7360.64",
     "expected_source_contains": "Rate: USD 7360.64",
-    "doc_file": "doc_155.pdf"
+    "doc_file": "doc_155.txt"
   },
   {
     "type": "qa",
     "question": "Can you tell me who the shipment is being delivered to?",
     "expected_answer": "Costco Wholesale Depot",
     "expected_source_contains": "CONSlGNEE DETAILS",
-    "doc_file": "doc_155.pdf"
+    "doc_file": "doc_155.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date for this shipment?",
     "expected_answer": "08/17/2026",
     "expected_source_contains": "Pickup Date/Time: 08/17/2026",
-    "doc_file": "doc_155.pdf"
+    "doc_file": "doc_155.txt"
   },
   {
     "type": "qa",
     "question": "What was the final score of the last World Cup match?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_155.pdf"
+    "doc_file": "doc_155.txt"
   },
   {
     "type": "qa",
     "question": "What is the insurance policy number for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_155.pdf"
+    "doc_file": "doc_155.txt"
   },
   {
     "type": "extraction",
@@ -8448,7 +8448,7 @@
       "mc_number": "MC-8300480",
       "po_number": "PO-78862"
     },
-    "doc_file": "doc_155.pdf"
+    "doc_file": "doc_155.txt"
   },
   {
     "type": "qa",
@@ -8565,35 +8565,35 @@
     "question": "What is the total freight rate for shipment LD94848?",
     "expected_answer": "2,823.01 USD",
     "expected_source_contains": "TOTAL                |          |                  | 2,823.01",
-    "doc_file": "doc_158.txt"
+    "doc_file": "doc_158.pdf"
   },
   {
     "type": "qa",
     "question": "Who is the contact person for the shipper Northern Timber Co Ltd?",
     "expected_answer": "John M. Reynolds",
     "expected_source_contains": "Contact: John M. Reynolds",
-    "doc_file": "doc_158.txt"
+    "doc_file": "doc_158.pdf"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date and time?",
     "expected_answer": "21-May-2026 08:00 AM",
     "expected_source_contains": "Pickup Date & Time: 21-May-2026 08:00 AM",
-    "doc_file": "doc_158.txt"
+    "doc_file": "doc_158.pdf"
   },
   {
     "type": "qa",
     "question": "What was the final score of the last World Cup match?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_158.txt"
+    "doc_file": "doc_158.pdf"
   },
   {
     "type": "qa",
     "question": "What is the insurance coverage amount for this shipment?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_158.txt"
+    "doc_file": "doc_158.pdf"
   },
   {
     "type": "extraction",
@@ -8612,42 +8612,42 @@
       "mc_number": "MC-1052520",
       "po_number": "PO-79647"
     },
-    "doc_file": "doc_158.txt"
+    "doc_file": "doc_158.pdf"
   },
   {
     "type": "qa",
     "question": "Who is listed as the shipper on this bill of lading?",
     "expected_answer": "Midwest Grain Cooperative",
     "expected_source_contains": "Midwest Grain Cooperative",
-    "doc_file": "doc_159.pdf"
+    "doc_file": "doc_159.txt"
   },
   {
     "type": "qa",
     "question": "What is the mode of transport for this shipment?",
     "expected_answer": "Drayage",
     "expected_source_contains": "Drayage",
-    "doc_file": "doc_159.pdf"
+    "doc_file": "doc_159.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled delivery date for this shipment?",
     "expected_answer": "27-Dec-2026",
     "expected_source_contains": "27-Dec-2026",
-    "doc_file": "doc_159.pdf"
+    "doc_file": "doc_159.txt"
   },
   {
     "type": "qa",
     "question": "What is the latest score in the NBA playoffs?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_159.pdf"
+    "doc_file": "doc_159.txt"
   },
   {
     "type": "qa",
     "question": "What is the payment terms specified in the document?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_159.pdf"
+    "doc_file": "doc_159.txt"
   },
   {
     "type": "extraction",
@@ -8666,42 +8666,42 @@
       "mc_number": "MC-8611330",
       "po_number": "PO-40347"
     },
-    "doc_file": "doc_159.pdf"
+    "doc_file": "doc_159.txt"
   },
   {
     "type": "qa",
     "question": "What is the agreed freight rate for this shipment?",
     "expected_answer": "1933.58 EUR",
     "expected_source_contains": "Rate: 1933.58 EUR",
-    "doc_file": "doc_160.pdf"
+    "doc_file": "doc_160.txt"
   },
   {
     "type": "qa",
     "question": "Who is responsible for delivering the shipment?",
     "expected_answer": "SUMMIT FREIGHT GROUP",
     "expected_source_contains": "CARRIER NAME: SUMMIT FREIGHT GROUP",
-    "doc_file": "doc_160.pdf"
+    "doc_file": "doc_160.txt"
   },
   {
     "type": "qa",
     "question": "When is the scheduled pickup date and time?",
     "expected_answer": "12-Jun-2026 08:00 AM EST",
     "expected_source_contains": "Pickup Date & Time: 12-Jun-2026 08:00 AM EST",
-    "doc_file": "doc_160.pdf"
+    "doc_file": "doc_160.txt"
   },
   {
     "type": "qa",
     "question": "What is the weather forecast for Portland on the delivery date?",
     "expected_answer": "__OUT_OF_SCOPE__",
     "expected_source_contains": "",
-    "doc_file": "doc_160.pdf"
+    "doc_file": "doc_160.txt"
   },
   {
     "type": "qa",
     "question": "What is the shipment's insurance policy number?",
     "expected_answer": "__NOT_FOUND__",
     "expected_source_contains": "",
-    "doc_file": "doc_160.pdf"
+    "doc_file": "doc_160.txt"
   },
   {
     "type": "extraction",
@@ -8718,6 +8718,6 @@
       "weight": "29556 kg",
       "carrier_name": "SUMMIT FREIGHT GROUP"
     },
-    "doc_file": "doc_160.pdf"
+    "doc_file": "doc_160.txt"
   }
 ]

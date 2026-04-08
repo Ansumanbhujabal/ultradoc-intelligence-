@@ -51,7 +51,7 @@ class AskRequest(BaseModel):
     question: str
     enable_query_rewrite: bool = False
     retrieval_mode: str = "hybrid"
-    confidence_threshold: float = 0.1
+    confidence_threshold: float = 0.35
 
 
 class AskResponse(BaseModel):

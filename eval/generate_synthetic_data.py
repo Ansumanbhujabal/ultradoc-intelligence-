@@ -201,7 +201,11 @@ def format_seed_fields_for_prompt(fields: dict) -> str:
 
 
 def choose_output_format(rng: random.Random) -> str:
-    """Pick a random output file format."""
+    """Pick a random output file format: txt (50%), docx (30%), pdf (20%).
+
+    PDF requires reportlab — if not installed, save_as_pdf falls back to .txt
+    and the actual filename is tracked correctly via actual_path return value.
+    """
     r = rng.random()
     if r < 0.50:
         return "txt"

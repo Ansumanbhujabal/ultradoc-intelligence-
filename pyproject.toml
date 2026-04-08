@@ -1,7 +1,7 @@
 [project]
 name = "ultradoc-intelligence"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI-powered logistics document Q&A and structured extraction system with multi-layer guardrails"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -21,6 +21,7 @@ dependencies = [
     "python-docx>=1.2.0",
     "python-multipart>=0.0.24",
     "rank-bm25>=0.2.2",
+    "reportlab>=4.4.10",
     "uvicorn[standard]>=0.44.0",
 ]
 

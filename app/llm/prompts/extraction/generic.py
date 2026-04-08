@@ -18,8 +18,8 @@ IMPORTANT RULES:
 
 Fields:
 - shipment_id: Any reference number, load ID, BOL number, or tracking number
-- shipper: Shipper/sender name and address
-- consignee: Consignee/receiver name and address
+- shipper: Shipper/sender company or entity name only (no address)
+- consignee: Consignee/receiver company or entity name only (no address)
 - pickup_datetime: Pickup date/time in ISO format (YYYY-MM-DDTHH:MM:SS), null if not found
 - delivery_datetime: Delivery date/time in ISO format, null if not found
 - equipment_type: Equipment or trailer type, null if not found

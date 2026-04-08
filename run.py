@@ -10,6 +10,7 @@ from ui.gradio_app import build_ui
 def main():
     demo = build_ui()
     app = gr.mount_gradio_app(fastapi_app, demo, path="/ui")
+    app = gr.mount_gradio_app(app, demo, path="/")
     uvicorn.run(app, host="0.0.0.0", port=settings.api_port, log_level=settings.log_level.lower())
 
 

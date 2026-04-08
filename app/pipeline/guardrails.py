@@ -2,6 +2,9 @@
 import re
 from app.models.schemas import GuardrailStatus
 from app.llm.prompts.guardrails import is_in_scope
+from app.observability.logger import get_logger
+
+logger = get_logger("guardrails")
 
 
 def check_scope(question: str) -> GuardrailStatus:
@@ -9,7 +12,9 @@ def check_scope(question: str) -> GuardrailStatus:
     if not question.strip():
         return GuardrailStatus.OUT_OF_SCOPE
     if is_in_scope(question):
+        logger.info("guardrail_scope", extra={"extra_data": {"result": "passed"}})
         return GuardrailStatus.PASSED
+    logger.info("guardrail_scope", extra={"extra_data": {"result": "out_of_scope"}})
     return GuardrailStatus.OUT_OF_SCOPE
 
 
@@ -19,7 +24,13 @@ def check_retrieval_threshold(chunks: list[dict], threshold: float) -> Guardrail
         return GuardrailStatus.NOT_FOUND
     best_similarity = max(c.get("similarity", 0) for c in chunks)
     if best_similarity < threshold:
+        logger.info("guardrail_threshold", extra={"extra_data": {
+            "result": "not_found", "best_similarity": best_similarity, "threshold": threshold,
+        }})
         return GuardrailStatus.NOT_FOUND
+    logger.info("guardrail_threshold", extra={"extra_data": {
+        "result": "passed", "best_similarity": best_similarity, "threshold": threshold,
+    }})
     return GuardrailStatus.PASSED
 
 
@@ -41,5 +52,11 @@ def check_grounding(answer: str, source_text: str, threshold: float = 0.4) -> tu
     ratio = len(overlap) / len(answer_tokens)
 
     if ratio < threshold:
+        logger.info("guardrail_grounding", extra={"extra_data": {
+            "result": "low_grounding", "overlap_ratio": round(ratio, 2), "threshold": threshold,
+        }})
         return GuardrailStatus.LOW_GROUNDING, round(ratio, 2)
+    logger.info("guardrail_grounding", extra={"extra_data": {
+        "result": "passed", "overlap_ratio": round(ratio, 2), "threshold": threshold,
+    }})
     return GuardrailStatus.PASSED, round(ratio, 2)

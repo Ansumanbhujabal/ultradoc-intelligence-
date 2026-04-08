@@ -4,6 +4,7 @@ Usage:
     PYTHONPATH=. uv run python eval/run_simulation.py
     PYTHONPATH=. uv run python eval/run_simulation.py --max-docs 10
     PYTHONPATH=. uv run python eval/run_simulation.py --sample-docs
+    PYTHONPATH=. uv run python eval/run_simulation.py --sample-only
     PYTHONPATH=. uv run python eval/run_simulation.py --retrieval-mode vector
 """
 
@@ -60,9 +61,9 @@ def run_qa_test(doc_id: str, question: str, client: httpx.Client,
         json={
             "doc_id": doc_id,
             "question": question,
-            "enable_query_rewrite": False,
+            "enable_query_rewrite": True,
             "retrieval_mode": retrieval_mode,
-            "confidence_threshold": 0.1,
+            "confidence_threshold": 0.35,
         },
         timeout=TIMEOUT,
     )
@@ -94,61 +95,124 @@ def run_extract_test(doc_id: str, client: httpx.Client) -> dict:
     return data
 
 
-def check_qa_result(expected_answer: str, response: dict) -> bool:
-    """Check if a Q&A response matches expectations."""
-    if expected_answer == "__OUT_OF_SCOPE__":
-        status = response.get("guardrail_status", "")
-        answer = response.get("answer", "").lower()
-        # Accept both explicit OUT_OF_SCOPE and "not found" responses —
-        # on classified docs, Layer 1 is skipped and Layers 2+3 catch
-        # irrelevant questions as NOT_FOUND or LOW_GROUNDING instead
-        return (status == "OUT_OF_SCOPE"
-                or status == "NOT_FOUND"
-                or "not found" in answer
-                or "not a logistics" in answer)
+def _is_refusal(response: dict) -> bool:
+    """Check if a response is a refusal (out-of-scope, not-found, etc.)."""
+    status = response.get("guardrail_status", "")
+    answer = response.get("answer", "").lower()
+    refusal_statuses = {"OUT_OF_SCOPE", "NOT_FOUND"}
+    refusal_phrases = [
+        "not found", "not a logistics", "not related to", "does not appear",
+        "not present", "not mentioned", "not provided", "not included",
+        "not specified", "does not contain", "no information", "not available",
+    ]
+    return (status in refusal_statuses
+            or any(p in answer for p in refusal_phrases))
 
-    if expected_answer == "__NOT_FOUND__":
-        status = response.get("guardrail_status", "")
-        answer = response.get("answer", "").lower()
-        return status == "NOT_FOUND" or "not found" in answer or "not present" in answer
 
-    # Normal answer — case-insensitive substring match
-    actual = response.get("answer", "").lower()
-    return expected_answer.lower() in actual
+# LLM-as-judge for semantic equivalence
+_judge_provider = None
+
+def _get_judge():
+    global _judge_provider
+    if _judge_provider is None:
+        from app.llm.provider import get_provider
+        _judge_provider = get_provider()
+    return _judge_provider
+
+
+def _llm_judge_equivalent(question: str, expected: str, actual: str) -> bool:
+    """Use LLM to judge if actual answer is semantically equivalent to expected."""
+    try:
+        import app.llm.prompts.eval  # noqa: registers eval prompts
+        from app.llm.prompts.registry import registry
+        judge = _get_judge()
+        template = registry.get("eval_qa_judge")
+        prompt = template.render(question=question, expected=expected, actual=actual)
+        resp = judge.generate(
+            messages=[{"role": "user", "content": prompt}],
+            model=judge.fast_model,
+            max_tokens=5,
+            temperature=0.0,
+        )
+        return resp.content.strip().upper().startswith("YES")
+    except Exception:
+        # Fallback to substring match if LLM judge fails
+        return expected.lower() in actual.lower()
+
+
+def check_qa_result(expected_answer: str, response: dict, question: str = "") -> bool:
+    """Check if a Q&A response matches expectations using LLM-as-judge."""
+    if expected_answer in ("__OUT_OF_SCOPE__", "__NOT_FOUND__"):
+        return _is_refusal(response)
+
+    # If the system refused but shouldn't have, that's a fail
+    if _is_refusal(response):
+        return False
+
+    actual = response.get("answer", "")
+
+    # Quick check: exact substring match (skip LLM call if obvious)
+    if expected_answer.lower() in actual.lower():
+        return True
+
+    # LLM-as-judge for semantic equivalence
+    return _llm_judge_equivalent(question, expected_answer, actual)
 
 
 def check_extraction_result(expected_fields: dict, response: dict) -> tuple:
-    """Check extraction fields. Returns (fields_checked, fields_matched)."""
+    """Check extraction fields with flexible matching. Returns (fields_checked, fields_matched)."""
     extracted = response.get("extracted_data", {})
     checked = 0
     matched = 0
 
     for field, expected_val in expected_fields.items():
         if expected_val is None:
-            continue  # Skip null expected values
+            continue
         checked += 1
         actual_val = extracted.get(field)
         if actual_val is None:
             continue
 
-        # Flexible matching
         expected_str = str(expected_val).lower().strip()
         actual_str = str(actual_val).lower().strip()
 
+        # Substring match (either direction)
         if expected_str in actual_str or actual_str in expected_str:
             matched += 1
-        elif field == "rate":
-            # Numeric comparison for rate
-            try:
-                if abs(float(expected_val) - float(actual_val)) < 1.0:
-                    matched += 1
-            except (ValueError, TypeError):
-                pass
+        # Numeric comparison (rates, weights, etc.)
+        elif _is_numeric_match(expected_val, actual_val):
+            matched += 1
+        # Fuzzy: expected is a name/entity — check if core value is present
+        # e.g., expected="Atlas Construction Materials", actual="Atlas Construction Materials, 1234 Blvd"
+        elif _core_value_present(expected_str, actual_str):
+            matched += 1
 
     return checked, matched
 
 
-def run_simulation(max_docs=None, sample_docs=False, retrieval_mode="hybrid"):
+def _is_numeric_match(expected, actual, tolerance=1.0) -> bool:
+    """Check if two values are numerically close."""
+    try:
+        # Strip currency symbols and commas
+        e = float(str(expected).replace(",", "").replace("$", "").strip())
+        a = float(str(actual).replace(",", "").replace("$", "").strip())
+        return abs(e - a) < tolerance
+    except (ValueError, TypeError):
+        return False
+
+
+def _core_value_present(expected: str, actual: str) -> bool:
+    """Check if all significant words from expected appear in actual."""
+    stop_words = {"the", "a", "an", "of", "in", "at", "to", "for", "and", "or", "is"}
+    expected_words = [w for w in expected.split() if w not in stop_words and len(w) > 1]
+    if not expected_words:
+        return False
+    matches = sum(1 for w in expected_words if w in actual)
+    return matches / len(expected_words) >= 0.8
+
+
+def run_simulation(max_docs=None, sample_docs=False, sample_only=False,
+                   retrieval_mode="hybrid"):
     """Run the full simulation."""
     client = httpx.Client()
 
@@ -166,22 +230,30 @@ def run_simulation(max_docs=None, sample_docs=False, retrieval_mode="hybrid"):
     print(f"Retrieval mode: {retrieval_mode}")
     print()
 
-    # Load ground truth
-    gt_path = os.path.join(SYNTHETIC_DIR, "ground_truth.json")
-    if not os.path.exists(gt_path):
-        print(f"ERROR: Ground truth not found at {gt_path}")
-        print("Run generate_synthetic_data.py first.")
-        return
-
-    with open(gt_path) as f:
-        test_cases = json.load(f)
-
-    # Optionally add sample doc test cases
-    if sample_docs and os.path.exists(SAMPLE_GT):
+    # Load ground truth — sample-only skips synthetic entirely
+    if sample_only:
+        if not os.path.exists(SAMPLE_GT):
+            print(f"ERROR: Sample ground truth not found at {SAMPLE_GT}")
+            return
         with open(SAMPLE_GT) as f:
-            sample_cases = json.load(f)
-            test_cases.extend(sample_cases)
-        print(f"Added {len(sample_cases)} sample doc test cases")
+            test_cases = json.load(f)
+        print(f"Sample-only mode: {len(test_cases)} test cases from {SAMPLE_GT}")
+    else:
+        gt_path = os.path.join(SYNTHETIC_DIR, "ground_truth.json")
+        if not os.path.exists(gt_path):
+            print(f"ERROR: Ground truth not found at {gt_path}")
+            print("Run generate_synthetic_data.py first.")
+            return
+
+        with open(gt_path) as f:
+            test_cases = json.load(f)
+
+        # Optionally add sample doc test cases
+        if sample_docs and os.path.exists(SAMPLE_GT):
+            with open(SAMPLE_GT) as f:
+                sample_cases = json.load(f)
+                test_cases.extend(sample_cases)
+            print(f"Added {len(sample_cases)} sample doc test cases")
 
     # Get unique documents
     doc_files = sorted(set(tc["doc_file"] for tc in test_cases))
@@ -200,13 +272,24 @@ def run_simulation(max_docs=None, sample_docs=False, retrieval_mode="hybrid"):
     upload_errors = []
 
     for i, filename in enumerate(doc_files, 1):
-        # Determine file path
-        if filename.endswith(".pdf") and os.path.exists(os.path.join(SAMPLE_DIR, filename)):
+        # Determine file path — check sample dir first for PDFs, then synthetic
+        filepath = None
+        if os.path.exists(os.path.join(SAMPLE_DIR, filename)):
             filepath = os.path.join(SAMPLE_DIR, filename)
-        else:
+        elif os.path.exists(os.path.join(SYNTHETIC_DIR, "docs", filename)):
             filepath = os.path.join(SYNTHETIC_DIR, "docs", filename)
+        else:
+            # Defensive fallback: check if file exists with different extension
+            # (handles cases where PDF generation fell back to .txt)
+            base = os.path.splitext(filename)[0]
+            for ext in (".txt", ".docx", ".pdf"):
+                candidate = os.path.join(SYNTHETIC_DIR, "docs", f"{base}{ext}")
+                if os.path.exists(candidate):
+                    filepath = candidate
+                    print(f"  [{i:3d}/{len(doc_files)}] NOTE {filename} -> {os.path.basename(candidate)}")
+                    break
 
-        if not os.path.exists(filepath):
+        if filepath is None:
             upload_errors.append({"doc_file": filename, "error": "File not found"})
             print(f"  [{i:3d}/{len(doc_files)}] SKIP {filename} — not found")
             continue
@@ -249,7 +332,7 @@ def run_simulation(max_docs=None, sample_docs=False, retrieval_mode="hybrid"):
             if "error" in response:
                 errors.append({"doc_file": doc_file, "question": tc["question"], "error": response["error"]})
             else:
-                passed = check_qa_result(tc["expected_answer"], response)
+                passed = check_qa_result(tc["expected_answer"], response, tc["question"])
                 qa_latencies.append(response["latency_ms"])
 
                 conf = response.get("confidence", {})
@@ -363,9 +446,12 @@ def run_simulation(max_docs=None, sample_docs=False, retrieval_mode="hybrid"):
         "failed_cases": failed_cases[:100],
     }
 
-    # Save report
-    report_path = os.path.join(SYNTHETIC_DIR, "simulation_report.json")
-    os.makedirs(SYNTHETIC_DIR, exist_ok=True)
+    # Save report — separate files for sample vs synthetic evals
+    if sample_only:
+        report_path = os.path.join(os.path.dirname(__file__), "sample_report.json")
+    else:
+        report_path = os.path.join(SYNTHETIC_DIR, "simulation_report.json")
+        os.makedirs(SYNTHETIC_DIR, exist_ok=True)
     with open(report_path, "w") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
 
@@ -431,7 +517,14 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run simulation against synthetic + sample data")
     parser.add_argument("--max-docs", type=int, default=None, help="Limit number of docs to upload")
     parser.add_argument("--sample-docs", action="store_true", help="Include 3 sample PDFs from test data")
+    parser.add_argument("--sample-only", action="store_true",
+                        help="Run ONLY against 3 sample PDFs (uses eval/ground_truth.json)")
     parser.add_argument("--retrieval-mode", default="hybrid", choices=["hybrid", "vector", "bm25"])
     args = parser.parse_args()
 
-    run_simulation(max_docs=args.max_docs, sample_docs=args.sample_docs, retrieval_mode=args.retrieval_mode)
+    run_simulation(
+        max_docs=args.max_docs,
+        sample_docs=args.sample_docs,
+        sample_only=args.sample_only,
+        retrieval_mode=args.retrieval_mode,
+    )

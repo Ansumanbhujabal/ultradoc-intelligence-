@@ -11,7 +11,13 @@ def parse_document(file_path: str) -> dict:
     if parser is None:
         return {"text": "", "page_count": 0, "status": "error", "error": f"Unsupported file format: {ext}"}
     try:
-        return parser(file_path)
+        result = parser(file_path)
+        if result["status"] == "success":
+            logger.info("parse_success", extra={"extra_data": {
+                "file_type": ext, "text_length": len(result["text"]),
+                "page_count": result["page_count"],
+            }})
+        return result
     except Exception as e:
         logger.error(f"Parse failed for {file_path}: {e}")
         return {"text": "", "page_count": 0, "status": "error", "error": str(e)}

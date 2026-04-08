@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-04-08T10:03:36.764069",
+  "api_base": "http://localhost:7860",
+  "retrieval_mode": "hybrid",
+  "total_documents": 3,
+  "total_test_cases": 16,
+  "results": {
+    "qa": {
+      "total": 14,
+      "passed": 14,
+      "failed": 0,
+      "accuracy": 1.0,
+      "normal_accuracy": 1.0,
+      "avg_latency_ms": 5245,
+      "avg_confidence": 0.6857,
+      "correct_refusals": 2,
+      "total_refusal_cases": 2,
+      "false_acceptances": 0,
+      "by_confidence_level": {
+        "HIGH": 9,
+        "MEDIUM": 3,
+        "LOW": 2
+      }
+    },
+    "extraction": {
+      "total": 2,
+      "fields_checked": 12,
+      "fields_matched": 12,
+      "field_accuracy": 1.0,
+      "avg_completeness": 0.82,
+      "avg_latency_ms": 5818
+    }
+  },
+  "latency": {
+    "upload_avg_ms": 4247,
+    "upload_p50_ms": 4828,
+    "upload_p95_ms": 5475,
+    "qa_avg_ms": 5245,
+    "qa_p50_ms": 5383,
+    "qa_p95_ms": 7407,
+    "extract_avg_ms": 5818,
+    "extract_p50_ms": 6824,
+    "extract_p95_ms": 6824
+  },
+  "errors": [],
+  "failed_cases": []
+}
