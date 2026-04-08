@@ -1,0 +1,63 @@
+SHIPMENT INSTRUCTIONS - LD85252
+
+Shipper Information:  
+Fresh Harvest Foods Inc  
+1234 Market St., Suite 500  
+Houston, TX 77001  
+Phone: (713) 555-1234   
+Contact: John M. Reynolds  
+
+Consginee Details:  
+UPS Freight Terminal  
+4567 Industrial Rd.  
+San Diego, CA 92101  
+Phone: 619.555.9876   
+Attn: Receiving Dept.  
+
+Carrier Name: EAGLE TRANSPORT INC  
+MC Number: MC-9628818  
+Phone: 832-555-0199  
+
+Shipment Details:  
+Mode of Transport: Drayage  
+Equipmnt Type: Reefer   
+Weight: 14210 kg   
+Currency: CAD  
+Rate Confirmation: 483.45 CAD  
+
+Pickup Information:  
+Pickup Date & Time: 12/28/2026 08:00 AM  
+Pickup Location: Fresh Harvest Foods Inc, 1234 Market St., Houston, TX 77001  
+Pickup Contact: John M. Reynolds, (713) 555-1234  
+
+Delvery Date:  [Not Provided]  
+
+Reference Numbers:  
+PO Number: PO-80007  
+Shipment ID: LD85252  
+
+Special Instructions:  
+- Ensure reefer unit is pre-cooled to 2°C before loading.  
+- Load must be secured to prevent shifting during transit.  
+- Driver to call consignee 1 hour prior to arrival at (619) 555-9876.  
+- All paperwork to be handed over at delivery.  
+- Carrier to confirm rate acceptance before pickup.  
+
+Rate Confirmation:  
+Rate: 483.45 CAD  
+Terms: Prepaid  
+Payment to be made within 30 days of delivery.  
+
+Additional Notes:  
+- Carrier EAGLE TRANSPORT INC to provide proof of insurance prior to pickup.  
+- Any delays or issues to be reported immediately to Fresh Harvest Foods Inc at 713-555-1234.  
+- Shipment weight confirmed at 14210 kg, any discrepancies to be reported.  
+
+Contact List:  
+Shipper: John M. Reynolds (713)555-1234  
+Consignee: Receiving Dept. (619)555.9876  
+Carrier Dispatch: (832) 555-0199  
+
+Please ensure all handling complies with Fresh Harvest Foods Inc’s quality standards. This shipment is time sensitive and must be handled with care.  
+
+End of Shipment Instructions for LD85252

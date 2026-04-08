@@ -1,0 +1,62 @@
+FREIGHT QUOTE / COTIZACIÓN DE FLETE  - SHIPMENT ID: LD18357
+
+SHIPPER / Remitente: Santos Agricola SA de CV  
+Dirección: Calle 5 de Mayo #123, Col. Centro, C.P. 64000, Monterrey, N.L., México  
+Teléfono / Phone: +52 81 8345 6721  
+Email: contacto@santosagricola.mx  
+
+CONSIGNEE / Destinatario: Walmart Distribution Center #4521  
+Address: 12345 Conner St, Detroit, MI 48201, USA  
+Phone: +1 313 555 7890  
+Contact: Logistics Manager - John D. Smith  
+
+ORIGIN CITY / Ciudad de Origen: Kansas City, MO 64101, USA  
+DESTINATION CITY / Ciudad Destino: Detroit, MI 48201, USA  
+
+CARRIER / Transportista: PACIFIC FREIGHT SOLUTIONS  
+MC Number / Número MC: MC-1446371  
+Phone / Teléfono: +1 206 555 3344  
+Email: dispatch@pacificfreight.com  
+
+MODE / Modo: FTL (Full Truck Load)  
+EQUIPMENT TYPE / Tipo de Equipo: Conestoga  
+
+PICKUP DATE / Fecha de Recogida: July 12, 2026  
+DELIVERY DATE / Fecha de Entrega: July 16, 2026  
+
+WEIGHT / Peso Total: 26.7 tons (toneladas)  
+
+RATE / Tarifa: 6197.98 EUR  
+Currency / Moneda: EUR  
+
+PO NUMBER / Número de Orden de Compra: PO-90486  
+
+CUSTOMS BROKER / Agente Aduanal:  
+Nombre / Name: Global Customs Services Inc.  
+Contacto / Contact: Marie-Claire Dubois  
+Teléfono / Phone: +1 514 555 2211  
+Email: customs@globalcustoms.ca  
+Dirección / Address: 789 Rue St-Antoine Ouest, Montréal, QC H2Y 3X7, Canada  
+
+BORDER CROSSING POINT / Punto de Cruce Fronterizo:  
+Ambassador Bridge, Detroit, MI / Windsor, ON  
+Teléfono / Phone: +1 519 973 1110  
+
+DUTY / Aranceles: Referencia NAFTA Tariff Code 0709.60.00  
+Impuestos aplicables según USMCA / Applicable duties per USMCA agreement  
+
+NOTAS / Notes:  
+- Shipment includes fresh produce, subject to USDA inspection at border.  
+- El equipo Conestoga permite carga protegida contra clima y fácil acceso lateral.  
+- Please confirm pickup window 24h before scheduled date.  
+- Se requiere documentación aduanal completa para evitar demoras.  
+
+ADDITIONAL INFO / Información Adicional:  
+- Shipper requests temperature monitoring during transit.  
+- El pago se realizará en EUR, tipo de cambio a confirmar en fecha de factura.  
+- Contactar a broker para cualquier discrepancia en documentos.  
+
+DOCUMENT VERSION: 3.2.1 - Exported from Legacy TMS 2009  
+Generated: 2026-06-30 14:37:22 UTC  
+
+--- END OF FREIGHT QUOTE ---

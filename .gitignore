@@ -6,3 +6,5 @@ data/
 .pytest_cache/
 .venv/
 .python-version
+logs/
+docs/superpowers/

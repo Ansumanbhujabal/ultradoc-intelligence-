@@ -1,0 +1,61 @@
+To: dispatch@josegarciatransportes.com  
+From: logistics@quickpartsauto.com  
+Subject: Shipment Instructions LD34101 - Urgent  
+
+--- Shipment Instrucitons ---  
+
+Shipment ID: LD34101  
+PO Number: PO-85765  
+MC Number: MC-5640893  
+
+Shipper: QuickParts Automotive  
+Address: 4521 Industrial Blvd, Memphis, TN 38101  
+Contact: John M. Reynolds  
+Phone: (901) 555-1234  
+
+Consginee: UPS Freight Terminal  
+Address: 1200 NE 46th St, Kansas City, MO 64101  
+Contact: Sarah L. Thompson  
+Phone: 816-555-9876  
+
+Origin City: Memphis, TN 38101  
+Destination City: Kansas City, MO 64101  
+
+Pickup Date & Time: 2026-07-14 08:00 AM  
+Delvery Date: 2026-07-17 05:00 PM  
+
+Carrier Name: Jose Garcia Transportes SA  
+Carrier Contact: Jose Garcia  
+Phone: 901.555.4321  
+
+Mode of Transport: LTL  
+Equipmnt Type: Step Deck  
+
+Weight: 78713 lbs  
+Currency: EUR  
+Rate Confirmation: 1325.94 EUR  
+
+Special Instructions:  
+- Load must be secured with straps and tarps.  
+- Driver to call consignee 1 hour prior to arrival.  
+- All paperwork to be handed over at delivery.  
+- Ensure MC Number MC-5640893 is referenced on all docs.  
+- PO Number PO-85765 must be visible on BOL.  
+
+Rat Confirmation: 1325.94 EUR (rate confirmed by carrier)  
+
+Additional Notes:  
+- Please confirm pickup appointment by 2026-07-10.  
+- Any delays to be reported immediately to QuickParts Logistics.  
+- Contact for emergency: John Reynolds (901)555-1234 or (901) 555-5678.  
+
+Billing Info:  
+Invoice to be sent to QuickParts Automotive, Attn: Accounts Payable  
+Email: ap@quickpartsauto.com  
+Phone: 901-555-6789  
+
+Thank you for your cooperation.  
+
+QuickParts Automotive Logistics Team  
+logistics@quickpartsauto.com  
+Phone: 901-555-1234

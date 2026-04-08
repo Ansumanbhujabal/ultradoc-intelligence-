@@ -8,6 +8,9 @@ from app.llm.prompts.qa import *  # register prompts
 from app.llm.prompts.registry import registry
 from app.models.schemas import ConfidenceResult, ConfidenceBreakdown, ConfidenceLevel
 from app.observability.tracer import Tracer
+from app.observability.logger import get_logger
+
+logger = get_logger("generator")
 
 
 def generate_answer(question: str, full_text: str, source_chunks: list[dict], tracer: Tracer) -> dict:
@@ -31,6 +34,13 @@ def generate_answer(question: str, full_text: str, source_chunks: list[dict], tr
         }
 
     parsed = _parse_cot_response(response.content)
+    answer_lower = parsed["answer"].lower()
+    is_refusal = any(phrase in answer_lower for phrase in [
+        "not found in document", "not present in", "does not contain",
+    ])
+    logger.info("generation_complete", extra={"extra_data": {
+        "llm_confidence": parsed["confidence"], "refused": is_refusal,
+    }})
     return {
         "answer": parsed["answer"],
         "source_text": source_text,
@@ -82,7 +92,7 @@ def compute_confidence(retrieval_score: float, grounding_ratio: float, llm_asses
     else:
         level = ConfidenceLevel.LOW
 
-    return ConfidenceResult(
+    result = ConfidenceResult(
         score=composite,
         level=level,
         breakdown=ConfidenceBreakdown(
@@ -91,12 +101,19 @@ def compute_confidence(retrieval_score: float, grounding_ratio: float, llm_asses
             llm_assessment=round(llm_score, 2),
         ),
     )
+    logger.info("confidence_scored", extra={"extra_data": {
+        "retrieval": round(min(retrieval_score, 1.0), 2),
+        "grounding": round(min(grounding_ratio, 1.0), 2),
+        "llm_assessment": round(llm_score, 2),
+        "composite": composite, "level": level.value,
+    }})
+    return result
 
 
 def _parse_cot_response(response_text: str) -> dict:
     section = ""
     answer = response_text
-    confidence = "MEDIUM"
+    confidence = "LOW"  # Default LOW when CoT format isn't followed
 
     section_match = re.search(r"SECTION:\s*(.+?)(?:\n|$)", response_text)
     answer_match = re.search(r"ANSWER:\s*(.+?)(?:\nCONFIDENCE:|$)", response_text, re.DOTALL)

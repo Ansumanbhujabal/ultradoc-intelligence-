@@ -1,0 +1,63 @@
+To: freightquotes@riograndelogistics.com  
+From: quotes@xyzindustrialsupplies.com  
+Subject: Freight Quote Request - Shipment LD62727  
+
+---  
+
+Freight Quote Document - Shipment ID: LD62727  
+
+Shipper Information:  
+Company Name: XYZ Industrial Supplies  
+Address: 4521 E 63rd St, Kansas City, MO 64101  
+Contact: John M. Reynolds  
+Phone: (816) 555-1234   
+Email: jreynolds@xyzindustrialsupplies.com  
+
+Consginee Information:  
+Company Name: McLane Company Inc  
+Address: 1200 Murfreesboro Pike, Nashville, TN 37201  
+Contact: Sarah L. Thompson  
+Phone: 615-555-9876   
+Email: sthompson@mclane.com  
+
+Shipment Details:  
+Origin City: Kansas City, MO 64101  
+Destination City: Nashville, TN 37201  
+Pickup Date/Time: 09/11/2026 08:00 AM  
+Delvery Date: 2026-09-15 05:00 PM  
+Weight: 25365 lbs  
+Mode of Transport: Intermodal  
+Equipmnt Type: Power Only  
+MC Number: MC-1071500  
+PO Number: PO-33044  
+
+Rate Confirmation:  
+Carrier Name: Rio Grande Logistics  
+Rate: 2617.27 CAD   
+Currency: CAD  
+Contact at Carrier: Mike D. Sanchez  
+Phone: 816-555-4321  
+Email: msanchez@riograndelogistics.com  
+
+Additional Notes:  
+- Please confirm availability of Power Only equipment for the specified dates.  
+- Ensure all necessary permits for intermodal transport are in place.  
+- Contact shipper 24 hours prior to pickup at (816)555.1234  
+- Delivery appointment required at consignee location.  
+- Rate includes fuel surcharge and accessorial fees.  
+
+Terms and Conditions:  
+- Quote valid for 7 days from date of issue.  
+- Payment terms: Net 30 days.  
+- Liability limited to $100,000 unless otherwise declared.  
+- Any delays due to weather or force majeure will be communicated promptly.  
+
+Please provide written rat confirmation at your earliest convenience.  
+
+Thank you,  
+John M. Reynolds  
+XYZ Industrial Supplies  
+Phone: 816-555-1234  
+Email: jreynolds@xyzindustrialsupplies.com  
+
+--- End of Document ---

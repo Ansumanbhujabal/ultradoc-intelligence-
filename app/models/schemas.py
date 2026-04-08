@@ -9,6 +9,7 @@ class DocType(str, Enum):
     BOL = "bill_of_lading"
     RATE_CONFIRMATION = "rate_confirmation"
     INVOICE = "invoice"
+    NOT_LOGISTICS = "not_logistics"
     UNKNOWN = "unknown"
 
 
@@ -50,7 +51,7 @@ class AskRequest(BaseModel):
     question: str
     enable_query_rewrite: bool = False
     retrieval_mode: str = "hybrid"
-    confidence_threshold: float = 0.1
+    confidence_threshold: float = 0.35
 
 
 class AskResponse(BaseModel):

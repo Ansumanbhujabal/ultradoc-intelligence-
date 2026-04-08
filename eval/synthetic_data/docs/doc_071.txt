@@ -1,0 +1,37 @@
+To: ops@eagletrans.com  
+From: quotes@pacrimlog.com  
+Subject: Fwd: Freight Qte LD57467  
+
+SHIP ID: LD57467  
+SHIPPER: Pac Rim Elec  
+CONSIGNEE: Sysco Foods Whse  
+ORIG: El Paso, TX 79901  
+DEST: Detroit, MI 48201  
+
+PU DT: 13-Jun-26  
+DEL DT: 06/14/26  
+
+CARRIER: EAGLE TRANSPORT INC  
+MC#: MC-3221368  
+PO#: PO-66410  
+
+MODE: Expd  
+EQ: Reefer  
+WT: 7.7T  
+
+RATE: 3101.7 MXN  
+
+PU ADDR: 4521 N Zaragoza Rd, El Paso, TX 79901  
+PU PH: (915) 555-0198  
+
+DEL ADDR: 1200 W Fort St, Detroit, MI 48201  
+DEL PH: (313) 555-4422  
+
+NOTES:  
+- Rate incl fuel surcharge  
+- Docs req’d b4 PU  
+- Contact carrier for conf  
+
+Qte valid 48h from 13-Jun-26 09:00 MST  
+
+END OF QTE

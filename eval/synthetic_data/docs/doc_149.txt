@@ -1,0 +1,176 @@
+QUICKPARTS AUTOMOTIVE  
+1234 Industrial Parkway  
+Toronto, ON M5V 3A8  
+Phone: +1 (416) 555-0199  
+Fax: +1 (416) 555-0100  
+
+BILL OF LADING  
+Shipment ID: LD50416  
+Date of Issue: 07/12/2026  
+
+--------------------------------------------------------------------------------  
+SHIPPER INFORMATION:  
+QuickParts Automotive  
+1234 Industrial Parkway  
+Toronto, ON M5V 3A8  
+Phone: +1 (416) 555-0199  
+Contact: Logistics Dept.  
+PO Number: PO-36200  
+
+--------------------------------------------------------------------------------  
+CONSIGNEE INFORMATION:  
+Dollar General DC #12  
+4500 S 7th Ave  
+Phoenix, AZ 85001  
+Phone: +1 (602) 555-3344  
+Contact: Receiving Dept.  
+
+--------------------------------------------------------------------------------  
+CARRIER INFORMATION:  
+Jose Garcia Transportes SA  
+MC Number: MC-3895715  
+Phone: +1 (602) 555-7788  
+Fax: +1 (602) 555-7799  
+
+--------------------------------------------------------------------------------  
+SHIPMENT SUMMARY:  
+Shipment ID: LD50416  
+Origin: Toronto, ON M5V 3A8  
+Destination: Phoenix, AZ 85001  
+Mode of Transport: Expedited  
+Equipment Type: Conestoga  
+Weight: 53,630 lbs  
+Pickup Date & Time: 07/12/2026  
+Expected Delivery Date: 16-Jul-2026  
+Currency: EUR  
+PO Number: PO-36200  
+
+--------------------------------------------------------------------------------  
+SHIPMENT DETAILS:  
+
+1. Shipment Identification:  
+   The shipment identified by LD50416 is scheduled for expedited transport from the origin city of Toronto, Ontario, postal code M5V 3A8, to the destination city of Phoenix, Arizona, postal code 85001. This shipment is under the responsibility of the carrier Jose Garcia Transportes SA, which holds the MC Number MC-3895715.  
+
+2. Equipment and Mode:  
+   The equipment assigned for this shipment is a Conestoga trailer, which is suitable for the type of cargo being transported. The mode of transport is expedited, ensuring faster transit times compared to standard freight options.  
+
+3. Weight and Volume:  
+   The total weight of the shipment is 53,630 pounds. Volume details are not specified in this document but are assumed to be within the capacity limits of the Conestoga equipment.  
+
+4. Pickup and Delivery Schedule:  
+   The pickup is scheduled for July 12, 2026, at the shipper’s facility located at 1234 Industrial Parkway, Toronto, ON M5V 3A8. The expected delivery date is July 16, 2026, at the consignee’s receiving dock at 4500 S 7th Ave, Phoenix, AZ 85001.  
+
+5. Purchase Order Reference:  
+   This shipment is associated with Purchase Order Number PO-36200 issued by QuickParts Automotive.  
+
+--------------------------------------------------------------------------------  
+CONFIRMATION OF SHIPMENT DETAILS:  
+
+To confirm, the shipment with ID LD50416 is being transported from QuickParts Automotive, located at 1234 Industrial Parkway, Toronto, ON M5V 3A8, to Dollar General DC #12 at 4500 S 7th Ave, Phoenix, AZ 85001. The carrier responsible for this shipment is Jose Garcia Transportes SA, MC Number MC-3895715. The equipment type is Conestoga, and the mode of transport is expedited. The shipment weight is 53,630 lbs. The pickup date is July 12, 2026, and the expected delivery date is July 16, 2026. The currency for any financial transactions related to this shipment is EUR. The shipment is linked to PO Number PO-36200.  
+
+--------------------------------------------------------------------------------  
+SERVICE LEVEL AGREEMENT (SLA):  
+
+1. Scope of Service:  
+   Jose Garcia Transportes SA agrees to provide expedited transportation services for the shipment identified as LD50416. The carrier will ensure timely pickup and delivery as per the agreed schedule.  
+
+2. Performance Metrics:  
+   - Pickup on or before 07/12/2026  
+   - Delivery on or before 16-Jul-2026  
+   - Shipment integrity maintained throughout transit  
+   - Communication updates at key milestones  
+
+3. Liability and Claims:  
+   The carrier accepts liability for loss or damage to the shipment while in transit, subject to the terms and conditions outlined in the carrier’s standard contract. Claims must be filed within 30 days of delivery.  
+
+4. Payment Terms:  
+   Payment terms are net 30 days from the date of invoice. Currency for payment is EUR. Note: The rate for this shipment is not specified in this document and must be referenced in the separate contract or invoice.  
+
+--------------------------------------------------------------------------------  
+COMPANY HISTORY:  
+
+QuickParts Automotive has been a leading supplier of automotive components since 1985. Founded in Toronto, Ontario, the company has grown from a small parts distributor to a major player in the North American automotive supply chain. Over the past four decades, QuickParts Automotive has expanded its operations to include multiple warehouses and distribution centers across Canada and the United States. The company prides itself on its commitment to quality, timely delivery, and customer satisfaction.  
+
+Jose Garcia Transportes SA, established in 1992, is a family-owned transportation company specializing in expedited freight services across North America. With a fleet of modern Conestoga trailers and a dedicated team of drivers, the company has built a reputation for reliability and efficiency. The MC Number MC-3895715 is registered with the Federal Motor Carrier Safety Administration (FMCSA), ensuring compliance with all regulatory requirements.  
+
+--------------------------------------------------------------------------------  
+DETAILED SHIPMENT INFORMATION:  
+
+- Shipment ID: LD50416  
+- Shipper: QuickParts Automotive  
+- Shipper Address: 1234 Industrial Parkway, Toronto, ON M5V 3A8  
+- Shipper Phone: +1 (416) 555-0199  
+- Consignee: Dollar General DC #12  
+- Consignee Address: 4500 S 7th Ave, Phoenix, AZ 85001  
+- Consignee Phone: +1 (602) 555-3344  
+- Carrier: Jose Garcia Transportes SA  
+- Carrier MC Number: MC-3895715  
+- Carrier Phone: +1 (602) 555-7788  
+- Equipment Type: Conestoga  
+- Mode: Expedited  
+- Weight: 53,630 lbs  
+- Pickup Date/Time: 07/12/2026  
+- Delivery Date: 16-Jul-2026  
+- PO Number: PO-36200  
+- Currency: EUR  
+
+--------------------------------------------------------------------------------  
+ADDITIONAL NOTES:  
+
+- The shipment is subject to all applicable customs and import/export regulations.  
+- The Conestoga trailer provides weather protection and security for the cargo.  
+- The expedited mode ensures priority handling and faster transit times.  
+- All parties are responsible for ensuring accurate documentation accompanies the shipment.  
+- The rate for this shipment is intentionally omitted from this document and should be referenced in the billing invoice or contract.  
+
+--------------------------------------------------------------------------------  
+REPEATED SUMMARY FOR CLARITY:  
+
+This Bill of Lading confirms that shipment LD50416 is being transported from QuickParts Automotive, located at 1234 Industrial Parkway, Toronto, ON M5V 3A8, to Dollar General DC #12 at 4500 S 7th Ave, Phoenix, AZ 85001. The carrier, Jose Garcia Transportes SA (MC-3895715), will use a Conestoga trailer under expedited mode. The shipment weighs 53,630 lbs and is scheduled for pickup on July 12, 2026, with an expected delivery date of July 16, 2026. The shipment is linked to PO Number PO-36200. Currency for any financial transactions is EUR.  
+
+--------------------------------------------------------------------------------  
+SIGNATURES:  
+
+Shipper Representative: ___________________________  
+Name: ___________________________  
+Date: ___________________________  
+
+Carrier Representative: ___________________________  
+Name: ___________________________  
+Date: ___________________________  
+
+Consignee Representative: ___________________________  
+Name: ___________________________  
+Date: ___________________________  
+
+--------------------------------------------------------------------------------  
+END OF DOCUMENT  
+--------------------------------------------------------------------------------  
+
+Note: This document is a legal contract between the shipper, carrier, and consignee. Please retain a copy for your records. For any questions or clarifications, contact QuickParts Automotive Logistics Department at +1 (416) 555-0199 or Jose Garcia Transportes SA at +1 (602) 555-7788.  
+
+--------------------------------------------------------------------------------  
+ADDITIONAL COMPANY INFORMATION:  
+
+QuickParts Automotive Headquarters:  
+1234 Industrial Parkway, Toronto, ON M5V 3A8  
+Phone: +1 (416) 555-0199  
+Email: logistics@quickpartsauto.com  
+
+Jose Garcia Transportes SA Headquarters:  
+789 Transport Blvd, Phoenix, AZ 85001  
+Phone: +1 (602) 555-7788  
+Email: dispatch@jgttransportes.com  
+
+Dollar General DC #12:  
+4500 S 7th Ave, Phoenix, AZ 85001  
+Phone: +1 (602) 555-3344  
+Email: receiving@dollargeneral.com  
+
+--------------------------------------------------------------------------------  
+DISCLAIMER:  
+
+This Bill of Lading is issued subject to the terms and conditions of the carrier’s standard contract of carriage, which are available upon request. The shipper certifies that the goods described herein are properly packaged, labeled, and comply with all applicable laws and regulations. The carrier is not responsible for delays caused by events beyond its control, including but not limited to weather, traffic, or customs inspections.  
+
+--------------------------------------------------------------------------------  
+END OF BILL OF LADING FOR SH

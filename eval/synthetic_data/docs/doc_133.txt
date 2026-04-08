@@ -1,0 +1,113 @@
+DELIVERY RECEIPT
+
+Shipment ID: LD50723  
+Date of Issue: 06/24/2026
+
+-------------------------------------------------------------
+
+SHIPPER DETAILS  
+Acme Chemical Solutions  
+1234 Industrial Pkwy  
+Nashville, TN 37201  
+Phone: (615) 555-0198  
+MC Number: MC-2626084  
+Contact: John M. Reynolds
+
+-------------------------------------------------------------
+
+CONSIGNEE INFORMATION  
+Amazon Fulfillment Center FTW1  
+4500 Shelby Dr.  
+Memphis, TN 38101  
+Tel: 901-555-3344  
+PO Number: PO-1835  
+Attn: Receiving Dept.
+
+-------------------------------------------------------------
+
+CARRIER & EQUIPMENT  
+Carrier: Rio Grande Logistics  
+Mode of Transport: FTL (Full Truck Load)  
+Equipment Type: Conestoga  
+Driver: Mike L. Sanders  
+Truck ID: RG-FTL-0923  
+MC#: MC-2626084
+
+-------------------------------------------------------------
+
+SHIPMENT DETAILS
+
+| Description           | Details                  |
+|----------------------|--------------------------|
+| Shipment ID          | LD50723                  |
+| Origin               | Nashville, TN 37201      |
+| Destination          | Memphis, TN 38101        |
+| Pickup Date          | 19 June 2026             |
+| Delivery Date        | 24th of June, 2026       |
+| Weight               | 11.6 tons                |
+| Rate                 | EUR 4597.69              |
+| Currency             | EUR                      |
+| PO Number            | PO-1835                  |
+
+-------------------------------------------------------------
+
+PICKUP & DELIVERY SUMMARY
+
+Pickup was scheduled for 06-19-2026 at 08:00 AM from Acme Chemical Solutions located in Nashville, TN 37201. The shipment consisted of hazardous chemical components requiring specialized handling. The Conestoga trailer was loaded under supervision of the shipper’s safety officer, with all seals intact and verified.
+
+Delivery occurred on June 24, 2026, at approximately 3:45 PM at the Amazon Fulfillment Center FTW1, Memphis, TN 38101. Upon arrival, the consignee’s receiving team inspected the shipment for damages and verified the weight as 11.6 tons, consistent with the bill of lading. All paperwork, including PO-1835, was signed off by receiving clerk Amanda T. The shipment was accepted without discrepancies.
+
+-------------------------------------------------------------
+
+FINANCIALS & RATES
+
+Rate: 4597.69 EUR  
+Currency: EUR  
+Payment Terms: Net 30 days  
+Invoice Ref: INV-LD50723-0626  
+Note: Rate confirmed on 2026/06/15 via email from Rio Grande Logistics billing dept.
+
+-------------------------------------------------------------
+
+ADDITIONAL NOTES
+
+- Equipment type Conestoga used for this FTL shipment to ensure weather protection.  
+- MC Number MC-2626084 repeated for carrier and shipper compliance.  
+- Contact numbers for all parties verified as of 06/18/26.  
+- Shipment weight confirmed at 11.6 tons, consistent across all documentation.  
+- PO Number PO-1835 referenced in all paperwork and electronic tracking systems.  
+- Pickup and delivery dates appear in multiple formats throughout this document for legacy system compatibility.
+
+-------------------------------------------------------------
+
+KEY-VALUE SUMMARY (Legacy Format)
+
+shipment_id=LD50723  
+shipper=Acme Chemical Solutions  
+consignee=Amazon Fulfillment Center FTW1  
+origin_city=Nashville, TN 37201  
+dest_city=Memphis, TN 38101  
+carrier_name=Rio Grande Logistics  
+equipment_type=Conestoga  
+mode=FTL  
+currency=EUR  
+rate=4597.69  
+weight=11.6 tons  
+pickup_datetime=2026-06-19  
+delivery_datetime=2026-06-24  
+mc_number=MC-2626084  
+po_number=PO-1835
+
+-------------------------------------------------------------
+
+SIGNATURES
+
+Shipper: ___________________________ Date: 06/19/26  
+Carrier: ___________________________ Date: 24/06/2026  
+Consignee: _________________________ Date: 2026.06.24
+
+-------------------------------------------------------------
+
+END OF DELIVERY RECEIPT - LD50723
+
+Please retain this document for your records. For questions, contact Rio Grande Logistics at (901) 555-7788 or billing@riograndelogistics.com

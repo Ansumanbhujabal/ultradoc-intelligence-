@@ -1,0 +1,190 @@
+--------------------------------------------------------------------------------
+                            IRON HORSE LOGISTICS
+                          INVOICE / SHIPPING DOCUMENT
+--------------------------------------------------------------------------------
+
+Invoice Number: INV-LD32463-2024-04-27
+Shipment ID: LD32463
+MC Number: MC-4803878
+PO Number: PO-72176
+Date Issued: 04/27/2024
+Currency: USD
+
+--------------------------------------------------------------------------------
+SHIPPER INFORMATION:
+--------------------------------------------------------------------------------
+Company Name: XYZ Industrial Supplies
+Address: 1234 Industrial Way, Los Angeles, CA 90001
+Phone: (323) 555-0198
+Contact: John M. Reynolds
+Email: jreynolds@xyzindustrial.com
+
+--------------------------------------------------------------------------------
+CONSIGNEE INFORMATION:
+--------------------------------------------------------------------------------
+Company Name: Kroger Fresh Distribution
+Address: 789 Fresh Produce Blvd, Buffalo, NY 14201
+Phone: (716) 555-4321
+Contact: Sarah L. Thompson
+Email: s.thompson@krogerfresh.com
+
+--------------------------------------------------------------------------------
+CARRIER INFORMATION:
+--------------------------------------------------------------------------------
+Carrier Name: IRON HORSE LOGISTICS
+MC Number: MC-4803878
+Phone: (800) 555-IRON (4766)
+Email: dispatch@ironhorselogistics.com
+Equipment Type: Intermodal
+Mode of Transport: Intermodal
+
+--------------------------------------------------------------------------------
+SHIPMENT SUMMARY:
+--------------------------------------------------------------------------------
+Shipment ID: LD32463
+Origin: Los Angeles, CA 90001
+Destination: Buffalo, NY 14201
+Weight: 35.8 tons
+Rate: $7,369.39 USD
+PO Number: PO-72176
+Carrier: IRON HORSE LOGISTICS
+Equipment: Intermodal
+Mode: Intermodal
+
+Note: This shipment is being transported via intermodal equipment, combining rail and truck transport for optimized delivery. The shipment weight is 35.8 tons, and the agreed rate for this shipment is $7,369.39 USD. The shipment originates from Los Angeles, CA 90001 and is destined for Buffalo, NY 14201. The purchase order number associated with this shipment is PO-72176.
+
+--------------------------------------------------------------------------------
+DETAILED SHIPMENT INFORMATION:
+--------------------------------------------------------------------------------
+
+Shipment ID: LD32463
+Carrier: IRON HORSE LOGISTICS
+MC Number: MC-4803878
+Equipment Type: Intermodal
+Mode: Intermodal
+
+Origin City: Los Angeles, CA 90001
+Origin Address: 1234 Industrial Way, Los Angeles, CA 90001
+Origin Contact: John M. Reynolds, (323) 555-0198
+
+Destination City: Buffalo, NY 14201
+Destination Address: 789 Fresh Produce Blvd, Buffalo, NY 14201
+Destination Contact: Sarah L. Thompson, (716) 555-4321
+
+Weight: 35.8 tons
+Rate: $7,369.39 USD
+PO Number: PO-72176
+
+Additional Notes:
+- Shipment is subject to IRON HORSE LOGISTICS standard terms and conditions.
+- Equipment used is intermodal, ensuring efficient transfer between rail and truck.
+- No pickup or delivery datetime specified in this document.
+- Please refer to the PO number PO-72176 for all billing and reference purposes.
+
+--------------------------------------------------------------------------------
+INVOICE DETAILS:
+--------------------------------------------------------------------------------
+
+| Description                      | Quantity | Unit Price (USD) | Total (USD)  |
+|---------------------------------|----------|------------------|--------------|
+| Freight Charge - Intermodal      | 1        | 7,369.39         | 7,369.39     |
+| Fuel Surcharge                  | Included | N/A              | Included     |
+| Accessorial Charges             | 0        | 0.00             | 0.00         |
+| Insurance                      | Included | N/A              | Included     |
+| Total Freight Charges           |          |                  | 7,369.39     |
+
+Payment Terms: Net 30 days from invoice date.
+Please remit payment to:
+IRON HORSE LOGISTICS
+Accounts Receivable
+PO Box 12345
+Chicago, IL 60601
+Phone: (800) 555-4766
+Email: billing@ironhorselogistics.com
+
+--------------------------------------------------------------------------------
+CONFIRMATION OF SHIPMENT DETAILS:
+--------------------------------------------------------------------------------
+
+This document confirms the shipment details for shipment ID LD32463. The shipment is being carried by IRON HORSE LOGISTICS under MC number MC-4803878. The shipment originates from Los Angeles, CA 90001 and is destined for Buffalo, NY 14201. The equipment type used is intermodal, and the mode of transport is intermodal as well.
+
+The shipment weight is 35.8 tons, and the agreed freight rate is $7,369.39 USD. The purchase order number associated with this shipment is PO-72176. The shipper is XYZ Industrial Supplies, and the consignee is Kroger Fresh Distribution.
+
+Please note that pickup and delivery dates and times are not included in this document and should be referenced separately if required.
+
+--------------------------------------------------------------------------------
+SERVICE LEVEL AGREEMENT (SLA):
+--------------------------------------------------------------------------------
+
+1. Scope of Service:
+   IRON HORSE LOGISTICS agrees to provide intermodal transportation services for the shipment identified as LD32463, originating from Los Angeles, CA 90001 and destined for Buffalo, NY 14201.
+
+2. Performance Metrics:
+   - Transit Time: Estimated transit time is subject to rail and truck schedules; no guaranteed delivery datetime is provided.
+   - Equipment: Intermodal containers will be used exclusively.
+   - Communication: Status updates will be provided at key transit points.
+
+3. Liability:
+   - Carrier liability is limited to the terms outlined in the IRON HORSE LOGISTICS standard contract.
+   - Insurance coverage is included as part of the freight charges.
+
+4. Payment Terms:
+   - Payment is due within 30 days of invoice date.
+   - Late payments may incur additional fees.
+
+5. Dispute Resolution:
+   - Any disputes arising from this shipment shall be resolved through arbitration in the state of Illinois.
+
+--------------------------------------------------------------------------------
+COMPANY HISTORY:
+--------------------------------------------------------------------------------
+
+IRON HORSE LOGISTICS was founded in 1987 with the mission to provide reliable and efficient freight transportation services across the United States. Over the past 37 years, IRON HORSE LOGISTICS has grown from a small regional carrier to a national leader in intermodal logistics solutions.
+
+Our commitment to innovation and customer satisfaction has driven us to invest heavily in technology and equipment, including state-of-the-art intermodal containers and tracking systems. We currently operate a fleet of over 500 trucks and maintain partnerships with major rail carriers to ensure seamless intermodal service.
+
+Our headquarters are located in Chicago, IL, with regional offices in Los Angeles, CA, and Buffalo, NY, allowing us to provide localized support for shipments such as LD32463.
+
+--------------------------------------------------------------------------------
+REPEATED SHIPMENT INFORMATION (FOR CLARITY):
+--------------------------------------------------------------------------------
+
+Shipment ID: LD32463
+Shipper: XYZ Industrial Supplies
+Consignee: Kroger Fresh Distribution
+Origin: Los Angeles, CA 90001
+Destination: Buffalo, NY 14201
+Carrier: IRON HORSE LOGISTICS
+MC Number: MC-4803878
+Equipment Type: Intermodal
+Mode: Intermodal
+Weight: 35.8 tons
+Rate: $7,369.39 USD
+PO Number: PO-72176
+
+--------------------------------------------------------------------------------
+NOTES AND REMINDERS:
+--------------------------------------------------------------------------------
+
+- Please verify all shipment details carefully.
+- Contact IRON HORSE LOGISTICS dispatch at (800) 555-4766 for any questions or updates.
+- This invoice is generated based on the shipment data available as of 04/27/2024.
+- Pickup and delivery times are not included and should be confirmed separately.
+- All charges are in USD.
+- The shipment is subject to IRON HORSE LOGISTICS’ terms and conditions, available upon request.
+
+--------------------------------------------------------------------------------
+END OF DOCUMENT
+--------------------------------------------------------------------------------
+
+Thank you for choosing IRON HORSE LOGISTICS for your transportation needs. We appreciate your business and look forward to serving you again.
+
+--------------------------------------------------------------------------------
+IRON HORSE LOGISTICS
+123 Logistics Parkway
+Chicago, IL 60601
+Phone: (800) 555-4766
+Email: info@ironhorselogistics.com
+Website: www.ironhorselogistics.com
+
+--------------------------------------------------------------------------------

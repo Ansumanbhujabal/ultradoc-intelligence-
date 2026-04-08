@@ -1,0 +1,42 @@
+[COMPANY LETTERHEAD]                                                                                      PAGE 1 of 3  
+PACIFIC RIM ELECTRONICS                                                                                   DELIVERY RECEIPT  
+[LOGO]                                                                                                     DO NOT DUPLICATE  
+                                                                                                          
+                                                                                                          
+SHIPMENT ID: LD78903                                                                                        
+MC NUMBER: MC-8792311                                                                                       
+PO NUMBER: PO-21056                                                                                         
+                                                                                                          
+                                                                                                          
+| FIELD               | DETAILS                                                                                 |  
+|---------------------|-----------------------------------------------------------------------------------------|  
+| Shipper             | Pacific Rim Electronics                                                                  |  
+|                     | 4520 Elmwood Ave, Buffalo, NY 14201                                                     |  
+|                     | Phone: (716) 555-0198                                                                   |  
+| Consignee           | Grainger Industrial Supply                                                              |  
+|                     | 123 Queen St W, Toronto, ON M5V 3A8                                                    |  
+|                     | Phone: (416) 555-3344                                                                   |  
+| Origin City         | Buffalo, NY 14201                                                                        |  
+| Destination City    | Toronto, ON M5V 3A8                                                                      |  
+| Carrier Name        | IRON HORSE LOGISTICS                                                                    |  
+| Equipment Type      | Flatbed                                                                                  |  
+| Mode                | LTL                                                                                      |  
+| Currency            | EUR                                                                                      |  
+| Rate                | 3709.8                                                                                   |  
+| Weight              | 10410 kg                                                                                |  
+| Pickup Date/Time    | 2026-09-21 08:30 AM                                                                     |  
+| Delivery Date/Time  | 09/22/2026 03:45 PM                                                                     |  
+                                                                                                          
+                                                                                                          
+[LOGO]                                                                                                     PAGE 1 of 3  
+                                                                                                          
+                                                                                                          
+RECEIVED BY: ___________________________  DATE: _______________  TIME: _______________                 
+                                                                                                          
+                                                                                                          
+ITEMS DELIVERED:                                                                                            
+| ITEM NO | DESCRIPTION                  | QTY  | WEIGHT (kg) | CONDITION ON DELIVERY | REMARKS                |  
+|---------|------------------------------|------|-------------|-----------------------|------------------------|  
+| 001     | Industrial Circuit Boards     | 120  | 4800        | Good                  | No visible damage      |  
+| 002     | Power Transformers           | 15   | 5610        | Good                  | Slight rust on 2 units |  
+| 003     | Assorted Cables & Connectors | 300  | 0           | Good                  | Packed in 10 boxes     |

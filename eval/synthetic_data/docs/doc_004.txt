@@ -1,0 +1,39 @@
+RATE_CONFIRMATION|EXPORT|2026-04-15T08:43:22Z|USERID:JDoe42
+
+SHIPMNT_ID  : LD63354               | SHIP_NM          : Fresh Harvest Foods Inc
+SHIP_ADDR   : 1234 Rainier Ave S, Seattle, WA 98101  | SHIP_PH: (206) 555-0198
+CONS_NM     : Amazon Fulfillment Center FTW1         | CONS_ADDR: 4500 N. Gateway Blvd, Vancouver, BC V6B 1A1
+CONS_PH     : (604) 555-3344
+
+CARRIER_NM  : MIDWEST HAULERS CO                      | MC_NUM  : MC-4271761
+EQUIP_TYP   : Lowboy                                | MODE    : Partial
+PO_NUM      : PO-26112                              | CURR    : MXN
+
+RATE        : 6937.93                               | WEIGHT  : [N/A]
+PICKUP_DT   : [MISSING]                             | DELIV_DT: 11/24/2026
+
+------------------------------------------------------------
+| ITEM_DESC                 | QTY  | UNIT  | RATE/MX  | AMOUNT/MX  |
+------------------------------------------------------------
+| Partial Load - Lowboy Eq. | 1    | Load  | 6937.93  | 6937.93    |
+------------------------------------------------------------
+
+NOTES:
+- Rate confirmed as per contract #26112
+- Delivery ETA 11/24/2026, no pickup date provided
+- Carrier MC# verified: MC-4271761
+- Equipment type Lowboy assigned, partial mode shipment
+- Contact consignee for delivery instructions: (604) 555-3344
+- Shipper contact: (206) 555-0198
+
+AUTHORIZATION:
+Carrier Rep: ____________________ Date: _______________
+Shipper Rep: ____________________ Date: _______________
+
+------------------------------------------------------------
+SYSTEM LOG:
+Exported by USERID:JDoe42 on 2026-04-15T08:43:22Z
+File: RATECONF_LD63354_0426.TXT
+Legacy TMS v3.7.2 Export
+
+END OF DOCUMENT

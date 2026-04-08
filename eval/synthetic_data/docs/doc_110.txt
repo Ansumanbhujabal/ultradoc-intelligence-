@@ -1,0 +1,60 @@
+SHIPMENT_INSTRUCTIONS|EXPORT|2026-08-10T14:32:07Z|USERID:JDoe42
+
+SHIP_ID    |LD27842
+SHIPPER_NM|Steel Dynamics LLC
+SHIPPER_ADDR|1234 Ironworks Rd, El Paso, TX 79901
+SHIPPER_PH|(915) 555-0198
+CONSIGNEE_N|FedEx Ground Hub - Memphis
+CONSIGNEE_ADDR|4550 Airways Blvd, Memphis, TN 38116
+CONSIGNEE_PH|(901) 555-3344
+ORIGIN_CTY|El Paso, TX 79901
+DEST_CTY  |Laredo, TX 78040
+CARRIER_NM|GREAT PLAINS HAULING LLC
+CARRIER_MC#|MC-2010720
+EQUIP_TYP |Step Deck
+MODE      |Drayage
+CURRENCY  |EUR
+RATE      |3306.27
+WEIGHT_TON|28.6
+PO_NUMBER |PO-74905
+
+PICKUP_DT |19-Aug-2026 08:00AM
+DELIV_DT  |23-Aug-2026 05:00PM
+
+INSTRUC1  |Load to be secured with chains and binders. No tarping required.
+INSTRUC2  |Driver must check in at gate 3 upon arrival at origin.
+INSTRUC3  |Delivery appointment window: 22-Aug to 23-Aug, call 2 hrs prior.
+INSTRUC4  |Bill of Lading to be signed by consignee only.
+INSTRUC5  |Contact at origin: Maria Lopez (915) 555-0199
+INSTRUC6  |Contact at destination: James Carter (956) 555-1122
+
+REF_NUM1  |INV# 882-334-22
+REF_NUM2  |CUSTOMS DOCS: Pending clearance, ETA 21-Aug
+
+LOAD_DESC |Steel coils, assorted sizes, wrapped in plastic. Handle w/care.
+DIMENSIONS|L: 48ft W: 8ft H: 9.5ft (approx)
+NOTES     |Weight distributed unevenly, place heavier coils on front of trailer.
+          |Ensure no shifting during transit.
+
+PAYMENT_TERMS|Net 30 days from delivery date.
+INSURANCE   |Carrier to provide cargo insurance coverage minimum 100k EUR.
+SPECIAL_REQ |No hazardous materials. Temperature control not required.
+
+--------------------LEGACY SYSTEM EXPORT--------------------
+|SHIP_ID  |LD27842          |USERID:JDoe42          |DATE:2026-08-10 14:32|
+|SHIPPER |Steel Dynamics LLC|PH: (915)555-0198      |ADDR:1234 Ironworks Rd|
+|ORIGIN  |El Paso, TX 79901 |                       |                     |
+|CONSIGNE|FedEx Ground Hub  |PH: (901)555-3344      |ADDR:4550 Airways Blvd|
+|DEST    |Laredo, TX 78040  |                       |                     |
+|CARRIER |GREAT PLAINS HAUL |MC#: MC-2010720         |EQUIP: Step Deck     |
+|MODE    |Drayage           |RATE: EUR 3306.27       |WEIGHT: 28.6 tons    |
+|PICKUP  |19-Aug-2026 08:00 |DELIVERY: 23-Aug-2026   |PO#: PO-74905        |
+|NOTES   |Load secured w/chains|Driver check-in gate 3|Delivery call 2 hrs  |
+|CONTACTS|Origin: Maria Lopez|(915)555-0199           |Dest: James Carter    |
+|        |(956)555-1122     |                        |                     |
+|REFS    |INV# 882-334-22   |Customs docs pending     |                     |
+|INSURAN |Cargo insurance 100k EUR minimum coverage required           |
+|PAYMENT |Net 30 days from delivery date                               |
+---------------------------------------------------------------
+
+END OF SHIPMENT_INSTRUCTIONS EXPORT

@@ -1,0 +1,92 @@
+To: dispatch@heartlandexpress.com  
+From: logistics@atlasconstruction.com  
+Subject: Rate Confirmation - Shipment LD91205  
+
+------------------------------------------------------------  
+RATE CONFIRMATION DOCUMENT  
+------------------------------------------------------------  
+
+SHIPMENT ID: LD91205  
+PO NUMBER: PO-71457  
+MC NUMBER: MC-4039290  
+
+SHIPPER:  
+Atlas Construction Materials  
+1234 King St W, Suite 200  
+Toronto, ON M5V 3A8  
+Phone: (416) 555-0198  
+Contact: John M.  
+
+CONSIGNEE:  
+UPS Freight Terminal  
+---  
+Los Angeles, CA 90001  
+Phone: TBD  
+Contact: ---  
+
+CARRIER:  
+HEARTLAND EXPRESS LLC  
+MC#: MC-4039290  
+Phone: (800) 555-1234  
+Contact: Lisa R.  
+
+MODE: Expedited  
+EQUIPMENT TYPE: Step Deck  
+
+------------------------------------------------------------  
+SHIPMENT DETAILS:  
+
+Origin City: Toronto, ON M5V 3A8  
+Destination City: Los Angeles, CA 90001  
+
+Pickup Date/Time: 02-Mar-2026  ---  
+Delivery Date/Time: 03/03/2026 ---  
+
+Weight: 17.8 tons  
+Pieces: ---  
+Dimensions: N/A  
+
+Commodity Description: Construction materials - mixed loads  
+Hazmat: N/A  
+
+------------------------------------------------------------  
+RATE & PAYMENT:  
+
+Currency: USD  
+Rate: 3821.29  
+Accessorial Charges: ---  
+Fuel Surcharge: TBD  
+Payment Terms: Net 30 days  
+
+Invoice To: ---  
+Billing Address: ---  
+
+------------------------------------------------------------  
+SPECIAL INSTRUCTIONS:  
+
+- Driver to call consignee 1 hour prior to delivery  
+- Paperwork to be left at front desk unless otherwise instructed  
+- No detention allowed without prior approval  
+- ---  
+
+------------------------------------------------------------  
+NOTES:  
+
+- Pickup window is tight, confirm ASAP  
+- Consignee contact info incomplete, awaiting update  
+- PO number referenced but no copy attached  
+- No insurance certificate on file  
+- ---  
+
+------------------------------------------------------------  
+CONFIRMATION:  
+
+Carrier to confirm acceptance by replying to this email or faxing signed copy to (416) 555-0199  
+
+Signature: _______________________  
+Date: _______________  
+
+------------------------------------------------------------  
+SYSTEM GENERATED - DO NOT REPLY DIRECTLY TO THIS MESSAGE  
+
+End of Document

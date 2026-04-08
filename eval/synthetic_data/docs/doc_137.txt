@@ -1,0 +1,86 @@
+BILL OF LADING - SHIPMENT LD77300
+
+| Field                     | Value                                  |
+|---------------------------|----------------------------------------|
+| Shipment ID               | LD77300                               |
+| Shipper                   | ABC Manufacturing Corp                 |
+| Shipper Address           | 4521 Industrial Rd, Detroit, MI 48201 |
+| Shipper Phone             | (313) 555-0198                        |
+| Consignee                 | McLane Company Inc                    |
+| Consignee Address         | 1200 E 18th St, Kansas City, MO 64101 |
+| Consignee Phone           | (816) 555-3342                        |
+| Carrier Name              | COASTAL DRAYAGE INC                   |
+| Carrier MC Number         | MC-1134637                           |
+| Mode                      | LTL                                  |
+| Equipment Type            | Tanker                               |
+| PO Number                 | PO-30135                             |
+| Reference Number          | ---                                 |
+| Currency                  | USD                                  |
+| Rate                      | 6865.89                             |
+| Weight                    | 11.9 tons                           |
+| Origin City               | Detroit, MI 48201                    |
+| Destination City          | Kansas City, MO 64101                |
+| Pickup Date/Time          | 2026-08-04 08:30                    |
+| Delivery Date/Time        | TBD                                 |
+| Special Instructions      | ---                                 |
+| Freight Terms             | Prepaid                             |
+| Bill To                   | ---                                 |
+| Notes                     | Shipment contains hazardous material - handle with care. |
+| Driver Name               | ---                                 |
+| Trailer Number            | ---                                 |
+| Seal Number               | N/A                                |
+| Load Description          | Liquid chemicals, corrosive         |
+| Number of Packages        | ---                                 |
+| Dimensions                | ---                                 |
+| Hazardous Material        | Yes                                |
+| Emergency Contact         | ---                                 |
+| Insurance                 | ---                                 |
+
+------------------------------------------------------------
+
+SHIPPER SIGNATURE: ___________________________  Date: _______
+
+CARRIER SIGNATURE: __________________________  Date: _______
+
+CONSIGNEE SIGNATURE: _________________________ Date: _______
+
+------------------------------------------------------------
+
+NOTES:
+
+- Pickup confirmed at 08:30 on 2026-08-04 from ABC Manufacturing Corp.
+- Delivery date/time not yet scheduled.
+- Equipment requested: Tanker, but trailer number pending assignment.
+- PO Number PO-30135 referenced for billing.
+- Rate quoted in USD, total $6865.89.
+- Weight approx 11.9 tons, LTL shipment.
+- No bill to party specified.
+- Hazardous material paperwork incomplete.
+- Driver info missing.
+- Seal number N/A due to open-top tanker.
+- No dimensions provided.
+- Emergency contact info TBD.
+
+------------------------------------------------------------
+
+CONTACTS:
+
+ABC Manufacturing Corp  
+4521 Industrial Rd  
+Detroit, MI 48201  
+Phone: (313) 555-0198  
+Fax: (313) 555-0199  
+
+McLane Company Inc  
+1200 E 18th St  
+Kansas City, MO 64101  
+Phone: (816) 555-3342  
+Fax: (816) 555-3343  
+
+COASTAL DRAYAGE INC  
+Dispatch: (800) 555-7788  
+MC Number: MC-1134637  
+
+------------------------------------------------------------
+
+END OF DOCUMENT

@@ -1,0 +1,76 @@
+To: logistics@syscofoods.com  
+From: dispatch@xyzindustrial.com  
+Subject: Bill of Lading - Shipment LD76952  
+
+------------------------------------------------------------  
+BILL OF LADING - SHIPMENT ID: LD76952  
+
+SHIPPER INFORMATION  
+-------------------  
+Name: XYZ Industrial Supplies  
+Address: 1234 Industrial Pkwy, Toronto, ON M5V 3A8   
+Phone: (416) 555-1234   
+Contact: John M. Smith  
+
+CONSGINEE DETAILS  
+-----------------  
+Name: Sysco Foods Warehouse  
+Address: 789 Distribution Rd, Monterrey, NL 64000   
+Phone: 709-555-9876   
+Contact: Maria L. Gonzalez  
+
+ORIGIN CITY: Toronto, ON M5V 3A8  
+DESTINATION CITY: Monterrey, NL 64000  
+
+CARRIER INFORMATION  
+-------------------  
+Carrier Name: MIDWEST HAULERS CO  
+MC Number: MC-4509307  
+Phone: 312-555-6789  
+
+SHIPMENT DETAILS  
+----------------  
+Mode of Transport: Intermodal  
+Equipmnt Type: Tanker   
+Weight: 16322 kg   
+Currency: EUR  
+Rate Confirmation: 6102.93 EUR  
+
+RATE CONFIRMATION  
+-----------------  
+Rate: 6102.93 EUR  
+PO Number: PO-46688  
+
+PICKUP & DELIVERY  
+-----------------  
+Pickup Date/Time: 2026-07-04 08:00 AM  
+Delvery Date: July 05, 2026  17:00 hrs  
+
+ADDITIONAL NOTES  
+----------------  
+- Shipment contains hazardous materials, handle with care.  
+- All documents must accompany shipment at delivery.  
+- Contact consignee 24 hrs prior to delivery.  
+- Carrier to confirm pickup and delivery times via phone or email.  
+
+SIGNATURES  
+----------  
+Shipper Signature: ____________________ Date: 2026-07-04  
+Carrier Signature: ____________________ Date: 2026-07-04  
+Consignee Signature: __________________ Date: _____________  
+
+REFERENCES  
+----------  
+Shipment ID: LD76952  
+PO Number: PO-46688  
+MC Number: MC-4509307  
+
+CONTACT NUMBERS  
+---------------  
+Shipper: (416)555.1234  
+Consignee: 709-555-9876  
+Carrier: 312.555.6789  
+
+------------------------------------------------------------  
+End of Bill of Lading Document - LD76952  
+------------------------------------------------------------

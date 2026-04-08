@@ -1,0 +1,103 @@
+------------------------------------------------------------
+                    DELIVERY RECEIPT
+------------------------------------------------------------
+
+Shipment ID: LD32570
+Carrier: ATLANTIC CARGO SERVICES
+MC Number: MC-4803436
+Mode: FTL
+Equipment Type: Lowboy
+Currency: MXN
+
+------------------------------------------------------------
+SHIPPER INFORMATION
+------------------------------------------------------------
+Steel Dynamics LLC
+1234 Ironworks Blvd
+Toronto, ON M5V 3A8
+Phone: +1 (416) 555-0198
+Contact: John M. Reynolds
+
+------------------------------------------------------------
+CONSIGNEE INFORMATION
+------------------------------------------------------------
+Dollar General DC #12
+789 Warehouse Rd
+Chicago, IL 60601
+Phone: +1 (312) 555-4421
+Contact: Maria Lopez
+
+------------------------------------------------------------
+PICKUP & DELIVERY DETAILS
+------------------------------------------------------------
+
+Pickup Date (Header): 12-May-2026  
+Delivery Date: 15-May-2026
+
+Note: Pickup datetime field intentionally missing from system export.
+
+------------------------------------------------------------
+RATE & WEIGHT SUMMARY
+------------------------------------------------------------
+
+Rate Quoted: 2785.65 MXN  
+Weight (Header): 20.3 tons
+
+------------------------------------------------------------
+PICKUP & DELIVERY STOPS
+------------------------------------------------------------
+
+| Stop # | Location               | Address                         | Date         | Weight       | Notes                  |
+|--------|------------------------|--------------------------------|--------------|--------------|------------------------|
+| 1      | Pickup - Toronto, ON   | 1234 Ironworks Blvd, Toronto    | 13-May-2026  | 19.8 tons    | Load verified, partial |
+| 2      | Delivery - Chicago, IL | 789 Warehouse Rd, Chicago       | 15-May-2026  | 20.3 tons    | Unloaded, signed off   |
+
+*Note: Pickup date here (13-May-2026) conflicts with header pickup date (12-May-2026).
+
+------------------------------------------------------------
+PO & REFERENCE NUMBERS
+------------------------------------------------------------
+
+PO Number: PO-65437  
+Reference: SD-2026-05-12-01  
+Bill of Lading: BOL-998877
+
+------------------------------------------------------------
+CHARGES & PAYMENT TERMS
+------------------------------------------------------------
+
+- Base Rate: 2785.65 MXN (as per contract)  
+- Additional Fuel Surcharge: 2950.00 MXN (discrepancy noted)  
+- Total Estimated Charges: 5735.65 MXN (subject to final weight confirmation)
+
+*Note: Fuel surcharge rate conflicts with base rate section.
+
+------------------------------------------------------------
+EQUIPMENT & CARGO DETAILS
+------------------------------------------------------------
+
+Equipment Type: Lowboy  
+Cargo Description: Steel coils, assorted sizes  
+Weight per manifest: 20.3 tons  
+Weight per scale ticket: 19.8 tons
+
+------------------------------------------------------------
+SIGNATURES
+------------------------------------------------------------
+
+Shipper Representative: ___________________ Date: 13-May-2026  
+Carrier Driver: ___________________________ Date: 15-May-2026  
+Consignee Representative: _________________ Date: 15-May-2026
+
+------------------------------------------------------------
+ADDITIONAL NOTES
+------------------------------------------------------------
+
+- Discrepancies in weight between scale ticket and manifest to be reconciled.  
+- Pickup date discrepancy to be clarified with dispatch.  
+- Rate inconsistencies flagged for billing review.  
+- Contact ATLANTIC CARGO SERVICES dispatch for any queries: +1 (800) 555-ATL-CGO
+
+------------------------------------------------------------
+END OF DOCUMENT
+------------------------------------------------------------

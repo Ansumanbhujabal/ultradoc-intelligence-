@@ -1,0 +1,61 @@
+***SHIPMENT INSTRUCTIONS EXPORT***  SYSID:USR_0047  DATE:2026-08-30 14:22:11
+
+--------------------------------------------------------------------------------
+SHIP_ID  |LD78202                  |PO_NUM    |PO-98754                 |MC_NUM    |MC-150591               
+--------------------------------------------------------------------------------
+SHIP_NM  |Midwest Grain Coop       |CARR_NAME |NORTHERN STAR LOGISTICS  |MODE      |FTL                     
+--------------------------------------------------------------------------------
+ORIG_CTY |Atlanta, GA 30301        |DEST_CTY  |Detroit, MI 48201        |CURR      |MXN                     
+--------------------------------------------------------------------------------
+PICKUP_DT|15-Sep-2026              |DELIV_DT  |19-Sep-2026              |RATE      |3736.77                 
+--------------------------------------------------------------------------------
+EQ_TYP   |Conestoga                |WEIGHT    |5783 kg                  |REF_NUM   |                        
+--------------------------------------------------------------------------------
+
+SHIPPER ADDRESS:  1234 Grain Rd, Atlanta, GA 30301  PH: (404) 555-0198  FAX: (404)555-0199
+CONSIGNEE ADDRESS:  Amazon Fulfillment Center FTW1, 5000 E. 11 Mile Rd, Detroit, MI 48201  PH: (313) 555-4321
+
+--------------------------------------------------------------------------------
+SPECIAL INSTRUCTIONS:
+- Load to be secured with tarps and straps; Conestoga cover mandatory
+- Pickup window: 08:00-16:00 15-Sep-26
+- Delivery window: 07:00-18:00 19-Sep-26
+- Carrier to confirm ETA 24h prior to delivery
+- Docs: BOL, PO copy, MC cert required at pickup and delivery
+- Contact consignee dispatch at (313)555-4321 ext 102 for unload appt
+- Weight approx 5783 kg, verify at pickup
+- Currency MXN applies to rate and billing
+- Notify Midwest Grain Coop if delays >2h
+
+--------------------------------------------------------------------------------
+CARGO DETAILS:
+|ITEM_DESC           |QTY  |UNIT  |WEIGHT_KG|VOL_M3|HAZMAT|COMMENTS                  |
+|--------------------|-----|------|---------|------|------|--------------------------|
+|Bulk Grain          |1    |Load  |5783     |45.2  |N     |Keep dry, no contamination |
+|                    |     |      |         |      |      |                          |
+
+--------------------------------------------------------------------------------
+CARRIER INFO:
+Carrier: NORTHERN STAR LOGISTICS
+MC#: MC-150591
+Driver: TBD
+Phone: (800) 555-6789
+Equipment: Conestoga trailer, unit# NSL-4521
+Mode: FTL
+
+--------------------------------------------------------------------------------
+BILLING INFO:
+Rate: 3736.77 MXN
+Terms: Net 30 days
+Invoice to: Midwest Grain Cooperative, acct# 004578
+
+--------------------------------------------------------------------------------
+NOTES:
+- Shipment ID LD78202 must be referenced on all docs
+- PO# PO-98754 mandatory on all paperwork
+- Any discrepancies to be reported immediately to Midwest Grain Coop logistics dept at (404)555-0198
+- Carrier to provide proof of delivery with signature and timestamp
+
+--------------------------------------------------------------------------------
+END OF SHIPMENT INSTRUCTIONS EXPORT
+***EOF***

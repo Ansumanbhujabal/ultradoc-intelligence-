@@ -1,0 +1,90 @@
+SHIPMENT INSTRUCTIONS DOCUMENT  
+--------------------------------------------
+
+Shipment ID: LD34966  
+PO Number: PO-98186  
+MC Number: MC-3288068  
+
+--------------------------------------------------  
+SHIPPER INFORMATION  
+--------------------  
+ABC Manufacturing Corp  
+1234 Industrial Pkwy  
+Houston, TX 77001  
+Phone: (713) 555-0199  
+Contact: John M. Reynolds  
+
+--------------------------------------------------  
+CONSGINEE DETAILS  
+-------------------  
+Home Depot Supply Chain Hub  
+Av. Constitución 1234  
+Monterrey, NL 64000  
+Phone: 81-833-555-1212   
+Contact: Maria L. Sanchez  
+
+--------------------------------------------------  
+SHIPMENT DETAILS  
+-------------------  
+Origin City: Houston, TX 77001  
+Destination City: Monterrey, NL 64000  
+Mode of Transport: FTL  
+Equipmnt Type: Dry Van   
+Weight: 67835 lbs   
+Currency: CAD  
+Rate: 4783.15   
+
+Pickup Date & Time: 28-Apr-2026 08:00 AM  
+Delvery Date: 2026-04-29 (Expected)  
+
+--------------------------------------------------  
+CARRIER INFORMATION  
+---------------------  
+Carrier Name: CROSSROADS FREIGHT CO  
+MC Number: MC-3288068  
+Phone: 832.555.3344  
+Driver Contact: (832) 555-3345  
+
+--------------------------------------------------  
+RATE CONFIRMATION  
+--------------------  
+Rate: CAD 4783.15  
+Terms: Freight prepaid  
+Payment Terms: Net 30 days  
+Reference: PO-98186  
+
+--------------------------------------------------  
+SPECIAL INSTRUCTIONS  
+-----------------------  
+- Ensure all customs paperwork is completed prior to border crossing.  
+- Driver must call consignee 1 hour before arrival.  
+- Load must be tarped securely.  
+- No hazardous materials included.  
+- Delivery appointment required, call (81) 833-555-1212 upon arrival.  
+- Please verify weight at pickup and delivery points.  
+
+--------------------------------------------------  
+DOCUMENTS TO BE PROVIDED  
+--------------------------  
+- Bill of Lading (BOL)  
+- Commercial Invoice  
+- Packing List  
+- Customs Declaration Forms  
+
+--------------------------------------------------  
+NOTES  
+--------  
+- Shipment must be handled with care due to sensitive equipment inside.  
+- Any delays must be reported immediately to shipper and consignee.  
+- Contact numbers may vary; confirm before dispatch.  
+- All times are local to respective cities.  
+
+--------------------------------------------------  
+SIGNATURES  
+-------------  
+Shipper: ___________________________ Date: ___________  
+Carrier: ___________________________ Date: ___________  
+Consignee: _________________________ Date: ___________  
+
+--------------------------------------------------  
+END OF DOCUMENT

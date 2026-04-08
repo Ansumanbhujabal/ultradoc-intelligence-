@@ -7,6 +7,7 @@ import shutil
 
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import RedirectResponse
 
 from app.config import settings
 from app.models.schemas import (
@@ -21,6 +22,7 @@ from app.pipeline.retriever import retrieve
 from app.pipeline.generator import generate_answer, rewrite_query, compute_confidence
 from app.pipeline.extractor import extract_shipment_data
 from app.pipeline.guardrails import check_scope, check_retrieval_threshold, check_grounding
+from app.llm.prompts.guardrails import is_obviously_off_topic
 from app.storage.cache import DocumentCache, DocumentRecord
 from app.observability.tracer import Tracer
 from app.observability.logger import get_logger
@@ -40,6 +42,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.get("/", include_in_schema=False)
+def root():
+    return RedirectResponse(url="/ui")
 
 
 @app.get("/health")
@@ -103,6 +110,11 @@ async def upload_document(file: UploadFile = File(...)):
     record.content_hash = content_hash
     cache.store(record)
 
+    logger.info("upload_complete", extra={"extra_data": {
+        "filename": file.filename, "doc_type": doc_type.value,
+        "chunk_count": len(chunks), "doc_id": doc_id,
+    }})
+
     tracer.finish()
 
     return UploadResponse(
@@ -116,20 +128,46 @@ async def upload_document(file: UploadFile = File(...)):
 @app.post("/ask", response_model=AskResponse)
 async def ask_question(request: AskRequest):
     tracer = Tracer("/ask", request.doc_id)
+    logger.info("ask_received", extra={"extra_data": {
+        "question": request.question, "doc_id": request.doc_id,
+    }})
 
     cache = DocumentCache.get_instance()
     record = cache.get(request.doc_id)
     if not record:
         raise HTTPException(404, f"Document {request.doc_id} not found. Upload it first.")
 
-    with tracer.span("guardrail_scope") as span:
-        scope_status = check_scope(request.question)
-        span.metadata = {"status": scope_status.value}
-
-    if scope_status == GuardrailStatus.OUT_OF_SCOPE:
+    # Layer 0: Document-level guardrail — refuse non-logistics documents
+    if record.doc_type == DocType.NOT_LOGISTICS:
+        tracer.skip("guardrail_doc_type", "not_logistics")
         tracer.finish()
         return AskResponse(
-            answer="This question does not appear to be related to the uploaded document.",
+            answer="This document is not a logistics document. The system only supports logistics-related documents such as Bills of Lading, Rate Confirmations, and Invoices.",
+            source_text="",
+            confidence=compute_confidence(0.0, 0.0, "LOW"),
+            guardrail_status=GuardrailStatus.OUT_OF_SCOPE,
+            query_rewritten=False,
+            retrieval_mode=request.retrieval_mode,
+        )
+
+    # Layer 1: Question scope check
+    # For classified logistics docs: only hard-block obviously off-topic questions
+    # (weather, sports, etc.) — let ambiguous questions through to retrieval.
+    # For unclassified docs: use the full keyword-based scope check.
+    with tracer.span("guardrail_scope") as span:
+        is_classified = record.doc_type not in (DocType.UNKNOWN, DocType.NOT_LOGISTICS)
+        if is_classified:
+            scope_blocked = is_obviously_off_topic(request.question)
+        else:
+            scope_status = check_scope(request.question)
+            scope_blocked = scope_status == GuardrailStatus.OUT_OF_SCOPE
+        span.metadata = {"status": "out_of_scope" if scope_blocked else "passed"}
+
+    if scope_blocked:
+        tracer.finish()
+        logger.info("ask_refused", extra={"extra_data": {"reason": "out_of_scope", "question": request.question}})
+        return AskResponse(
+            answer="This question does not appear to be related to logistics or the document content.",
             source_text="",
             confidence=compute_confidence(0.0, 0.0, "LOW"),
             guardrail_status=GuardrailStatus.OUT_OF_SCOPE,
@@ -202,6 +240,82 @@ async def ask_question(request: AskRequest):
 
     final_status = grounding_status if grounding_status != GuardrailStatus.PASSED else GuardrailStatus.PASSED
 
+    # Layer 4: Post-generation refusal gate
+    # If the LLM itself says "not found" in its answer, honour that as a NOT_FOUND refusal
+    answer_lower = gen_result["answer"].lower()
+    llm_refused = (
+        "not found in document" in answer_lower
+        or "not found in the document" in answer_lower
+        or "not present in" in answer_lower
+        or "does not contain" in answer_lower
+        or "no information" in answer_lower
+        or "not mentioned" in answer_lower
+        or "not included in" in answer_lower
+        or "not provided in" in answer_lower
+        or "not available in" in answer_lower
+        or "not specified in" in answer_lower
+    )
+
+    if llm_refused:
+        logger.info("ask_refused", extra={"extra_data": {
+            "doc_id": request.doc_id, "reason": "llm_refusal",
+        }})
+        tracer.finish()
+        return AskResponse(
+            answer="Not found in document. The information you're looking for does not appear to be in this document.",
+            source_text="",
+            confidence=compute_confidence(retrieval_score, 0.0, "LOW"),
+            guardrail_status=GuardrailStatus.NOT_FOUND,
+            query_rewritten=query_rewritten,
+            retrieval_mode=request.retrieval_mode,
+        )
+
+    # Also refuse when composite confidence is very low (below refusal threshold)
+    # AND the LLM self-assessed as LOW — strong signal the answer is unreliable
+    if (confidence.score < settings.low_confidence_refusal_threshold
+            and gen_result["llm_confidence"].upper() == "LOW"):
+        logger.info("ask_refused", extra={"extra_data": {
+            "doc_id": request.doc_id, "reason": "low_confidence",
+            "score": confidence.score,
+        }})
+        tracer.finish()
+        return AskResponse(
+            answer="Not found in document. The information you're looking for does not appear to be in this document.",
+            source_text="",
+            confidence=confidence,
+            guardrail_status=GuardrailStatus.NOT_FOUND,
+            query_rewritten=query_rewritten,
+            retrieval_mode=request.retrieval_mode,
+        )
+
+    # Refuse on low grounding — answer is not supported by source text
+    # Exception: if retrieval was strong AND LLM is highly confident, trust the answer.
+    # Short entity answers (e.g., "SWIFT SHIFT LOGISTICS LLC") naturally have low token
+    # overlap with large source chunks — grounding check is unreliable for these.
+    llm_confident = gen_result["llm_confidence"].upper() == "HIGH"
+    if final_status == GuardrailStatus.LOW_GROUNDING and (retrieval_score >= 0.5 and llm_confident):
+        # Override: strong retrieval + high LLM confidence → trust the answer
+        final_status = GuardrailStatus.PASSED
+    if final_status == GuardrailStatus.LOW_GROUNDING:
+        logger.info("ask_refused", extra={"extra_data": {
+            "doc_id": request.doc_id, "reason": "low_grounding",
+        }})
+        tracer.finish()
+        return AskResponse(
+            answer="Not found in document. The information you're looking for does not appear to be in this document.",
+            source_text="",
+            confidence=confidence,
+            guardrail_status=GuardrailStatus.NOT_FOUND,
+            query_rewritten=query_rewritten,
+            retrieval_mode=request.retrieval_mode,
+        )
+
+    logger.info("ask_complete", extra={"extra_data": {
+        "doc_id": request.doc_id, "guardrail": final_status.value,
+        "confidence_level": confidence.level.value,
+        "confidence_score": confidence.score, "refused": False,
+    }})
+
     tracer.finish()
 
     return AskResponse(
@@ -221,6 +335,9 @@ async def extract_data(request: ExtractRequest):
     if not record:
         raise HTTPException(404, f"Document {request.doc_id} not found. Upload it first.")
 
+    if record.doc_type == DocType.NOT_LOGISTICS:
+        raise HTTPException(422, "This document is not a logistics document. Extraction is only supported for logistics documents.")
+
     # Return cached result if already extracted
     if record.extraction_result is not None:
         tracer = Tracer("/extract", request.doc_id)
@@ -237,6 +354,12 @@ async def extract_data(request: ExtractRequest):
     )
 
     tracer.finish()
+
+    non_null = sum(1 for f in result["shipment_data"].model_fields if getattr(result["shipment_data"], f) is not None)
+    logger.info("extract_complete", extra={"extra_data": {
+        "doc_id": request.doc_id, "fields_extracted": non_null,
+        "completeness_score": result["completeness_score"],
+    }})
 
     response_data = {
         "extracted_data": result["shipment_data"].model_dump(),

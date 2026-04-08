@@ -1,0 +1,48 @@
+RATE CONFIRMATION DOCUMENT  
+Shipment ID | LD44387                                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------  
+Shipper Info                                                                                                                        
+Name           | Sunrise Pharmaceuticals                                                                                                      
+Address        | 1234 Elm St, Nashville, TN 37201                                                                                             
+Contact       | John M. Smith                                                                                                                  
+Phone          | (615) 555-1234                                                                                                                
+PO Number      | PO-42049                                                                                                                      
+                                                                                                                                   
+Consginee Info                                                                                                                     
+Name           | Fastenal Distribution Center                                                                                                
+Address        | 789 Industrial Rd, Phoenix, AZ 85001                                                                                         
+Contact       | Lisa K. Johnson                                                                                                               
+Phone          | 602-555-9876                                                                                                                  
+                                                                                                                                   
+Shipment Details                                                                                                                   
+Origin City    | Nashville, TN 37201                                                                                                          
+Destination    | Phoenix, AZ 85001                                                                                                            
+Weight (kg)   | 25067                                                                                                                        
+Mode           | Expedited                                                                                                                    
+Pickup Date    | 20-Aug-2026                                                                                                                  
+Delvery Date   | 08/25/2026                                                                                                                   
+                                                                                                                                   
+Carrier Info                                                                                                                      
+Name           | Jose Garcia Transportes SA                                                                                                  
+MC Number      | MC-2347270                                                                                                                   
+Phone          | 615.555.4321                                                                                                                 
+                                                                                                                                   
+Rate Details                                                                                                                      
+Currency      | EUR                                                                                                                          
+Rate          | 4968.21                                                                                                                      
+Equipmnt Type | Power Only                                                                                                                   
+                                                                                                                                   
+Additional Notes                                                                                                                  
+- Shipment must be picked up on 20-Aug-2026 between 8:00 AM and 5:00 PM.                                                                
+- Delivery expected by 08/25/2026 no later than 6:00 PM.                                                                            
+- Contact carrier for any delays or issues at 615.555.4321 or (602) 555-9876.                                                       
+- PO Number PO-42049 must be referenced on all paperwork.                                                                           
+- Weight confirmed at 25067 kg, ensure equipment can handle load.                                                                  
+                                                                                                                                   
+Signature                                                                                                                         
+Carrier Rep: _______________________ Date: _______________                                                                         
+Shipper Rep: _______________________ Date: _______________                                                                         
+Consginee Rep: _____________________ Date: _______________                                                                         
+                                                                                                                                   
+END OF RATE CONFIRMATION                                                                                                           
+----------------------------------------------------------------------------------------------------------------------------------------

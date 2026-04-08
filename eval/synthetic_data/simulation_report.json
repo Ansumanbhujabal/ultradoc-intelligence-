@@ -1,0 +1,712 @@
+{
+  "timestamp": "2026-04-08T10:45:45.407238",
+  "api_base": "http://localhost:7860",
+  "retrieval_mode": "hybrid",
+  "total_documents": 160,
+  "total_test_cases": 960,
+  "results": {
+    "qa": {
+      "total": 800,
+      "passed": 735,
+      "failed": 65,
+      "accuracy": 0.9187,
+      "normal_accuracy": 0.875,
+      "avg_latency_ms": 2234,
+      "avg_confidence": 0.495,
+      "correct_refusals": 315,
+      "total_refusal_cases": 320,
+      "false_acceptances": 5,
+      "by_confidence_level": {
+        "HIGH": 265,
+        "LOW": 331,
+        "MEDIUM": 204
+      }
+    },
+    "extraction": {
+      "total": 160,
+      "fields_checked": 2069,
+      "fields_matched": 1376,
+      "field_accuracy": 0.6651,
+      "avg_completeness": 0.9533,
+      "avg_latency_ms": 1879
+    }
+  },
+  "latency": {
+    "upload_avg_ms": 2267,
+    "upload_p50_ms": 1899,
+    "upload_p95_ms": 5207,
+    "qa_avg_ms": 2234,
+    "qa_p50_ms": 2469,
+    "qa_p95_ms": 3886,
+    "extract_avg_ms": 1879,
+    "extract_p50_ms": 1741,
+    "extract_p95_ms": 2976
+  },
+  "errors": [],
+  "failed_cases": [
+    {
+      "doc_file": "doc_001.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD76542\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"10/11/2026\", \"delivery_datetime\": \"2026-10-14\", \"equipment_type\": \"Power Only\", \"mode\": \"Intermodal\", \"rate\": 6147.58, \"currency\": \"CAD\", \"weight\": \"36.9 tons\", \"carrier_name\": \"COASTAL DRAYAGE INC\", \"mc_number\": \"MC-1071823\", \"po_number\": \"PO-32571\"}",
+      "actual": "{\"shipment_id\": \"LD76542\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"2026-10-11T00:00:00\", \"delivery_datetime\": \"2026-10-14T00:00:00"
+    },
+    {
+      "doc_file": "doc_002.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD79822\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"Target Regional DC - Southeast\", \"pickup_datetime\": \"23-Dec-2026 08:30 AM\", \"delivery_datetime\": \"December 26, 2026 04:00 PM\", \"equipment_type\": \"Conestoga\", \"mode\": \"Intermodal\", \"rate\": 7004.98, \"currency\": \"CAD\", \"weight\": \"75686 lbs\", \"carrier_name\": \"ATLANTIC CARGO SERVICES\", \"mc_number\": \"MC-8783481\", \"po_number\": \"PO-60177\"}",
+      "actual": "{\"shipment_id\": \"LD79822\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"Target Regional DC - Southeast\", \"pickup_datetime\": \"2026-12-23T08:30:00\", \"delivery_datetime\": \"2026-12-26T16:00:00\", \"equ"
+    },
+    {
+      "doc_file": "doc_003.docx",
+      "question": "What mode of transportation is used for this shipment?",
+      "expected": "FTL",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.51
+    },
+    {
+      "doc_file": "doc_003.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD87110\", \"shipper\": \"Santos Agricola SA de CV\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"01.28.2026\", \"delivery_datetime\": \"2026-02-01\", \"equipment_type\": \"Step Deck\", \"mode\": \"FTL\", \"rate\": 659.22, \"currency\": \"USD\", \"carrier_name\": \"Trans-Pacific Freight Corp\"}",
+      "actual": "{\"shipment_id\": \"LD87110\", \"shipper\": \"Santos Agricola SA de CV\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"2026-01-29T09:30:00\", \"delivery_datetime\": \"2026-02-01T14:45:00\", \"equipmen"
+    },
+    {
+      "doc_file": "doc_004.txt",
+      "question": "Who is the carrier handling this shipment?",
+      "expected": "MIDWEST HAULERS CO",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.43
+    },
+    {
+      "doc_file": "doc_004.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD63354\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"origin_city\": \"Seattle, WA 98101\", \"dest_city\": \"Vancouver, BC V6B 1A1\", \"carrier_name\": \"MIDWEST HAULERS CO\", \"equipment_type\": \"Lowboy\", \"mode\": \"Partial\", \"currency\": \"MXN\", \"rate\": 6937.93, \"delivery_datetime\": \"11/24/2026\", \"mc_number\": \"MC-4271761\", \"po_number\": \"PO-26112\"}",
+      "actual": "{\"shipment_id\": \"LD63354\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": null, \"delivery_datetime\": \"2026-11-24T00:00:00\", \"equipment_type\": \""
+    },
+    {
+      "doc_file": "doc_005.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD46509\", \"shipper\": \"Midwest Grain Cooperative\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"April 06, 2026\", \"delivery_datetime\": \"04/10/2026\", \"equipment_type\": \"Conestoga\", \"mode\": \"Intermodal\", \"currency\": \"USD\", \"weight\": \"17224 lbs\", \"carrier_name\": \"PACIFIC FREIGHT SOLUTIONS\", \"mc_number\": \"MC-2862152\", \"po_number\": \"PO-50672\"}",
+      "actual": "{\"shipment_id\": \"LD46509\", \"shipper\": \"Midwest Grain Cooperative\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"2026-04-06T00:00:00\", \"delivery_datetime\": \"2026-04-10T00:00:00\", \"equipme"
+    },
+    {
+      "doc_file": "doc_006.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD65444\", \"shipper\": \"Heavy Metal Fabricators Inc\", \"consignee\": \"Cardinal Health DC\", \"delivery_datetime\": \"2026-06-07\", \"equipment_type\": \"Conestoga\", \"mode\": \"LTL\", \"rate\": 7755.93, \"currency\": \"CAD\", \"weight\": \"4.8 tons\", \"carrier_name\": \"Rio Grande Logistics\", \"mc_number\": \"MC-1054280\", \"po_number\": \"PO-67562\"}",
+      "actual": "{\"shipment_id\": \"LD65444\", \"shipper\": \"Heavy Metal Fabricators Inc\", \"consignee\": \"Cardinal Health DC\", \"pickup_datetime\": null, \"delivery_datetime\": \"2026-06-07T00:00:00\", \"equipment_type\": \"Conestog"
+    },
+    {
+      "doc_file": "doc_007.pdf",
+      "question": "Who handled the delivery on behalf of the consignee?",
+      "expected": "François Leblanc",
+      "actual": "The designated carrier responsible for executing the shipment was Trans-Pacific Freight Corp.",
+      "guardrail": "passed",
+      "confidence": 0.7
+    },
+    {
+      "doc_file": "doc_007.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD40828\", \"shipper\": \"Pacific Rim Electronics\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"07-May-2026 08:30 AM CST\", \"delivery_datetime\": \"2026-05-11 03:45 PM MST\", \"equipment_type\": \"Step Deck\", \"mode\": \"Intermodal\", \"rate\": 3469.95, \"currency\": \"USD\", \"weight\": \"14.4 tons\", \"carrier_name\": \"Trans-Pacific Freight Corp\", \"po_number\": \"PO-60929\", \"mc_number\": \"MC-5133115\"}",
+      "actual": "{\"shipment_id\": \"LD40828\", \"shipper\": \"Pacific Rim Electronics\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"2026-05-07T08:30:00\", \"delivery_datetime\": \"2026-05-11T15:45:00\", \"e"
+    },
+    {
+      "doc_file": "doc_008.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD23104\", \"shipper\": \"XYZ Industrial Supplies\", \"consignee\": \"UPS Freight Terminal\", \"pickup_datetime\": \"15-Mar-2026\", \"delivery_datetime\": \"03/20/2026\", \"equipment_type\": \"Power Only\", \"mode\": \"Partial\", \"rate\": 7070.74, \"currency\": \"CAD\", \"weight\": \"20676 kg\", \"carrier_name\": \"NORTHERN STAR LOGISTICS\", \"mc_number\": \"MC-9404682\", \"po_number\": \"PO-40240\"}",
+      "actual": "{\"shipment_id\": \"LD23104\", \"shipper\": \"XYZ Industrial Supplies\", \"consignee\": \"UPS Freight Terminal\", \"pickup_datetime\": \"2026-03-15T00:00:00\", \"delivery_datetime\": \"2026-03-20T00:00:00\", \"equipment_t"
+    },
+    {
+      "doc_file": "doc_009.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD25129\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"09/16/2026\", \"equipment_type\": \"Reefer\", \"mode\": \"Partial\", \"rate\": 5797.38, \"currency\": \"EUR\", \"weight\": \"34.5 tons\", \"carrier_name\": \"Rio Grande Logistics\", \"mc_number\": \"MC-7206422\", \"po_number\": \"PO-37265\"}",
+      "actual": "{\"shipment_id\": \"LD25129\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"2026-09-16T00:00:00\", \"delivery_datetime\": null, \"equipment_typ"
+    },
+    {
+      "doc_file": "doc_010.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD44335\", \"shipper\": \"Global Tech Industries\", \"consignee\": \"Cardinal Health DC\", \"pickup_datetime\": \"09.02.2026\", \"delivery_datetime\": \"2026-09-06\", \"equipment_type\": \"Power Only\", \"mode\": \"Expedited\", \"rate\": 1072.62, \"currency\": \"MXN\", \"weight\": \"36.4 tons\", \"carrier_name\": \"SILVER LINE CARRIERS\", \"po_number\": \"PO-41404\", \"mc_number\": \"MC-801771\"}",
+      "actual": "{\"shipment_id\": \"LD44335\", \"shipper\": \"Global Tech Industries\\u2122\", \"consignee\": \"Cardinal Health DC\", \"pickup_datetime\": \"2026-09-02T00:00:00\", \"delivery_datetime\": \"2026-09-06T00:00:00\", \"equipmen"
+    },
+    {
+      "doc_file": "doc_011.txt",
+      "question": "When is the delivery scheduled to take place?",
+      "expected": "March 17, 2026",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.33
+    },
+    {
+      "doc_file": "doc_011.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD42706\", \"shipper\": \"Sunrise Pharmaceuticals\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"delivery_datetime\": \"March 17, 2026\", \"equipment_type\": \"Power Only\", \"mode\": \"Drayage\", \"rate\": 2046.55, \"currency\": \"CAD\", \"carrier_name\": \"GOLDEN STATE TRANSPORT\", \"mc_number\": \"MC-4263555\", \"po_number\": \"PO-35970\"}",
+      "actual": "{\"shipment_id\": \"LD42706\", \"shipper\": \"Sunrise Pharmaceuticals\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": null, \"delivery_datetime\": \"2026-03-17T00:00:00\", \"equipment_type\": \""
+    },
+    {
+      "doc_file": "doc_012.docx",
+      "question": "What is the total weight of the shipment?",
+      "expected": "6549 kg",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.51
+    },
+    {
+      "doc_file": "doc_012.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD39154\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Fastenal Distribution Center\", \"pickup_datetime\": \"May 12, 2026 08:30 AM\", \"delivery_datetime\": \"17-May-2026\", \"equipment_type\": \"Intermodal\", \"mode\": \"Partial\", \"rate\": 5348.26, \"currency\": \"CAD\", \"weight\": \"6549 kg\", \"carrier_name\": \"SILVER LINE CARRIERS\"}",
+      "actual": "{\"shipment_id\": \"LD39154\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Fastenal Distribution Center\", \"pickup_datetime\": \"2026-05-12T08:30:00\", \"delivery_datetime\": \"2026-05-17T00:00:00\", \"equ"
+    },
+    {
+      "doc_file": "doc_013.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD24208\", \"shipper\": \"Northern Timber Co Ltd\", \"consignee\": \"Dollar General DC #12\", \"pickup_datetime\": \"2026-09-26\", \"delivery_datetime\": \"27-Sep-2026\", \"equipment_type\": \"Intermodal\", \"mode\": \"Drayage\", \"rate\": 4697.39, \"currency\": \"USD\", \"weight\": \"18.9 tons\", \"carrier_name\": \"GOLDEN STATE TRANSPORT\", \"mc_number\": \"MC-5366630\", \"po_number\": \"PO-87951\"}",
+      "actual": "{\"shipment_id\": \"LD24208\", \"shipper\": \"Northern Timber Co Ltd\", \"consignee\": \"Dollar General DC #12\", \"pickup_datetime\": \"2026-09-26T00:00:00\", \"delivery_datetime\": \"2026-09-27T00:00:00\", \"equipment_t"
+    },
+    {
+      "doc_file": "doc_014.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD97410\", \"shipper\": \"Pacific Rim Electronics\", \"consignee\": \"FedEx Ground Hub - Memphis\", \"pickup_datetime\": \"10.19.2026\", \"delivery_datetime\": \"22-Oct-2026\", \"equipment_type\": \"Tanker\", \"mode\": \"Intermodal\", \"rate\": 5386.45, \"currency\": \"CAD\", \"weight\": \"36.4 tons\", \"carrier_name\": \"CROSSROADS FREIGHT CO\", \"po_number\": \"PO-57346\", \"mc_number\": \"MC-3626280\"}",
+      "actual": "{\"shipment_id\": \"LD97410\", \"shipper\": \"Pacific Rim Electronics\", \"consignee\": \"FedEx Ground Hub - Memphis\", \"pickup_datetime\": \"2026-10-19T00:00:00\", \"delivery_datetime\": \"2026-10-22T00:00:00\", \"equip"
+    },
+    {
+      "doc_file": "doc_015.txt",
+      "question": "When was the pickup scheduled for this shipment?",
+      "expected": "2026-04-22 08:30 AM",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.17
+    },
+    {
+      "doc_file": "doc_015.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD67954\", \"shipper\": \"Sunrise Pharmaceuticals\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"2026-04-22 08:30 AM\", \"equipment_type\": \"Conestoga\", \"mode\": \"Expedited\", \"rate\": 2413.53, \"currency\": \"CAD\", \"weight\": \"15.1 tons\", \"carrier_name\": \"MAPLE LEAF SHIPPING LTD\", \"mc_number\": \"MC-875337\", \"po_number\": \"PO-33092\", \"origin_city\": \"Nashville, TN 37201\", \"dest_city\": \"Toronto, ON M5V 3A8\"}",
+      "actual": "{\"shipment_id\": \"LD67954\", \"shipper\": \"Sunrise Pharmaceut1cals\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"2026-04-22T08:30:00\", \"delivery_datetime\": null, \"equipment_type\": \"Conestog"
+    },
+    {
+      "doc_file": "doc_016.docx",
+      "question": "Who is responsible for carrying the shipment?",
+      "expected": "Trans-Pacific Freight Corp",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.48
+    },
+    {
+      "doc_file": "doc_016.docx",
+      "question": "What type of equipment is required for this shipment?",
+      "expected": "Step Deck",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.45
+    },
+    {
+      "doc_file": "doc_016.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD64321\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"McLane Company Inc\", \"origin_city\": \"Houston, TX 77001\", \"dest_city\": \"Toronto, ON M5V 3A8\", \"carrier_name\": \"Trans-Pacific Freight Corp\", \"equipment_type\": \"Step Deck\", \"mode\": \"Expedited\", \"currency\": \"MXN\", \"rate\": 2103.08, \"weight\": \"18970 lbs\", \"pickup_datetime\": \"07.08.2026\", \"delivery_datetime\": \"2026-07-13\", \"mc_number\": \"MC-2136059\", \"po_number\": \"PO-60829\"}",
+      "actual": "{\"shipment_id\": \"LD64321\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"McLane Company Inc\", \"pickup_datetime\": \"2026-07-08T00:00:00\", \"delivery_datetime\": \"2026-07-13T00:00:00\", \"equipmen"
+    },
+    {
+      "doc_file": "doc_017.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD51588\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"ALDI Regional Warehouse\", \"origin_city\": \"Montreal, QC H3B 1A2\", \"dest_city\": \"El Paso, TX 79901\", \"carrier_name\": \"SILVER LINE CARRIERS\", \"equipment_type\": \"Power Only\", \"mode\": \"Drayage\", \"currency\": \"MXN\", \"rate\": 6000.51, \"weight\": \"18203 kg\", \"pickup_datetime\": \"11.09.2026\", \"delivery_datetime\": \"11-Nov-2026\", \"mc_number\": \"MC-7479837\", \"po_number\": \"PO-11155\"}",
+      "actual": "{\"shipment_id\": \"LD51588\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"ALDI Regional Warehouse\", \"pickup_datetime\": \"2026-09-12T00:00:00\", \"delivery_datetime\": \"2026-11-11T00:00:00\", \"equipment_"
+    },
+    {
+      "doc_file": "doc_018.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD80798\", \"shipper\": \"XYZ Industrial Supplies\", \"consignee\": \"Target Regional DC - Southeast\", \"pickup_datetime\": \"January 07, 2026  08:30AM\", \"delivery_datetime\": \"01/12/2026  04:00PM\", \"equipment_type\": \"StepDeck\", \"mode\": \"Drayage\", \"rate\": 700.99, \"currency\": \"CAD\", \"weight\": \"20.0 tons\", \"carrier_name\": \"ATLANTIC CARGO SERVICES\", \"mc_number\": \"MC-9758481\", \"po_number\": \"PO-50857\"}",
+      "actual": "{\"shipment_id\": \"LD80798\", \"shipper\": \"XYZ lndustrialSupplles\", \"consignee\": \"Target Regional DC - Southeast\", \"pickup_datetime\": \"2026-01-07T08:30:00\", \"delivery_datetime\": \"2026-01-12T16:00:00\", \"eq"
+    },
+    {
+      "doc_file": "doc_019.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD64921\", \"shipper\": \"Santos Agricola SA de CV\", \"consignee\": \"Cardinal Health DC\", \"pickup_datetime\": \"July 24, 2026, 08:00 AM\", \"delivery_datetime\": \"07/29/2026, 05:00 PM\", \"equipment_type\": \"Step Deck\", \"mode\": \"Drayage\", \"rate\": 3988.01, \"currency\": \"CAD\", \"weight\": \"28.0 tons\", \"carrier_name\": \"Rio Grande Logistics\", \"mc_number\": \"MC-552421\", \"po_number\": \"PO-52645\"}",
+      "actual": "{\"shipment_id\": \"LD64921\", \"shipper\": \"Santos Agricola SA de CV\", \"consignee\": \"Cardinal Health DC\", \"pickup_datetime\": \"2026-07-24T08:00:00\", \"delivery_datetime\": \"2026-07-29T17:00:00\", \"equipment_ty"
+    },
+    {
+      "doc_file": "doc_020.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD66179\", \"shipper\": \"Global Tech Industries\", \"consignee\": \"Fastenal Distribution Center\", \"origin_city\": \"Houston, TX 77001\", \"dest_city\": \"San Diego, CA 92101\", \"carrier_name\": \"SILVER LINE CARRIERS\", \"equipment_type\": \"Reefer\", \"mode\": \"FTL\", \"rate\": 1850.95, \"currency\": \"EUR\", \"weight\": \"20,235 kg\", \"pickup_datetime\": \"July 09, 2026\", \"mc_number\": \"MC-9149949\", \"po_number\": \"PO-7826\"}",
+      "actual": "{\"shipment_id\": \"LD66179\", \"shipper\": \"Global Tech Industries\\u2122\", \"consignee\": \"Fastenal Distribution Center\", \"pickup_datetime\": \"2026-07-09T00:00:00\", \"delivery_datetime\": null, \"equipment_type\""
+    },
+    {
+      "doc_file": "doc_021.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD14067\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"06/06/2026 08:30 AM\", \"delivery_datetime\": \"08-Jun-2026 approx 14:00 hrs\", \"equipment_type\": \"Reefer\", \"mode\": \"LTL\", \"rate\": 1092.24, \"currency\": \"CAD\", \"weight\": \"18793 kg\", \"carrier_name\": \"SWIFT SHIFT LOGISTICS LLC\", \"mc_number\": \"MC-1913596\", \"po_number\": \"PO-76849\"}",
+      "actual": "{\"shipment_id\": \"LD14067\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"2026-06-06T08:30:00\", \"delivery_datetime\": \"2026-06-08T14:00:00\", \"equipment"
+    },
+    {
+      "doc_file": "doc_022.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD35995\", \"shipper\": \"XYZ Industrial Supplies\", \"consignee\": \"Sysco Foods Warehouse\", \"delivery_datetime\": \"10/29/2026\", \"equipment_type\": \"Flatbed\", \"mode\": \"Expedited\", \"rate\": 4883.21, \"currency\": \"EUR\", \"carrier_name\": \"BLUE RIDGE CARRIERS\"}",
+      "actual": "{\"shipment_id\": \"LD35995\", \"shipper\": \"XYZ Industrial Supplies\", \"consignee\": \"Sysco Foods Warehouse\", \"pickup_datetime\": null, \"delivery_datetime\": \"2026-10-29T00:00:00\", \"equipment_type\": \"Flatbed\","
+    },
+    {
+      "doc_file": "doc_023.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD66822\", \"shipper\": \"Acme Chemical Solutions\", \"consignee\": \"McLane Company Inc\", \"origin_city\": \"Toronto, ON M5V 3A8\", \"dest_city\": \"Phoenix, AZ 85001\", \"carrier_name\": \"SILVER LINE CARRIERS\", \"equipment_type\": \"Reefer\", \"mode\": \"Drayage\", \"currency\": \"CAD\", \"rate\": 7730.7, \"weight\": \"31.5 tons\", \"pickup_datetime\": \"08.14.2026 09:15\", \"delivery_datetime\": \"08/16/2026 15:47\", \"mc_number\": \"MC-4779639\", \"po_number\": \"PO-60087\"}",
+      "actual": "{\"shipment_id\": \"LD66822\", \"shipper\": \"Acme Chemical Solutions\", \"consignee\": \"McLane Company Inc\", \"pickup_datetime\": \"2026-08-14T09:15:00\", \"delivery_datetime\": \"2026-08-16T15:47:00\", \"equipment_typ"
+    },
+    {
+      "doc_file": "doc_024.docx",
+      "question": "What is the total rate charged for this shipment?",
+      "expected": "2215.15 CAD",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.52
+    },
+    {
+      "doc_file": "doc_024.docx",
+      "question": "Can you tell me who the carrier is for this delivery?",
+      "expected": "HEARTLAND EXPRESS LLC",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.18
+    },
+    {
+      "doc_file": "doc_024.docx",
+      "question": "When is the confirmed delivery date?",
+      "expected": "2026-05-19",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.13
+    },
+    {
+      "doc_file": "doc_024.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD54092\", \"shipper\": \"ABC Manufacturing Corp\", \"consignee\": \"Kroger Fresh Distribution\", \"origin_city\": \"San Diego, CA 92101\", \"dest_city\": \"Minneapolis, MN 55401\", \"carrier_name\": \"HEARTLAND EXPRESS LLC\", \"equipment_type\": \"Reefer\", \"mode\": \"Drayage\", \"currency\": \"CAD\", \"rate\": 2215.15, \"weight\": \"28.8 tons\", \"delivery_datetime\": \"2026-05-19\", \"mc_number\": \"MC-6918732\", \"po_number\": \"PO-65038\"}",
+      "actual": "{\"shipment_id\": \"LD54092\", \"shipper\": \"ABC MFG CORP\", \"consignee\": \"KROGER FRESH DIST\", \"pickup_datetime\": null, \"delivery_datetime\": \"2026-05-19T00:00:00\", \"equipment_type\": \"REEFER\", \"mode\": \"DRAYAG"
+    },
+    {
+      "doc_file": "doc_025.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD74332\", \"shipper\": \"Midwest Grain Cooperative\", \"consignee\": \"Grainger Industrial Supply\", \"origin_city\": \"El Paso, TX 79901\", \"dest_city\": \"Buffalo, NY 14201\", \"carrier_name\": \"SWIFT SHIFT LOGISTICS LLC\", \"equipment_type\": \"Flatbed\", \"mode\": \"Partial\", \"currency\": \"CAD\", \"rate\": 2097.78, \"weight\": \"33015 kg\", \"pickup_datetime\": \"09.17.2026\", \"delivery_datetime\": \"21-Sep-2026\", \"mc_number\": \"MC-5244280\", \"po_number\": \"PO-33951\"}",
+      "actual": "{\"shipment_id\": \"LD74332\", \"shipper\": \"MIDWEST GRAIN COOPERATIVE\", \"consignee\": \"GRAINGER INDUSTRIAL SUPPLY\", \"pickup_datetime\": \"2026-09-17T08:00:00\", \"delivery_datetime\": \"2026-09-21T17:00:00\", \"equ"
+    },
+    {
+      "doc_file": "doc_026.pdf",
+      "question": "What is the insurance coverage amount for this shipment?",
+      "expected": "__NOT_FOUND__",
+      "actual": "The insurance coverage limit for this shipment is \"$0.50 per pound unless declared value is provided in writing prior to shipment.\"",
+      "guardrail": "passed",
+      "confidence": 0.75
+    },
+    {
+      "doc_file": "doc_026.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD80236\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"Cardinal Health DC\", \"pickup_datetime\": \"2026-02-27 08:00 AM\", \"delivery_datetime\": \"03/02/2026 05:00 PM\", \"equipment_type\": \"Step Deck\", \"mode\": \"LTL\", \"rate\": 4798.78, \"currency\": \"MXN\", \"weight\": \"13.1 tons\", \"carrier_name\": \"DESERT WIND TRUCKING LLC\", \"po_number\": \"PO-17591\", \"mc_number\": \"MC-9061299\"}",
+      "actual": "{\"shipment_id\": \"LD80236\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"Cardinal Health DC\", \"pickup_datetime\": \"2026-02-27T08:00:00\", \"delivery_datetime\": \"2026-03-02T17:00:00\", \"equipment_type\""
+    },
+    {
+      "doc_file": "doc_027.docx",
+      "question": "Who is responsible for securing the load on the equipment?",
+      "expected": "Carrier",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.18
+    },
+    {
+      "doc_file": "doc_027.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD26551\", \"shipper\": \"Sunrise Pharmaceuticals\", \"consignee\": \"Fastenal Distribution Center\", \"pickup_datetime\": \"January 09, 2026\", \"equipment_type\": \"Flatbed\", \"mode\": \"FTL\", \"rate\": 3635.66, \"currency\": \"EUR\", \"carrier_name\": \"Jose Garcia Transportes SA\", \"mc_number\": \"MC-1196280\", \"po_number\": \"PO-53521\"}",
+      "actual": "{\"shipment_id\": \"LD2655I\", \"shipper\": \"Sunr1$e Pharmaceut1cals\", \"consignee\": \"Fastenal D1stribution Center\", \"pickup_datetime\": \"2026-01-09T08:00:00\", \"delivery_datetime\": null, \"equipment_type\": \"Fl"
+    },
+    {
+      "doc_file": "doc_028.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD29887\", \"shipper\": \"Global Tech Industries\", \"consignee\": \"Grainger Industrial Supply\", \"pickup_datetime\": \"October 08, 2026\", \"delivery_datetime\": \"12-Oct-2026\", \"equipment_type\": \"Tanker\", \"mode\": \"FTL\", \"currency\": \"CAD\", \"weight\": \"24.9 tons\", \"carrier_name\": \"Trans-Pacific Freight Corp\"}",
+      "actual": "{\"shipment_id\": \"LD29887\", \"shipper\": \"Global Tech Industries\", \"consignee\": \"Grainger Industrial Supply\", \"pickup_datetime\": \"2026-10-08T08:00:00\", \"delivery_datetime\": \"2026-10-12T23:59:59\", \"equipm"
+    },
+    {
+      "doc_file": "doc_029.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD37235\", \"shipper\": \"Sunrise Pharmaceuticals\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"23-Aug-2026\", \"equipment_type\": \"Flatbed\", \"mode\": \"LTL\", \"rate\": 785.51, \"currency\": \"CAD\", \"carrier_name\": \"SUMMIT FREIGHT GROUP\", \"mc_number\": \"MC-4933597\", \"po_number\": \"PO-93662\"}",
+      "actual": "{\"shipment_id\": \"LD37235\", \"shipper\": \"Sunrise Pharmaceuticals\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"2026-08-23T08:00:00\", \"delivery_datetime\": null, \"equipment_type\": \"Flatbed\""
+    },
+    {
+      "doc_file": "doc_030.txt",
+      "question": "What is the total freight rate quoted for this shipment?",
+      "expected": "$5251.55",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.54
+    },
+    {
+      "doc_file": "doc_030.txt",
+      "question": "Who is listed as the shipper on this freight quote?",
+      "expected": "Atlas Construction Materials",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.56
+    },
+    {
+      "doc_file": "doc_030.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD40595\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"Home Depot Supply Chain Hub\", \"pickup_datetime\": \"01.06.2026 08:00 AM\", \"delivery_datetime\": \"11-Jan-2026\", \"equipment_type\": \"Step Deck\", \"mode\": \"Drayage\", \"rate\": 5251.55, \"currency\": \"USD\", \"weight\": \"14,359 lbs\", \"carrier_name\": \"Trans-Pacific Freight Corp\", \"mc_number\": \"MC-7467772\", \"po_number\": \"PO-17299\"}",
+      "actual": "{\"shipment_id\": \"LD40595\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"Home Depot Supply Chain Hub\", \"pickup_datetime\": \"2026-01-06T08:00:00\", \"delivery_datetime\": \"2026-01-11T00:00:00\", "
+    },
+    {
+      "doc_file": "doc_031.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD75597\", \"shipper\": \"Santos Agricola SA de CV\", \"consignee\": \"Kroger Fresh Distribution\", \"pickup_datetime\": \"04.22.2026\", \"delivery_datetime\": \"23-Apr-2026\", \"equipment_type\": \"Flatbed\", \"mode\": \"Intermodal\", \"rate\": 5929.36, \"currency\": \"USD\", \"weight\": \"16970 lbs\", \"carrier_name\": \"SILVER LINE CARRIERS\", \"mc_number\": \"MC-9767820\", \"po_number\": \"PO-6273\"}",
+      "actual": "{\"shipment_id\": \"LD75597\", \"shipper\": \"Santos Agricola SA de CV\", \"consignee\": \"Kroger Fresh Distribution\", \"pickup_datetime\": \"2026-04-22T00:00:00\", \"delivery_datetime\": \"2026-04-23T00:00:00\", \"equip"
+    },
+    {
+      "doc_file": "doc_032.pdf",
+      "question": "When was the shipment picked up?",
+      "expected": "March 11, 2026",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.33
+    },
+    {
+      "doc_file": "doc_032.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD33788\", \"shipper\": \"Northern Timber Co Ltd\", \"consignee\": \"Dollar General DC #12\", \"pickup_datetime\": \"March 11, 2026\", \"delivery_datetime\": \"03.15.2026\", \"equipment_type\": \"Flatbed\", \"mode\": \"Drayage\", \"rate\": 2704.25, \"currency\": \"EUR\", \"carrier_name\": \"Jose Garcia Transportes SA\", \"mc_number\": \"MC-715675\", \"po_number\": \"PO-60614\", \"origin_city\": \"Nashville, TN 37201\", \"dest_city\": \"Miami, FL 33101\"}",
+      "actual": "{\"shipment_id\": \"LD33788\", \"shipper\": \"Northern Timber Co Ltd\", \"consignee\": \"Dollar General DC #12\", \"pickup_datetime\": \"2026-03-11T00:00:00\", \"delivery_datetime\": \"2026-03-15T00:00:00\", \"equipment_t"
+    },
+    {
+      "doc_file": "doc_033.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD77449\", \"shipper\": \"Green Valley Organics\", \"consignee\": \"Walmart Distribution Center #4521\", \"pickup_datetime\": \"2026-01-07\", \"delivery_datetime\": \"January 11, 2026\", \"equipment_type\": \"Conestoga\", \"mode\": \"Drayage\", \"rate\": 3021.88, \"currency\": \"USD\", \"weight\": \"19.1 tons\", \"carrier_name\": \"Rio Grande Logistics\", \"po_number\": \"PO-4783\", \"mc_number\": \"MC-2137191\"}",
+      "actual": "{\"shipment_id\": \"BL-LD77449-2026\", \"shipper\": \"Green Valley Organics\", \"consignee\": \"Walmart Distribution Center #4521\", \"pickup_datetime\": \"2026-01-07T00:00:00\", \"delivery_datetime\": \"2026-01-11T00:0"
+    },
+    {
+      "doc_file": "doc_034.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD50730\", \"shipper\": \"Santos Agricola SA de CV\", \"consignee\": \"Walmart Distribution Center #4521\", \"origin_city\": \"Nogales, AZ 85621\", \"dest_city\": \"Atlanta, GA 30301\", \"carrier_name\": \"Rio Grande Logistics\", \"equipment_type\": \"Lowboy\", \"mode\": \"FTL\", \"currency\": \"CAD\", \"rate\": 7320.85, \"weight\": \"25181 lbs\", \"pickup_datetime\": \"23-Aug-2026\", \"delivery_datetime\": \"August 27, 2026\", \"mc_number\": \"MC-4189126\", \"po_number\": \"PO-60871\"}",
+      "actual": "{\"shipment_id\": \"LD50730\", \"shipper\": \"Santos Agricola SA de CV\", \"consignee\": \"Walmart Dist Ctr #4521\", \"pickup_datetime\": \"2026-08-23T00:00:00\", \"delivery_datetime\": \"2026-08-27T00:00:00\", \"equipmen"
+    },
+    {
+      "doc_file": "doc_035.txt",
+      "question": "When was the shipment picked up?",
+      "expected": "November 16, 2026",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.33
+    },
+    {
+      "doc_file": "doc_035.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD27892\", \"shipper\": \"Green Valley Organics\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"origin_city\": \"Laredo, TX 78040\", \"dest_city\": \"Vancouver, BC V6B 1A1\", \"carrier_name\": \"SUMMIT FREIGHT GROUP\", \"equipment_type\": \"Lowboy\", \"mode\": \"Partial\", \"currency\": \"EUR\", \"rate\": 2406.14, \"weight\": \"24.2 tons\", \"pickup_datetime\": \"November 16, 2026\", \"delivery_datetime\": \"19-Nov-2026\", \"mc_number\": \"MC-9359637\", \"po_number\": \"PO-72228\"}",
+      "actual": "{\"shipment_id\": \"LD27892\", \"shipper\": \"Green Valley Organics\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"2026-11-16T00:00:00\", \"delivery_datetime\": \"2026-11-19T00:00:00\", \"equ"
+    },
+    {
+      "doc_file": "doc_036.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD41300\", \"shipper\": \"Northern Timber Co Ltd\", \"consignee\": \"Dollar General DC #12\", \"pickup_datetime\": \"08.02.2026 08:00 AM\", \"delivery_datetime\": \"August 03, 2026 05:00 PM\", \"equipment_type\": \"Lowboy\", \"mode\": \"FTL\", \"rate\": 5700.78, \"currency\": \"EUR\", \"weight\": \"11968 kg\", \"carrier_name\": \"BLUE RIDGE CARRIERS\", \"mc_number\": \"MC-1772884\", \"po_number\": \"PO-69937\"}",
+      "actual": "{\"shipment_id\": \"LD41300\", \"shipper\": \"Northern Timber Co Ltd\", \"consignee\": \"Dollar General DC #12\", \"pickup_datetime\": \"2026-02-08T08:00:00\", \"delivery_datetime\": \"2026-08-03T17:00:00\", \"equipment_t"
+    },
+    {
+      "doc_file": "doc_037.txt",
+      "question": "Who is responsible for carrying the shipment?",
+      "expected": "SUMMIT FREIGHT GROUP",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.49
+    },
+    {
+      "doc_file": "doc_037.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD30232\", \"shipper\": \"XYZ Industrial Supplies\", \"consignee\": \"Kroger Fresh Distribution\", \"pickup_datetime\": \"June 21, 2026\", \"delivery_datetime\": \"06.22.2026\", \"equipment_type\": \"Intermodal\", \"mode\": \"Intermodal\", \"rate\": 6843.77, \"currency\": \"MXN\", \"weight\": \"16.8 tons\", \"carrier_name\": \"SUMMIT FREIGHT GROUP\"}",
+      "actual": "{\"shipment_id\": \"LD30232\", \"shipper\": \"XYZ Industrial Supplies\", \"consignee\": \"Kroger Fresh Distribution\", \"pickup_datetime\": \"2026-06-21T08:30:00\", \"delivery_datetime\": \"2026-06-22T15:00:00\", \"equipm"
+    },
+    {
+      "doc_file": "doc_038.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD66881\", \"shipper\": \"XYZ Industrial Supplies\", \"consignee\": \"Grainger Industrial Supply\", \"pickup_datetime\": \"06.14.2026\", \"delivery_datetime\": \"2026-06-16\", \"equipment_type\": \"Conestoga\", \"mode\": \"LTL\", \"rate\": 558.73, \"currency\": \"EUR\", \"weight\": \"25,492 kg\", \"carrier_name\": \"MIDWEST HAULERS CO\", \"mc_number\": \"MC-3037176\", \"po_number\": \"PO-11350\"}",
+      "actual": "{\"shipment_id\": \"LD66881\", \"shipper\": \"XYZ Industrial Supplies\", \"consignee\": \"Grainger Industrial Supply\", \"pickup_datetime\": \"2026-06-14T00:00:00\", \"delivery_datetime\": \"2026-06-16T00:00:00\", \"equip"
+    },
+    {
+      "doc_file": "doc_039.txt",
+      "question": "What is the total weight of the shipment?",
+      "expected": "12353 kg",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.48
+    },
+    {
+      "doc_file": "doc_039.txt",
+      "question": "Who is listed as the shipper on this bill of lading?",
+      "expected": "Global Tech Industries",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.5
+    },
+    {
+      "doc_file": "doc_039.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD86435\", \"shipper\": \"Global Tech Industries\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"02.15.2026\", \"delivery_datetime\": \"19-Feb-2026\", \"equipment_type\": \"Tanker\", \"mode\": \"Drayage\", \"rate\": 7211.49, \"currency\": \"EUR\", \"weight\": \"12353 kg\", \"carrier_name\": \"SILVER LINE CARRIERS\", \"mc_number\": \"MC-7764433\", \"po_number\": \"PO-40599\"}",
+      "actual": "{\"shipment_id\": \"LD86435\", \"shipper\": \"Global Tech Industries\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"2026-02-15T00:00:00\", \"delivery_datetime\": \"2026-02-19T00:00:00\", \"equipment_"
+    },
+    {
+      "doc_file": "doc_040.docx",
+      "question": "Who is responsible for shipping this load?",
+      "expected": "Northern Timber Co Ltd",
+      "actual": "The designated carrier responsible for transporting this shipment is \"Trans-Pacific Freight Corp™.\"",
+      "guardrail": "passed",
+      "confidence": 0.63
+    },
+    {
+      "doc_file": "doc_040.docx",
+      "question": "What type of equipment is being used for this shipment?",
+      "expected": "Tanker",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.19
+    },
+    {
+      "doc_file": "doc_040.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD59986\", \"shipper\": \"Northern Timber Co Ltd\", \"consignee\": \"FedEx Ground Hub - Memphis\", \"origin_city\": \"Phoenix, AZ 85001\", \"dest_city\": \"Miami, FL 33101\", \"carrier_name\": \"Trans-Pacific Freight Corp\", \"equipment_type\": \"Tanker\", \"mode\": \"Expedited\", \"currency\": \"EUR\", \"weight\": \"19,988 kg\", \"pickup_datetime\": \"01/19/2026\", \"delivery_datetime\": \"23-Jan-2026\", \"mc_number\": \"MC-3960745\", \"po_number\": \"PO-80569\"}",
+      "actual": "{\"shipment_id\": \"LD59986\", \"shipper\": \"Northern Timber Co Ltd\\u2122\", \"consignee\": \"FedEx Ground Hub - Memphis\", \"pickup_datetime\": \"2026-01-19T00:00:00\", \"delivery_datetime\": \"2026-01-23T00:00:00\", \""
+    },
+    {
+      "doc_file": "doc_041.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD98835\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"Cardinal Health DC\", \"pickup_datetime\": \"2026-05-11 08:00 AM\", \"delivery_datetime\": \"16-May-2026\", \"equipment_type\": \"Flatbed\", \"mode\": \"Expedited\", \"rate\": 3638.42, \"currency\": \"USD\", \"weight\": \"7.4 tons\", \"carrier_name\": \"ATLANTIC CARGO SERVICES\", \"mc_number\": \"MC-9006224\", \"po_number\": \"PO-66771\"}",
+      "actual": "{\"shipment_id\": \"LD98835\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"Cardinal Health DC\", \"pickup_datetime\": \"2026-05-11T08:00:00\", \"delivery_datetime\": \"2026-05-16T00:00:00\", \"equipment_type\""
+    },
+    {
+      "doc_file": "doc_042.docx",
+      "question": "What is the insurance coverage amount for this shipment?",
+      "expected": "__NOT_FOUND__",
+      "actual": "Liability is limited to $0.50 per pound unless otherwise declared in writing.",
+      "guardrail": "passed",
+      "confidence": 0.81
+    },
+    {
+      "doc_file": "doc_042.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD54396\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"07/01/2026 \\u2014 08:00 AM EST\", \"delivery_datetime\": \"07.04.2026 \\u2014 17:00 CST\", \"equipment_type\": \"Flatbed\", \"mode\": \"LTL\", \"rate\": 5848.89, \"currency\": \"CAD\", \"weight\": \"16.2 tons\", \"carrier_name\": \"SILVER LINE CARRIERS\"}",
+      "actual": "{\"shipment_id\": \"LD54396\", \"shipper\": \"QuickParts Autom\\u00f3ti\\u221ae\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"pickup_datetime\": \"2026-07-01T08:00:00\", \"delivery_datetime\": \"2026-07-04T17:00"
+    },
+    {
+      "doc_file": "doc_043.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD91205\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"UPS Freight Terminal\", \"pickup_datetime\": \"02-Mar-2026\", \"delivery_datetime\": \"03/03/2026\", \"equipment_type\": \"Step Deck\", \"mode\": \"Expedited\", \"rate\": 3821.29, \"currency\": \"USD\", \"weight\": \"17.8 tons\", \"carrier_name\": \"HEARTLAND EXPRESS LLC\", \"po_number\": \"PO-71457\", \"mc_number\": \"MC-4039290\"}",
+      "actual": "{\"shipment_id\": \"LD91205\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"UPS Freight Terminal\", \"pickup_datetime\": \"2026-03-02T00:00:00\", \"delivery_datetime\": \"2026-03-03T00:00:00\", \"equipm"
+    },
+    {
+      "doc_file": "doc_044.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD80804\", \"shipper\": \"Pacific Rim Electronics\", \"consignee\": \"Sysco Foods Warehouse\", \"pickup_datetime\": \"December 12, 2026\", \"delivery_datetime\": \"12/15/2026\", \"equipment_type\": \"Lowboy\", \"mode\": \"Expedited\", \"rate\": 5002.09, \"currency\": \"USD\", \"weight\": \"4144 kg\", \"carrier_name\": \"ATLANTIC CARGO SERVICES\", \"po_number\": \"PO-72364\", \"mc_number\": \"MC-6262857\"}",
+      "actual": "{\"shipment_id\": \"LD80804\", \"shipper\": \"Pacific Rim Electronics\", \"consignee\": \"Sysco Foods Warehouse\", \"pickup_datetime\": \"2026-12-12T00:00:00\", \"delivery_datetime\": \"2026-12-15T00:00:00\", \"equipment_"
+    },
+    {
+      "doc_file": "doc_045.docx",
+      "question": "Who is the carrier handling this shipment?",
+      "expected": "SILVER LINE CARRIERS",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.52
+    },
+    {
+      "doc_file": "doc_045.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD26011\", \"shipper\": \"Green Valley Organics\", \"consignee\": \"Fastenal Distribution Center\", \"origin_city\": \"Miami, FL 33101\", \"dest_city\": \"Denver, CO 80201\", \"carrier_name\": \"SILVER LINE CARRIERS\", \"equipment_type\": \"Flatbed\", \"mode\": \"Expedited\", \"currency\": \"CAD\", \"rate\": 4857.74, \"pickup_datetime\": \"06.08.2026\", \"delivery_datetime\": \"2026-06-13\", \"mc_number\": \"MC-9937875\", \"po_number\": \"PO-29305\"}",
+      "actual": "{\"shipment_id\": \"LD26011\", \"shipper\": \"Green Valley Org\", \"consignee\": \"Fastenal Distr Ctr\", \"pickup_datetime\": \"2026-06-08T00:00:00\", \"delivery_datetime\": \"2026-06-13T00:00:00\", \"equipment_type\": \"Fl"
+    },
+    {
+      "doc_file": "doc_046.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD46342\", \"shipper\": \"Green Valley Organics\", \"consignee\": \"Target Regional DC - Southeast\", \"origin_city\": \"Laredo, TX 78040\", \"dest_city\": \"Los Angeles, CA 90001\", \"carrier_name\": \"ATLANTIC CARGO SERVICES\", \"equipment_type\": \"Power Only\", \"mode\": \"Partial\", \"currency\": \"CAD\", \"weight\": \"6947 lbs\", \"pickup_datetime\": \"06.26.2026\", \"delivery_datetime\": \"28-Jun-2026\", \"mc_number\": \"MC-979109\", \"po_number\": \"PO-17614\"}",
+      "actual": "{\"shipment_id\": \"LD46342\", \"shipper\": \"Green Valley Organics\", \"consignee\": \"Target Regional DC - Southeast\", \"pickup_datetime\": \"2026-06-27T00:00:00\", \"delivery_datetime\": \"2026-06-28T00:00:00\", \"equ"
+    },
+    {
+      "doc_file": "doc_047.pdf",
+      "question": "When was the shipment picked up?",
+      "expected": "11/17/2026",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.33
+    },
+    {
+      "doc_file": "doc_047.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD72422\", \"shipper\": \"Midwest Grain Cooperative\", \"consignee\": \"Grainger Industrial Supply\", \"pickup_datetime\": \"11/17/2026\", \"equipment_type\": \"Power Only\", \"mode\": \"Intermodal\", \"rate\": 1928.09, \"currency\": \"USD\", \"weight\": \"31.9 tons\", \"carrier_name\": \"GOLDEN STATE TRANSPORT\"}",
+      "actual": "{\"shipment_id\": \"LD72422\", \"shipper\": \"Midwest Grain Cooperative\", \"consignee\": \"Grainger Industrial Supply\", \"pickup_datetime\": \"2026-11-17T00:00:00\", \"delivery_datetime\": null, \"equipment_type\": \"Po"
+    },
+    {
+      "doc_file": "doc_048.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD19632\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"Amazon Fulfillment Center FTW1\", \"origin_city\": \"Nogales, AZ 85621\", \"dest_city\": \"Nashville, TN 37201\", \"carrier_name\": \"HEARTLAND EXPRESS LLC\", \"mc_number\": \"MC-9349870\", \"po_number\": \"PO-95481\", \"mode\": \"FTL\", \"equipment_type\": \"Reefer\", \"currency\": \"CAD\", \"rate\": 5138.0, \"weight\": \"26962 kg\", \"pickup_datetime\": \"10.17.2026\", \"delivery_datetime\": \"10/18/2026\"}",
+      "actual": "{\"shipment_id\": \"LD19632\", \"shipper\": \"Atlas Construction Materi\", \"consignee\": \"Amazon Fulfillment Center FTW\", \"pickup_datetime\": \"2026-10-17T08:45:00\", \"delivery_datetime\": \"2026-10-18T14:30:00\", \""
+    },
+    {
+      "doc_file": "doc_049.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD54424\", \"shipper\": \"Green Valley Organics\", \"consignee\": \"Kroger Fresh Distribution\", \"pickup_datetime\": \"02/03/2026, 08:00 AM\", \"delivery_datetime\": \"02/06/2026\", \"equipment_type\": \"Lowboy\", \"mode\": \"Expedited\", \"rate\": 2637.68, \"currency\": \"USD\", \"weight\": \"67,163 lbs\", \"carrier_name\": \"CROSSROADS FREIGHT CO\", \"mc_number\": \"MC-9434352\", \"po_number\": \"PO-8861\"}",
+      "actual": "{\"shipment_id\": \"LD54424\", \"shipper\": \"Green Valley Organics\", \"consignee\": \"Kroger Fresh Distribution\", \"pickup_datetime\": \"2026-02-03T08:00:00\", \"delivery_datetime\": \"2026-02-06T09:00:00\", \"equipmen"
+    },
+    {
+      "doc_file": "doc_050.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD63845\", \"shipper\": \"Acme Chemical Solutions\", \"consignee\": \"Fastenal Distribution Center\", \"pickup_datetime\": \"12-Feb-2026\", \"equipment_type\": \"Dry Van\", \"mode\": \"Partial\", \"rate\": 4707.76, \"currency\": \"EUR\", \"weight\": \"20.6 tons\", \"carrier_name\": \"IRON HORSE LOGISTICS\", \"mc_number\": \"MC-4773599\", \"po_number\": \"PO-76248\"}",
+      "actual": "{\"shipment_id\": \"LD63845\", \"shipper\": \"Acme Chemical Solutions\", \"consignee\": \"Fastenal Distribution Ctr\", \"pickup_datetime\": \"2026-02-12T08:00:00\", \"delivery_datetime\": null, \"equipment_type\": \"Dry V"
+    },
+    {
+      "doc_file": "doc_051.pdf",
+      "question": "Who is listed as the shipper for this shipment?",
+      "expected": "Sunrise Pharmaceuticals",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.47
+    },
+    {
+      "doc_file": "doc_051.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD98470\", \"shipper\": \"Sunrise Pharmaceuticals\", \"consignee\": \"UPS Freight Terminal\", \"pickup_datetime\": \"March 28, 2026\", \"equipment_type\": \"Tanker\", \"mode\": \"FTL\", \"rate\": 6146.79, \"currency\": \"CAD\", \"weight\": \"2400 kg\", \"carrier_name\": \"SWIFT SHIFT LOGISTICS LLC\", \"mc_number\": \"MC-614340\", \"po_number\": \"PO-13026\"}",
+      "actual": "{\"shipment_id\": \"LD98470\", \"shipper\": \"Sunrise Pharmaceuticals\", \"consignee\": \"UPS Freight Terminal\", \"pickup_datetime\": \"2026-03-29T08:30:00\", \"delivery_datetime\": null, \"equipment_type\": \"Tanker\", \""
+    },
+    {
+      "doc_file": "doc_052.pdf",
+      "question": "When is the scheduled delivery date for this shipment?",
+      "expected": "May 19, 2026",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.55
+    },
+    {
+      "doc_file": "doc_052.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD54681\", \"shipper\": \"Global Tech Inds\", \"consignee\": \"FedEx Grnd Hub - Memphis\", \"origin_city\": \"Kansas City, MO 64101\", \"dest_city\": \"Toronto, ON M5V 3A8\", \"carrier_name\": \"COASTAL DRAYAGE INC\", \"equipment_type\": \"Intermodal\", \"mode\": \"Intermodal\", \"currency\": \"USD\", \"rate\": 1413.52, \"weight\": \"15693 lbs\", \"pickup_datetime\": \"May 15, 2026\", \"delivery_datetime\": \"19-May-2026\", \"mc_number\": \"MC-3716647\", \"po_number\": \"PO-99951\"}",
+      "actual": "{\"shipment_id\": \"LD54681\", \"shipper\": \"Global Tech Inds\", \"consignee\": \"FedEx Grnd Hub - Memphis\", \"pickup_datetime\": \"2026-05-15T08:00:00\", \"delivery_datetime\": \"2026-05-19T17:00:00\", \"equipment_type"
+    },
+    {
+      "doc_file": "doc_053.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD98895\", \"shipper\": \"Sunrise Pharmaceuticals\", \"consignee\": \"Sysco Foods Warehouse\", \"origin_city\": \"Phoenix, AZ 85001\", \"dest_city\": \"Portland, OR 97201\", \"carrier_name\": \"Jose Garcia Transportes SA\", \"equipment_type\": \"Power Only\", \"mode\": \"Expedited\", \"currency\": \"EUR\", \"weight\": \"4.6 tons\", \"pickup_datetime\": \"2026-04-10\", \"delivery_datetime\": \"13-Apr-2026\", \"mc_number\": \"MC-2113003\", \"po_number\": \"PO-2013\"}",
+      "actual": "{\"shipment_id\": \"LD98895\", \"shipper\": \"Sunrise Pharmaceut1cals\", \"consignee\": \"Sysco Foods Warehouse\", \"pickup_datetime\": \"2026-04-10T00:00:00\", \"delivery_datetime\": \"2026-04-13T00:00:00\", \"equipment_"
+    },
+    {
+      "doc_file": "doc_054.pdf",
+      "question": "Who is responsible for shipping this load?",
+      "expected": "Heavy Metal Fabricators Inc",
+      "actual": "The designated carrier responsible for transporting this shipment is \"MAPLE LEAF SHIPPING LTD.\"",
+      "guardrail": "passed",
+      "confidence": 0.7
+    },
+    {
+      "doc_file": "doc_054.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD79806\", \"shipper\": \"Heavy Metal Fabricators Inc\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"15-Jan-2026 08:00 AM\", \"delivery_datetime\": \"January 20, 2026 05:00 PM\", \"equipment_type\": \"Power Only\", \"mode\": \"Expedited\", \"currency\": \"EUR\", \"weight\": \"62176 lbs\", \"carrier_name\": \"MAPLE LEAF SHIPPING LTD\"}",
+      "actual": "{\"shipment_id\": \"LD79806\", \"shipper\": \"Heavy Metal Fabricators Inc\", \"consignee\": \"Costco Wholesale Depot\", \"pickup_datetime\": \"2026-01-15T08:00:00\", \"delivery_datetime\": \"2026-01-20T17:00:00\", \"equip"
+    },
+    {
+      "doc_file": "doc_055.txt",
+      "question": "What is the agreed rate for transporting the shipment?",
+      "expected": "4793.2",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.52
+    },
+    {
+      "doc_file": "doc_055.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD91018\", \"shipper\": \"Midwest Grain Cooperative\", \"consignee\": \"Fastenal Distribution Center\", \"origin_city\": \"Portland, OR 97201\", \"dest_city\": \"Atlanta, GA 30301\", \"carrier_name\": \"GOLDEN STATE TRANSPORT\", \"equipment_type\": \"Flatbed\", \"mode\": \"Drayage\", \"currency\": \"USD\", \"rate\": 4793.2, \"weight\": \"22334 kg\", \"pickup_datetime\": \"2026-12-11\", \"mc_number\": \"MC-2013049\", \"po_number\": \"PO-70547\"}",
+      "actual": "{\"shipment_id\": \"LD91018\", \"shipper\": \"Midwest Grain Coop\", \"consignee\": \"Fastenal Dist Ctr\", \"pickup_datetime\": \"2026-12-11T00:00:00\", \"delivery_datetime\": null, \"equipment_type\": \"Flatbed\", \"mode\": "
+    },
+    {
+      "doc_file": "doc_056.txt",
+      "question": "What is the total cost charged for this shipment?",
+      "expected": "€4,898.71 EUR",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.47
+    },
+    {
+      "doc_file": "doc_056.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD94599\", \"shipper\": \"Green Valley Organics\", \"consignee\": \"Target Regional DC - Southeast\", \"pickup_datetime\": \"11.16.2026 \\u2014 08:00 AM (EST)\", \"delivery_datetime\": \"11.20.2026 \\u2014 05:00 PM (CST)\", \"equipment_type\": \"Flatbed\", \"mode\": \"LTL\", \"rate\": 4898.71, \"currency\": \"EUR\", \"weight\": \"5.3 tons\", \"carrier_name\": \"BLUE RIDGE CARRIERS\"}",
+      "actual": "{\"shipment_id\": \"LD94599\", \"shipper\": \"Green Valley Organics\\u2122\", \"consignee\": \"Target Regional DC - Southeast\", \"pickup_datetime\": \"2026-11-16T08:00:00\", \"delivery_datetime\": \"2026-11-20T17:00:00\""
+    },
+    {
+      "doc_file": "doc_057.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD92756\", \"shipper\": \"Steel Dynamics LLC\", \"consignee\": \"Grainger Industrial Supply\", \"origin_city\": \"Toronto, ON M5V 3A8\", \"dest_city\": \"Nashville, TN 37201\", \"carrier_name\": \"SUMMIT FREIGHT GROUP\", \"equipment_type\": \"Dry Van\", \"mode\": \"Partial\", \"currency\": \"USD\", \"rate\": 3724.93, \"pickup_datetime\": \"05/03/2026\", \"delivery_datetime\": \"May 08, 2026\", \"mc_number\": \"MC-7863013\", \"po_number\": \"PO-77064\"}",
+      "actual": "{\"shipment_id\": \"LD92756\", \"shipper\": \"Steel Dyn LLC\", \"consignee\": \"Grainger Ind Supply\", \"pickup_datetime\": \"2026-05-03T00:00:00\", \"delivery_datetime\": \"2026-05-08T00:00:00\", \"equipment_type\": \"Dry "
+    },
+    {
+      "doc_file": "doc_058.pdf",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD95437\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"FedEx Ground Hub - Memphis\", \"origin_city\": \"Nashville, TN 37201\", \"dest_city\": \"Laredo, TX 78040\", \"carrier_name\": \"GREAT PLAINS HAULING LLC\", \"equipment_type\": \"Conestoga\", \"mode\": \"Intermodal\", \"currency\": \"CAD\", \"rate\": 3714.08, \"weight\": \"7526 kg\", \"pickup_datetime\": \"2026-09-21\", \"delivery_datetime\": \"09.25.2026\", \"mc_number\": \"MC-8870256\", \"po_number\": \"PO-80928\"}",
+      "actual": "{\"shipment_id\": \"LD95437\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"FedEx Ground Hub - Memphis\", \"pickup_datetime\": \"2026-09-21T00:00:00\", \"delivery_datetime\": \"2026-09-25T00:00:00\", \"equip"
+    },
+    {
+      "doc_file": "doc_059.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD63578\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"FedEx Ground Hub - Memphis\", \"origin_city\": \"Memphis, TN 38101\", \"dest_city\": \"Kansas City, MO 64101\", \"carrier_name\": \"GREAT PLAINS HAULING LLC\", \"equipment_type\": \"Dry Van\", \"mode\": \"Expedited\", \"currency\": \"EUR\", \"pickup_datetime\": \"11.13.2026\", \"delivery_datetime\": \"11/16/2026\", \"mc_number\": \"MC-9876746\", \"po_number\": \"PO-87980\"}",
+      "actual": "{\"shipment_id\": \"LD63578\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"FedEx Ground Hub - Memphis\", \"pickup_datetime\": \"2026-11-13T00:00:00\", \"delivery_datetime\": \"2026-11-16T00:00:00\", \"equipme"
+    },
+    {
+      "doc_file": "doc_060.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD96787\", \"shipper\": \"Pacific Rim Electronics\", \"consignee\": \"Target Regional DC - Southeast\", \"origin_city\": \"El Paso, TX 79901\", \"dest_city\": \"Buffalo, NY 14201\", \"carrier_name\": \"GREAT PLAINS HAULING LLC\", \"equipment_type\": \"Flatbed\", \"mode\": \"Partial\", \"currency\": \"MXN\", \"rate\": 2762.12, \"pickup_datetime\": \"12.27.2026\", \"mc_number\": \"MC-7203580\", \"po_number\": \"PO-67648\"}",
+      "actual": "{\"shipment_id\": \"LD96787\", \"shipper\": \"Pacific Rim Electronics\\u2122\", \"consignee\": \"Target Regional DC - Southeast\", \"pickup_datetime\": \"2026-12-27T09:30:00\", \"delivery_datetime\": null, \"equipment_ty"
+    },
+    {
+      "doc_file": "doc_061.txt",
+      "question": "What type of equipment is being used for transport?",
+      "expected": "Step Deck",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.46
+    },
+    {
+      "doc_file": "doc_061.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD54791\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"Kroger Fresh Distribution\", \"pickup_datetime\": \"09.27.2026\", \"equipment_type\": \"Step Deck\", \"mode\": \"LTL\", \"currency\": \"CAD\", \"weight\": \"71543 lbs\", \"carrier_name\": \"NORTHERN STAR LOGISTICS\", \"mc_number\": \"MC-5749968\", \"po_number\": \"PO-82006\", \"origin_city\": \"Atlanta, GA 30301\", \"dest_city\": \"Seattle, WA 98101\"}",
+      "actual": "{\"shipment_id\": \"LD54791\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"Kroger Fresh Distribution\", \"pickup_datetime\": \"2026-09-27T00:00:00\", \"delivery_datetime\": null, \"equipment_type\": \"Step De"
+    },
+    {
+      "doc_file": "doc_062.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD91885\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"ALDI Regional Warehouse\", \"pickup_datetime\": \"12/26/2026\", \"delivery_datetime\": \"12/30/2026\", \"equipment_type\": \"Conestoga\", \"mode\": \"FTL\", \"rate\": 5812.77, \"currency\": \"MXN\", \"weight\": \"13.2 tons\", \"carrier_name\": \"DESERT WIND TRUCKING LLC\", \"mc_number\": \"MC-6271347\", \"po_number\": \"PO-89907\"}",
+      "actual": "{\"shipment_id\": \"LD91885\", \"shipper\": \"QuickParts Automotive\", \"consignee\": \"ALDI Regional Warehouse\", \"pickup_datetime\": \"2026-12-26T00:00:00\", \"delivery_datetime\": \"2026-12-30T00:00:00\", \"equipment_"
+    },
+    {
+      "doc_file": "doc_063.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD75916\", \"shipper\": \"Santos Agricola SA de CV\", \"consignee\": \"Dollar General DC #12\", \"pickup_datetime\": \"12/28/2026\", \"delivery_datetime\": \"30-Dec-2026\", \"equipment_type\": \"Step Deck\", \"mode\": \"Intermodal\", \"rate\": 607.0, \"currency\": \"CAD\", \"weight\": \"8723 kg\", \"carrier_name\": \"DESERT WIND TRUCKING LLC\", \"po_number\": \"PO-68286\", \"mc_number\": \"MC-7638325\"}",
+      "actual": "{\"shipment_id\": \"LD75916\", \"shipper\": \"Santos Agricola SA de CV\", \"consignee\": \"Dollar General DC #12\", \"pickup_datetime\": \"2026-12-28T00:00:00\", \"delivery_datetime\": \"2026-12-30T00:00:00\", \"equipment"
+    },
+    {
+      "doc_file": "doc_064.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD55820\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"Walmart Distribution Center #4521\", \"pickup_datetime\": \"27-Feb-2026\", \"delivery_datetime\": \"03/01/2026\", \"equipment_type\": \"Dry Van\", \"mode\": \"Drayage\", \"rate\": 7957.3, \"currency\": \"EUR\", \"weight\": \"46770 lbs\", \"carrier_name\": \"IRON HORSE LOGISTICS\", \"mc_number\": \"MC-4913037\", \"po_number\": \"PO-62925\"}",
+      "actual": "{\"shipment_id\": \"LD55820\", \"shipper\": \"Atlas Construction Materials\", \"consignee\": \"Walmart Distribution Center #4521\", \"pickup_datetime\": \"2026-02-27T00:00:00\", \"delivery_datetime\": \"2026-03-01T00:00"
+    },
+    {
+      "doc_file": "doc_065.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD90654\", \"shipper\": \"ABC Manufacturing Corp\", \"consignee\": \"ALDI Regional Warehouse\", \"origin_city\": \"Toronto, ON M5V 3A8\", \"dest_city\": \"Nashville, TN 37201\", \"carrier_name\": \"PACIFIC FREIGHT SOLUTIONS\", \"equipment_type\": \"Dry Van\", \"mode\": \"Partial\", \"currency\": \"CAD\", \"rate\": 4480.67, \"weight\": \"18.4 tons\", \"pickup_datetime\": \"05/08/2026 08:30AM\", \"delivery_datetime\": \"May 13, 2026  03:45PM\", \"mc_number\": \"MC-1153729\", \"po_number\": \"PO-15530\"}",
+      "actual": "{\"shipment_id\": \"LD90654\", \"shipper\": \"ABC Manufacturing Corp.\", \"consignee\": \"ALDI Regional Warehouse\", \"pickup_datetime\": \"2026-05-08T08:30:00\", \"delivery_datetime\": \"2026-05-13T15:45:00\", \"equipmen"
+    },
+    {
+      "doc_file": "doc_066.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD85372\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Cardinal Health DC\", \"origin_city\": \"El Paso, TX 79901\", \"dest_city\": \"Vancouver, BC V6B 1A1\", \"carrier_name\": \"ATLANTIC CARGO SERVICES\", \"equipment_type\": \"Tanker\", \"mode\": \"Drayage\", \"weight\": \"27.6 tons\", \"rate\": 2076.4, \"currency\": \"USD\", \"delivery_datetime\": \"09.17.2026\", \"mc_number\": \"MC-9397127\", \"po_number\": \"PO-3665\"}",
+      "actual": "{\"shipment_id\": \"LD85372\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Cardinal Health DC\", \"pickup_datetime\": null, \"delivery_datetime\": \"2026-09-17T00:00:00\", \"equipment_type\": \"Tanker\", \"mo"
+    },
+    {
+      "doc_file": "doc_067.txt",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD43246\", \"shipper\": \"Heavy Metal Fabricators Inc\", \"consignee\": \"Walmart Distribution Center #4521\", \"pickup_datetime\": \"02-Mar-2026\", \"delivery_datetime\": \"March 04, 2026\", \"equipment_type\": \"Flatbed\", \"mode\": \"Partial\", \"rate\": 5100.4, \"currency\": \"CAD\", \"weight\": \"30.9 tons\", \"carrier_name\": \"GOLDEN STATE TRANSPORT\", \"mc_number\": \"MC-8128420\", \"po_number\": \"PO-83802\"}",
+      "actual": "{\"shipment_id\": \"LD43246\", \"shipper\": \"Heavy Metal Fabricators Inc\", \"consignee\": \"Walmart Distribution Center #4521\", \"pickup_datetime\": \"2026-03-02T00:00:00\", \"delivery_datetime\": \"2026-03-04T00:00:"
+    },
+    {
+      "doc_file": "doc_068.docx",
+      "question": "extraction",
+      "expected": "{\"shipment_id\": \"LD48462\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Walmart Distribution Center #4521\", \"pickup_datetime\": \"11/07/2026\", \"delivery_datetime\": \"10-Nov-2026\", \"equipment_type\": \"Dry Van\", \"mode\": \"Partial\", \"rate\": 7915.16, \"currency\": \"EUR\", \"weight\": \"4399 kg\", \"carrier_name\": \"NORTHERN STAR LOGISTICS\", \"mc_number\": \"MC-2188344\", \"po_number\": \"PO-49237\"}",
+      "actual": "{\"shipment_id\": \"LD48462\", \"shipper\": \"Fresh Harvest Foods Inc\", \"consignee\": \"Walmart Distribution Center #4521\", \"pickup_datetime\": \"2026-11-07T00:00:00\", \"delivery_datetime\": \"2026-11-10T00:00:00\","
+    },
+    {
+      "doc_file": "doc_069.docx",
+      "question": "Who is the shipper listed on the bill of lading?",
+      "expected": "Midwest Grain Cooperative",
+      "actual": "Not found in document. The information you're looking for does not appear to be in this document.",
+      "guardrail": "not_found",
+      "confidence": 0.15
+    }
+  ]
+}

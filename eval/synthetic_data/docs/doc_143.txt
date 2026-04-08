@@ -1,0 +1,70 @@
+RATE CONFIRMATION # LD28566
+
+SHIPPER: QuickParts Auto  
+ADDR: 1234 Elm St, Dallas TX 75201  
+PH: 214-555-0198  
+
+CONSIGNEE: Amazon Fulfill Ctr FTW1  
+ADDR: 4500 Commerce Blvd, Laredo TX 78040  
+PH: 956-555-3344  
+
+CARRIER: MAPLE LEAF SHIPPING LTD  
+MC#: MC-3022635  
+PH: 800-555-7788  
+
+PO#: PO-93691  
+MODE: FTL  
+EQ: Intermodal  
+WT: 21776 kg  
+
+RATE: 5364.69 EUR  
+
+PU: Dallas, TX 75201  
+PU DT: 06/05/26  
+DEL: Laredo, TX 78040  
+DEL DT: 09-Jun-2026  
+
+-----------------------------  
+SHIPMENT ID: LD28566  
+REF: PO-93691 / MC-3022635  
+
+EQ TYPE: Intermodal  
+MODE: FTL  
+WT: 21776 kg  
+
+RATE: 5364.69 EUR  
+
+PU INFO:  
+QuickParts Auto  
+1234 Elm St  
+Dallas TX 75201  
+PH: 214-555-0198  
+Date: 06/05/26  
+
+DEL INFO:  
+Amazon Fulfill Ctr FTW1  
+4500 Commerce Blvd  
+Laredo TX 78040  
+PH: 956-555-3344  
+Date: 09-Jun-2026  
+
+CARRIER INFO:  
+MAPLE LEAF SHIPPING LTD  
+MC#: MC-3022635  
+PH: 800-555-7788  
+
+-----------------------------  
+NOTES:  
+- Rate conf firm unless noted  
+- All charges in EUR  
+- WT est 21776 kg, subj to adj  
+- PU/DEL dates strict, no delays  
+- EQ: Intermodal only  
+- Contact carrier for issues  
+
+-----------------------------  
+SIGN OFF:  
+Carrier: ___________________ Date: _______  
+Shipper: ___________________ Date: _______  
+
+END OF DOC LD28566

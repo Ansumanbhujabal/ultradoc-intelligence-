@@ -1,0 +1,104 @@
+B1LL 0F LADING  -  SHlPMENT DOC# LD13794  NORTHERN STAR LOGlSTlCS
+
+| SHlPMENT ID | SHlPPER                  | CONSIGNEE               | ORlGlN ClTY           | DEST ClTY           | CARRIER NAME           | EQUIPMENT TYPE | MODE | CURRENCY | RATE     | WEIGHT    | PICKUP DATE | DELlVERY DATE | MC NUMBER   | PO NUMBER  |
+|-------------|--------------------------|-------------------------|-----------------------|---------------------|------------------------|----------------|------|----------|----------|-----------|-------------|---------------|-------------|------------|
+| LD13794     | Global Tech Industrlcs   | Costco WholesaleDepot   | Vancouver, BC V6B1A1  | Laredo, TX 78040    | NORTHERN STAR LOGlSTlCS| Dry Van        | LTL  | USD      | 7360.64  | 26140 kg  | 08/17/2026  | 19-Aug-2026   | MC-8300480  | PO-78862   |
+
+--------------------------------------------------------------------------------
+SHIPPER DETAILS:
+Global Tech Industrlcs
+1234 TechWay St.
+Vancouver, BC V6B 1A1
+Phone: (604) 555-0198
+Fax: (604) 555-0199
+Contact: Mr. J. Sm1th
+
+CONSlGNEE DETAILS:
+Costco WholesaleDepot
+789 Distrlbutlon Rd.
+Laredo, TX 78040
+Phone: (956) 555-3344
+Fax: (956) 555-3345
+Contact: Ms. L. Garc1a
+
+--------------------------------------------------------------------------------
+CARRIER INFORMATlON:
+NORTHERN STAR LOGlSTlCS
+MC Number: MC-8300480
+Phone: (800) 555-6789
+Fax: (800) 555-6790
+Driver: R. O'Ne1ll
+Truck: Unit # 4521
+Equipment: Dry Van
+
+--------------------------------------------------------------------------------
+SHIPMENT DETAILS:
+Mode of Transport: LTL
+Pickup Date/Time: 08/17/2026 09:30 AM
+Estimated Delivery: 19-Aug-2026 04:00 PM
+Weight: 26140 kg
+Rate: USD 7360.64
+PO Number: PO-78862
+
+--------------------------------------------------------------------------------
+DESCRIPTION OF GOODS:
+Qty | Description                  | Weight (kg) | NMFC Code | Class
+----|------------------------------|-------------|-----------|-------
+10  | AssortedElectronics          | 15000       | 123456    | 85
+5   | ComputerParts                | 8000        | 654321    | 85
+3   | PackagingMaterials           | 3140        | 789012    | 70
+
+--------------------------------------------------------------------------------
+SPECIAL INSTRUCTlONS:
+- Handle w1th care, fragile contents
+- Deliver between 8AM-5PM only
+- Call consignee 1hr before arrival
+- All paperwork must accompany shipment
+
+--------------------------------------------------------------------------------
+BILLING INFORMATlON:
+Bill To: Global Tech Industrlcs
+Address: 1234 TechWay St., Vancouver, BC V6B 1A1
+Terms: Net 30 days
+Currency: USD
+Rate: 7360.64
+
+--------------------------------------------------------------------------------
+SIGNATURES:
+
+Shipper: ___________________________ Date: 08/17/2026
+
+Carrier: ___________________________ Date: 08/17/2026
+
+Consignee: _________________________ Date: 19-Aug-2026
+
+--------------------------------------------------------------------------------
+NOTES:
+- This document serves as a contract of carriage and receipt of goods.
+- Liability limited as per carrier terms and conditions.
+- Any damages or discrepancies must be reported within 24 hours of delivery.
+
+--------------------------------------------------------------------------------
+RECEIVED BY CARRIER:
+
+Name: R. O'Ne1ll
+Signature: _______________________
+Date/Time: 08/17/2026 10:15 AM
+
+--------------------------------------------------------------------------------
+DELIVERED TO CONSIGNEE:
+
+Name: L. Garc1a
+Signature: _______________________
+Date/Time: 19-Aug-2026 03:45 PM
+
+--------------------------------------------------------------------------------
+TRACKING INFO:
+
+Shipment ID: LD13794
+Status: Delivered
+Last Update: 19-Aug-2026 03:50 PM
+Location: Laredo, TX 78040
+
+--------------------------------------------------------------------------------
+END OF DOCUMENT - LD13794 - NORTHERN STAR LOGlSTlCS

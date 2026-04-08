@@ -1,0 +1,79 @@
+FREIGHT QUOTE DOCUMENT  
+=======================
+
+QUOTE ID: LD85582  
+DATE: 03/09/2026  
+
+SHIPPER INFORMATION  
+-------------------  
+Sunrise Pharmaceuticals  
+1234 Biscayne Blvd, Suite 500  
+Miami, FL 33101  
+Phone: (305) 555-0198  
+Contact: Maria Lopez  
+
+CONSIGNEE DETAILS  
+-----------------  
+Amazon Fulfillment Center FTW1  
+4500 Genesee St  
+Buffalo, NY 14201  
+Phone: (716) 555-4321  
+Contact: John Reynolds  
+
+SHIPMENT DETAILS  
+----------------  
+Shipment ID: LD85582  
+PO Number: PO-1336  
+MC Number: MC-8636665  
+Mode of Transport: Intermodal  
+Equipment Type: Conestoga  
+Weight: 53193 lbs  
+
+ORIGIN & DESTINATION  
+--------------------  
+Origin City: Miami, FL 33101  
+Destination City: Buffalo, NY 14201  
+
+PICKUP & DELIVERY SCHEDULE  
+--------------------------  
+Pickup Date/Time: 09-Mar-2026 08:00 AM  
+Delivery Date/Time: 2026-03-10 05:00 PM  
+
+CARRIER INFORMATION  
+-------------------  
+Carrier Name: JOSE GARCIA TRANSPORTES SA  
+Phone: +1 (305) 555-7788  
+Driver Contact: Carlos Mendez  
+DOT/MC Number: MC-8636665  
+
+ADDITIONAL NOTES  
+----------------  
+- Equipment must be Conestoga type as specified.  
+- Shipment weight confirmed at 53,193 lbs.  
+- Intermodal mode selected for optimized transit time.  
+- Pickup window is tight; ensure driver arrives on time.  
+- Delivery expected by end of day 10-Mar-2026.  
+- All documentation to be provided at pickup.  
+- Currency for quote: EUR  
+
+REFERENCE NUMBERS  
+-----------------  
+Shipment Ref: LD85582  
+PO: PO-1336  
+MC#: MC-8636665  
+
+CONTACTS FOR QUOTE CLARIFICATION  
+--------------------------------  
+Sunrise Pharmaceuticals Logistics Dept.  
+Email: logistics@sunrisepharma.com  
+Phone: (305) 555-0198 ext. 204  
+
+Jose Garcia Transportes SA  
+Email: dispatch@jgt-sa.com  
+Phone: +1 (305) 555-7788  
+
+------------------------------------------------------------  
+*This document is generated from legacy TMS export. Some date formats may vary.*  
+*Rate information intentionally omitted per request.*  
+
+END OF FREIGHT QUOTE DOCUMENT

@@ -5,6 +5,9 @@ from app.llm.prompts.system import *  # registers prompts
 from app.llm.prompts.registry import registry
 from app.models.schemas import DocType
 from app.observability.tracer import Tracer
+from app.observability.logger import get_logger
+
+logger = get_logger("classifier")
 
 
 def classify_document(text: str, tracer: Tracer) -> DocType:
@@ -31,6 +34,11 @@ def classify_document(text: str, tracer: Tracer) -> DocType:
         "bill_of_lading": DocType.BOL,
         "rate_confirmation": DocType.RATE_CONFIRMATION,
         "invoice": DocType.INVOICE,
+        "not_logistics": DocType.NOT_LOGISTICS,
         "unknown": DocType.UNKNOWN,
     }
-    return type_map.get(result, DocType.UNKNOWN)
+    doc_type = type_map.get(result, DocType.UNKNOWN)
+    logger.info("classification_complete", extra={"extra_data": {
+        "doc_type": doc_type.value, "raw_result": result,
+    }})
+    return doc_type

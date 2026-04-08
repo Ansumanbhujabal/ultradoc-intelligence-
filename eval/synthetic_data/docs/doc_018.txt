@@ -1,0 +1,120 @@
+B1LL 0F LADING  -  SHlPMENT DOCUM3NT # LD80798
+
+ATLANTlC CARGO SERVlCES
+MC-NUMBER: MC-9758481
+PHONE: (503) 555-0198  FAX: (503) 555-0199
+
+SHIPPER: XYZ lndustrialSupplles
+1234 NW 5th Ave, Portland, OR 97201
+Ph: (503) 555-1234  Fax: (503) 555-4321
+
+CONSlGNEE: Target Regional DC - Southeast
+7890 E. Grand Blvd, Detroit, MI 48201
+Ph: (313) 555-6789  Fax: (313) 555-9876
+
+------------------------------------------------------------
+BILL 0F LADING  N0: LD80798
+DATE: January 07, 2026
+
+PICKUP DATE/TlME: Jan 07, 2026  08:30AM
+DELIVERY DATE/TlME: 01/12/2026  04:00PM
+
+MODE: Drayage
+EQUIPMENT TYPE: StepDeck
+
+PO NUMBER: PO-50857
+
+------------------------------------------------------------
+ORIGIN:
+Portland, OR 97201
+XYZ lndustrialSupplles
+1234 NW 5th Ave
+Portland, OR 97201
+
+DESTINATION:
+Detroit, MI 48201
+Target Regional DC - Southeast
+7890 E. Grand Blvd
+Detroit, MI 48201
+
+------------------------------------------------------------
+CARRIER: ATLANTlC CARGO SERVlCES
+MC# MC-9758481
+
+------------------------------------------------------------
+SHIPMENT DETAILS:
+
+WEIGHT: 20.0 TONS
+RATE: 700.99 CAD
+
+DESCRIPTION OF GOODS:
+Assorted Industrial Supplies - Mixed Pallets
+Fragile items marked with care
+
+NO. OF PACKAGES: 15
+TYPE OF PACKAGES: Pallets, Crates
+
+SPECIAL INSTRUCTIONS:
+Handle w/ care. Deliver between 9AM-5PM.
+Contact consignee 1 hr prior to delivery.
+
+------------------------------------------------------------
+TERMS AND CONDITIONS:
+
+Carrier is not responsible for delays caused by weather or acts of God.
+All claims for loss or damage must be reported within 5 days of delivery.
+Freight charges are prepaid unless otherwise noted.
+
+------------------------------------------------------------
+SIGNATURES:
+
+SHIPPER: ___________________________   DATE: _______________
+
+CARRIER: ___________________________   DATE: _______________
+
+CONSlGNEE: _________________________   DATE: _______________
+
+------------------------------------------------------------
+
+NOTES:
+
+Thls document serves as a contract of carriage and receipt of goods.
+All information provided is subject to verification upon delivery.
+
+------------------------------------------------------------
+
+RECEIVED IN GOOD ORDER AND CONDITION, EXCEPT AS NOTED:
+
+___________________________________________________________
+
+------------------------------------------------------------
+
+ADDITIONAL REFERENCE NUMBERS:
+
+BILL OF LADING: LD80798
+PURCHASE ORDER: PO-50857
+MC NUMBER: MC-9758481
+
+------------------------------------------------------------
+
+CONTACTS:
+
+XYZ Industrial Supplies
+Cust. Service: (503) 555-1234 ext 101
+Email: orders@xyzindustsup.com
+
+ATLANTIC CARGO SERVICES
+Dispatch: (503) 555-0198
+Email: dispatch@atlanticcargo.com
+
+Target Regional DC - Southeast
+Receiving Dept: (313) 555-6789
+Email: receiving@targetdc.com
+
+------------------------------------------------------------
+
+PLEASE RETAIN THIS DOCUMENT FOR YOUR RECORDS
+
+------------------------------------------------------------
+
+*** END 0F B1LL 0F LADING ***

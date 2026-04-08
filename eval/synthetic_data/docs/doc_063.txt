@@ -1,0 +1,91 @@
+To: billing@desertwindtrucking.com  
+From: accounts@santosagricola.com  
+Subject: Invoice LD75916 - Shipment Billing Details  
+
+------------------------------------------------------------  
+INVOICE: LD75916  
+Date Issued: ---  
+Due Date: TBD  
+
+SHIPPER:  
+Santos Agricola SA de CV  
+Av. Reforma 1234, Col. Centro  
+Mexico City, 06000  
+Phone: +52 55 1234 5678  
+Contact: ---  
+
+CONSIGNEE:  
+Dollar General DC #12  
+4500 NE 88th St  
+Kansas City, MO 64101  
+Phone: (816) 555-0199  
+Contact: N/A  
+
+CARRIER:  
+DESERT WIND TRUCKING LLC  
+MC Number: MC-7638325  
+Phone: (602) 555-3344  
+Address: 7890 W Desert Rd, Phoenix, AZ 85001  
+
+------------------------------------------------------------  
+SHIPMENT DETAILS:  
+
+Shipment ID: LD75916  
+PO Number: PO-68286  
+Mode of Transport: Intermodal  
+Equipment Type: Step Deck  
+Origin: Memphis, TN 38101  
+Destination: Kansas City, MO 64101  
+
+Pickup Date/Time: 12/28/2026 ---  
+Delivery Date/Time: 30-Dec-2026 ---  
+
+Weight: 8723 kg  
+Rate: 607.0 CAD  
+Currency: CAD  
+
+------------------------------------------------------------  
+BILLING SUMMARY:  
+
+Freight Charges: 607.00 CAD  
+Fuel Surcharge: ---  
+Accessorial Charges: TBD  
+Other Fees: N/A  
+
+Total Amount Due: --- CAD  
+
+------------------------------------------------------------  
+PAYMENT INSTRUCTIONS:  
+
+Please remit payment to:  
+Santos Agricola SA de CV  
+Bank: ---  
+Account Number: ---  
+Routing Number: ---  
+
+Payment Terms: Net 30 days  
+Late Payment Penalty: TBD  
+
+------------------------------------------------------------  
+NOTES:  
+
+- Shipment was delayed due to weather conditions.  
+- Delivery confirmation pending.  
+- POD not yet received.  
+- Contact carrier for status updates.  
+
+------------------------------------------------------------  
+REFERENCES:  
+
+Bill of Lading: ---  
+Tracking Number: ---  
+Customer Reference: ---  
+
+------------------------------------------------------------  
+If you have questions regarding this invoice, please contact:  
+Accounts Payable Dept.  
+Email: accounts@santosagricola.com  
+Phone: +52 55 1234 5678 ext. 102  
+
+------------------------------------------------------------  
+*** End of Invoice ***

@@ -1,0 +1,48 @@
+To: ops@goldstate.com  
+From: quotes@santosagri.com  
+Subject: Fwd: Frt Qt LD91235 - Tanker Drayage  
+
+SHIP ID: LD91235  
+SHIPPER: Santos Agricola SA de CV  
+ADDR: 1234 Agri Rd, Seattle, WA 98101  
+PH: (206)555-0198  
+CONSIG: Home Depot Supply Chain Hub  
+ADDR: 4500 E 58th Ave, Denver, CO 80201  
+PH: (303)555-4421  
+
+CARRIER: GOLDEN STATE TRANSPORT  
+MC#: MC-6462994  
+PO#: PO-50436  
+
+MODE: Drayage  
+EQ: Tanker  
+WT: 11.0 tons  
+
+PU DT: 11/27/26  
+PU LOC: Seattle, WA 98101  
+DEL LOC: Denver, CO 80201  
+
+RATE: USD 3367.01  
+RATE TERMS: net 30, no demurrage incl.  
+INS: carrier liab up to $100k, addl ins avail upon req  
+
+NOTES:  
+- eq must be clean & certd  
+- load ready by PU DT 0800-1700  
+- contct driver 1hr b4 PU  
+- docs: BOL, PO copy reqd  
+- no del dt set, pls confirm ETA  
+
+CONTACTS:  
+Santos Ops: Maria L. (206)555-0198 x112  
+GOLDEN STATE Disp: Rick T. (415)555-3344  
+HD Receiving: J. Smith (303)555-4421 ext 210  
+
+PAYMENT INFO:  
+Wire to Golden State Transport  
+Acct# 987654321  
+Routing# 123456789  
+
+END OF QT.  
+Pls ack receipt & conf PU plan.  
+Thx.

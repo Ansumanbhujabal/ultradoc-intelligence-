@@ -1,0 +1,157 @@
+RATE CONFIRMATION DOCUMENT  
+--------------------------------------------  
+Document Type: RATE CONFIRMATION  
+Reference Number: LD76542  
+Date Issued: 09/28/2026  
+Carrier MC Number: MC-1071823  
+PO Number: PO-32571  
+
+--------------------------------------------------------------------------------  
+SHIPMENT SUMMARY  
+--------------------------------------------------------------------------------  
+Shipment ID: LD76542  
+Shipper: Atlas Construction Materials  
+Consignee: Amazon Fulfillment Center FTW1  
+Origin City: Vancouver, BC V6B 1A1  
+Destination City: Atlanta, GA 30301  
+Carrier Name: COASTAL DRAYAGE INC  
+Equipment Type: Power Only  
+Mode of Transport: Intermodal  
+Weight: 36.9 tons  
+Pickup Date & Time: 10/11/2026 (October 11, 2026)  
+Delivery Date: 2026-10-14 (October 14, 2026)  
+Currency: CAD  
+Agreed Rate: 6147.58 CAD  
+
+--------------------------------------------------------------------------------  
+SHIPMENT DETAILS  
+--------------------------------------------------------------------------------  
+Shipment ID: LD76542  
+This shipment is scheduled for pickup on October 11, 2026, from the shipper’s facility located in Vancouver, BC, postal code V6B 1A1. The consignee is Amazon Fulfillment Center FTW1, located in Atlanta, Georgia, postal code 30301. The shipment will be transported by COASTAL DRAYAGE INC, a carrier operating under MC Number MC-1071823. The mode of transport is Intermodal, utilizing Power Only equipment type. The total shipment weight is 36.9 tons. The agreed freight rate for this shipment is 6147.58 Canadian Dollars (CAD). The expected delivery date is October 14, 2026. The purchase order number associated with this shipment is PO-32571.  
+
+Pickup Location:  
+Atlas Construction Materials  
+1234 Industrial Way  
+Vancouver, BC V6B 1A1  
+Phone: +1 (604) 555-0199  
+
+Delivery Location:  
+Amazon Fulfillment Center FTW1  
+789 Logistics Parkway  
+Atlanta, GA 30301  
+Phone: +1 (770) 555-4321  
+
+Carrier Contact:  
+COASTAL DRAYAGE INC  
+MC Number: MC-1071823  
+Dispatch Phone: +1 (800) 555-6789  
+Equipment: Power Only  
+
+--------------------------------------------------------------------------------  
+RATE CONFIRMATION  
+--------------------------------------------------------------------------------  
+This document confirms the agreed rate for shipment ID LD76542 between Atlas Construction Materials and COASTAL DRAYAGE INC. The shipment will be picked up on October 11, 2026, from Vancouver, BC V6B 1A1 and delivered to Amazon Fulfillment Center FTW1 in Atlanta, GA 30301 by October 14, 2026. The shipment weight is 36.9 tons, and the mode of transport is Intermodal using Power Only equipment. The total freight charge agreed upon is 6147.58 CAD.  
+
+Please note the following:  
+- Shipment ID: LD76542  
+- Shipper: Atlas Construction Materials  
+- Consignee: Amazon Fulfillment Center FTW1  
+- Origin: Vancouver, BC V6B 1A1  
+- Destination: Atlanta, GA 30301  
+- Carrier: COASTAL DRAYAGE INC (MC-1071823)  
+- Equipment: Power Only  
+- Mode: Intermodal  
+- Weight: 36.9 tons  
+- Pickup Date: 10/11/2026  
+- Delivery Date: 2026-10-14  
+- Rate: 6147.58 CAD  
+- PO Number: PO-32571  
+
+--------------------------------------------------------------------------------  
+PAYMENT TERMS  
+--------------------------------------------------------------------------------  
+Payment will be made in Canadian Dollars (CAD) within 30 days of delivery confirmation. Invoices must reference shipment ID LD76542 and PO Number PO-32571. Late payments may be subject to interest charges as per the terms outlined in the Service Level Agreement section below.  
+
+--------------------------------------------------------------------------------  
+SERVICE LEVEL AGREEMENT (SLA)  
+--------------------------------------------------------------------------------  
+This Service Level Agreement outlines the expectations and responsibilities of both parties involved in shipment LD76542.  
+
+1. Pickup and Delivery:  
+- Pickup must occur on October 11, 2026, at the shipper’s location in Vancouver, BC V6B 1A1.  
+- Delivery must be completed by October 14, 2026, at Amazon Fulfillment Center FTW1, Atlanta, GA 30301.  
+- Any delays must be communicated immediately to both shipper and consignee.  
+
+2. Equipment and Handling:  
+- Carrier COASTAL DRAYAGE INC will provide Power Only equipment suitable for intermodal transport.  
+- Shipment weight is 36.9 tons; equipment must be rated accordingly.  
+
+3. Communication:  
+- Carrier must provide status updates at pickup, mid-route, and delivery.  
+- Contact numbers:  
+  - Shipper: +1 (604) 555-0199  
+  - Consignee: +1 (770) 555-4321  
+  - Carrier Dispatch: +1 (800) 555-6789  
+
+4. Payment Terms:  
+- Payment in CAD within 30 days of delivery confirmation.  
+- Invoices must include shipment ID LD76542 and PO Number PO-32571.  
+
+5. Liability and Claims:  
+- Carrier is responsible for any damage or loss during transit.  
+- Claims must be submitted within 15 days of delivery.  
+
+--------------------------------------------------------------------------------  
+COMPANY HISTORY - ATLAS CONSTRUCTION MATERIALS  
+--------------------------------------------------------------------------------  
+Atlas Construction Materials was founded in 1985 in Vancouver, British Columbia. Over the past 40+ years, Atlas has grown from a small local supplier to a major regional distributor of construction materials across Western Canada and the Pacific Northwest. The company prides itself on reliability, quality products, and excellent customer service.  
+
+Atlas Construction Materials operates multiple warehouses and distribution centers, including the primary shipping facility located at 1234 Industrial Way, Vancouver, BC V6B 1A1. The company has a fleet of trucks but frequently contracts with carriers such as COASTAL DRAYAGE INC for specialized shipments, including intermodal transport.  
+
+Atlas is committed to sustainable practices and has recently invested in green logistics initiatives to reduce carbon footprint. The company’s logistics team works closely with carriers to ensure timely and safe delivery of materials to customers like Amazon Fulfillment Center FTW1.  
+
+--------------------------------------------------------------------------------  
+CARRIER PROFILE - COASTAL DRAYAGE INC  
+--------------------------------------------------------------------------------  
+COASTAL DRAYAGE INC is a licensed motor carrier operating under MC Number MC-1071823. Established in 1999, Coastal Drayage specializes in drayage and intermodal transport services along the West Coast and cross-country routes. The company maintains a fleet of Power Only equipment and offers flexible scheduling to meet customer demands.  
+
+Carrier Contact Information:  
+- Dispatch: +1 (800) 555-6789  
+- Office: 456 Harbor Road, Seattle, WA 98101  
+- Email: dispatch@coastaldrayage.com  
+
+COASTAL DRAYAGE INC is known for its commitment to safety and compliance with all federal and provincial transportation regulations. The company provides real-time tracking and status updates for all shipments, including LD76542.  
+
+--------------------------------------------------------------------------------  
+SHIPMENT RECAP (FOR CLARITY)  
+--------------------------------------------------------------------------------  
+To reiterate, shipment LD76542 involves the transport of 36.9 tons of construction materials from Atlas Construction Materials in Vancouver, BC V6B 1A1 to Amazon Fulfillment Center FTW1 in Atlanta, GA 30301. The carrier is COASTAL DRAYAGE INC, using Power Only equipment in an intermodal mode. Pickup is scheduled for October 11, 2026, with delivery expected by October 14, 2026. The agreed rate is 6147.58 CAD, and the PO number is PO-32571.  
+
+--------------------------------------------------------------------------------  
+ADDITIONAL NOTES  
+--------------------------------------------------------------------------------  
+- Please ensure all paperwork accompanies the shipment, including Bill of Lading referencing shipment ID LD76542.  
+- Any changes to pickup or delivery times must be approved by Atlas Construction Materials logistics coordinator.  
+- Contact the carrier dispatch at +1 (800) 555-6789 for any urgent issues during transit.  
+- This rate confirmation supersedes any prior verbal or written agreements regarding this shipment.  
+
+--------------------------------------------------------------------------------  
+SIGNATURES  
+--------------------------------------------------------------------------------  
+By signing below, both parties agree to the terms and conditions outlined in this rate confirmation document for shipment LD76542.  
+
+Shipper Representative: ___________________________ Date: _______________  
+Name: ___________________________ Title: ___________________________  
+
+Carrier Representative: ___________________________ Date: _______________  
+Name: ___________________________ Title: ___________________________  
+
+--------------------------------------------------------------------------------  
+END OF DOCUMENT  
+--------------------------------------------------------------------------------  
+
+Atlas Construction Materials | 1234 Industrial Way, Vancouver, BC V6B 1A1 | Phone: +1 (604) 555-0199  
+COASTAL DRAYAGE INC | 456 Harbor Road, Seattle, WA 98101 | Dispatch: +1 (800) 555-6789  
+Amazon Fulfillment Center FTW1 | 789 Logistics Parkway, Atlanta, GA 30301 | Phone: +1 (770) 555-4321  
+
+Please retain this document for your records. For questions, contact your logistics coordinator.

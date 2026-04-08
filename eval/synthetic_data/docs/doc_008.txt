@@ -1,0 +1,105 @@
+BILL OF LADING / CONOCIMIENTO DE EMBARQUE
+
+Shipment ID: LD23104                      Date: 15-Mar-2026
+
+--------------------------------------------------------------------------------
+SHIPPER / REMITENTE:
+XYZ Industrial Supplies
+Av. de la Industria 345, Parque Industrial
+Laredo, TX 78040, USA
+Tel: +1 956 555 1234
+Email: contact@xyzindustrial.com
+
+--------------------------------------------------------------------------------
+CONSIGNEE / CONSIGNATARIO:
+UPS Freight Terminal
+Calle 5 de Mayo #1200, Col. Centro
+Monterrey, NL 64000, México
+Tel: +52 81 8333 4455
+Email: monterrey.ups@ups.com
+
+--------------------------------------------------------------------------------
+CARRIER / TRANSPORTISTA:
+NORTHERN STAR LOGISTICS
+MC Number: MC-9404682
+Power Only Equipment
+Mode: Partial Load
+Phone: +1 403 555 7890
+Fax: +1 403 555 7891
+
+--------------------------------------------------------------------------------
+BORDER CROSSING / CRUCE FRONTERIZO:
+Laredo - Nuevo Laredo International Bridge
+Punto de cruce: Puente Internacional Juárez-Lincoln
+Tel Aduana / Customs: +52 867 712 3456
+
+--------------------------------------------------------------------------------
+CUSTOMS BROKER / AGENTE ADUANAL:
+Global Trade Brokers S.A. de C.V.
+Av. Constitución 1234, Cd. Industrial
+Monterrey, NL 64000, México
+Tel: +52 81 8123 4567
+Email: customs@globaltrade.com.mx
+Licencia Aduanal: 789456123
+
+--------------------------------------------------------------------------------
+SHIPMENT DETAILS / DETALLES DEL ENVÍO:
+
+PO Number / Número de Orden: PO-40240  
+Weight / Peso: 20676 kg  
+Currency / Moneda: CAD  
+Rate / Tarifa: 7,070.74 CAD  
+Pickup Date / Fecha de Recogida: 15-Mar-2026  
+Delivery Date / Fecha de Entrega: 03/20/2026  
+
+--------------------------------------------------------------------------------
+DESCRIPTION OF GOODS / DESCRIPCIÓN DE MERCANCÍAS:
+
+Industrial machinery parts, assorted sizes and weights.  
+Incluye piezas de maquinaria para la industria, varios tamaños.  
+No hazardous materials / No materiales peligrosos.
+
+--------------------------------------------------------------------------------
+EQUIPMENT TYPE / TIPO DE EQUIPO:
+
+Power Only (tractor unit only, no trailer)  
+Solo tractor, sin remolque.
+
+--------------------------------------------------------------------------------
+SPECIAL INSTRUCTIONS / INSTRUCCIONES ESPECIALES:
+
+- Cross-border documentation must be verified before departure.  
+- Verificar documentos aduanales antes de la salida.  
+- Contact customs broker for tariff codes: Tarifa Arancelaria 8428.90.00  
+- Ensure all seals intact at delivery / Asegurar que los sellos estén intactos a la entrega.
+
+--------------------------------------------------------------------------------
+TERMS AND CONDITIONS / TÉRMINOS Y CONDICIONES:
+
+Carrier not responsible for delays caused by customs inspections or border wait times.  
+El transportista no se hace responsable por retrasos causados por inspecciones aduanales o tiempos de espera en frontera.  
+All claims must be filed within 15 days of delivery.  
+Todas las reclamaciones deben presentarse dentro de los 15 días posteriores a la entrega.
+
+--------------------------------------------------------------------------------
+SIGNATURES / FIRMAS:
+
+Shipper / Remitente: ___________________________ Date: _______________
+
+Carrier / Transportista: _________________________ Date: _______________
+
+Consignee / Consignatario: ______________________ Date: _______________
+
+--------------------------------------------------------------------------------
+NOTES / NOTAS:
+
+- Partial load shipment, may be combined with other freight.  
+- Envío parcial, puede combinarse con otra carga.  
+- Rate quoted in Canadian Dollars (CAD), payment terms net 30 days.  
+- Tarifa cotizada en dólares canadienses (CAD), términos de pago neto 30 días.  
+- Contact NORTHERN STAR LOGISTICS dispatch for updates: +1 403 555 7890 ext. 102
+
+--------------------------------------------------------------------------------
+END OF DOCUMENT / FIN DEL DOCUMENTO
+
+*** Please retain this document for customs and delivery verification ***

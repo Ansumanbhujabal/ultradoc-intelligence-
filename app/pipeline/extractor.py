@@ -48,9 +48,24 @@ def extract_shipment_data(full_text: str, doc_type: DocType, tracer: Tracer) -> 
     try:
         raw = json.loads(response.content)
         shipment = ShipmentData.model_validate(raw)
-    except (json.JSONDecodeError, Exception) as e:
-        logger.error(f"Extraction parse failed: {e}")
+    except json.JSONDecodeError as e:
+        logger.error(f"Extraction JSON parse failed: {e}")
         shipment = ShipmentData()
+    except Exception as e:
+        # Field-level fallback: try to salvage individual fields
+        logger.warning(f"Extraction validation failed, attempting field-level fallback: {e}")
+        try:
+            salvaged = {}
+            for field_name in ShipmentData.model_fields:
+                if field_name in raw:
+                    try:
+                        partial = ShipmentData.model_validate({field_name: raw[field_name]})
+                        salvaged[field_name] = getattr(partial, field_name)
+                    except Exception:
+                        salvaged[field_name] = None
+            shipment = ShipmentData(**salvaged)
+        except Exception:
+            shipment = ShipmentData()
 
     completeness = shipment.completeness_score()
 
@@ -62,6 +77,10 @@ def extract_shipment_data(full_text: str, doc_type: DocType, tracer: Tracer) -> 
             "non_null_count": len(shipment.model_fields) - len(null_fields),
         }
 
+    non_null = len(shipment.model_fields) - len([f for f in shipment.model_fields if getattr(shipment, f) is None])
+    logger.info("extraction_complete", extra={"extra_data": {
+        "fields_extracted": non_null, "completeness_score": completeness,
+    }})
     return {
         "shipment_data": shipment,
         "completeness_score": completeness,

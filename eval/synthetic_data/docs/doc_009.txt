@@ -1,0 +1,79 @@
+------------------------------------------------------------
+                      DELIVERY RECEIPT
+------------------------------------------------------------
+
+SHIPMENT ID: LD25129
+PO Number: PO-37265
+MC NUMBER: MC-7206422
+
+------------------------------------------------------------
+SHIPPER INFORMATION
+------------------------------------------------------------
+Atlas Construction Materials
+1234 Industrial Blvd
+Dallas, TX 75201
+Phone: (214) 555-0198
+Contact: John M. Reynolds
+
+------------------------------------------------------------
+CONSIGNEE DETAILS
+------------------------------------------------------------
+Amazon Fulfillment Center FTW1
+4500 Airways Blvd
+Memphis, TN 38101
+Phone: (901) 555-3347
+Receiving Supervisor: Linda K. Harper
+
+------------------------------------------------------------
+ORIGIN & DESTINATION
+------------------------------------------------------------
+Origin City: Dallas, TX 75201
+Destination City: Memphis, TN 38101
+
+Pickup Date: 09/16/2026
+Delivery Date: [Not Provided]
+
+------------------------------------------------------------
+CARRIER INFORMATION
+------------------------------------------------------------
+Carrier Name: Rio Grande Logistics
+MC Number: MC-7206422
+Phone: (512) 555-7789
+Equipment Type: Reefer
+Mode: Partial
+
+------------------------------------------------------------
+SHIPMENT DETAILS
+------------------------------------------------------------
+Weight: 34.5 tons
+Rate: EUR 5797.38
+
+------------------------------------------------------------
+REMARKS
+------------------------------------------------------------
+- Shipment picked up on 16-Sep-2026 at 08:45 AM from Atlas Construction Materials.
+- Partial load; equipment Reefer used to maintain temperature-sensitive materials.
+- Carrier Rio Grande Logistics confirmed pickup and transit status.
+- Delivery date not yet confirmed; consignee to notify upon receipt.
+- PO-37265 referenced on all shipping documents.
+- Contact consignee for any discrepancies or delays.
+
+------------------------------------------------------------
+SIGNATURES
+------------------------------------------------------------
+
+Shipper: ___________________________    Date: 16-Sep-2026
+
+Carrier: ___________________________    Date: 09/16/2026
+
+Consignee: _________________________    Date: ____________
+
+------------------------------------------------------------
+NOTES:
+- Please verify all shipment details upon delivery.
+- Any claims must be reported within 24 hours of receipt.
+- This document serves as proof of shipment and receipt authorization.
+
+------------------------------------------------------------
+END OF DELIVERY RECEIPT
+------------------------------------------------------------

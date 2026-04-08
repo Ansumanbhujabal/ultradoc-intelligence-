@@ -1,0 +1,100 @@
+SHIPMENT INSTRUCTIONS  
+Shipment ID: LD69028  
+Carrier: SUMMIT FREIGHT GROUP  
+MC Number: MC-752868  
+Mode: LTL  
+Equipment: Flatbed  
+Currency: USD  
+
+SHIPPER:  
+QuickParts Automotive  
+1234 Industrial Blvd  
+Minneapolis, MN 55401  
+Phone: (612) 555-0198  
+PO Number: PO-18961  
+
+CONSIGNEE:  
+UPS Freight Terminal  
+4500 Trans-Canada Hwy  
+Montreal, QC H3B 1A2  
+Phone: (514) 555-3347  
+
+------------------------------------------------------------
+
+PICKUP DATE (HEADER): 04.20.2026  
+PICKUP DATE (STOPS SECTION): 04.22.2026  
+
+RATE: $6400.20 USD (see note below)  
+ALTERNATE RATE MENTIONED LATER: $6250.00 USD (discrepancy to be confirmed)  
+
+WEIGHT: 11454 kg (header)  
+WEIGHT (stops section): 11,200 kg  
+
+------------------------------------------------------------
+
+SHIPMENT DETAILS:  
+This shipment consists of automotive parts requiring flatbed equipment due to oversized crates. The mode of transport is LTL, with SUMMIT FREIGHT GROUP as the designated carrier. The shipment originates from Minneapolis, MN 55401 and is destined for Montreal, QC H3B 1A2.  
+
+Pickup is scheduled at the shipper’s dock located at 1234 Industrial Blvd, Minneapolis. The pickup date listed in the header is 04.20.2026; however, the stops section indicates pickup on 04.22.2026. Please verify with dispatch for the correct date.  
+
+The total weight is recorded as 11454 kg in the main shipment header, but the detailed stops section lists 11,200 kg. This discrepancy may be due to pallet weight exclusion or measurement rounding. Confirm weight before loading.  
+
+The agreed rate is $6400.20 USD as per the initial contract. However, a later note in the billing section references a rate of $6250.00 USD. Clarification is required to finalize invoicing.  
+
+------------------------------------------------------------
+
+STOPS:  
+
+1) PICKUP  
+QuickParts Automotive  
+1234 Industrial Blvd  
+Minneapolis, MN 55401  
+Contact: John Miller  
+Phone: (612) 555-0198  
+Scheduled Pickup: 04.22.2026 (conflicts with header date)  
+Weight: 11,200 kg (see note above)  
+Equipment: Flatbed  
+Special Instructions: Load all crates carefully; secure with straps and tarps. Verify pallet count before departure.  
+
+2) DELIVERY  
+UPS Freight Terminal  
+4500 Trans-Canada Hwy  
+Montreal, QC H3B 1A2  
+Contact: Marie Tremblay  
+Phone: (514) 555-3347  
+Expected Delivery: TBD (no delivery date provided)  
+Weight: 11,200 kg (matches pickup stop weight)  
+Instructions: Unload at dock 3, verify shipment integrity, and sign delivery receipt.  
+
+------------------------------------------------------------
+
+BILLING & PAYMENT TERMS:  
+Carrier: SUMMIT FREIGHT GROUP  
+Rate: $6400.20 USD (primary) / $6250.00 USD (alternate)  
+Currency: USD  
+Payment Terms: Net 30 days from invoice date  
+Invoice to be sent to QuickParts Automotive Accounts Payable, 1234 Industrial Blvd, Minneapolis, MN 55401.  
+
+Note: The rate discrepancy must be resolved prior to invoicing. Contact carrier billing department at (800) 555-7623 for clarification.  
+
+------------------------------------------------------------
+
+ADDITIONAL NOTES:  
+- PO Number PO-18961 must be referenced on all paperwork.  
+- Equipment type is flatbed; no substitutions allowed without prior approval.  
+- Weight discrepancies between header and stops may affect freight class and charges.  
+- Pickup date inconsistency requires confirmation to avoid delays.  
+- Delivery date is not specified; consignee to confirm availability.  
+- Carrier MC Number MC-752868 must be included on all shipping documents.  
+
+------------------------------------------------------------
+
+EMERGENCY CONTACTS:  
+QuickParts Automotive Logistics: (612) 555-0199  
+SUMMIT FREIGHT GROUP Dispatch: (800) 555-7623  
+UPS Freight Terminal Receiving: (514) 555-3347  
+
+------------------------------------------------------------
+
+END OF DOCUMENT  
+Please verify all details and confirm discrepancies before shipment execution.

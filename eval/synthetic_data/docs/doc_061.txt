@@ -1,0 +1,69 @@
+BILL OF LADING - SHIPMENT LD54791
+
+SHIPPER INFORMATION  
+Company Name: QuickParts Automotive  
+Address: 1234 Peachtree St NE, Atlanta, GA 30301  
+Phone: (404) 555-0198  
+Contact: ---  
+Email: N/A  
+
+CONSIGNEE INFORMATION  
+Company Name: Kroger Fresh Distribution  
+Address: 4501 4th Ave S, Seattle, WA 98101  
+Phone: (206) 555-3347  
+Contact Person: TBD  
+
+CARRIER DETAILS  
+Carrier Name: NORTHERN STAR LOGISTICS  
+MC Number: MC-5749968  
+Phone: (800) 555-7789  
+Fax: ---  
+Driver Name: ---  
+Trailer Number: ---  
+Equipment Type: Step Deck  
+Mode of Transport: LTL  
+
+SHIPMENT DETAILS  
+Shipment ID: LD54791  
+PO Number: PO-82006  
+Origin City/State/Zip: Atlanta, GA 30301  
+Destination City/State/Zip: Seattle, WA 98101  
+Pickup Date: 09.27.2026  
+Delivery Date: ---  
+Weight: 71543 lbs  
+Pieces: ---  
+Description of Goods: Automotive parts - assorted  
+Hazardous Material: N/A  
+Special Instructions: Handle with care - fragile items included  
+Declared Value: ---  
+Currency: CAD  
+
+BILLING INFORMATION  
+Bill To: ---  
+Terms: ---  
+Invoice Number: ---  
+Rate: ---  
+
+RECEIPT ACKNOWLEDGEMENT  
+Received by: _______________________  
+Date: _______________  
+Time: _______________  
+
+NOTES:  
+- Shipment to be delivered during business hours only  
+- Contact consignee 24 hours prior to delivery  
+- Equipment must be returned within 48 hours of delivery  
+- Any damages or shortages must be reported within 24 hours of receipt  
+
+SIGNATURES:  
+Shipper Signature: _______________________ Date: _______________  
+Carrier Signature: _______________________ Date: _______________  
+Consignee Signature: _____________________ Date: _______________  
+
+ADDITIONAL INFORMATION:  
+- Tracking Number: ---  
+- Freight Class: ---  
+- Weight Verified By: ---  
+- Seal Number: ---  
+
+END OF DOCUMENT

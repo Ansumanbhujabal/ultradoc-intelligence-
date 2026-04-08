@@ -1,0 +1,22 @@
+RATE CONFIRMATION | SHIP ID: LD91018 | DATE: 2026-12-01
+
+SHIPPER|Midwest Grain Coop|PO# PO-70547|PH:503-555-0198  
+CONSIGNEE|Fastenal Dist Ctr|ATL, GA 30301|PH:404-555-3347
+
+CARRIER|GOLDEN STATE TRANSPORT|MC#: MC-2013049|PH:415-555-7788  
+MODE|Drayage|CURR|USD|RATE|4793.2
+
+ORIGIN|Portland, OR 97201|PU DT|2026-12-11|ADDR|1234 NW Grain Rd  
+DEST|Atlanta, GA 30301|ADDR|789 Industrial Pkwy SE
+
+EQ|Flatbed|WT|22334kg
+
+REFS|BOL# TBD|INV# TBD
+
+NOTES|No del dt|Fuel adj incl|No layover|No demurrage|No accessorials unless auth
+
+PAY TERMS|Net30|INVOICE TO: Midwest Grain Coop acct dept
+
+SIGN|____________________|DATE|_________
+
+END OF CONFIRMATION

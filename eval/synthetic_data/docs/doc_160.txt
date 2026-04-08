@@ -1,0 +1,155 @@
+BILL OF LADING DOCUMENT - LD22793
+
+--------------------------------------------------------------------------------
+MIDWEST GRAIN COOPERATIVE
+1234 Harvest Lane, Suite 200, Des Moines, IA 50309
+Phone: (515) 555-0198   Fax: (515) 555-0199
+Email: logistics@midwestgraincoop.com
+--------------------------------------------------------------------------------
+
+SHIPMENT ID: LD22793                      DATE ISSUED: 11-Jun-2026  14:32 CST
+PO NUMBER: PO-84151                       MC NUMBER: MC-1000549
+CARRIER NAME: SUMMIT FREIGHT GROUP       MODE OF TRANSPORT: LTL (Less Than Truckload)
+EQUIPMENT TYPE: Power Only                CURRENCY: EUR
+RATE: 1933.58 EUR                        WEIGHT: 29556 kg
+
+--------------------------------------------------------------------------------
+SHIPPER INFORMATION:
+Company Name: Midwest Grain Cooperative
+Address: 1234 Harvest Lane, Suite 200, Des Moines, IA 50309
+Phone: (515) 555-0198
+Contact: Logistics Dept. - John M. Peterson
+Email: logistics@midwestgraincoop.com
+
+ORIGIN CITY: Atlanta, GA 30301
+Pickup Date & Time: 12-Jun-2026 08:00 AM EST
+Pickup Location: 450 Peachtree St NE, Atlanta, GA 30301
+Phone: (404) 555-0123
+
+--------------------------------------------------------------------------------
+CONSIGNEE INFORMATION:
+Company Name: Target Regional DC - Southeast
+Address: 5000 NE 122nd Ave, Portland, OR 97201
+Phone: (503) 555-0456
+Contact: Receiving Dept. - Sarah L. Nguyen
+Email: receiving@targetregionaldc.com
+
+DESTINATION CITY: Portland, OR 97201
+Delivery Date & Time: June 13, 2026 16:00 PST
+Delivery Location: 5000 NE 122nd Ave, Portland, OR 97201
+Phone: (503) 555-0456
+
+--------------------------------------------------------------------------------
+SHIPMENT SUMMARY:
+Shipment ID: LD22793
+Shipper: Midwest Grain Cooperative, 1234 Harvest Lane, Suite 200, Des Moines, IA 50309
+Consignee: Target Regional DC - Southeast, 5000 NE 122nd Ave, Portland, OR 97201
+Origin: Atlanta, GA 30301
+Destination: Portland, OR 97201
+Carrier: SUMMIT FREIGHT GROUP
+Mode: LTL
+Equipment: Power Only
+Weight: 29556 kg
+Rate: 1933.58 EUR
+Pickup: 12-Jun-2026 08:00 AM EST
+Delivery: June 13, 2026 16:00 PST
+PO Number: PO-84151
+MC Number: MC-1000549
+
+--------------------------------------------------------------------------------
+SHIPMENT DETAILS:
+Shipment ID: LD22793
+The shipment consists of bulk grain products packaged in 50 sacks, each weighing approximately 591.12 kg, totaling 29556 kg. The shipment is scheduled for pickup on 12-Jun-2026 at 08:00 AM EST from the Midwest Grain Cooperative facility located at 450 Peachtree St NE, Atlanta, GA 30301. The consignee is Target Regional DC - Southeast, located at 5000 NE 122nd Ave, Portland, OR 97201, with an expected delivery date of June 13, 2026, by 16:00 PST.
+
+Carrier SUMMIT FREIGHT GROUP will provide Power Only equipment for this LTL shipment. The agreed freight rate is 1933.58 EUR. The shipment is referenced under PO Number PO-84151 and MC Number MC-1000549.
+
+Contact for pickup: John M. Peterson, Logistics Dept., (515) 555-0198, logistics@midwestgraincoop.com
+Contact for delivery: Sarah L. Nguyen, Receiving Dept., (503) 555-0456, receiving@targetregionaldc.com
+
+--------------------------------------------------------------------------------
+CONFIRMATION OF SHIPMENT DETAILS:
+This document confirms the shipment details for Shipment ID LD22793 as follows:
+
+- Shipper: Midwest Grain Cooperative, 1234 Harvest Lane, Suite 200, Des Moines, IA 50309
+- Consignee: Target Regional DC - Southeast, 5000 NE 122nd Ave, Portland, OR 97201
+- Origin City: Atlanta, GA 30301
+- Destination City: Portland, OR 97201
+- Carrier: SUMMIT FREIGHT GROUP
+- Mode: LTL
+- Equipment Type: Power Only
+- Weight: 29556 kg
+- Rate: 1933.58 EUR
+- Pickup Date & Time: 12-Jun-2026 08:00 AM EST
+- Delivery Date & Time: June 13, 2026 16:00 PST
+- PO Number: PO-84151
+- MC Number: MC-1000549
+
+Please verify all details carefully. Any discrepancies must be reported within 24 hours of receipt of this document.
+
+--------------------------------------------------------------------------------
+ADDITIONAL NOTES:
+- Shipment contains agricultural products subject to inspection upon delivery.
+- Carrier SUMMIT FREIGHT GROUP is responsible for maintaining temperature control during transit.
+- All freight charges are prepaid unless otherwise specified.
+- Liability for loss or damage is limited as per carrier's standard terms and conditions.
+- Please ensure all pallets are properly labeled with shipment ID LD22793 and PO Number PO-84151.
+
+--------------------------------------------------------------------------------
+SERVICE LEVEL AGREEMENT (SLA):
+This shipment is governed by the following Service Level Agreement between Midwest Grain Cooperative and SUMMIT FREIGHT GROUP:
+
+1. Pickup Commitment: Carrier shall pick up the shipment at the origin location no later than 12-Jun-2026 08:00 AM EST.
+2. Transit Time: Carrier guarantees delivery to the consignee at Portland, OR 97201 by June 13, 2026 16:00 PST.
+3. Equipment: Carrier shall provide Power Only equipment suitable for LTL shipments.
+4. Communication: Carrier shall provide status updates at pickup, mid-transit, and delivery.
+5. Claims: Any claims for loss or damage must be submitted within 7 calendar days of delivery.
+6. Penalties: Failure to meet pickup or delivery windows will result in penalty fees as outlined in contract MC-1000549.
+7. Currency: All payments and penalties are calculated in EUR.
+
+--------------------------------------------------------------------------------
+COMPANY HISTORY - MIDWEST GRAIN COOPERATIVE:
+Founded in 1923, Midwest Grain Cooperative has been a leading supplier of high-quality grain products across the United States. With over 100 years of experience, the cooperative supports over 500 farmers and operates multiple storage and processing facilities nationwide. Our commitment to sustainability and quality has earned us numerous industry awards. The cooperative's logistics division was established in 1985 to streamline the transportation of agricultural commodities, ensuring timely and safe delivery to our customers.
+
+--------------------------------------------------------------------------------
+CARRIER PROFILE - SUMMIT FREIGHT GROUP:
+SUMMIT FREIGHT GROUP, established in 1978, is a premier freight carrier specializing in LTL and Power Only services across North America. With a fleet of over 500 trucks and 1200 trailers, SUMMIT FREIGHT GROUP prides itself on reliability, safety, and customer service excellence. The company holds MC Number MC-1000549 and operates under strict compliance with federal and state transportation regulations. Their logistics technology platform provides real-time tracking and communication to all clients.
+
+--------------------------------------------------------------------------------
+TERMS AND CONDITIONS:
+1. Liability: Carrier's liability for loss or damage is limited to the lesser of the actual loss or $0.50 per pound per article unless a higher declared value is agreed upon in writing.
+2. Freight Charges: Freight charges are due upon delivery unless prepaid. All charges are in EUR.
+3. Claims: Claims must be filed within 7 days of delivery with supporting documentation.
+4. Force Majeure: Neither party shall be liable for delays caused by events beyond their reasonable control.
+5. Governing Law: This Bill of Lading shall be governed by the laws of the State of Georgia.
+6. Dispute Resolution: Any disputes arising under this agreement shall be resolved through binding arbitration.
+
+--------------------------------------------------------------------------------
+PACKAGING DETAILS:
+- Number of Packages: 50 sacks
+- Package Type: Heavy-duty woven polypropylene sacks
+- Weight per Package: Approx. 591.12 kg
+- Total Weight: 29556 kg
+- Dimensions per Package: 1.2m x 0.8m x 0.5m (LxWxH)
+- Handling Instructions: Handle with care; avoid punctures or tears.
+
+--------------------------------------------------------------------------------
+BILLING INFORMATION:
+Bill To: Midwest Grain Cooperative
+Address: 1234 Harvest Lane, Suite 200, Des Moines, IA 50309
+Phone: (515) 555-0198
+Email: billing@midwestgraincoop.com
+Payment Terms: Net 30 days
+Currency: EUR
+Rate: 1933.58 EUR
+
+--------------------------------------------------------------------------------
+CONTACTS FOR THIS SHIPMENT:
+- Shipper Contact: John M. Peterson, Logistics Manager, (515) 555-0198, logistics@midwestgraincoop.com
+- Carrier Contact: Lisa M. Reynolds, Operations Coordinator, SUMMIT FREIGHT GROUP, (312) 555-0789, ops@summitfreight.com
+- Consignee Contact: Sarah L. Nguyen, Receiving Supervisor, (503) 555-0456, receiving@targetregionaldc.com
+
+--------------------------------------------------------------------------------
+REPEATED SHIPMENT SUMMARY (FOR CLARITY):
+Shipment ID: LD22793
+Shipper: Midwest Grain Cooperative, 1234 Harvest Lane, Suite 200, Des Moines, IA 50309
+Consignee: Target Regional DC - Southeast, 5000 NE 122nd Ave,

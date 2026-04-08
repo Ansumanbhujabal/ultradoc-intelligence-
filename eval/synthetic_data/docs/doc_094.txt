@@ -1,0 +1,89 @@
+SHIPMENT INSTRUCTIONS DOCUMENT  
+--------------------------------------------
+
+Shipment ID: LD33392  
+Date Issued: 2026-08-30  
+
+--------------------------------------------------  
+SHIPPER INFORMATION  
+--------------------  
+Company Name: Santos Agricola SA de CV  
+Address: 4521 W Jefferson Ave, Detroit, MI 48201  
+Contact Person: Maria Gonzales  
+Phone: (313) 555-7890  
+Email: mgonzales@santosagri.com  
+
+--------------------------------------------------  
+CONSGINEE DETAILS  
+------------------  
+Company Name: Dollar General DC #12  
+Address: 1200 S 7th Ave, Phoenix, AZ 85001  
+Contact Person: James O'Neil  
+Phone: 602-555.3344  
+Email: joneil@dollargeneral.com  
+
+--------------------------------------------------  
+SHIPMENT DETAILS  
+-----------------  
+Origin City: Detroit, MI 48201  
+Destination City: Phoenix, AZ 85001  
+Pickup Date & Time: 2026-09-13 08:00 AM  
+Delvery Date: 15-Sep-2026 05:00 PM  
+Mode of Transport: Expedited  
+Equipment Type: Reefer   
+Weight: 29795 kg  
+PO Number: PO-96030  
+MC Number: MC-3262177  
+
+--------------------------------------------------  
+CARRIER INFORMATION  
+--------------------  
+Carrier Name: MAPLE LEAF SHIPPING LTD  
+Contact: Robert King  
+Phone: 313-555-1234  
+Email: rking@mapleleafship.com  
+
+--------------------------------------------------  
+RATE CONFIRMATION  
+------------------  
+Currency: CAD  
+Rate: 6098.2   
+Payment Terms: Net 30 days  
+Additional Charges: Fuel surcharge applies, subject to change  
+
+--------------------------------------------------  
+SPECIAL INSTRUCTIONS  
+---------------------  
+- Ensure reefer unit is pre-cooled to -5°C prior to pickup.  
+- Load must be secured to prevent shifting during transit.  
+- Delivery appointment required, call consignee 24 hrs prior.  
+- All paperwork must accompany shipment including BOL and PO.  
+- Notify shipper immediately of any delays or issues.  
+
+--------------------------------------------------  
+EQUIPMNT TYPE & LOADING  
+-------------------------  
+Type: Reefer  
+Length: 53 ft  
+Height: 13.5 ft  
+Load Type: Palletized goods  
+Loading Dock: Dock 4 at origin, Dock 2 at destination  
+
+--------------------------------------------------  
+EMERGENCY CONTACTS  
+--------------------  
+Shipper Emergency: Maria Gonzales (313)555-7890  
+Carrier Emergency: Robert King 313.555.1234  
+Consignee Emergency: James O'Neil 602-555-3344  
+
+--------------------------------------------------  
+NOTES  
+--------  
+- All times local to respective locations.  
+- Verify all seals and document numbers at pickup and delivery.  
+- Carrier to provide POD within 24 hrs of delivery.  
+- Shipment subject to inspection by customs and regulatory authorities.  
+
+--------------------------------------------------  
+END OF DOCUMENT  
+--------------------------------------------

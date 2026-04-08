@@ -1,0 +1,116 @@
+BILL OF LADING - SHIPMENT ID: LD93719
+
+------------------------------------------------------------
+SHIPPER INFORMATION:
+Name: Atlas Construction Materials
+Address: 1234 Peachtree St NE, Atlanta, GA 30301
+Phone: (404) 555-0198
+Contact: John M. Reynolds
+PO Number: PO-77344
+
+CONSIGNEE INFORMATION:
+Name: Dollar General DC #12
+Address: 4501 Montana Ave, El Paso, TX 79901
+Phone: (915) 555-3347
+Contact: Maria L. Sanchez
+
+------------------------------------------------------------
+CARRIER INFORMATION:
+Carrier Name: IRON HORSE LOGISTICS
+MC Number: MC-5165810
+Phone: (800) 555-IRON (4766)
+Equipment Type: Power Only
+Mode: Partial Load
+
+------------------------------------------------------------
+SHIPMENT DETAILS:
+Origin City: Atlanta, GA 30301
+Destination City: El Paso, TX 79901
+
+Pickup Date (Header): 2026-04-01 08:00 AM
+Delivery Date: 04-Apr-2026 05:00 PM
+
+Total Weight: 23207 kg
+Declared Weight: 23000 kg
+
+Rate: USD 944.00
+Alternate Rate Mentioned: USD 1020.50 (see Charges section)
+
+Currency: USD
+
+------------------------------------------------------------
+STOPS & SCHEDULE:
+
+Stop 1 - Pickup Location:
+Atlas Construction Materials
+1234 Peachtree St NE, Atlanta, GA 30301
+Pickup Date: 2026-04-02 09:30 AM  <-- NOTE: Conflicts with header pickup date
+Contact: John M. Reynolds
+Phone: (404) 555-0198
+
+Stop 2 - Delivery Location:
+Dollar General DC #12
+4501 Montana Ave, El Paso, TX 79901
+Delivery Date: 2026-04-04 04:45 PM
+Contact: Maria L. Sanchez
+Phone: (915) 555-3347
+
+------------------------------------------------------------
+COMMODITY DESCRIPTION:
+Construction materials including cement bags, steel rods, and gravel sacks.
+Total Pieces: 120 pallets
+Weight per pallet approx: 193.39 kg (varies)
+Gross Weight: 23000 kg (per packing list)
+Net Weight: 23207 kg (per scale ticket)
+
+------------------------------------------------------------
+CHARGES & PAYMENT TERMS:
+
+Freight Rate: USD 1020.50 (per contract #C-2026-04)
+Fuel Surcharge: USD 75.00
+Accessorial Charges: USD 50.00 (detention fees)
+Total Estimated Charges: USD 1145.50
+
+Note: Original rate agreed was USD 944.00 as per initial quote.
+
+Payment Terms: Net 30 days from delivery date
+Currency: USD
+
+------------------------------------------------------------
+BILLING INFORMATION:
+Bill To: Atlas Construction Materials
+Address: 1234 Peachtree St NE, Atlanta, GA 30301
+Contact: Accounts Payable Dept.
+Phone: (404) 555-0199
+Invoice Number: INV-LD93719-0426
+
+------------------------------------------------------------
+REMARKS:
+
+- Equipment type requested: Power Only, confirmed.
+- Partial load shipment.
+- Weight discrepancy noted between packing list and scale ticket.
+- Pickup date discrepancy between header and stops section.
+- Rate discrepancy between header and charges section.
+- PO Number PO-77344 must be referenced on all invoices.
+- Carrier IRON HORSE LOGISTICS MC# MC-5165810 responsible for safe transport.
+- Delivery appointment required at Dollar General DC #12.
+
+------------------------------------------------------------
+SIGNATURES:
+
+Shipper Signature: ___________________________ Date: _______________
+
+Carrier Signature: ___________________________ Date: _______________
+
+Consignee Signature: _________________________ Date: _______________
+
+------------------------------------------------------------
+DOCUMENT NOTES:
+
+This Bill of Lading serves as a contract of carriage and receipt of goods.  
+All information is subject to verification upon pickup and delivery.  
+Discrepancies in weight and rates must be resolved prior to final billing.
+
+------------------------------------------------------------
+END OF DOCUMENT - SHIPMENT ID: LD93719

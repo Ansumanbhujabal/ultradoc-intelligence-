@@ -1,0 +1,99 @@
+FREIGHT QUOTE DOCUMENT  
+Shipment ID: LD24208  
+Date: 09/15/2026  
+
+---  
+
+SHIPPER INFORMATION  
+Northern Timber Co Ltd  
+1234 NW 7th St.  
+Miami, FL 33101  
+Phone: (305) 555-1234   
+Contact: John M. Harris  
+
+---  
+
+CONSGINEE DETAILS  
+Dollar General DC #12  
+4500 W. 47th St.  
+Chicago, IL 60601  
+Phone: 312.555.7890   
+Contact: Lisa K. Monroe  
+
+---  
+
+ORIGIN & DESTINATION  
+Origin City: Miami, FL 33101  
+Destination City: Chicago, IL 60601  
+
+---  
+
+CARRIER INFO  
+Carrier Name: GOLDEN STATE TRANSPORT  
+MC Number: MC-5366630  
+Phone: 415-555-3344  
+
+---  
+
+SHIPMENT DETAILS  
+
+| Description       | Details               |  
+|-------------------|-----------------------|  
+| Equipment Type    | Intermodal            |  
+| Mode              | Drayage               |  
+| Weight            | 18.9 tons             |  
+| PO Number         | PO-87951              |  
+| Pickup DateTime   | 2026-09-26            |  
+| Delvery Date      | 27-Sep-2026           |  
+
+---  
+
+RATE CONFIRMATION  
+
+Carrier: GOLDEN STATE TRANSPORT  
+Rate: 4697.39 USD   
+Terms: Freight prepaid. All charges in USD.  
+Notes: Rate includes fuel surcharge and accessorial fees.  Please confirm pickup 24 hrs prior.  
+
+---  
+
+EQUIPMNT TYPE & SPECS  
+
+Type: Intermodal  
+Length: 53 ft.  
+Height: 9'6"  
+Weight Capacity: 45,000 lbs.  
+
+---  
+
+ADDITIONAL INFO  
+
+Pickup Location: Northern Timber Co Ltd, 1234 NW 7th St., Miami, FL 33101  
+Delivery Location: Dollar General DC #12, 4500 W. 47th St., Chicago, IL 60601  
+
+Special Instructions:  
+- Driver must call consignee upon arrival.  
+- Paperwork to be faxed to (312) 555-7891 immediately after delivery.  
+- No hazardous materials.  
+
+---  
+
+CONTACTS  
+
+Shipper Contact: John M. Harris  
+Phone: 305-555-1234  
+
+Consignee Contact: Lisa K. Monroe  
+Phone: 312-555-7890  
+
+Carrier Dispatch: Mike R.  
+Phone: 415.555.3344  
+
+---  
+
+NOTES:  
+Quote valid for 7 days from date of issue. Rates subject to change without notice. All shipments subject to GOLDEN STATE TRANSPORT terms and conditions.  
+
+---  
+
+END OF FREIGHT QUOTE DOCUMENT
